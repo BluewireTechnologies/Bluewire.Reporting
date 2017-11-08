@@ -159,13 +159,11 @@ publish/
 PublishScripts/
 
 # NuGet Packages
-*.nupkg
-# The packages folder can be ignored because of Package Restore
-**/packages/*
-# except build/, which is used as an MSBuild target.
+# We do not use NuGet package restore, therefore this entire hierarchy needs to be committed:
+!/packages/**
 !**/packages/build/
-# Uncomment if necessary however generally it will be regenerated when needed
-#!**/packages/repositories.config
+# Except for TestResult.xml which gets generated in the ConsoleRunner's directory:
+packages/**/TestResult.xml
 # NuGet v3's project.json files produces more ignorable files
 *.nuget.props
 *.nuget.targets
@@ -286,3 +284,6 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+# JetBrains DotCover
+*.dcvr
