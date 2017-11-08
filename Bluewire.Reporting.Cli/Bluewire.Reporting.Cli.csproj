@@ -124,6 +124,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="README.md" />
     <None Include="ServiceProxy\ReportService2010.wsdl" />
   </ItemGroup>
   <ItemGroup />
