@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArgumentParsingTests.cs" />
+    <Compile Include="Configuration\CredentialStringParserTests.cs" />
     <Compile Include="Configuration\SsrsObjectTypesParserTests.cs" />
     <Compile Include="Model\SsrsObjectPathTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

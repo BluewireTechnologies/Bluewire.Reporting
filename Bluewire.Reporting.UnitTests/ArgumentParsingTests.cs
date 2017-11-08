@@ -32,6 +32,18 @@ namespace Bluewire.Reporting.UnitTests
             jobFactory.CreateJob();
         }
 
+        [TestCase("create-datasource", "https://localhost/Reports/", "/EproPat", "--connection-string=data source=(local)")]
+        [TestCase("create-datasource", "--type=SQLServer", "https://localhost/Reports/", "/EproPat", "--connection-string='data source=(local)'", "--integrated")]
+        [TestCase("create-datasource", "https://localhost/Reports/", "'EproPat'", "--connection-string=data source=(local)", "--prompt")]
+        [TestCase("create-datasource", "https://localhost/Reports/", "/EproPat", "--connection-string=data source=(local)", "--store='user:password'")]
+        [TestCase("create-datasource", "https://localhost/Reports/", "/EproPat", "--connection-string=data source=(local)", "--store='DOMAIN\\user:password'", "--integrated")]
+        [TestCase("create-datasource", "https://localhost/Reports/", "/EproPat", "--connection-string=data source=(local)", "--store=user:password", "--overwrite")]
+        public void ParsesValidCreateDataSourceJob(params string[] arguments)
+        {
+            var jobFactory = ParseAs<CreateDataSourceJobFactory>(arguments);
+            jobFactory.CreateJob();
+        }
+
         private static T ParseAs<T>(params string[] args) where T : IJobFactory
         {
             var options = new OptionSet();

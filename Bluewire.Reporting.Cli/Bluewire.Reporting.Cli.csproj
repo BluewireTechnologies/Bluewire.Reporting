@@ -56,8 +56,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configuration\CreateDataSourceJobFactory.cs" />
+    <Compile Include="Configuration\CredentialStringParser.cs" />
     <Compile Include="Configuration\Logging.cs" />
     <Compile Include="Configuration\ObjectFilterDefinition.cs" />
+    <Compile Include="Configuration\SsrsDataSourceType.cs" />
+    <Compile Include="Jobs\CreateDataSourceJob.cs" />
     <Compile Include="Mapping\SsrsDataSourceDefinitionMapper.cs" />
     <Compile Include="Model\ISsrsObjectDefinition.cs" />
     <Compile Include="Rewrite\RewriteRuleParser.cs" />

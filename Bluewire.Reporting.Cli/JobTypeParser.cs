@@ -26,6 +26,9 @@ namespace Bluewire.Reporting.Cli
                 case "import":
                     jobType = JobType.Import;
                     return true;
+                case "create-datasource":
+                    jobType = JobType.CreateDataSource;
+                    return true;
                 default:
                     jobType = JobType.Invalid;
                     return false;
