@@ -33,8 +33,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bluewire.Common.Console, Version=10.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bluewire.Common.Console.10.2.0\lib\net45\Bluewire.Common.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.12.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.2\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,12 +52,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configuration\Logging.cs" />
+    <Compile Include="Jobs\IJob.cs" />
+    <Compile Include="Configuration\IJobFactory.cs" />
+    <Compile Include="JobType.cs" />
+    <Compile Include="JobTypeParser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Support\IReceiveOptions.cs" />
+    <Compile Include="Support\OptionsExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="..\StyleCopAnalyzers.props" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

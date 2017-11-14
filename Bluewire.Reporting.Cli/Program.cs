@@ -1,15 +1,44 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
+using System.Reflection;
+using Bluewire.Common.Console;
+using Bluewire.Common.Console.ThirdParty;
+using Bluewire.Reporting.Cli.Configuration;
+using Bluewire.Reporting.Cli.Support;
 
 namespace Bluewire.Reporting.Cli
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        static int Main(string[] args)
         {
+            var options = new OptionSet();
+            var jobFactory = SelectFactory(ref args);
+            if (jobFactory == null)
+            {
+                Console.Error.WriteLine($@"Usage: {Path.GetFileName(Assembly.GetEntryAssembly().Location)} <mode> <args...>");
+                return 1;
+            }
+            options.AddCollector(jobFactory);
+            var logging = options.AddCollector(new Logging());
+            var session = new ConsoleSession<IJobFactory>(jobFactory, options);
+            jobFactory.ConfigureSession(session);
+
+            return session.Run(args, async f => {
+                logging.Configure();
+                var job = f.CreateJob();
+                await job.Run(Console.Out);
+                return 0;
+            });
+        }
+
+        public static IJobFactory SelectFactory(ref string[] args)
+        {
+            var jobType = new JobTypeParser().ParseJobTypeInPlace(ref args);
+            switch (jobType)
+            {
+                default: return null;
+            }
         }
     }
 }
