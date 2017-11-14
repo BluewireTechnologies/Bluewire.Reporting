@@ -64,8 +64,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceProxy\IReportingServiceClient.cs" />
     <Compile Include="ServiceProxy\ReportService2010.cs" />
+    <Compile Include="Sources\IPathFilter.cs" />
+    <Compile Include="Sources\PathFilter.cs" />
     <Compile Include="ServiceProxy\ReportingServiceClient.cs" />
     <Compile Include="Model\SsrsObjectPath.cs" />
+    <Compile Include="Sources\PathFilterExpression.cs" />
     <Compile Include="Support\IReceiveOptions.cs" />
     <Compile Include="Support\OptionsExtensions.cs" />
     <Compile Include="Support\WcfHelpers.cs" />
