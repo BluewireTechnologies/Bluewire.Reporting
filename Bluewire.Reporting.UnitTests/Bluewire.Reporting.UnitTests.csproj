@@ -31,10 +31,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bluewire.Common.Console, Version=10.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bluewire.Common.Console.10.2.0\lib\net45\Bluewire.Common.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.12.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.2\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework, Version=3.8.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.8.1\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -44,11 +52,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Model\SsrsObjectPathTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bluewire.Reporting.Cli\Bluewire.Reporting.Cli.csproj">
+      <Project>{2BDD89A8-C872-4905-9891-63FA4602C80F}</Project>
+      <Name>Bluewire.Reporting.Cli</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="..\StyleCopAnalyzers.props" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
