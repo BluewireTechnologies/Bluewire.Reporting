@@ -44,6 +44,9 @@
     <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -59,12 +62,17 @@
     <Compile Include="JobTypeParser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceProxy\IReportingServiceClient.cs" />
+    <Compile Include="ServiceProxy\ReportService2010.cs" />
+    <Compile Include="ServiceProxy\ReportingServiceClient.cs" />
     <Compile Include="Support\IReceiveOptions.cs" />
     <Compile Include="Support\OptionsExtensions.cs" />
+    <Compile Include="Support\WcfHelpers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="ServiceProxy\ReportService2010.wsdl" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="..\StyleCopAnalyzers.props" />
