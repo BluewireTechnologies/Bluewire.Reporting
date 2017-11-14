@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configuration\Logging.cs" />
+    <Compile Include="Configuration\SsrsObjectTypesParser.cs" />
     <Compile Include="Jobs\IJob.cs" />
     <Compile Include="Configuration\IJobFactory.cs" />
     <Compile Include="JobType.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="Sources\IPathFilter.cs" />
     <Compile Include="Sources\PathFilter.cs" />
     <Compile Include="ServiceProxy\ReportingServiceClient.cs" />
+    <Compile Include="Model\SsrsFilterObjectTypes.cs" />
     <Compile Include="Model\SsrsObjectPath.cs" />
     <Compile Include="Sources\PathFilterExpression.cs" />
     <Compile Include="Support\IReceiveOptions.cs" />
