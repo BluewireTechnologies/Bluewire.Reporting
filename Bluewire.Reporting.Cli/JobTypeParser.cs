@@ -20,6 +20,9 @@ namespace Bluewire.Reporting.Cli
         {
             switch (arg)
             {
+                case "inspect":
+                    jobType = JobType.Inspect;
+                    return true;
                 default:
                     jobType = JobType.Invalid;
                     return false;

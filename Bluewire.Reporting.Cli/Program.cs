@@ -16,7 +16,8 @@ namespace Bluewire.Reporting.Cli
             var jobFactory = SelectFactory(ref args);
             if (jobFactory == null)
             {
-                Console.Error.WriteLine($@"Usage: {Path.GetFileName(Assembly.GetEntryAssembly().Location)} <mode> <args...>");
+                Console.Error.WriteLine($@"Usage: {Path.GetFileName(Assembly.GetEntryAssembly().Location)} <mode> <args...>
+where <mode> is one of: inspect");
                 return 1;
             }
             options.AddCollector(jobFactory);
@@ -37,6 +38,7 @@ namespace Bluewire.Reporting.Cli
             var jobType = new JobTypeParser().ParseJobTypeInPlace(ref args);
             switch (jobType)
             {
+                case JobType.Inspect: return new InspectJobFactory();
                 default: return null;
             }
         }
