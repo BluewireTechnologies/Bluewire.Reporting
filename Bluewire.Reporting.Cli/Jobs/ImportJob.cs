@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.ServiceModel;
+using Bluewire.Reporting.Cli.Exports;
 using Bluewire.Reporting.Cli.Mapping;
 using Bluewire.Reporting.Cli.Model;
 using Bluewire.Reporting.Cli.Rewrite;
@@ -23,6 +24,7 @@ namespace Bluewire.Reporting.Cli.Jobs
         private TrustedUserHeader trustedUserHeader => new TrustedUserHeader();
 
         public bool Overwrite { get; set; }
+        public IObjectExportTarget BackupTarget { get; set; }
         public List<ISsrsObjectRewriter> Rewriters { get; } = new List<ISsrsObjectRewriter>();
 
         public ImportJob(
@@ -41,6 +43,11 @@ namespace Bluewire.Reporting.Cli.Jobs
             var rewriters = new SsrsObjectRewriters(Rewriters.ToArray());
             log.Info("Collecting objects...");
             var items = (await source.Enumerate(filter)).ToArray();
+
+            if (Overwrite && BackupTarget != null)
+            {
+                await BackupExistingItems(items.Select(i => i.Path));
+            }
 
             log.Info("Importing data sources...");
             foreach (var item in items.OfType<SsrsDataSource>())
@@ -61,6 +68,20 @@ namespace Bluewire.Reporting.Cli.Jobs
                 await ImportReport(rewritten);
             }
             log.Info("Done.");
+        }
+
+        private async Task BackupExistingItems(IEnumerable<SsrsObjectPath> paths)
+        {
+            var pathSet = new HashSet<SsrsObjectPath>(paths);
+            var typelessFilter = new SsrsObjectFilter { Path = filter.Path, ObjectTypes = SsrsFilterObjectTypes.All };
+            var existingObjects = await new SsrsWebServiceObjectSource(service).Enumerate(typelessFilter);
+
+            foreach (var existingObject in existingObjects)
+            {
+                if (!pathSet.Contains(existingObject.Path)) continue;
+                log.Info($"Backing up existing item: '{existingObject.Path}'");
+                await BackupTarget.WriteObject(existingObject);
+            }
         }
 
         private async Task ImportDataSource(SsrsDataSource item)

@@ -61,6 +61,8 @@
     <Compile Include="Configuration\Logging.cs" />
     <Compile Include="Configuration\ObjectFilterDefinition.cs" />
     <Compile Include="Configuration\SsrsDataSourceType.cs" />
+    <Compile Include="Exports\ExportToDirectoryHierarchy.cs" />
+    <Compile Include="Exports\IObjectExportTarget.cs" />
     <Compile Include="Jobs\CreateDataSourceJob.cs" />
     <Compile Include="Mapping\SsrsDataSourceDefinitionMapper.cs" />
     <Compile Include="Model\ISsrsObjectDefinition.cs" />

@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using Bluewire.Common.Console;
 using Bluewire.Common.Console.ThirdParty;
+using Bluewire.Reporting.Cli.Exports;
 using Bluewire.Reporting.Cli.Jobs;
 using Bluewire.Reporting.Cli.Model;
 using Bluewire.Reporting.Cli.Rewrite;
@@ -22,6 +24,7 @@ namespace Bluewire.Reporting.Cli.Configuration
         public string Site { get; private set; }
         public SsrsObjectPath BasePath { get; private set; }
         public bool Overwrite { get; set; }
+        public string BackupPath { get; set; }
         public List<string> RewriteRules { get; } = new List<string>();
 
         public ReportingServiceClientFactory ReportingServiceClientFactory { get; set; } = new ReportingServiceClientFactory();
@@ -32,6 +35,7 @@ namespace Bluewire.Reporting.Cli.Configuration
             options.Add("site=", "Only include objects associated with a specific site", o => Site = o.Unquote("'"));
             options.Add("base=", "Specify a base path to assume for all items", o => BasePath = new SsrsObjectPath(o));
             options.Add("overwrite", "Replace existing objects", o => Overwrite = true);
+            options.Add("backup=", "Back up objects before overwriting", o => BackupPath = o);
             options.Add("rewrite=", "Modify objects prior to import", o => RewriteRules.Add(o.Unquote("'")));
         }
 
@@ -61,13 +65,20 @@ namespace Bluewire.Reporting.Cli.Configuration
             };
             var ssrsUri = new Uri(SsrsUriString, UriKind.Absolute);
             var service = ReportingServiceClientFactory.CreateFromShorthandUri(ssrsUri);
-            var job = new ImportJob(service, source, filter) { Overwrite = Overwrite };
+            var job = new ImportJob(service, source, filter) { Overwrite = Overwrite, BackupTarget = GetBackupTarget() };
             foreach (var rule in RewriteRules)
             {
                 var rewriter = new RewriteRuleParser().Parse(rule);
                 job.Rewriters.Add(rewriter);
             }
             return job;
+        }
+
+        private IObjectExportTarget GetBackupTarget()
+        {
+            if (String.IsNullOrWhiteSpace(BackupPath)) return null;
+            if (!Overwrite) throw new InvalidArgumentsException("--backup cannot be used without --overwrite.");
+            return new ExportToDirectoryHierarchy(Path.GetFullPath(BackupPath));
         }
 
         private ISsrsObjectSource GetObjectSource()
