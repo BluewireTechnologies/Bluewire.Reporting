@@ -57,6 +57,7 @@
     <Compile Include="Configuration\SsrsObjectTypesParserTests.cs" />
     <Compile Include="Model\SsrsObjectPathTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rewrite\DataSetDataSourceReferenceRewriteTests.cs" />
     <Compile Include="ServiceProxy\ReportingServiceClientFactoryTests.cs" />
     <Compile Include="Sources\PathFilterGlobTests.cs" />
   </ItemGroup>

@@ -1,9 +1,11 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.ServiceModel;
 using Bluewire.Reporting.Cli.Mapping;
 using Bluewire.Reporting.Cli.Model;
+using Bluewire.Reporting.Cli.Rewrite;
 using Bluewire.Reporting.Cli.ServiceProxy;
 using Bluewire.Reporting.Cli.Sources;
 using Bluewire.Reporting.Cli.Sources.Ssrs;
@@ -21,6 +23,7 @@ namespace Bluewire.Reporting.Cli.Jobs
         private TrustedUserHeader trustedUserHeader => new TrustedUserHeader();
 
         public bool Overwrite { get; set; }
+        public List<ISsrsObjectRewriter> Rewriters { get; } = new List<ISsrsObjectRewriter>();
 
         public ImportJob(
             IReportingServiceClient service,
@@ -35,23 +38,27 @@ namespace Bluewire.Reporting.Cli.Jobs
 
         public async Task Run(TextWriter output)
         {
+            var rewriters = new SsrsObjectRewriters(Rewriters.ToArray());
             log.Info("Collecting objects...");
             var items = (await source.Enumerate(filter)).ToArray();
 
             log.Info("Importing data sources...");
             foreach (var item in items.OfType<SsrsDataSource>())
             {
-                await ImportDataSource(item);
+                var rewritten = await rewriters.Apply(item);
+                await ImportDataSource(rewritten);
             }
             log.Info("Importing datasets...");
             foreach (var item in items.OfType<SsrsDataSet>())
             {
-                await ImportDataSet(item);
+                var rewritten = await rewriters.Apply(item);
+                await ImportDataSet(rewritten);
             }
             log.Info("Importing reports...");
             foreach (var item in items.OfType<SsrsReport>())
             {
-                await ImportReport(item);
+                var rewritten = await rewriters.Apply(item);
+                await ImportReport(rewritten);
             }
             log.Info("Done.");
         }

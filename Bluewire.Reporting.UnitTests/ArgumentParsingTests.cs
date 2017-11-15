@@ -25,6 +25,7 @@ namespace Bluewire.Reporting.UnitTests
         [TestCase("import", "https://localhost/Reports/", "--type=datasource,dataset", ".")]
         [TestCase("import", "--type=report", "https://localhost/Reports/", "--include=Weekly/**/Letters*", ".")]
         [TestCase("import", "--base=Reports/", "--include=Weekly/**/Letters*", "https://localhost/Reports/", ".")]
+        [TestCase("import", "https://localhost/Reports/", "--type=datasource,dataset", "--rewrite=DataSet.DataSourceReference:{**/EproPat}=/EproPat", ".")]
         public void ParsesValidImportJob(params string[] arguments)
         {
             var jobFactory = ParseAs<ImportJobFactory>(arguments);

@@ -5,6 +5,7 @@ using Bluewire.Common.Console;
 using Bluewire.Common.Console.ThirdParty;
 using Bluewire.Reporting.Cli.Jobs;
 using Bluewire.Reporting.Cli.Model;
+using Bluewire.Reporting.Cli.Rewrite;
 using Bluewire.Reporting.Cli.ServiceProxy;
 using Bluewire.Reporting.Cli.Sources;
 using Bluewire.Reporting.Cli.Support;
@@ -21,6 +22,7 @@ namespace Bluewire.Reporting.Cli.Configuration
         public string Site { get; private set; }
         public SsrsObjectPath BasePath { get; private set; }
         public bool Overwrite { get; set; }
+        public List<string> RewriteRules { get; } = new List<string>();
 
         public ReportingServiceClientFactory ReportingServiceClientFactory { get; set; } = new ReportingServiceClientFactory();
 
@@ -30,6 +32,7 @@ namespace Bluewire.Reporting.Cli.Configuration
             options.Add("site=", "Only include objects associated with a specific site", o => Site = o.Unquote("'"));
             options.Add("base=", "Specify a base path to assume for all items", o => BasePath = new SsrsObjectPath(o));
             options.Add("overwrite", "Replace existing objects", o => Overwrite = true);
+            options.Add("rewrite=", "Modify objects prior to import", o => RewriteRules.Add(o.Unquote("'")));
         }
 
         void IJobFactory.ConfigureSession(ConsoleSession<IJobFactory> session) => session.ListParameterUsage = "<ssrs-uri> <files|directories...>";
@@ -59,6 +62,11 @@ namespace Bluewire.Reporting.Cli.Configuration
             var ssrsUri = new Uri(SsrsUriString, UriKind.Absolute);
             var service = ReportingServiceClientFactory.CreateFromShorthandUri(ssrsUri);
             var job = new ImportJob(service, source, filter) { Overwrite = Overwrite };
+            foreach (var rule in RewriteRules)
+            {
+                var rewriter = new RewriteRuleParser().Parse(rule);
+                job.Rewriters.Add(rewriter);
+            }
             return job;
         }
 

@@ -60,6 +60,8 @@
     <Compile Include="Configuration\ObjectFilterDefinition.cs" />
     <Compile Include="Mapping\SsrsDataSourceDefinitionMapper.cs" />
     <Compile Include="Model\ISsrsObjectDefinition.cs" />
+    <Compile Include="Rewrite\RewriteRuleParser.cs" />
+    <Compile Include="Rewrite\SsrsObjectRewriters.cs" />
     <Compile Include="Model\SsrsDataSource.cs" />
     <Compile Include="Configuration\SsrsObjectTypesParser.cs" />
     <Compile Include="Jobs\IJob.cs" />
@@ -70,7 +72,9 @@
     <Compile Include="Jobs\InspectJob.cs" />
     <Compile Include="JobType.cs" />
     <Compile Include="JobTypeParser.cs" />
+    <Compile Include="Rewrite\SsrsDataSetDataSourceRewriter.cs" />
     <Compile Include="Model\SsrsObject.cs" />
+    <Compile Include="Rewrite\ISsrsObjectRewriter.cs" />
     <Compile Include="Model\SsrsObjectType.cs" />
     <Compile Include="Model\SsrsReport.cs" />
     <Compile Include="Model\SsrsDataSet.cs" />
