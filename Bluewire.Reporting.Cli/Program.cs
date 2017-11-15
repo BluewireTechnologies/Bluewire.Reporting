@@ -17,7 +17,7 @@ namespace Bluewire.Reporting.Cli
             if (jobFactory == null)
             {
                 Console.Error.WriteLine($@"Usage: {Path.GetFileName(Assembly.GetEntryAssembly().Location)} <mode> <args...>
-where <mode> is one of: inspect");
+where <mode> is one of: inspect, import");
                 return 1;
             }
             options.AddCollector(jobFactory);
@@ -39,6 +39,7 @@ where <mode> is one of: inspect");
             switch (jobType)
             {
                 case JobType.Inspect: return new InspectJobFactory();
+                case JobType.Import: return new ImportJobFactory();
                 default: return null;
             }
         }

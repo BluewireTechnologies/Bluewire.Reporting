@@ -23,6 +23,9 @@ namespace Bluewire.Reporting.Cli
                 case "inspect":
                     jobType = JobType.Inspect;
                     return true;
+                case "import":
+                    jobType = JobType.Import;
+                    return true;
                 default:
                     jobType = JobType.Invalid;
                     return false;

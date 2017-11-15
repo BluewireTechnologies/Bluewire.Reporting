@@ -21,6 +21,16 @@ namespace Bluewire.Reporting.UnitTests
             jobFactory.CreateJob();
         }
 
+        [TestCase("import", "https://localhost/Reports/", ".")]
+        [TestCase("import", "https://localhost/Reports/", "--type=datasource,dataset", ".")]
+        [TestCase("import", "--type=report", "https://localhost/Reports/", "--include=Weekly/**/Letters*", ".")]
+        [TestCase("import", "--base=Reports/", "--include=Weekly/**/Letters*", "https://localhost/Reports/", ".")]
+        public void ParsesValidImportJob(params string[] arguments)
+        {
+            var jobFactory = ParseAs<ImportJobFactory>(arguments);
+            jobFactory.CreateJob();
+        }
+
         private static T ParseAs<T>(params string[] args) where T : IJobFactory
         {
             var options = new OptionSet();

@@ -6,6 +6,32 @@ namespace Bluewire.Reporting.Cli.Mapping
 {
     public class SsrsDataSourceDefinitionMapper
     {
+        public void MapFromSsrsObject(DataSourceDefinition definition, SsrsDataSource item)
+        {
+            definition.Extension = "SQL";
+            definition.ConnectString = item.ConnectionString;
+            switch (item.Authentication)
+            {
+                case SsrsDataSource.AuthenticationType.StoredCredentials stored:
+                    definition.CredentialRetrieval = CredentialRetrievalEnum.Store;
+                    definition.UserName = String.IsNullOrWhiteSpace(stored.Domain) ? stored.UserName : $"{stored.Domain}\\{stored.UserName}";
+                    definition.Password = stored.Password;
+                    definition.WindowsCredentials = stored.WindowsCredentials;
+                    break;
+                case SsrsDataSource.AuthenticationType.WindowsIntegrated _:
+                    definition.CredentialRetrieval = CredentialRetrievalEnum.Integrated;
+                    break;
+                case SsrsDataSource.AuthenticationType.Prompt _:
+                    definition.CredentialRetrieval = CredentialRetrievalEnum.Prompt;
+                    break;
+                case SsrsDataSource.AuthenticationType.None _:
+                    definition.CredentialRetrieval = CredentialRetrievalEnum.None;
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException($"[BUG] Unknown authentication type: {item.Authentication.GetType()}");
+            }
+        }
+
         public SsrsDataSource MapToSsrsObject(string itemPath, DataSourceDefinition definition)
         {
             var path = new SsrsObjectPath(itemPath);
