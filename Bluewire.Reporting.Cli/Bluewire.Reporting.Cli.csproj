@@ -91,6 +91,8 @@
     <Compile Include="ServiceProxy\ReportingServiceClientFactory.cs" />
     <Compile Include="ServiceProxy\ReportService2010.cs" />
     <Compile Include="Sources\AggregatedObjectSource.cs" />
+    <Compile Include="Sources\SiteManifest.cs" />
+    <Compile Include="Sources\SiteManifestReader.cs" />
     <Compile Include="Sources\SsrsObjectCatalogItemReader.cs" />
     <Compile Include="Xml\DataSetXmlSchema.cs" />
     <Compile Include="Xml\DataSourceXmlSchema.cs" />

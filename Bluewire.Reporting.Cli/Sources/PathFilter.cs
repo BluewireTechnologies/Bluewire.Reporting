@@ -27,6 +27,15 @@ namespace Bluewire.Reporting.Cli.Sources
             return new RegexFilter($"/{withoutLeadingSlash}", regex, GetPathPrefix(withoutLeadingSlash));
         }
 
+        public static IPathFilter FromPrefix(string prefix)
+        {
+            if (String.IsNullOrWhiteSpace(prefix)) return null;
+            var withoutLeadingSlash = prefix.TrimStart('/');
+            var escapedPattern = Regex.Escape(withoutLeadingSlash);
+            var regex = new Regex($"^/{escapedPattern}.*$", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+            return new RegexFilter($"/{withoutLeadingSlash}**", regex, GetPathPrefixIgnoreWildcards(withoutLeadingSlash));
+        }
+
         private static readonly Regex rxGlobWildcard = new Regex(@"((\\\*)+|\\\?)", RegexOptions.Compiled);
 
         private static string ReplaceGlobSyntaxWithRegexSyntax(string glob)
@@ -45,6 +54,13 @@ namespace Bluewire.Reporting.Cli.Sources
             // Last segment is an item name, not a container.
             var initial = segments.Take(segments.Length - 1);
             return initial.TakeWhile(s => !s.Contains('*') && !s.Contains('?')).ToArray();
+        }
+
+        private static string[] GetPathPrefixIgnoreWildcards(string pattern)
+        {
+            var segments = pattern.Split('/');
+            // Last segment is an item name, not a container.
+            return segments.Take(segments.Length - 1).ToArray();
         }
 
         struct NoFilter : IPathFilter

@@ -5,11 +5,13 @@ using System.IO.Compression;
 using System.Linq;
 using System.Threading.Tasks;
 using Bluewire.Reporting.Cli.Model;
+using log4net;
 
 namespace Bluewire.Reporting.Cli.Sources
 {
     public class ZipFileObjectSource : ISsrsObjectSource
     {
+        private static readonly ILog log = LogManager.GetLogger(typeof(ZipFileObjectSource));
         private readonly string zipFilePath;
         private readonly SsrsObjectPath basePath;
         private ZipArchive zip;
@@ -32,6 +34,7 @@ namespace Bluewire.Reporting.Cli.Sources
 
         private IEnumerable<SsrsObject> MapEntriesToSsrsObjects(ZipArchiveEntry[] items, SsrsObjectFilter filter)
         {
+            var siteFilter = GetSiteFilter(filter.Site);
             foreach (var item in items)
             {
                 var containerPath = basePath + SsrsObjectPath.FromFileSystemPath(Path.GetDirectoryName(item.FullName));
@@ -39,6 +42,7 @@ namespace Bluewire.Reporting.Cli.Sources
                 {
                     var ssrsObject = new SsrsObjectFileReader().Read(stream, Path.GetFileNameWithoutExtension(item.Name), containerPath);
                     if (filter.Excludes(ssrsObject)) continue;
+                    if (siteFilter?.Matches(ssrsObject.Path) == false) continue;
                     yield return ssrsObject;
                 }
             }
@@ -56,6 +60,23 @@ namespace Bluewire.Reporting.Cli.Sources
             {
                 zipStream.Dispose();
                 throw;
+            }
+        }
+
+        private IPathFilter GetSiteFilter(string siteName)
+        {
+            if (String.IsNullOrWhiteSpace(siteName)) return null;
+            var manifestEntryName = GetManifestEntryName();
+            if (manifestEntryName == null) return null;
+            var manifestEntry = zip.GetEntry(manifestEntryName);
+            if (manifestEntry == null) return null;
+
+            log.InfoFormat("Found manifest file '{0}'", manifestEntryName);
+
+            using (var stream = manifestEntry.Open())
+            {
+                var manifest = new SiteManifestReader(basePath).Read(stream);
+                return manifest.GetSiteFilter(siteName);
             }
         }
 
