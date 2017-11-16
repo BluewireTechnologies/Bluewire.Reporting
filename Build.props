@@ -3,6 +3,7 @@
     <ItemGroup>
         <!-- Full list of NuGet package projects -->
         <NugetProjects Include="**\*.Contracts.csproj" />
+        <NugetProjects Include="Bluewire.Reporting.Cli\Bluewire.Reporting.Cli.csproj" />
 
         <!-- Full list of NUnit test projects -->
         <NUnitProjects Include="**\*.UnitTests.csproj" />
