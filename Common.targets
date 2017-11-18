@@ -202,8 +202,6 @@
       <AssemblyInformationalVersion ParameterType="System.String" Required="false" Output="true" />
     </ParameterGroup>
     <Task>
-      <Reference Include="$(MSBuildBinPath)\Microsoft.Build.Framework.dll"/>
-      <Reference Include="$(MSBuildBinPath)\Microsoft.Build.Utilities.Core.dll"/>
       <Code Type="Class" Language="cs" Source="AssemblyInfo.CodeTask.cs" />
     </Task>
   </UsingTask>
