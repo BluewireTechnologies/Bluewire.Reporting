@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ServiceModel;
 using Bluewire.Reporting.Cli.ServiceProxy;
 using NUnit.Framework;
 
@@ -17,6 +18,40 @@ namespace Bluewire.Reporting.UnitTests.ServiceProxy
         {
             var ssrsUri = ReportingServiceClientFactory.ExpandShorthandUri(new Uri(input));
             Assert.That(ssrsUri, Is.EqualTo(new Uri(expected)));
+        }
+
+        [Test]
+        public void CanCreateProxyForHttpUri()
+        {
+            using (var proxy = new ReportingServiceClientFactory().CreateFromShorthandUri(new Uri("http://localhost")))
+            {
+                try
+                {
+                    proxy.Proxy.IsSSLRequired(new IsSSLRequiredRequest { TrustedUserHeader = new TrustedUserHeader() });
+                }
+                catch (EndpointNotFoundException)
+                {
+                    // We don't expect to find a running endpoint during the test. We just need to
+                    // verify that the URI is accepted.
+                }
+            }
+        }
+
+        [Test]
+        public void CanCreateProxyForHttpsUri()
+        {
+            using (var proxy = new ReportingServiceClientFactory().CreateFromShorthandUri(new Uri("https://localhost")))
+            {
+                try
+                {
+                    proxy.Proxy.IsSSLRequired(new IsSSLRequiredRequest { TrustedUserHeader = new TrustedUserHeader() });
+                }
+                catch (EndpointNotFoundException)
+                {
+                    // We don't expect to find a running endpoint during the test. We just need to
+                    // verify that the URI is accepted.
+                }
+            }
         }
     }
 }
