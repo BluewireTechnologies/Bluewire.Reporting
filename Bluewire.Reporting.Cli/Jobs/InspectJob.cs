@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Bluewire.Reporting.Cli.Model;
 using Bluewire.Reporting.Cli.Sources;
 using log4net;
+using System.Data.SqlClient;
 
 namespace Bluewire.Reporting.Cli.Jobs
 {
@@ -40,7 +41,7 @@ namespace Bluewire.Reporting.Cli.Jobs
 
         private void DescribeDataSource(TextWriter output, SsrsDataSource dataSource)
         {
-            output.WriteLine($"Connection string:   {dataSource.ConnectionString}");
+            output.WriteLine($"Connection string:   {HideConnectionStringPassword(dataSource.ConnectionString)}");
 
             switch (dataSource.Authentication)
             {
@@ -62,6 +63,21 @@ namespace Bluewire.Reporting.Cli.Jobs
                 case SsrsDataSource.AuthenticationType.None _:
                     output.WriteLine( "Authentication:      None");
                     break;
+            }
+        }
+
+        private string HideConnectionStringPassword(string connectionString)
+        {
+            try
+            {
+                var builder = new SqlConnectionStringBuilder(connectionString);
+                if (String.IsNullOrWhiteSpace(builder.Password)) return connectionString;
+                builder.Password = "<hidden>";
+                return builder.ConnectionString;
+            }
+            catch
+            {
+                return connectionString;
             }
         }
 
