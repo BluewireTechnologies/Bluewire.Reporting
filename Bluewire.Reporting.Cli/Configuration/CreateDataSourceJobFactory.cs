@@ -34,6 +34,7 @@ namespace Bluewire.Reporting.Cli.Configuration
             options.Add("integrated", "Use Windows Integrated authentication", o => UseWindowsIntegratedAuthentication = true);
             options.Add("prompt", "Prompt for credentials when the data source is used", o => PromptForCredentials = true);
             options.Add("overwrite", "Replace existing objects", o => Overwrite = true);
+            options.Add("timeout=", "Number of seconds to wait for SSRS webservice calls (default: 60)", (int o) => ReportingServiceClientFactory.Timeout = TimeSpan.FromSeconds(o));
         }
 
         void IJobFactory.ConfigureSession(ConsoleSession<IJobFactory> session) => session.ListParameterUsage = "<ssrs-uri> <object-path>";

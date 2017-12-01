@@ -13,10 +13,14 @@ namespace Bluewire.Reporting.Cli.ServiceProxy
         private ReportingService2010SoapClient service;
 
         public ReportingService2010Soap Proxy => service;
+        public TimeSpan Timeout { get; set; } = TimeSpan.FromMinutes(1);
 
         public ReportingServiceClient(Uri ssrsUri)
         {
             var binding = GetBinding(ssrsUri);
+            binding.SendTimeout = Timeout;
+            binding.OpenTimeout = Timeout;
+            if (binding.ReceiveTimeout < Timeout) binding.ReceiveTimeout = Timeout;
             var endpointAddress = new EndpointAddress(ssrsUri);
             service = new ReportingService2010SoapClient(binding, endpointAddress);
             Debug.Assert(service.ClientCredentials != null);

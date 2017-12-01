@@ -6,6 +6,8 @@ namespace Bluewire.Reporting.Cli.ServiceProxy
 {
     public class ReportingServiceClientFactory
     {
+        public TimeSpan? Timeout { get; set; }
+
         public virtual IReportingServiceClient CreateFromShorthandUri(Uri shorthandUri)
         {
             return Create(ExpandShorthandUri(shorthandUri));
@@ -13,7 +15,9 @@ namespace Bluewire.Reporting.Cli.ServiceProxy
 
         public virtual IReportingServiceClient Create(Uri uri)
         {
-            return new ReportingServiceClient(uri);
+            var client = new ReportingServiceClient(uri);
+            if (Timeout.HasValue) client.Timeout = Timeout.Value;
+            return client;
         }
 
         public static Uri ExpandShorthandUri(Uri uri)

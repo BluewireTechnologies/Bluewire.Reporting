@@ -1,4 +1,5 @@
-﻿using Bluewire.Common.Console.ThirdParty;
+﻿using System;
+using Bluewire.Common.Console.ThirdParty;
 using Bluewire.Reporting.Cli.Jobs;
 using Bluewire.Reporting.Cli.Support;
 using System.Collections.Generic;
@@ -25,6 +26,7 @@ namespace Bluewire.Reporting.Cli.Configuration
             options.AddCollector(ObjectFilter);
             options.Add("site=", "Only include objects associated with a specific site", o => Site = o);
             options.Add("base=", "Specify a base path to assume for all items", o => BasePath = new SsrsObjectPath(o));
+            options.Add("timeout=", "Number of seconds to wait for SSRS webservice responses", (int o) => ReportingServiceClientFactory.Timeout = TimeSpan.FromSeconds(o));
         }
 
         void IJobFactory.ConfigureSession(ConsoleSession<IJobFactory> session) => session.ListParameterUsage = "<ssrs-uri|file|directory>...";

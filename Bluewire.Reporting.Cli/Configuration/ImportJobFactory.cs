@@ -37,6 +37,7 @@ namespace Bluewire.Reporting.Cli.Configuration
             options.Add("overwrite", "Replace existing objects", o => Overwrite = true);
             options.Add("backup=", "Back up objects before overwriting", o => BackupPath = o);
             options.Add("rewrite=", "Modify objects prior to import", o => RewriteRules.Add(o.Unquote("'")));
+            options.Add("timeout=", "Number of seconds to wait for SSRS webservice responses", (int o) => ReportingServiceClientFactory.Timeout = TimeSpan.FromSeconds(o));
         }
 
         void IJobFactory.ConfigureSession(ConsoleSession<IJobFactory> session) => session.ListParameterUsage = "<ssrs-uri> <files|directories...>";
