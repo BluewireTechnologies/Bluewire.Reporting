@@ -41,7 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Scheduling\RdlCustomPropertiesReader.cs" />
+    <Compile Include="Scheduling\RdlReportParametersReader.cs" />
+    <Compile Include="Scheduling\ReportForSchedulingDto.cs" />
+    <Compile Include="Scheduling\ReportForSchedulingReader.cs" />
+    <Compile Include="Scheduling\ReportSchedule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scheduling\EproSchedulingRules.cs" />
+    <Compile Include="Scheduling\ReportPeriod.cs" />
+    <Compile Include="Scheduling\ReportSnapshotFrequency.cs" />
     <Compile Include="ServiceProxy\IReportingServiceClient.cs" />
     <Compile Include="ServiceProxy\ReportService2010.cs" />
   </ItemGroup>
