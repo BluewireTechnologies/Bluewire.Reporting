@@ -3,8 +3,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Bluewire.Reporting.Cli.Mapping;
 using Bluewire.Reporting.Cli.Model;
-using Bluewire.Reporting.Cli.ServiceProxy;
 using Bluewire.Reporting.Cli.Sources.Ssrs;
+using Bluewire.Reporting.Common.ServiceProxy;
 using Task = System.Threading.Tasks.Task;
 
 namespace Bluewire.Reporting.Cli.Sources

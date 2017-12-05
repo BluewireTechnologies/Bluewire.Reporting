@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using Bluewire.Reporting.Cli.Model;
 using Bluewire.Reporting.Cli.Sources.Ssrs;
+using Bluewire.Reporting.Common.ServiceProxy;
 using log4net;
 
 namespace Bluewire.Reporting.Cli.ServiceProxy

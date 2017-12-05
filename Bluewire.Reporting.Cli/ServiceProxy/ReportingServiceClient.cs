@@ -5,6 +5,7 @@ using System.Security.Principal;
 using System.ServiceModel;
 using Bluewire.Reporting.Cli.Support;
 using System.ServiceModel.Channels;
+using Bluewire.Reporting.Common.ServiceProxy;
 
 namespace Bluewire.Reporting.Cli.ServiceProxy
 {

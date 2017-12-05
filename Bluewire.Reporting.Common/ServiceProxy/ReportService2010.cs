@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Bluewire.Reporting.Cli.ServiceProxy {
+namespace Bluewire.Reporting.Common.ServiceProxy {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -22,12 +22,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateCatalogItemResponse CreateCatalogItem(Bluewire.Reporting.Cli.ServiceProxy.CreateCatalogItemRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.CreateCatalogItemResponse CreateCatalogItem(Bluewire.Reporting.Common.ServiceProxy.CreateCatalogItemRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateCa" +
             "talogItem", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateCatalogItemResponse> CreateCatalogItemAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateCatalogItemRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateCatalogItemResponse> CreateCatalogItemAsync(Bluewire.Reporting.Common.ServiceProxy.CreateCatalogItemRequest request);
         
         // CODEGEN: Generating message contract since message SetItemDefinitionRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemD" +
@@ -37,11 +37,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetItemDefinitionResponse SetItemDefinition(Bluewire.Reporting.Cli.ServiceProxy.SetItemDefinitionRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetItemDefinitionResponse SetItemDefinition(Bluewire.Reporting.Common.ServiceProxy.SetItemDefinitionRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemD" +
             "efinition", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemDefinitionResponse> SetItemDefinitionAsync(Bluewire.Reporting.Cli.ServiceProxy.SetItemDefinitionRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemDefinitionResponse> SetItemDefinitionAsync(Bluewire.Reporting.Common.ServiceProxy.SetItemDefinitionRequest request);
         
         // CODEGEN: Generating message contract since message GetItemDefinitionRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemD" +
@@ -51,11 +51,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetItemDefinitionResponse GetItemDefinition(Bluewire.Reporting.Cli.ServiceProxy.GetItemDefinitionRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetItemDefinitionResponse GetItemDefinition(Bluewire.Reporting.Common.ServiceProxy.GetItemDefinitionRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemD" +
             "efinition", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemDefinitionResponse> GetItemDefinitionAsync(Bluewire.Reporting.Cli.ServiceProxy.GetItemDefinitionRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemDefinitionResponse> GetItemDefinitionAsync(Bluewire.Reporting.Common.ServiceProxy.GetItemDefinitionRequest request);
         
         // CODEGEN: Generating message contract since message GetItemTypeRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemT" +
@@ -65,11 +65,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetItemTypeResponse GetItemType(Bluewire.Reporting.Cli.ServiceProxy.GetItemTypeRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetItemTypeResponse GetItemType(Bluewire.Reporting.Common.ServiceProxy.GetItemTypeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemT" +
             "ype", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemTypeResponse> GetItemTypeAsync(Bluewire.Reporting.Cli.ServiceProxy.GetItemTypeRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemTypeResponse> GetItemTypeAsync(Bluewire.Reporting.Common.ServiceProxy.GetItemTypeRequest request);
         
         // CODEGEN: Generating message contract since message DeleteItemRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteIt" +
@@ -79,11 +79,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.DeleteItemResponse DeleteItem(Bluewire.Reporting.Cli.ServiceProxy.DeleteItemRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.DeleteItemResponse DeleteItem(Bluewire.Reporting.Common.ServiceProxy.DeleteItemRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteIt" +
             "em", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DeleteItemResponse> DeleteItemAsync(Bluewire.Reporting.Cli.ServiceProxy.DeleteItemRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DeleteItemResponse> DeleteItemAsync(Bluewire.Reporting.Common.ServiceProxy.DeleteItemRequest request);
         
         // CODEGEN: Generating message contract since message MoveItemRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/MoveItem" +
@@ -93,11 +93,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.MoveItemResponse MoveItem(Bluewire.Reporting.Cli.ServiceProxy.MoveItemRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.MoveItemResponse MoveItem(Bluewire.Reporting.Common.ServiceProxy.MoveItemRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/MoveItem" +
             "", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.MoveItemResponse> MoveItemAsync(Bluewire.Reporting.Cli.ServiceProxy.MoveItemRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.MoveItemResponse> MoveItemAsync(Bluewire.Reporting.Common.ServiceProxy.MoveItemRequest request);
         
         // CODEGEN: Generating message contract since message InheritParentSecurityRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/InheritP" +
@@ -107,11 +107,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.InheritParentSecurityResponse InheritParentSecurity(Bluewire.Reporting.Cli.ServiceProxy.InheritParentSecurityRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.InheritParentSecurityResponse InheritParentSecurity(Bluewire.Reporting.Common.ServiceProxy.InheritParentSecurityRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/InheritP" +
             "arentSecurity", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.InheritParentSecurityResponse> InheritParentSecurityAsync(Bluewire.Reporting.Cli.ServiceProxy.InheritParentSecurityRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.InheritParentSecurityResponse> InheritParentSecurityAsync(Bluewire.Reporting.Common.ServiceProxy.InheritParentSecurityRequest request);
         
         // CODEGEN: Generating message contract since message ListItemHistoryRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListItem" +
@@ -121,11 +121,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListItemHistoryResponse ListItemHistory(Bluewire.Reporting.Cli.ServiceProxy.ListItemHistoryRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListItemHistoryResponse ListItemHistory(Bluewire.Reporting.Common.ServiceProxy.ListItemHistoryRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListItem" +
             "History", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListItemHistoryResponse> ListItemHistoryAsync(Bluewire.Reporting.Cli.ServiceProxy.ListItemHistoryRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListItemHistoryResponse> ListItemHistoryAsync(Bluewire.Reporting.Common.ServiceProxy.ListItemHistoryRequest request);
         
         // CODEGEN: Generating message contract since message ListChildrenRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListChil" +
@@ -135,11 +135,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListChildrenResponse ListChildren(Bluewire.Reporting.Cli.ServiceProxy.ListChildrenRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListChildrenResponse ListChildren(Bluewire.Reporting.Common.ServiceProxy.ListChildrenRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListChil" +
             "dren", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListChildrenResponse> ListChildrenAsync(Bluewire.Reporting.Cli.ServiceProxy.ListChildrenRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListChildrenResponse> ListChildrenAsync(Bluewire.Reporting.Common.ServiceProxy.ListChildrenRequest request);
         
         // CODEGEN: Generating message contract since message ListDependentItemsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListDepe" +
@@ -149,11 +149,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListDependentItemsResponse ListDependentItems(Bluewire.Reporting.Cli.ServiceProxy.ListDependentItemsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListDependentItemsResponse ListDependentItems(Bluewire.Reporting.Common.ServiceProxy.ListDependentItemsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListDepe" +
             "ndentItems", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListDependentItemsResponse> ListDependentItemsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListDependentItemsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListDependentItemsResponse> ListDependentItemsAsync(Bluewire.Reporting.Common.ServiceProxy.ListDependentItemsRequest request);
         
         // CODEGEN: Generating message contract since message FindItemsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/FindItem" +
@@ -163,11 +163,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.FindItemsResponse FindItems(Bluewire.Reporting.Cli.ServiceProxy.FindItemsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.FindItemsResponse FindItems(Bluewire.Reporting.Common.ServiceProxy.FindItemsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/FindItem" +
             "s", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.FindItemsResponse> FindItemsAsync(Bluewire.Reporting.Cli.ServiceProxy.FindItemsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.FindItemsResponse> FindItemsAsync(Bluewire.Reporting.Common.ServiceProxy.FindItemsRequest request);
         
         // CODEGEN: Generating message contract since message ListParentsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListPare" +
@@ -177,11 +177,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListParentsResponse ListParents(Bluewire.Reporting.Cli.ServiceProxy.ListParentsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListParentsResponse ListParents(Bluewire.Reporting.Common.ServiceProxy.ListParentsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListPare" +
             "nts", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListParentsResponse> ListParentsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListParentsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListParentsResponse> ListParentsAsync(Bluewire.Reporting.Common.ServiceProxy.ListParentsRequest request);
         
         // CODEGEN: Generating message contract since message CreateFolderRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateFo" +
@@ -191,11 +191,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateFolderResponse CreateFolder(Bluewire.Reporting.Cli.ServiceProxy.CreateFolderRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.CreateFolderResponse CreateFolder(Bluewire.Reporting.Common.ServiceProxy.CreateFolderRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateFo" +
             "lder", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateFolderResponse> CreateFolderAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateFolderRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateFolderResponse> CreateFolderAsync(Bluewire.Reporting.Common.ServiceProxy.CreateFolderRequest request);
         
         // CODEGEN: Generating message contract since message SetPropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetPrope" +
@@ -205,11 +205,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetPropertiesResponse SetProperties(Bluewire.Reporting.Cli.ServiceProxy.SetPropertiesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetPropertiesResponse SetProperties(Bluewire.Reporting.Common.ServiceProxy.SetPropertiesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetPrope" +
             "rties", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetPropertiesResponse> SetPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetPropertiesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetPropertiesResponse> SetPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.SetPropertiesRequest request);
         
         // CODEGEN: Generating message contract since message GetPropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetPrope" +
@@ -219,11 +219,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetPropertiesResponse GetProperties(Bluewire.Reporting.Cli.ServiceProxy.GetPropertiesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetPropertiesResponse GetProperties(Bluewire.Reporting.Common.ServiceProxy.GetPropertiesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetPrope" +
             "rties", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetPropertiesResponse> GetPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetPropertiesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetPropertiesResponse> GetPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.GetPropertiesRequest request);
         
         // CODEGEN: Generating message contract since message SetItemReferencesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemR" +
@@ -233,11 +233,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetItemReferencesResponse SetItemReferences(Bluewire.Reporting.Cli.ServiceProxy.SetItemReferencesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetItemReferencesResponse SetItemReferences(Bluewire.Reporting.Common.ServiceProxy.SetItemReferencesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemR" +
             "eferences", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemReferencesResponse> SetItemReferencesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetItemReferencesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemReferencesResponse> SetItemReferencesAsync(Bluewire.Reporting.Common.ServiceProxy.SetItemReferencesRequest request);
         
         // CODEGEN: Generating message contract since message GetItemReferencesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemR" +
@@ -247,11 +247,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetItemReferencesResponse GetItemReferences(Bluewire.Reporting.Cli.ServiceProxy.GetItemReferencesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetItemReferencesResponse GetItemReferences(Bluewire.Reporting.Common.ServiceProxy.GetItemReferencesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemR" +
             "eferences", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemReferencesResponse> GetItemReferencesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetItemReferencesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemReferencesResponse> GetItemReferencesAsync(Bluewire.Reporting.Common.ServiceProxy.GetItemReferencesRequest request);
         
         // CODEGEN: Generating message contract since message ListItemTypesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListItem" +
@@ -261,11 +261,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListItemTypesResponse ListItemTypes(Bluewire.Reporting.Cli.ServiceProxy.ListItemTypesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListItemTypesResponse ListItemTypes(Bluewire.Reporting.Common.ServiceProxy.ListItemTypesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListItem" +
             "Types", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListItemTypesResponse> ListItemTypesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListItemTypesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListItemTypesResponse> ListItemTypesAsync(Bluewire.Reporting.Common.ServiceProxy.ListItemTypesRequest request);
         
         // CODEGEN: Generating message contract since message SetSubscriptionPropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetSubsc" +
@@ -275,11 +275,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetSubscriptionPropertiesResponse SetSubscriptionProperties(Bluewire.Reporting.Cli.ServiceProxy.SetSubscriptionPropertiesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetSubscriptionPropertiesResponse SetSubscriptionProperties(Bluewire.Reporting.Common.ServiceProxy.SetSubscriptionPropertiesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetSubsc" +
             "riptionProperties", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetSubscriptionPropertiesResponse> SetSubscriptionPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetSubscriptionPropertiesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetSubscriptionPropertiesResponse> SetSubscriptionPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.SetSubscriptionPropertiesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSubsc" +
             "riptionProperties", ReplyAction="*")]
@@ -288,12 +288,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetSubscriptionPropertiesResponse GetSubscriptionProperties(Bluewire.Reporting.Cli.ServiceProxy.GetSubscriptionPropertiesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetSubscriptionPropertiesResponse GetSubscriptionProperties(Bluewire.Reporting.Common.ServiceProxy.GetSubscriptionPropertiesRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSubsc" +
             "riptionProperties", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetSubscriptionPropertiesResponse> GetSubscriptionPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetSubscriptionPropertiesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetSubscriptionPropertiesResponse> GetSubscriptionPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.GetSubscriptionPropertiesRequest request);
         
         // CODEGEN: Generating message contract since message SetDataDrivenSubscriptionPropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetDataD" +
@@ -303,11 +303,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetDataDrivenSubscriptionPropertiesResponse SetDataDrivenSubscriptionProperties(Bluewire.Reporting.Cli.ServiceProxy.SetDataDrivenSubscriptionPropertiesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetDataDrivenSubscriptionPropertiesResponse SetDataDrivenSubscriptionProperties(Bluewire.Reporting.Common.ServiceProxy.SetDataDrivenSubscriptionPropertiesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetDataD" +
             "rivenSubscriptionProperties", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetDataDrivenSubscriptionPropertiesResponse> SetDataDrivenSubscriptionPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetDataDrivenSubscriptionPropertiesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetDataDrivenSubscriptionPropertiesResponse> SetDataDrivenSubscriptionPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.SetDataDrivenSubscriptionPropertiesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetDataD" +
             "rivenSubscriptionProperties", ReplyAction="*")]
@@ -316,12 +316,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetDataDrivenSubscriptionPropertiesResponse GetDataDrivenSubscriptionProperties(Bluewire.Reporting.Cli.ServiceProxy.GetDataDrivenSubscriptionPropertiesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetDataDrivenSubscriptionPropertiesResponse GetDataDrivenSubscriptionProperties(Bluewire.Reporting.Common.ServiceProxy.GetDataDrivenSubscriptionPropertiesRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetDataD" +
             "rivenSubscriptionProperties", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetDataDrivenSubscriptionPropertiesResponse> GetDataDrivenSubscriptionPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetDataDrivenSubscriptionPropertiesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetDataDrivenSubscriptionPropertiesResponse> GetDataDrivenSubscriptionPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.GetDataDrivenSubscriptionPropertiesRequest request);
         
         // CODEGEN: Generating message contract since message DeleteSubscriptionRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteSu" +
@@ -331,11 +331,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.DeleteSubscriptionResponse DeleteSubscription(Bluewire.Reporting.Cli.ServiceProxy.DeleteSubscriptionRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.DeleteSubscriptionResponse DeleteSubscription(Bluewire.Reporting.Common.ServiceProxy.DeleteSubscriptionRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteSu" +
             "bscription", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DeleteSubscriptionResponse> DeleteSubscriptionAsync(Bluewire.Reporting.Cli.ServiceProxy.DeleteSubscriptionRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DeleteSubscriptionResponse> DeleteSubscriptionAsync(Bluewire.Reporting.Common.ServiceProxy.DeleteSubscriptionRequest request);
         
         // CODEGEN: Generating message contract since message CreateSubscriptionRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateSu" +
@@ -345,11 +345,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateSubscriptionResponse CreateSubscription(Bluewire.Reporting.Cli.ServiceProxy.CreateSubscriptionRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.CreateSubscriptionResponse CreateSubscription(Bluewire.Reporting.Common.ServiceProxy.CreateSubscriptionRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateSu" +
             "bscription", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateSubscriptionResponse> CreateSubscriptionAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateSubscriptionRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateSubscriptionResponse> CreateSubscriptionAsync(Bluewire.Reporting.Common.ServiceProxy.CreateSubscriptionRequest request);
         
         // CODEGEN: Generating message contract since message CreateDataDrivenSubscriptionRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateDa" +
@@ -359,11 +359,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateDataDrivenSubscriptionResponse CreateDataDrivenSubscription(Bluewire.Reporting.Cli.ServiceProxy.CreateDataDrivenSubscriptionRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.CreateDataDrivenSubscriptionResponse CreateDataDrivenSubscription(Bluewire.Reporting.Common.ServiceProxy.CreateDataDrivenSubscriptionRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateDa" +
             "taDrivenSubscription", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateDataDrivenSubscriptionResponse> CreateDataDrivenSubscriptionAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateDataDrivenSubscriptionRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateDataDrivenSubscriptionResponse> CreateDataDrivenSubscriptionAsync(Bluewire.Reporting.Common.ServiceProxy.CreateDataDrivenSubscriptionRequest request);
         
         // CODEGEN: Generating message contract since message GetExtensionSettingsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetExten" +
@@ -373,11 +373,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetExtensionSettingsResponse GetExtensionSettings(Bluewire.Reporting.Cli.ServiceProxy.GetExtensionSettingsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetExtensionSettingsResponse GetExtensionSettings(Bluewire.Reporting.Common.ServiceProxy.GetExtensionSettingsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetExten" +
             "sionSettings", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetExtensionSettingsResponse> GetExtensionSettingsAsync(Bluewire.Reporting.Cli.ServiceProxy.GetExtensionSettingsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetExtensionSettingsResponse> GetExtensionSettingsAsync(Bluewire.Reporting.Common.ServiceProxy.GetExtensionSettingsRequest request);
         
         // CODEGEN: Generating message contract since message ValidateExtensionSettingsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/Validate" +
@@ -387,11 +387,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ValidateExtensionSettingsResponse ValidateExtensionSettings(Bluewire.Reporting.Cli.ServiceProxy.ValidateExtensionSettingsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ValidateExtensionSettingsResponse ValidateExtensionSettings(Bluewire.Reporting.Common.ServiceProxy.ValidateExtensionSettingsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/Validate" +
             "ExtensionSettings", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ValidateExtensionSettingsResponse> ValidateExtensionSettingsAsync(Bluewire.Reporting.Cli.ServiceProxy.ValidateExtensionSettingsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ValidateExtensionSettingsResponse> ValidateExtensionSettingsAsync(Bluewire.Reporting.Common.ServiceProxy.ValidateExtensionSettingsRequest request);
         
         // CODEGEN: Generating message contract since message ListSubscriptionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSubs" +
@@ -401,11 +401,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsResponse ListSubscriptions(Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsResponse ListSubscriptions(Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSubs" +
             "criptions", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsResponse> ListSubscriptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsResponse> ListSubscriptionsAsync(Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsRequest request);
         
         // CODEGEN: Generating message contract since message ListMySubscriptionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMySu" +
@@ -415,11 +415,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListMySubscriptionsResponse ListMySubscriptions(Bluewire.Reporting.Cli.ServiceProxy.ListMySubscriptionsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListMySubscriptionsResponse ListMySubscriptions(Bluewire.Reporting.Common.ServiceProxy.ListMySubscriptionsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMySu" +
             "bscriptions", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListMySubscriptionsResponse> ListMySubscriptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListMySubscriptionsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListMySubscriptionsResponse> ListMySubscriptionsAsync(Bluewire.Reporting.Common.ServiceProxy.ListMySubscriptionsRequest request);
         
         // CODEGEN: Generating message contract since message ListSubscriptionsUsingDataSourceRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSubs" +
@@ -429,11 +429,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsUsingDataSourceResponse ListSubscriptionsUsingDataSource(Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsUsingDataSourceRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsUsingDataSourceResponse ListSubscriptionsUsingDataSource(Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsUsingDataSourceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSubs" +
             "criptionsUsingDataSource", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsUsingDataSourceResponse> ListSubscriptionsUsingDataSourceAsync(Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsUsingDataSourceRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsUsingDataSourceResponse> ListSubscriptionsUsingDataSourceAsync(Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsUsingDataSourceRequest request);
         
         // CODEGEN: Generating message contract since message ChangeSubscriptionOwnerRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ChangeSu" +
@@ -443,11 +443,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ChangeSubscriptionOwnerResponse ChangeSubscriptionOwner(Bluewire.Reporting.Cli.ServiceProxy.ChangeSubscriptionOwnerRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ChangeSubscriptionOwnerResponse ChangeSubscriptionOwner(Bluewire.Reporting.Common.ServiceProxy.ChangeSubscriptionOwnerRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ChangeSu" +
             "bscriptionOwner", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ChangeSubscriptionOwnerResponse> ChangeSubscriptionOwnerAsync(Bluewire.Reporting.Cli.ServiceProxy.ChangeSubscriptionOwnerRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ChangeSubscriptionOwnerResponse> ChangeSubscriptionOwnerAsync(Bluewire.Reporting.Common.ServiceProxy.ChangeSubscriptionOwnerRequest request);
         
         // CODEGEN: Generating message contract since message CreateDataSourceRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateDa" +
@@ -457,11 +457,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateDataSourceResponse CreateDataSource(Bluewire.Reporting.Cli.ServiceProxy.CreateDataSourceRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.CreateDataSourceResponse CreateDataSource(Bluewire.Reporting.Common.ServiceProxy.CreateDataSourceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateDa" +
             "taSource", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateDataSourceResponse> CreateDataSourceAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateDataSourceRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateDataSourceResponse> CreateDataSourceAsync(Bluewire.Reporting.Common.ServiceProxy.CreateDataSourceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/PrepareQ" +
             "uery", ReplyAction="*")]
@@ -470,12 +470,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.PrepareQueryResponse PrepareQuery(Bluewire.Reporting.Cli.ServiceProxy.PrepareQueryRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.PrepareQueryResponse PrepareQuery(Bluewire.Reporting.Common.ServiceProxy.PrepareQueryRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/PrepareQ" +
             "uery", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.PrepareQueryResponse> PrepareQueryAsync(Bluewire.Reporting.Cli.ServiceProxy.PrepareQueryRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.PrepareQueryResponse> PrepareQueryAsync(Bluewire.Reporting.Common.ServiceProxy.PrepareQueryRequest request);
         
         // CODEGEN: Generating message contract since message EnableDataSourceRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/EnableDa" +
@@ -485,11 +485,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.EnableDataSourceResponse EnableDataSource(Bluewire.Reporting.Cli.ServiceProxy.EnableDataSourceRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.EnableDataSourceResponse EnableDataSource(Bluewire.Reporting.Common.ServiceProxy.EnableDataSourceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/EnableDa" +
             "taSource", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.EnableDataSourceResponse> EnableDataSourceAsync(Bluewire.Reporting.Cli.ServiceProxy.EnableDataSourceRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.EnableDataSourceResponse> EnableDataSourceAsync(Bluewire.Reporting.Common.ServiceProxy.EnableDataSourceRequest request);
         
         // CODEGEN: Generating message contract since message DisableDataSourceRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DisableD" +
@@ -499,11 +499,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.DisableDataSourceResponse DisableDataSource(Bluewire.Reporting.Cli.ServiceProxy.DisableDataSourceRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.DisableDataSourceResponse DisableDataSource(Bluewire.Reporting.Common.ServiceProxy.DisableDataSourceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DisableD" +
             "ataSource", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DisableDataSourceResponse> DisableDataSourceAsync(Bluewire.Reporting.Cli.ServiceProxy.DisableDataSourceRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DisableDataSourceResponse> DisableDataSourceAsync(Bluewire.Reporting.Common.ServiceProxy.DisableDataSourceRequest request);
         
         // CODEGEN: Generating message contract since message SetDataSourceContentsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetDataS" +
@@ -513,11 +513,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetDataSourceContentsResponse SetDataSourceContents(Bluewire.Reporting.Cli.ServiceProxy.SetDataSourceContentsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetDataSourceContentsResponse SetDataSourceContents(Bluewire.Reporting.Common.ServiceProxy.SetDataSourceContentsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetDataS" +
             "ourceContents", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetDataSourceContentsResponse> SetDataSourceContentsAsync(Bluewire.Reporting.Cli.ServiceProxy.SetDataSourceContentsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetDataSourceContentsResponse> SetDataSourceContentsAsync(Bluewire.Reporting.Common.ServiceProxy.SetDataSourceContentsRequest request);
         
         // CODEGEN: Generating message contract since message GetDataSourceContentsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetDataS" +
@@ -527,11 +527,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetDataSourceContentsResponse GetDataSourceContents(Bluewire.Reporting.Cli.ServiceProxy.GetDataSourceContentsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetDataSourceContentsResponse GetDataSourceContents(Bluewire.Reporting.Common.ServiceProxy.GetDataSourceContentsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetDataS" +
             "ourceContents", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetDataSourceContentsResponse> GetDataSourceContentsAsync(Bluewire.Reporting.Cli.ServiceProxy.GetDataSourceContentsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetDataSourceContentsResponse> GetDataSourceContentsAsync(Bluewire.Reporting.Common.ServiceProxy.GetDataSourceContentsRequest request);
         
         // CODEGEN: Generating message contract since message ListDatabaseCredentialRetrievalOptionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListData" +
@@ -541,11 +541,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListDatabaseCredentialRetrievalOptionsResponse ListDatabaseCredentialRetrievalOptions(Bluewire.Reporting.Cli.ServiceProxy.ListDatabaseCredentialRetrievalOptionsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListDatabaseCredentialRetrievalOptionsResponse ListDatabaseCredentialRetrievalOptions(Bluewire.Reporting.Common.ServiceProxy.ListDatabaseCredentialRetrievalOptionsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListData" +
             "baseCredentialRetrievalOptions", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListDatabaseCredentialRetrievalOptionsResponse> ListDatabaseCredentialRetrievalOptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListDatabaseCredentialRetrievalOptionsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListDatabaseCredentialRetrievalOptionsResponse> ListDatabaseCredentialRetrievalOptionsAsync(Bluewire.Reporting.Common.ServiceProxy.ListDatabaseCredentialRetrievalOptionsRequest request);
         
         // CODEGEN: Generating message contract since message SetItemDataSourcesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemD" +
@@ -555,11 +555,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetItemDataSourcesResponse SetItemDataSources(Bluewire.Reporting.Cli.ServiceProxy.SetItemDataSourcesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetItemDataSourcesResponse SetItemDataSources(Bluewire.Reporting.Common.ServiceProxy.SetItemDataSourcesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemD" +
             "ataSources", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemDataSourcesResponse> SetItemDataSourcesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetItemDataSourcesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemDataSourcesResponse> SetItemDataSourcesAsync(Bluewire.Reporting.Common.ServiceProxy.SetItemDataSourcesRequest request);
         
         // CODEGEN: Generating message contract since message GetItemDataSourcesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemD" +
@@ -569,11 +569,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcesResponse GetItemDataSources(Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcesResponse GetItemDataSources(Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemD" +
             "ataSources", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcesResponse> GetItemDataSourcesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcesResponse> GetItemDataSourcesAsync(Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/TestConn" +
             "ectForDataSourceDefinition", ReplyAction="*")]
@@ -582,12 +582,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.TestConnectForDataSourceDefinitionResponse TestConnectForDataSourceDefinition(Bluewire.Reporting.Cli.ServiceProxy.TestConnectForDataSourceDefinitionRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.TestConnectForDataSourceDefinitionResponse TestConnectForDataSourceDefinition(Bluewire.Reporting.Common.ServiceProxy.TestConnectForDataSourceDefinitionRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/TestConn" +
             "ectForDataSourceDefinition", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.TestConnectForDataSourceDefinitionResponse> TestConnectForDataSourceDefinitionAsync(Bluewire.Reporting.Cli.ServiceProxy.TestConnectForDataSourceDefinitionRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.TestConnectForDataSourceDefinitionResponse> TestConnectForDataSourceDefinitionAsync(Bluewire.Reporting.Common.ServiceProxy.TestConnectForDataSourceDefinitionRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/TestConn" +
             "ectForItemDataSource", ReplyAction="*")]
@@ -596,12 +596,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.TestConnectForItemDataSourceResponse TestConnectForItemDataSource(Bluewire.Reporting.Cli.ServiceProxy.TestConnectForItemDataSourceRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.TestConnectForItemDataSourceResponse TestConnectForItemDataSource(Bluewire.Reporting.Common.ServiceProxy.TestConnectForItemDataSourceRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/TestConn" +
             "ectForItemDataSource", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.TestConnectForItemDataSourceResponse> TestConnectForItemDataSourceAsync(Bluewire.Reporting.Cli.ServiceProxy.TestConnectForItemDataSourceRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.TestConnectForItemDataSourceResponse> TestConnectForItemDataSourceAsync(Bluewire.Reporting.Common.ServiceProxy.TestConnectForItemDataSourceRequest request);
         
         // CODEGEN: Generating message contract since message CreateRoleRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateRo" +
@@ -611,11 +611,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateRoleResponse CreateRole(Bluewire.Reporting.Cli.ServiceProxy.CreateRoleRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.CreateRoleResponse CreateRole(Bluewire.Reporting.Common.ServiceProxy.CreateRoleRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateRo" +
             "le", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateRoleResponse> CreateRoleAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateRoleRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateRoleResponse> CreateRoleAsync(Bluewire.Reporting.Common.ServiceProxy.CreateRoleRequest request);
         
         // CODEGEN: Generating message contract since message SetRolePropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetRoleP" +
@@ -625,11 +625,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetRolePropertiesResponse SetRoleProperties(Bluewire.Reporting.Cli.ServiceProxy.SetRolePropertiesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetRolePropertiesResponse SetRoleProperties(Bluewire.Reporting.Common.ServiceProxy.SetRolePropertiesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetRoleP" +
             "roperties", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetRolePropertiesResponse> SetRolePropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetRolePropertiesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetRolePropertiesResponse> SetRolePropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.SetRolePropertiesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetRoleP" +
             "roperties", ReplyAction="*")]
@@ -638,12 +638,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetRolePropertiesResponse GetRoleProperties(Bluewire.Reporting.Cli.ServiceProxy.GetRolePropertiesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetRolePropertiesResponse GetRoleProperties(Bluewire.Reporting.Common.ServiceProxy.GetRolePropertiesRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetRoleP" +
             "roperties", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetRolePropertiesResponse> GetRolePropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetRolePropertiesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetRolePropertiesResponse> GetRolePropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.GetRolePropertiesRequest request);
         
         // CODEGEN: Generating message contract since message DeleteRoleRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteRo" +
@@ -653,11 +653,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.DeleteRoleResponse DeleteRole(Bluewire.Reporting.Cli.ServiceProxy.DeleteRoleRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.DeleteRoleResponse DeleteRole(Bluewire.Reporting.Common.ServiceProxy.DeleteRoleRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteRo" +
             "le", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DeleteRoleResponse> DeleteRoleAsync(Bluewire.Reporting.Cli.ServiceProxy.DeleteRoleRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DeleteRoleResponse> DeleteRoleAsync(Bluewire.Reporting.Common.ServiceProxy.DeleteRoleRequest request);
         
         // CODEGEN: Generating message contract since message ListRolesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListRole" +
@@ -667,11 +667,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListRolesResponse ListRoles(Bluewire.Reporting.Cli.ServiceProxy.ListRolesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListRolesResponse ListRoles(Bluewire.Reporting.Common.ServiceProxy.ListRolesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListRole" +
             "s", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListRolesResponse> ListRolesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListRolesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListRolesResponse> ListRolesAsync(Bluewire.Reporting.Common.ServiceProxy.ListRolesRequest request);
         
         // CODEGEN: Generating message contract since message ListTasksRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListTask" +
@@ -681,11 +681,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListTasksResponse ListTasks(Bluewire.Reporting.Cli.ServiceProxy.ListTasksRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListTasksResponse ListTasks(Bluewire.Reporting.Common.ServiceProxy.ListTasksRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListTask" +
             "s", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListTasksResponse> ListTasksAsync(Bluewire.Reporting.Cli.ServiceProxy.ListTasksRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListTasksResponse> ListTasksAsync(Bluewire.Reporting.Common.ServiceProxy.ListTasksRequest request);
         
         // CODEGEN: Generating message contract since message SetPoliciesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetPolic" +
@@ -695,11 +695,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetPoliciesResponse SetPolicies(Bluewire.Reporting.Cli.ServiceProxy.SetPoliciesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetPoliciesResponse SetPolicies(Bluewire.Reporting.Common.ServiceProxy.SetPoliciesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetPolic" +
             "ies", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetPoliciesResponse> SetPoliciesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetPoliciesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetPoliciesResponse> SetPoliciesAsync(Bluewire.Reporting.Common.ServiceProxy.SetPoliciesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetPolic" +
             "ies", ReplyAction="*")]
@@ -708,12 +708,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetPoliciesResponse GetPolicies(Bluewire.Reporting.Cli.ServiceProxy.GetPoliciesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetPoliciesResponse GetPolicies(Bluewire.Reporting.Common.ServiceProxy.GetPoliciesRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetPolic" +
             "ies", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetPoliciesResponse> GetPoliciesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetPoliciesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetPoliciesResponse> GetPoliciesAsync(Bluewire.Reporting.Common.ServiceProxy.GetPoliciesRequest request);
         
         // CODEGEN: Generating message contract since message GetItemDataSourcePromptsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemD" +
@@ -723,11 +723,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcePromptsResponse GetItemDataSourcePrompts(Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcePromptsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcePromptsResponse GetItemDataSourcePrompts(Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcePromptsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemD" +
             "ataSourcePrompts", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcePromptsResponse> GetItemDataSourcePromptsAsync(Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcePromptsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcePromptsResponse> GetItemDataSourcePromptsAsync(Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcePromptsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/Generate" +
             "Model", ReplyAction="*")]
@@ -736,12 +736,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GenerateModelResponse GenerateModel(Bluewire.Reporting.Cli.ServiceProxy.GenerateModelRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GenerateModelResponse GenerateModel(Bluewire.Reporting.Common.ServiceProxy.GenerateModelRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/Generate" +
             "Model", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GenerateModelResponse> GenerateModelAsync(Bluewire.Reporting.Cli.ServiceProxy.GenerateModelRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GenerateModelResponse> GenerateModelAsync(Bluewire.Reporting.Common.ServiceProxy.GenerateModelRequest request);
         
         // CODEGEN: Generating message contract since message GetModelItemPermissionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetModel" +
@@ -751,11 +751,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPermissionsResponse GetModelItemPermissions(Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPermissionsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetModelItemPermissionsResponse GetModelItemPermissions(Bluewire.Reporting.Common.ServiceProxy.GetModelItemPermissionsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetModel" +
             "ItemPermissions", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPermissionsResponse> GetModelItemPermissionsAsync(Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPermissionsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetModelItemPermissionsResponse> GetModelItemPermissionsAsync(Bluewire.Reporting.Common.ServiceProxy.GetModelItemPermissionsRequest request);
         
         // CODEGEN: Generating message contract since message SetModelItemPoliciesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetModel" +
@@ -765,11 +765,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetModelItemPoliciesResponse SetModelItemPolicies(Bluewire.Reporting.Cli.ServiceProxy.SetModelItemPoliciesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetModelItemPoliciesResponse SetModelItemPolicies(Bluewire.Reporting.Common.ServiceProxy.SetModelItemPoliciesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetModel" +
             "ItemPolicies", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetModelItemPoliciesResponse> SetModelItemPoliciesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetModelItemPoliciesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetModelItemPoliciesResponse> SetModelItemPoliciesAsync(Bluewire.Reporting.Common.ServiceProxy.SetModelItemPoliciesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetModel" +
             "ItemPolicies", ReplyAction="*")]
@@ -778,12 +778,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPoliciesResponse GetModelItemPolicies(Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPoliciesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetModelItemPoliciesResponse GetModelItemPolicies(Bluewire.Reporting.Common.ServiceProxy.GetModelItemPoliciesRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetModel" +
             "ItemPolicies", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPoliciesResponse> GetModelItemPoliciesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPoliciesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetModelItemPoliciesResponse> GetModelItemPoliciesAsync(Bluewire.Reporting.Common.ServiceProxy.GetModelItemPoliciesRequest request);
         
         // CODEGEN: Generating message contract since message GetUserModelRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetUserM" +
@@ -793,11 +793,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetUserModelResponse GetUserModel(Bluewire.Reporting.Cli.ServiceProxy.GetUserModelRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetUserModelResponse GetUserModel(Bluewire.Reporting.Common.ServiceProxy.GetUserModelRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetUserM" +
             "odel", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetUserModelResponse> GetUserModelAsync(Bluewire.Reporting.Cli.ServiceProxy.GetUserModelRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetUserModelResponse> GetUserModelAsync(Bluewire.Reporting.Common.ServiceProxy.GetUserModelRequest request);
         
         // CODEGEN: Generating message contract since message InheritModelItemParentSecurityRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/InheritM" +
@@ -807,11 +807,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.InheritModelItemParentSecurityResponse InheritModelItemParentSecurity(Bluewire.Reporting.Cli.ServiceProxy.InheritModelItemParentSecurityRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.InheritModelItemParentSecurityResponse InheritModelItemParentSecurity(Bluewire.Reporting.Common.ServiceProxy.InheritModelItemParentSecurityRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/InheritM" +
             "odelItemParentSecurity", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.InheritModelItemParentSecurityResponse> InheritModelItemParentSecurityAsync(Bluewire.Reporting.Cli.ServiceProxy.InheritModelItemParentSecurityRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.InheritModelItemParentSecurityResponse> InheritModelItemParentSecurityAsync(Bluewire.Reporting.Common.ServiceProxy.InheritModelItemParentSecurityRequest request);
         
         // CODEGEN: Generating message contract since message SetModelDrillthroughReportsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetModel" +
@@ -821,11 +821,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetModelDrillthroughReportsResponse SetModelDrillthroughReports(Bluewire.Reporting.Cli.ServiceProxy.SetModelDrillthroughReportsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetModelDrillthroughReportsResponse SetModelDrillthroughReports(Bluewire.Reporting.Common.ServiceProxy.SetModelDrillthroughReportsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetModel" +
             "DrillthroughReports", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetModelDrillthroughReportsResponse> SetModelDrillthroughReportsAsync(Bluewire.Reporting.Cli.ServiceProxy.SetModelDrillthroughReportsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetModelDrillthroughReportsResponse> SetModelDrillthroughReportsAsync(Bluewire.Reporting.Common.ServiceProxy.SetModelDrillthroughReportsRequest request);
         
         // CODEGEN: Generating message contract since message ListModelDrillthroughReportsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMode" +
@@ -835,11 +835,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListModelDrillthroughReportsResponse ListModelDrillthroughReports(Bluewire.Reporting.Cli.ServiceProxy.ListModelDrillthroughReportsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListModelDrillthroughReportsResponse ListModelDrillthroughReports(Bluewire.Reporting.Common.ServiceProxy.ListModelDrillthroughReportsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMode" +
             "lDrillthroughReports", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListModelDrillthroughReportsResponse> ListModelDrillthroughReportsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListModelDrillthroughReportsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListModelDrillthroughReportsResponse> ListModelDrillthroughReportsAsync(Bluewire.Reporting.Common.ServiceProxy.ListModelDrillthroughReportsRequest request);
         
         // CODEGEN: Generating message contract since message ListModelItemChildrenRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMode" +
@@ -849,11 +849,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListModelItemChildrenResponse ListModelItemChildren(Bluewire.Reporting.Cli.ServiceProxy.ListModelItemChildrenRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListModelItemChildrenResponse ListModelItemChildren(Bluewire.Reporting.Common.ServiceProxy.ListModelItemChildrenRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMode" +
             "lItemChildren", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListModelItemChildrenResponse> ListModelItemChildrenAsync(Bluewire.Reporting.Cli.ServiceProxy.ListModelItemChildrenRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListModelItemChildrenResponse> ListModelItemChildrenAsync(Bluewire.Reporting.Common.ServiceProxy.ListModelItemChildrenRequest request);
         
         // CODEGEN: Generating message contract since message ListModelItemTypesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMode" +
@@ -863,11 +863,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListModelItemTypesResponse ListModelItemTypes(Bluewire.Reporting.Cli.ServiceProxy.ListModelItemTypesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListModelItemTypesResponse ListModelItemTypes(Bluewire.Reporting.Common.ServiceProxy.ListModelItemTypesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMode" +
             "lItemTypes", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListModelItemTypesResponse> ListModelItemTypesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListModelItemTypesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListModelItemTypesResponse> ListModelItemTypesAsync(Bluewire.Reporting.Common.ServiceProxy.ListModelItemTypesRequest request);
         
         // CODEGEN: Generating message contract since message ListModelPerspectivesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMode" +
@@ -877,11 +877,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListModelPerspectivesResponse ListModelPerspectives(Bluewire.Reporting.Cli.ServiceProxy.ListModelPerspectivesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListModelPerspectivesResponse ListModelPerspectives(Bluewire.Reporting.Common.ServiceProxy.ListModelPerspectivesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMode" +
             "lPerspectives", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListModelPerspectivesResponse> ListModelPerspectivesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListModelPerspectivesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListModelPerspectivesResponse> ListModelPerspectivesAsync(Bluewire.Reporting.Common.ServiceProxy.ListModelPerspectivesRequest request);
         
         // CODEGEN: Generating message contract since message RegenerateModelRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/Regenera" +
@@ -891,11 +891,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.RegenerateModelResponse RegenerateModel(Bluewire.Reporting.Cli.ServiceProxy.RegenerateModelRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.RegenerateModelResponse RegenerateModel(Bluewire.Reporting.Common.ServiceProxy.RegenerateModelRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/Regenera" +
             "teModel", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.RegenerateModelResponse> RegenerateModelAsync(Bluewire.Reporting.Cli.ServiceProxy.RegenerateModelRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.RegenerateModelResponse> RegenerateModelAsync(Bluewire.Reporting.Common.ServiceProxy.RegenerateModelRequest request);
         
         // CODEGEN: Generating message contract since message RemoveAllModelItemPoliciesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/RemoveAl" +
@@ -905,11 +905,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.RemoveAllModelItemPoliciesResponse RemoveAllModelItemPolicies(Bluewire.Reporting.Cli.ServiceProxy.RemoveAllModelItemPoliciesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.RemoveAllModelItemPoliciesResponse RemoveAllModelItemPolicies(Bluewire.Reporting.Common.ServiceProxy.RemoveAllModelItemPoliciesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/RemoveAl" +
             "lModelItemPolicies", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.RemoveAllModelItemPoliciesResponse> RemoveAllModelItemPoliciesAsync(Bluewire.Reporting.Cli.ServiceProxy.RemoveAllModelItemPoliciesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.RemoveAllModelItemPoliciesResponse> RemoveAllModelItemPoliciesAsync(Bluewire.Reporting.Common.ServiceProxy.RemoveAllModelItemPoliciesRequest request);
         
         // CODEGEN: Generating message contract since message CreateScheduleRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateSc" +
@@ -919,11 +919,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateScheduleResponse CreateSchedule(Bluewire.Reporting.Cli.ServiceProxy.CreateScheduleRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.CreateScheduleResponse CreateSchedule(Bluewire.Reporting.Common.ServiceProxy.CreateScheduleRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateSc" +
             "hedule", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateScheduleResponse> CreateScheduleAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateScheduleRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateScheduleResponse> CreateScheduleAsync(Bluewire.Reporting.Common.ServiceProxy.CreateScheduleRequest request);
         
         // CODEGEN: Generating message contract since message DeleteScheduleRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteSc" +
@@ -933,11 +933,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.DeleteScheduleResponse DeleteSchedule(Bluewire.Reporting.Cli.ServiceProxy.DeleteScheduleRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.DeleteScheduleResponse DeleteSchedule(Bluewire.Reporting.Common.ServiceProxy.DeleteScheduleRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteSc" +
             "hedule", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DeleteScheduleResponse> DeleteScheduleAsync(Bluewire.Reporting.Cli.ServiceProxy.DeleteScheduleRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DeleteScheduleResponse> DeleteScheduleAsync(Bluewire.Reporting.Common.ServiceProxy.DeleteScheduleRequest request);
         
         // CODEGEN: Generating message contract since message ListSchedulesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSche" +
@@ -947,11 +947,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListSchedulesResponse ListSchedules(Bluewire.Reporting.Cli.ServiceProxy.ListSchedulesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListSchedulesResponse ListSchedules(Bluewire.Reporting.Common.ServiceProxy.ListSchedulesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSche" +
             "dules", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListSchedulesResponse> ListSchedulesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListSchedulesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListSchedulesResponse> ListSchedulesAsync(Bluewire.Reporting.Common.ServiceProxy.ListSchedulesRequest request);
         
         // CODEGEN: Generating message contract since message GetSchedulePropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSched" +
@@ -961,11 +961,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetSchedulePropertiesResponse GetScheduleProperties(Bluewire.Reporting.Cli.ServiceProxy.GetSchedulePropertiesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetSchedulePropertiesResponse GetScheduleProperties(Bluewire.Reporting.Common.ServiceProxy.GetSchedulePropertiesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSched" +
             "uleProperties", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetSchedulePropertiesResponse> GetSchedulePropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetSchedulePropertiesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetSchedulePropertiesResponse> GetSchedulePropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.GetSchedulePropertiesRequest request);
         
         // CODEGEN: Generating message contract since message ListScheduleStatesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSche" +
@@ -975,11 +975,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListScheduleStatesResponse ListScheduleStates(Bluewire.Reporting.Cli.ServiceProxy.ListScheduleStatesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListScheduleStatesResponse ListScheduleStates(Bluewire.Reporting.Common.ServiceProxy.ListScheduleStatesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSche" +
             "duleStates", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListScheduleStatesResponse> ListScheduleStatesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListScheduleStatesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListScheduleStatesResponse> ListScheduleStatesAsync(Bluewire.Reporting.Common.ServiceProxy.ListScheduleStatesRequest request);
         
         // CODEGEN: Generating message contract since message PauseScheduleRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/PauseSch" +
@@ -989,11 +989,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.PauseScheduleResponse PauseSchedule(Bluewire.Reporting.Cli.ServiceProxy.PauseScheduleRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.PauseScheduleResponse PauseSchedule(Bluewire.Reporting.Common.ServiceProxy.PauseScheduleRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/PauseSch" +
             "edule", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.PauseScheduleResponse> PauseScheduleAsync(Bluewire.Reporting.Cli.ServiceProxy.PauseScheduleRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.PauseScheduleResponse> PauseScheduleAsync(Bluewire.Reporting.Common.ServiceProxy.PauseScheduleRequest request);
         
         // CODEGEN: Generating message contract since message ResumeScheduleRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ResumeSc" +
@@ -1003,11 +1003,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ResumeScheduleResponse ResumeSchedule(Bluewire.Reporting.Cli.ServiceProxy.ResumeScheduleRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ResumeScheduleResponse ResumeSchedule(Bluewire.Reporting.Common.ServiceProxy.ResumeScheduleRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ResumeSc" +
             "hedule", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ResumeScheduleResponse> ResumeScheduleAsync(Bluewire.Reporting.Cli.ServiceProxy.ResumeScheduleRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ResumeScheduleResponse> ResumeScheduleAsync(Bluewire.Reporting.Common.ServiceProxy.ResumeScheduleRequest request);
         
         // CODEGEN: Generating message contract since message SetSchedulePropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetSched" +
@@ -1017,11 +1017,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetSchedulePropertiesResponse SetScheduleProperties(Bluewire.Reporting.Cli.ServiceProxy.SetSchedulePropertiesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetSchedulePropertiesResponse SetScheduleProperties(Bluewire.Reporting.Common.ServiceProxy.SetSchedulePropertiesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetSched" +
             "uleProperties", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetSchedulePropertiesResponse> SetSchedulePropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetSchedulePropertiesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetSchedulePropertiesResponse> SetSchedulePropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.SetSchedulePropertiesRequest request);
         
         // CODEGEN: Generating message contract since message ListScheduledItemsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSche" +
@@ -1031,11 +1031,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListScheduledItemsResponse ListScheduledItems(Bluewire.Reporting.Cli.ServiceProxy.ListScheduledItemsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListScheduledItemsResponse ListScheduledItems(Bluewire.Reporting.Common.ServiceProxy.ListScheduledItemsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSche" +
             "duledItems", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListScheduledItemsResponse> ListScheduledItemsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListScheduledItemsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListScheduledItemsResponse> ListScheduledItemsAsync(Bluewire.Reporting.Common.ServiceProxy.ListScheduledItemsRequest request);
         
         // CODEGEN: Generating message contract since message SetItemParametersRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemP" +
@@ -1045,11 +1045,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetItemParametersResponse SetItemParameters(Bluewire.Reporting.Cli.ServiceProxy.SetItemParametersRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetItemParametersResponse SetItemParameters(Bluewire.Reporting.Common.ServiceProxy.SetItemParametersRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemP" +
             "arameters", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemParametersResponse> SetItemParametersAsync(Bluewire.Reporting.Cli.ServiceProxy.SetItemParametersRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemParametersResponse> SetItemParametersAsync(Bluewire.Reporting.Common.ServiceProxy.SetItemParametersRequest request);
         
         // CODEGEN: Generating message contract since message GetItemParametersRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemP" +
@@ -1059,11 +1059,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetItemParametersResponse GetItemParameters(Bluewire.Reporting.Cli.ServiceProxy.GetItemParametersRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetItemParametersResponse GetItemParameters(Bluewire.Reporting.Common.ServiceProxy.GetItemParametersRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemP" +
             "arameters", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemParametersResponse> GetItemParametersAsync(Bluewire.Reporting.Cli.ServiceProxy.GetItemParametersRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemParametersResponse> GetItemParametersAsync(Bluewire.Reporting.Common.ServiceProxy.GetItemParametersRequest request);
         
         // CODEGEN: Generating message contract since message ListParameterTypesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListPara" +
@@ -1073,11 +1073,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListParameterTypesResponse ListParameterTypes(Bluewire.Reporting.Cli.ServiceProxy.ListParameterTypesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListParameterTypesResponse ListParameterTypes(Bluewire.Reporting.Common.ServiceProxy.ListParameterTypesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListPara" +
             "meterTypes", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListParameterTypesResponse> ListParameterTypesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListParameterTypesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListParameterTypesResponse> ListParameterTypesAsync(Bluewire.Reporting.Common.ServiceProxy.ListParameterTypesRequest request);
         
         // CODEGEN: Generating message contract since message ListParameterStatesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListPara" +
@@ -1087,11 +1087,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListParameterStatesResponse ListParameterStates(Bluewire.Reporting.Cli.ServiceProxy.ListParameterStatesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListParameterStatesResponse ListParameterStates(Bluewire.Reporting.Common.ServiceProxy.ListParameterStatesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListPara" +
             "meterStates", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListParameterStatesResponse> ListParameterStatesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListParameterStatesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListParameterStatesResponse> ListParameterStatesAsync(Bluewire.Reporting.Common.ServiceProxy.ListParameterStatesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateRe" +
             "portEditSession", ReplyAction="*")]
@@ -1100,12 +1100,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateReportEditSessionResponse CreateReportEditSession(Bluewire.Reporting.Cli.ServiceProxy.CreateReportEditSessionRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.CreateReportEditSessionResponse CreateReportEditSession(Bluewire.Reporting.Common.ServiceProxy.CreateReportEditSessionRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateRe" +
             "portEditSession", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateReportEditSessionResponse> CreateReportEditSessionAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateReportEditSessionRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateReportEditSessionResponse> CreateReportEditSessionAsync(Bluewire.Reporting.Common.ServiceProxy.CreateReportEditSessionRequest request);
         
         // CODEGEN: Generating message contract since message CreateLinkedItemRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateLi" +
@@ -1115,11 +1115,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateLinkedItemResponse CreateLinkedItem(Bluewire.Reporting.Cli.ServiceProxy.CreateLinkedItemRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.CreateLinkedItemResponse CreateLinkedItem(Bluewire.Reporting.Common.ServiceProxy.CreateLinkedItemRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateLi" +
             "nkedItem", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateLinkedItemResponse> CreateLinkedItemAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateLinkedItemRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateLinkedItemResponse> CreateLinkedItemAsync(Bluewire.Reporting.Common.ServiceProxy.CreateLinkedItemRequest request);
         
         // CODEGEN: Generating message contract since message SetItemLinkRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemL" +
@@ -1129,11 +1129,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetItemLinkResponse SetItemLink(Bluewire.Reporting.Cli.ServiceProxy.SetItemLinkRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetItemLinkResponse SetItemLink(Bluewire.Reporting.Common.ServiceProxy.SetItemLinkRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemL" +
             "ink", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemLinkResponse> SetItemLinkAsync(Bluewire.Reporting.Cli.ServiceProxy.SetItemLinkRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemLinkResponse> SetItemLinkAsync(Bluewire.Reporting.Common.ServiceProxy.SetItemLinkRequest request);
         
         // CODEGEN: Generating message contract since message GetItemLinkRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemL" +
@@ -1143,11 +1143,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetItemLinkResponse GetItemLink(Bluewire.Reporting.Cli.ServiceProxy.GetItemLinkRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetItemLinkResponse GetItemLink(Bluewire.Reporting.Common.ServiceProxy.GetItemLinkRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemL" +
             "ink", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemLinkResponse> GetItemLinkAsync(Bluewire.Reporting.Cli.ServiceProxy.GetItemLinkRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemLinkResponse> GetItemLinkAsync(Bluewire.Reporting.Common.ServiceProxy.GetItemLinkRequest request);
         
         // CODEGEN: Generating message contract since message ListExecutionSettingsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListExec" +
@@ -1157,11 +1157,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListExecutionSettingsResponse ListExecutionSettings(Bluewire.Reporting.Cli.ServiceProxy.ListExecutionSettingsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListExecutionSettingsResponse ListExecutionSettings(Bluewire.Reporting.Common.ServiceProxy.ListExecutionSettingsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListExec" +
             "utionSettings", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListExecutionSettingsResponse> ListExecutionSettingsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListExecutionSettingsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListExecutionSettingsResponse> ListExecutionSettingsAsync(Bluewire.Reporting.Common.ServiceProxy.ListExecutionSettingsRequest request);
         
         // CODEGEN: Generating message contract since message SetExecutionOptionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetExecu" +
@@ -1171,11 +1171,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetExecutionOptionsResponse SetExecutionOptions(Bluewire.Reporting.Cli.ServiceProxy.SetExecutionOptionsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetExecutionOptionsResponse SetExecutionOptions(Bluewire.Reporting.Common.ServiceProxy.SetExecutionOptionsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetExecu" +
             "tionOptions", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetExecutionOptionsResponse> SetExecutionOptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.SetExecutionOptionsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetExecutionOptionsResponse> SetExecutionOptionsAsync(Bluewire.Reporting.Common.ServiceProxy.SetExecutionOptionsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetExecu" +
             "tionOptions", ReplyAction="*")]
@@ -1184,12 +1184,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetExecutionOptionsResponse GetExecutionOptions(Bluewire.Reporting.Cli.ServiceProxy.GetExecutionOptionsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetExecutionOptionsResponse GetExecutionOptions(Bluewire.Reporting.Common.ServiceProxy.GetExecutionOptionsRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetExecu" +
             "tionOptions", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetExecutionOptionsResponse> GetExecutionOptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.GetExecutionOptionsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetExecutionOptionsResponse> GetExecutionOptionsAsync(Bluewire.Reporting.Common.ServiceProxy.GetExecutionOptionsRequest request);
         
         // CODEGEN: Generating message contract since message UpdateItemExecutionSnapshotRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/UpdateIt" +
@@ -1199,11 +1199,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.UpdateItemExecutionSnapshotResponse UpdateItemExecutionSnapshot(Bluewire.Reporting.Cli.ServiceProxy.UpdateItemExecutionSnapshotRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.UpdateItemExecutionSnapshotResponse UpdateItemExecutionSnapshot(Bluewire.Reporting.Common.ServiceProxy.UpdateItemExecutionSnapshotRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/UpdateIt" +
             "emExecutionSnapshot", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.UpdateItemExecutionSnapshotResponse> UpdateItemExecutionSnapshotAsync(Bluewire.Reporting.Cli.ServiceProxy.UpdateItemExecutionSnapshotRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.UpdateItemExecutionSnapshotResponse> UpdateItemExecutionSnapshotAsync(Bluewire.Reporting.Common.ServiceProxy.UpdateItemExecutionSnapshotRequest request);
         
         // CODEGEN: Generating message contract since message SetCacheOptionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetCache" +
@@ -1213,11 +1213,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetCacheOptionsResponse SetCacheOptions(Bluewire.Reporting.Cli.ServiceProxy.SetCacheOptionsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetCacheOptionsResponse SetCacheOptions(Bluewire.Reporting.Common.ServiceProxy.SetCacheOptionsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetCache" +
             "Options", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetCacheOptionsResponse> SetCacheOptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.SetCacheOptionsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetCacheOptionsResponse> SetCacheOptionsAsync(Bluewire.Reporting.Common.ServiceProxy.SetCacheOptionsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetCache" +
             "Options", ReplyAction="*")]
@@ -1226,12 +1226,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetCacheOptionsResponse GetCacheOptions(Bluewire.Reporting.Cli.ServiceProxy.GetCacheOptionsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetCacheOptionsResponse GetCacheOptions(Bluewire.Reporting.Common.ServiceProxy.GetCacheOptionsRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetCache" +
             "Options", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetCacheOptionsResponse> GetCacheOptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.GetCacheOptionsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetCacheOptionsResponse> GetCacheOptionsAsync(Bluewire.Reporting.Common.ServiceProxy.GetCacheOptionsRequest request);
         
         // CODEGEN: Generating message contract since message FlushCacheRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/FlushCac" +
@@ -1241,11 +1241,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.FlushCacheResponse FlushCache(Bluewire.Reporting.Cli.ServiceProxy.FlushCacheRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.FlushCacheResponse FlushCache(Bluewire.Reporting.Common.ServiceProxy.FlushCacheRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/FlushCac" +
             "he", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.FlushCacheResponse> FlushCacheAsync(Bluewire.Reporting.Cli.ServiceProxy.FlushCacheRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.FlushCacheResponse> FlushCacheAsync(Bluewire.Reporting.Common.ServiceProxy.FlushCacheRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateIt" +
             "emHistorySnapshot", ReplyAction="*")]
@@ -1254,12 +1254,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateItemHistorySnapshotResponse CreateItemHistorySnapshot(Bluewire.Reporting.Cli.ServiceProxy.CreateItemHistorySnapshotRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.CreateItemHistorySnapshotResponse CreateItemHistorySnapshot(Bluewire.Reporting.Common.ServiceProxy.CreateItemHistorySnapshotRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateIt" +
             "emHistorySnapshot", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateItemHistorySnapshotResponse> CreateItemHistorySnapshotAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateItemHistorySnapshotRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateItemHistorySnapshotResponse> CreateItemHistorySnapshotAsync(Bluewire.Reporting.Common.ServiceProxy.CreateItemHistorySnapshotRequest request);
         
         // CODEGEN: Generating message contract since message DeleteItemHistorySnapshotRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteIt" +
@@ -1269,11 +1269,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.DeleteItemHistorySnapshotResponse DeleteItemHistorySnapshot(Bluewire.Reporting.Cli.ServiceProxy.DeleteItemHistorySnapshotRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.DeleteItemHistorySnapshotResponse DeleteItemHistorySnapshot(Bluewire.Reporting.Common.ServiceProxy.DeleteItemHistorySnapshotRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteIt" +
             "emHistorySnapshot", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DeleteItemHistorySnapshotResponse> DeleteItemHistorySnapshotAsync(Bluewire.Reporting.Cli.ServiceProxy.DeleteItemHistorySnapshotRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DeleteItemHistorySnapshotResponse> DeleteItemHistorySnapshotAsync(Bluewire.Reporting.Common.ServiceProxy.DeleteItemHistorySnapshotRequest request);
         
         // CODEGEN: Generating message contract since message SetItemHistoryLimitRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemH" +
@@ -1283,11 +1283,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryLimitResponse SetItemHistoryLimit(Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryLimitRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryLimitResponse SetItemHistoryLimit(Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryLimitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemH" +
             "istoryLimit", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryLimitResponse> SetItemHistoryLimitAsync(Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryLimitRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryLimitResponse> SetItemHistoryLimitAsync(Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryLimitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemH" +
             "istoryLimit", ReplyAction="*")]
@@ -1296,12 +1296,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryLimitResponse GetItemHistoryLimit(Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryLimitRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryLimitResponse GetItemHistoryLimit(Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryLimitRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemH" +
             "istoryLimit", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryLimitResponse> GetItemHistoryLimitAsync(Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryLimitRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryLimitResponse> GetItemHistoryLimitAsync(Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryLimitRequest request);
         
         // CODEGEN: Generating message contract since message SetItemHistoryOptionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemH" +
@@ -1311,11 +1311,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryOptionsResponse SetItemHistoryOptions(Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryOptionsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryOptionsResponse SetItemHistoryOptions(Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryOptionsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemH" +
             "istoryOptions", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryOptionsResponse> SetItemHistoryOptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryOptionsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryOptionsResponse> SetItemHistoryOptionsAsync(Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryOptionsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemH" +
             "istoryOptions", ReplyAction="*")]
@@ -1324,12 +1324,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryOptionsResponse GetItemHistoryOptions(Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryOptionsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryOptionsResponse GetItemHistoryOptions(Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryOptionsRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemH" +
             "istoryOptions", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryOptionsResponse> GetItemHistoryOptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryOptionsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryOptionsResponse> GetItemHistoryOptionsAsync(Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryOptionsRequest request);
         
         // CODEGEN: Generating message contract since message GetReportServerConfigInfoRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetRepor" +
@@ -1339,11 +1339,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetReportServerConfigInfoResponse GetReportServerConfigInfo(Bluewire.Reporting.Cli.ServiceProxy.GetReportServerConfigInfoRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetReportServerConfigInfoResponse GetReportServerConfigInfo(Bluewire.Reporting.Common.ServiceProxy.GetReportServerConfigInfoRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetRepor" +
             "tServerConfigInfo", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetReportServerConfigInfoResponse> GetReportServerConfigInfoAsync(Bluewire.Reporting.Cli.ServiceProxy.GetReportServerConfigInfoRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetReportServerConfigInfoResponse> GetReportServerConfigInfoAsync(Bluewire.Reporting.Common.ServiceProxy.GetReportServerConfigInfoRequest request);
         
         // CODEGEN: Generating message contract since message IsSSLRequiredRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/IsSSLReq" +
@@ -1353,11 +1353,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.IsSSLRequiredResponse IsSSLRequired(Bluewire.Reporting.Cli.ServiceProxy.IsSSLRequiredRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.IsSSLRequiredResponse IsSSLRequired(Bluewire.Reporting.Common.ServiceProxy.IsSSLRequiredRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/IsSSLReq" +
             "uired", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.IsSSLRequiredResponse> IsSSLRequiredAsync(Bluewire.Reporting.Cli.ServiceProxy.IsSSLRequiredRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.IsSSLRequiredResponse> IsSSLRequiredAsync(Bluewire.Reporting.Common.ServiceProxy.IsSSLRequiredRequest request);
         
         // CODEGEN: Generating message contract since message SetSystemPropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetSyste" +
@@ -1367,11 +1367,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetSystemPropertiesResponse SetSystemProperties(Bluewire.Reporting.Cli.ServiceProxy.SetSystemPropertiesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetSystemPropertiesResponse SetSystemProperties(Bluewire.Reporting.Common.ServiceProxy.SetSystemPropertiesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetSyste" +
             "mProperties", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetSystemPropertiesResponse> SetSystemPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetSystemPropertiesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetSystemPropertiesResponse> SetSystemPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.SetSystemPropertiesRequest request);
         
         // CODEGEN: Generating message contract since message GetSystemPropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSyste" +
@@ -1381,11 +1381,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetSystemPropertiesResponse GetSystemProperties(Bluewire.Reporting.Cli.ServiceProxy.GetSystemPropertiesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetSystemPropertiesResponse GetSystemProperties(Bluewire.Reporting.Common.ServiceProxy.GetSystemPropertiesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSyste" +
             "mProperties", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetSystemPropertiesResponse> GetSystemPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetSystemPropertiesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetSystemPropertiesResponse> GetSystemPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.GetSystemPropertiesRequest request);
         
         // CODEGEN: Generating message contract since message SetSystemPoliciesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetSyste" +
@@ -1395,11 +1395,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetSystemPoliciesResponse SetSystemPolicies(Bluewire.Reporting.Cli.ServiceProxy.SetSystemPoliciesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetSystemPoliciesResponse SetSystemPolicies(Bluewire.Reporting.Common.ServiceProxy.SetSystemPoliciesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetSyste" +
             "mPolicies", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetSystemPoliciesResponse> SetSystemPoliciesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetSystemPoliciesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetSystemPoliciesResponse> SetSystemPoliciesAsync(Bluewire.Reporting.Common.ServiceProxy.SetSystemPoliciesRequest request);
         
         // CODEGEN: Generating message contract since message GetSystemPoliciesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSyste" +
@@ -1409,11 +1409,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetSystemPoliciesResponse GetSystemPolicies(Bluewire.Reporting.Cli.ServiceProxy.GetSystemPoliciesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetSystemPoliciesResponse GetSystemPolicies(Bluewire.Reporting.Common.ServiceProxy.GetSystemPoliciesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSyste" +
             "mPolicies", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetSystemPoliciesResponse> GetSystemPoliciesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetSystemPoliciesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetSystemPoliciesResponse> GetSystemPoliciesAsync(Bluewire.Reporting.Common.ServiceProxy.GetSystemPoliciesRequest request);
         
         // CODEGEN: Generating message contract since message ListExtensionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListExte" +
@@ -1423,11 +1423,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListExtensionsResponse ListExtensions(Bluewire.Reporting.Cli.ServiceProxy.ListExtensionsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListExtensionsResponse ListExtensions(Bluewire.Reporting.Common.ServiceProxy.ListExtensionsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListExte" +
             "nsions", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListExtensionsResponse> ListExtensionsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListExtensionsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListExtensionsResponse> ListExtensionsAsync(Bluewire.Reporting.Common.ServiceProxy.ListExtensionsRequest request);
         
         // CODEGEN: Generating message contract since message ListExtensionTypesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListExte" +
@@ -1437,11 +1437,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListExtensionTypesResponse ListExtensionTypes(Bluewire.Reporting.Cli.ServiceProxy.ListExtensionTypesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListExtensionTypesResponse ListExtensionTypes(Bluewire.Reporting.Common.ServiceProxy.ListExtensionTypesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListExte" +
             "nsionTypes", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListExtensionTypesResponse> ListExtensionTypesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListExtensionTypesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListExtensionTypesResponse> ListExtensionTypesAsync(Bluewire.Reporting.Common.ServiceProxy.ListExtensionTypesRequest request);
         
         // CODEGEN: Generating message contract since message ListEventsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListEven" +
@@ -1451,11 +1451,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListEventsResponse ListEvents(Bluewire.Reporting.Cli.ServiceProxy.ListEventsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListEventsResponse ListEvents(Bluewire.Reporting.Common.ServiceProxy.ListEventsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListEven" +
             "ts", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListEventsResponse> ListEventsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListEventsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListEventsResponse> ListEventsAsync(Bluewire.Reporting.Common.ServiceProxy.ListEventsRequest request);
         
         // CODEGEN: Generating message contract since message FireEventRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/FireEven" +
@@ -1465,11 +1465,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.FireEventResponse FireEvent(Bluewire.Reporting.Cli.ServiceProxy.FireEventRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.FireEventResponse FireEvent(Bluewire.Reporting.Common.ServiceProxy.FireEventRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/FireEven" +
             "t", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.FireEventResponse> FireEventAsync(Bluewire.Reporting.Cli.ServiceProxy.FireEventRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.FireEventResponse> FireEventAsync(Bluewire.Reporting.Common.ServiceProxy.FireEventRequest request);
         
         // CODEGEN: Generating message contract since message ListJobsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListJobs" +
@@ -1479,11 +1479,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListJobsResponse ListJobs(Bluewire.Reporting.Cli.ServiceProxy.ListJobsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListJobsResponse ListJobs(Bluewire.Reporting.Common.ServiceProxy.ListJobsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListJobs" +
             "", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListJobsResponse> ListJobsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListJobsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListJobsResponse> ListJobsAsync(Bluewire.Reporting.Common.ServiceProxy.ListJobsRequest request);
         
         // CODEGEN: Generating message contract since message ListJobTypesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListJobT" +
@@ -1493,11 +1493,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListJobTypesResponse ListJobTypes(Bluewire.Reporting.Cli.ServiceProxy.ListJobTypesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListJobTypesResponse ListJobTypes(Bluewire.Reporting.Common.ServiceProxy.ListJobTypesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListJobT" +
             "ypes", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListJobTypesResponse> ListJobTypesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListJobTypesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListJobTypesResponse> ListJobTypesAsync(Bluewire.Reporting.Common.ServiceProxy.ListJobTypesRequest request);
         
         // CODEGEN: Generating message contract since message ListJobActionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListJobA" +
@@ -1507,11 +1507,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListJobActionsResponse ListJobActions(Bluewire.Reporting.Cli.ServiceProxy.ListJobActionsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListJobActionsResponse ListJobActions(Bluewire.Reporting.Common.ServiceProxy.ListJobActionsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListJobA" +
             "ctions", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListJobActionsResponse> ListJobActionsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListJobActionsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListJobActionsResponse> ListJobActionsAsync(Bluewire.Reporting.Common.ServiceProxy.ListJobActionsRequest request);
         
         // CODEGEN: Generating message contract since message ListJobStatesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListJobS" +
@@ -1521,11 +1521,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListJobStatesResponse ListJobStates(Bluewire.Reporting.Cli.ServiceProxy.ListJobStatesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListJobStatesResponse ListJobStates(Bluewire.Reporting.Common.ServiceProxy.ListJobStatesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListJobS" +
             "tates", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListJobStatesResponse> ListJobStatesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListJobStatesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListJobStatesResponse> ListJobStatesAsync(Bluewire.Reporting.Common.ServiceProxy.ListJobStatesRequest request);
         
         // CODEGEN: Generating message contract since message CancelJobRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CancelJo" +
@@ -1535,11 +1535,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.CancelJobResponse CancelJob(Bluewire.Reporting.Cli.ServiceProxy.CancelJobRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.CancelJobResponse CancelJob(Bluewire.Reporting.Common.ServiceProxy.CancelJobRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CancelJo" +
             "b", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CancelJobResponse> CancelJobAsync(Bluewire.Reporting.Cli.ServiceProxy.CancelJobRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CancelJobResponse> CancelJobAsync(Bluewire.Reporting.Common.ServiceProxy.CancelJobRequest request);
         
         // CODEGEN: Generating message contract since message CreateCacheRefreshPlanRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateCa" +
@@ -1549,11 +1549,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateCacheRefreshPlanResponse CreateCacheRefreshPlan(Bluewire.Reporting.Cli.ServiceProxy.CreateCacheRefreshPlanRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.CreateCacheRefreshPlanResponse CreateCacheRefreshPlan(Bluewire.Reporting.Common.ServiceProxy.CreateCacheRefreshPlanRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateCa" +
             "cheRefreshPlan", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateCacheRefreshPlanResponse> CreateCacheRefreshPlanAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateCacheRefreshPlanRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateCacheRefreshPlanResponse> CreateCacheRefreshPlanAsync(Bluewire.Reporting.Common.ServiceProxy.CreateCacheRefreshPlanRequest request);
         
         // CODEGEN: Generating message contract since message SetCacheRefreshPlanPropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetCache" +
@@ -1563,11 +1563,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.SetCacheRefreshPlanPropertiesResponse SetCacheRefreshPlanProperties(Bluewire.Reporting.Cli.ServiceProxy.SetCacheRefreshPlanPropertiesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.SetCacheRefreshPlanPropertiesResponse SetCacheRefreshPlanProperties(Bluewire.Reporting.Common.ServiceProxy.SetCacheRefreshPlanPropertiesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetCache" +
             "RefreshPlanProperties", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetCacheRefreshPlanPropertiesResponse> SetCacheRefreshPlanPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetCacheRefreshPlanPropertiesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetCacheRefreshPlanPropertiesResponse> SetCacheRefreshPlanPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.SetCacheRefreshPlanPropertiesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetCache" +
             "RefreshPlanProperties", ReplyAction="*")]
@@ -1576,12 +1576,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetCacheRefreshPlanPropertiesResponse GetCacheRefreshPlanProperties(Bluewire.Reporting.Cli.ServiceProxy.GetCacheRefreshPlanPropertiesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetCacheRefreshPlanPropertiesResponse GetCacheRefreshPlanProperties(Bluewire.Reporting.Common.ServiceProxy.GetCacheRefreshPlanPropertiesRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetCache" +
             "RefreshPlanProperties", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetCacheRefreshPlanPropertiesResponse> GetCacheRefreshPlanPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetCacheRefreshPlanPropertiesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetCacheRefreshPlanPropertiesResponse> GetCacheRefreshPlanPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.GetCacheRefreshPlanPropertiesRequest request);
         
         // CODEGEN: Generating message contract since message DeleteCacheRefreshPlanRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteCa" +
@@ -1591,11 +1591,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.DeleteCacheRefreshPlanResponse DeleteCacheRefreshPlan(Bluewire.Reporting.Cli.ServiceProxy.DeleteCacheRefreshPlanRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.DeleteCacheRefreshPlanResponse DeleteCacheRefreshPlan(Bluewire.Reporting.Common.ServiceProxy.DeleteCacheRefreshPlanRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteCa" +
             "cheRefreshPlan", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DeleteCacheRefreshPlanResponse> DeleteCacheRefreshPlanAsync(Bluewire.Reporting.Cli.ServiceProxy.DeleteCacheRefreshPlanRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DeleteCacheRefreshPlanResponse> DeleteCacheRefreshPlanAsync(Bluewire.Reporting.Common.ServiceProxy.DeleteCacheRefreshPlanRequest request);
         
         // CODEGEN: Generating message contract since message ListCacheRefreshPlansRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListCach" +
@@ -1605,11 +1605,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListCacheRefreshPlansResponse ListCacheRefreshPlans(Bluewire.Reporting.Cli.ServiceProxy.ListCacheRefreshPlansRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListCacheRefreshPlansResponse ListCacheRefreshPlans(Bluewire.Reporting.Common.ServiceProxy.ListCacheRefreshPlansRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListCach" +
             "eRefreshPlans", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListCacheRefreshPlansResponse> ListCacheRefreshPlansAsync(Bluewire.Reporting.Cli.ServiceProxy.ListCacheRefreshPlansRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListCacheRefreshPlansResponse> ListCacheRefreshPlansAsync(Bluewire.Reporting.Common.ServiceProxy.ListCacheRefreshPlansRequest request);
         
         // CODEGEN: Generating message contract since message LogonUserRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/LogonUse" +
@@ -1619,11 +1619,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.LogonUserResponse LogonUser(Bluewire.Reporting.Cli.ServiceProxy.LogonUserRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.LogonUserResponse LogonUser(Bluewire.Reporting.Common.ServiceProxy.LogonUserRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/LogonUse" +
             "r", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.LogonUserResponse> LogonUserAsync(Bluewire.Reporting.Cli.ServiceProxy.LogonUserRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.LogonUserResponse> LogonUserAsync(Bluewire.Reporting.Common.ServiceProxy.LogonUserRequest request);
         
         // CODEGEN: Generating message contract since message LogoffRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/Logoff", ReplyAction="*")]
@@ -1632,10 +1632,10 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.LogoffResponse Logoff(Bluewire.Reporting.Cli.ServiceProxy.LogoffRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.LogoffResponse Logoff(Bluewire.Reporting.Common.ServiceProxy.LogoffRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/Logoff", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.LogoffResponse> LogoffAsync(Bluewire.Reporting.Cli.ServiceProxy.LogoffRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.LogoffResponse> LogoffAsync(Bluewire.Reporting.Common.ServiceProxy.LogoffRequest request);
         
         // CODEGEN: Generating message contract since message GetPermissionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetPermi" +
@@ -1645,11 +1645,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetPermissionsResponse GetPermissions(Bluewire.Reporting.Cli.ServiceProxy.GetPermissionsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetPermissionsResponse GetPermissions(Bluewire.Reporting.Common.ServiceProxy.GetPermissionsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetPermi" +
             "ssions", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetPermissionsResponse> GetPermissionsAsync(Bluewire.Reporting.Cli.ServiceProxy.GetPermissionsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetPermissionsResponse> GetPermissionsAsync(Bluewire.Reporting.Common.ServiceProxy.GetPermissionsRequest request);
         
         // CODEGEN: Generating message contract since message GetSystemPermissionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSyste" +
@@ -1659,11 +1659,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.GetSystemPermissionsResponse GetSystemPermissions(Bluewire.Reporting.Cli.ServiceProxy.GetSystemPermissionsRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.GetSystemPermissionsResponse GetSystemPermissions(Bluewire.Reporting.Common.ServiceProxy.GetSystemPermissionsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSyste" +
             "mPermissions", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetSystemPermissionsResponse> GetSystemPermissionsAsync(Bluewire.Reporting.Cli.ServiceProxy.GetSystemPermissionsRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetSystemPermissionsResponse> GetSystemPermissionsAsync(Bluewire.Reporting.Common.ServiceProxy.GetSystemPermissionsRequest request);
         
         // CODEGEN: Generating message contract since message ListSecurityScopesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSecu" +
@@ -1673,11 +1673,11 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Bluewire.Reporting.Cli.ServiceProxy.ListSecurityScopesResponse ListSecurityScopes(Bluewire.Reporting.Cli.ServiceProxy.ListSecurityScopesRequest request);
+        Bluewire.Reporting.Common.ServiceProxy.ListSecurityScopesResponse ListSecurityScopes(Bluewire.Reporting.Common.ServiceProxy.ListSecurityScopesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSecu" +
             "rityScopes", ReplyAction="*")]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListSecurityScopesResponse> ListSecurityScopesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListSecurityScopesRequest request);
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListSecurityScopesResponse> ListSecurityScopesAsync(Bluewire.Reporting.Common.ServiceProxy.ListSecurityScopesRequest request);
     }
     
     /// <remarks/>
@@ -6473,7 +6473,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateCatalogItemRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemType;
@@ -6492,12 +6492,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public byte[] Definition;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=5)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties;
+        public Bluewire.Reporting.Common.ServiceProxy.Property[] Properties;
         
         public CreateCatalogItemRequest() {
         }
         
-        public CreateCatalogItemRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemType, string Name, string Parent, bool Overwrite, byte[] Definition, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
+        public CreateCatalogItemRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemType, string Name, string Parent, bool Overwrite, byte[] Definition, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemType = ItemType;
             this.Name = Name;
@@ -6514,18 +6514,18 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateCatalogItemResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.CatalogItem ItemInfo;
+        public Bluewire.Reporting.Common.ServiceProxy.CatalogItem ItemInfo;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Warning[] Warnings;
+        public Bluewire.Reporting.Common.ServiceProxy.Warning[] Warnings;
         
         public CreateCatalogItemResponse() {
         }
         
-        public CreateCatalogItemResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.CatalogItem ItemInfo, Bluewire.Reporting.Cli.ServiceProxy.Warning[] Warnings) {
+        public CreateCatalogItemResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.CatalogItem ItemInfo, Bluewire.Reporting.Common.ServiceProxy.Warning[] Warnings) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ItemInfo = ItemInfo;
             this.Warnings = Warnings;
@@ -6539,7 +6539,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetItemDefinitionRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6549,12 +6549,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public byte[] Definition;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties;
+        public Bluewire.Reporting.Common.ServiceProxy.Property[] Properties;
         
         public SetItemDefinitionRequest() {
         }
         
-        public SetItemDefinitionRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, byte[] Definition, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
+        public SetItemDefinitionRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, byte[] Definition, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.Definition = Definition;
@@ -6569,15 +6569,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetItemDefinitionResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Warning[] Warnings;
+        public Bluewire.Reporting.Common.ServiceProxy.Warning[] Warnings;
         
         public SetItemDefinitionResponse() {
         }
         
-        public SetItemDefinitionResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.Warning[] Warnings) {
+        public SetItemDefinitionResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.Warning[] Warnings) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Warnings = Warnings;
         }
@@ -6590,7 +6590,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetItemDefinitionRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6598,7 +6598,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetItemDefinitionRequest() {
         }
         
-        public GetItemDefinitionRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public GetItemDefinitionRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -6611,7 +6611,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetItemDefinitionResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary")]
@@ -6620,7 +6620,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetItemDefinitionResponse() {
         }
         
-        public GetItemDefinitionResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, byte[] Definition) {
+        public GetItemDefinitionResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, byte[] Definition) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Definition = Definition;
         }
@@ -6633,7 +6633,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetItemTypeRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6641,7 +6641,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetItemTypeRequest() {
         }
         
-        public GetItemTypeRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public GetItemTypeRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -6654,7 +6654,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetItemTypeResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Type;
@@ -6662,7 +6662,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetItemTypeResponse() {
         }
         
-        public GetItemTypeResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string Type) {
+        public GetItemTypeResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string Type) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Type = Type;
         }
@@ -6675,7 +6675,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class DeleteItemRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6683,7 +6683,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public DeleteItemRequest() {
         }
         
-        public DeleteItemRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public DeleteItemRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -6696,12 +6696,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class DeleteItemResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public DeleteItemResponse() {
         }
         
-        public DeleteItemResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public DeleteItemResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -6713,7 +6713,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class MoveItemRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6724,7 +6724,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public MoveItemRequest() {
         }
         
-        public MoveItemRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Target) {
+        public MoveItemRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Target) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.Target = Target;
@@ -6738,12 +6738,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class MoveItemResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public MoveItemResponse() {
         }
         
-        public MoveItemResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public MoveItemResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -6755,7 +6755,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class InheritParentSecurityRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6763,7 +6763,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public InheritParentSecurityRequest() {
         }
         
-        public InheritParentSecurityRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public InheritParentSecurityRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -6776,12 +6776,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class InheritParentSecurityResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public InheritParentSecurityResponse() {
         }
         
-        public InheritParentSecurityResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public InheritParentSecurityResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -6793,7 +6793,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListItemHistoryRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6801,7 +6801,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListItemHistoryRequest() {
         }
         
-        public ListItemHistoryRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public ListItemHistoryRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -6814,15 +6814,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListItemHistoryResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ItemHistorySnapshot[] ItemHistory;
+        public Bluewire.Reporting.Common.ServiceProxy.ItemHistorySnapshot[] ItemHistory;
         
         public ListItemHistoryResponse() {
         }
         
-        public ListItemHistoryResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.ItemHistorySnapshot[] ItemHistory) {
+        public ListItemHistoryResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.ItemHistorySnapshot[] ItemHistory) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ItemHistory = ItemHistory;
         }
@@ -6835,7 +6835,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListChildrenRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6846,7 +6846,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListChildrenRequest() {
         }
         
-        public ListChildrenRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool Recursive) {
+        public ListChildrenRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool Recursive) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.Recursive = Recursive;
@@ -6860,15 +6860,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListChildrenResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.CatalogItem[] CatalogItems;
+        public Bluewire.Reporting.Common.ServiceProxy.CatalogItem[] CatalogItems;
         
         public ListChildrenResponse() {
         }
         
-        public ListChildrenResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.CatalogItem[] CatalogItems) {
+        public ListChildrenResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.CatalogItem[] CatalogItems) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.CatalogItems = CatalogItems;
         }
@@ -6881,7 +6881,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListDependentItemsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6889,7 +6889,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListDependentItemsRequest() {
         }
         
-        public ListDependentItemsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public ListDependentItemsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -6902,15 +6902,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListDependentItemsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.CatalogItem[] CatalogItems;
+        public Bluewire.Reporting.Common.ServiceProxy.CatalogItem[] CatalogItems;
         
         public ListDependentItemsResponse() {
         }
         
-        public ListDependentItemsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.CatalogItem[] CatalogItems) {
+        public ListDependentItemsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.CatalogItem[] CatalogItems) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.CatalogItems = CatalogItems;
         }
@@ -6936,24 +6936,24 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class FindItemsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Folder;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.BooleanOperatorEnum BooleanOperator;
+        public Bluewire.Reporting.Common.ServiceProxy.BooleanOperatorEnum BooleanOperator;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Property[] SearchOptions;
+        public Bluewire.Reporting.Common.ServiceProxy.Property[] SearchOptions;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
-        public Bluewire.Reporting.Cli.ServiceProxy.SearchCondition[] SearchConditions;
+        public Bluewire.Reporting.Common.ServiceProxy.SearchCondition[] SearchConditions;
         
         public FindItemsRequest() {
         }
         
-        public FindItemsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Folder, Bluewire.Reporting.Cli.ServiceProxy.BooleanOperatorEnum BooleanOperator, Bluewire.Reporting.Cli.ServiceProxy.Property[] SearchOptions, Bluewire.Reporting.Cli.ServiceProxy.SearchCondition[] SearchConditions) {
+        public FindItemsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Folder, Bluewire.Reporting.Common.ServiceProxy.BooleanOperatorEnum BooleanOperator, Bluewire.Reporting.Common.ServiceProxy.Property[] SearchOptions, Bluewire.Reporting.Common.ServiceProxy.SearchCondition[] SearchConditions) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Folder = Folder;
             this.BooleanOperator = BooleanOperator;
@@ -6969,15 +6969,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class FindItemsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.CatalogItem[] Items;
+        public Bluewire.Reporting.Common.ServiceProxy.CatalogItem[] Items;
         
         public FindItemsResponse() {
         }
         
-        public FindItemsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.CatalogItem[] Items) {
+        public FindItemsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.CatalogItem[] Items) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Items = Items;
         }
@@ -6990,7 +6990,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListParentsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6998,7 +6998,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListParentsRequest() {
         }
         
-        public ListParentsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public ListParentsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -7011,15 +7011,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListParentsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.CatalogItem[] ListParentsResult;
+        public Bluewire.Reporting.Common.ServiceProxy.CatalogItem[] ListParentsResult;
         
         public ListParentsResponse() {
         }
         
-        public ListParentsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.CatalogItem[] ListParentsResult) {
+        public ListParentsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.CatalogItem[] ListParentsResult) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListParentsResult = ListParentsResult;
         }
@@ -7032,7 +7032,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateFolderRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Folder;
@@ -7041,12 +7041,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public string Parent;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties;
+        public Bluewire.Reporting.Common.ServiceProxy.Property[] Properties;
         
         public CreateFolderRequest() {
         }
         
-        public CreateFolderRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Folder, string Parent, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
+        public CreateFolderRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Folder, string Parent, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Folder = Folder;
             this.Parent = Parent;
@@ -7061,15 +7061,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateFolderResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.CatalogItem ItemInfo;
+        public Bluewire.Reporting.Common.ServiceProxy.CatalogItem ItemInfo;
         
         public CreateFolderResponse() {
         }
         
-        public CreateFolderResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.CatalogItem ItemInfo) {
+        public CreateFolderResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.CatalogItem ItemInfo) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ItemInfo = ItemInfo;
         }
@@ -7082,18 +7082,18 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetPropertiesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties;
+        public Bluewire.Reporting.Common.ServiceProxy.Property[] Properties;
         
         public SetPropertiesRequest() {
         }
         
-        public SetPropertiesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
+        public SetPropertiesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.Properties = Properties;
@@ -7107,12 +7107,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetPropertiesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetPropertiesResponse() {
         }
         
-        public SetPropertiesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetPropertiesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -7124,21 +7124,21 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetPropertiesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ItemNamespaceHeader ItemNamespaceHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ItemNamespaceHeader ItemNamespaceHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties;
+        public Bluewire.Reporting.Common.ServiceProxy.Property[] Properties;
         
         public GetPropertiesRequest() {
         }
         
-        public GetPropertiesRequest(Bluewire.Reporting.Cli.ServiceProxy.ItemNamespaceHeader ItemNamespaceHeader, Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
+        public GetPropertiesRequest(Bluewire.Reporting.Common.ServiceProxy.ItemNamespaceHeader ItemNamespaceHeader, Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
             this.ItemNamespaceHeader = ItemNamespaceHeader;
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -7153,15 +7153,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetPropertiesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Property[] Values;
+        public Bluewire.Reporting.Common.ServiceProxy.Property[] Values;
         
         public GetPropertiesResponse() {
         }
         
-        public GetPropertiesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.Property[] Values) {
+        public GetPropertiesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.Property[] Values) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Values = Values;
         }
@@ -7174,18 +7174,18 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetItemReferencesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ItemReference[] ItemReferences;
+        public Bluewire.Reporting.Common.ServiceProxy.ItemReference[] ItemReferences;
         
         public SetItemReferencesRequest() {
         }
         
-        public SetItemReferencesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.ItemReference[] ItemReferences) {
+        public SetItemReferencesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.ItemReference[] ItemReferences) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.ItemReferences = ItemReferences;
@@ -7199,12 +7199,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetItemReferencesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetItemReferencesResponse() {
         }
         
-        public SetItemReferencesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetItemReferencesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -7216,7 +7216,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetItemReferencesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -7227,7 +7227,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetItemReferencesRequest() {
         }
         
-        public GetItemReferencesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string ReferenceItemType) {
+        public GetItemReferencesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string ReferenceItemType) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.ReferenceItemType = ReferenceItemType;
@@ -7241,15 +7241,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetItemReferencesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ItemReferenceData[] ItemReferences;
+        public Bluewire.Reporting.Common.ServiceProxy.ItemReferenceData[] ItemReferences;
         
         public GetItemReferencesResponse() {
         }
         
-        public GetItemReferencesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.ItemReferenceData[] ItemReferences) {
+        public GetItemReferencesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.ItemReferenceData[] ItemReferences) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ItemReferences = ItemReferences;
         }
@@ -7262,12 +7262,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListItemTypesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         public ListItemTypesRequest() {
         }
         
-        public ListItemTypesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+        public ListItemTypesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
             this.TrustedUserHeader = TrustedUserHeader;
         }
     }
@@ -7279,7 +7279,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListItemTypesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListItemTypesResult;
@@ -7287,7 +7287,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListItemTypesResponse() {
         }
         
-        public ListItemTypesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListItemTypesResult) {
+        public ListItemTypesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListItemTypesResult) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListItemTypesResult = ListItemTypesResult;
         }
@@ -7300,13 +7300,13 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetSubscriptionPropertiesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string SubscriptionID;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings;
+        public Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
         public string Description;
@@ -7318,12 +7318,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public string MatchData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=5)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters;
+        public Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters;
         
         public SetSubscriptionPropertiesRequest() {
         }
         
-        public SetSubscriptionPropertiesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID, Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters) {
+        public SetSubscriptionPropertiesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID, Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.SubscriptionID = SubscriptionID;
             this.ExtensionSettings = ExtensionSettings;
@@ -7341,12 +7341,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetSubscriptionPropertiesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetSubscriptionPropertiesResponse() {
         }
         
-        public SetSubscriptionPropertiesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetSubscriptionPropertiesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -7357,7 +7357,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetSubscriptionPropertiesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string SubscriptionID;
@@ -7365,7 +7365,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetSubscriptionPropertiesRequest() {
         }
         
-        public GetSubscriptionPropertiesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID) {
+        public GetSubscriptionPropertiesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.SubscriptionID = SubscriptionID;
         }
@@ -7377,19 +7377,19 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetSubscriptionPropertiesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Owner;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings;
+        public Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
         public string Description;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ActiveState Active;
+        public Bluewire.Reporting.Common.ServiceProxy.ActiveState Active;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=4)]
         public string Status;
@@ -7401,12 +7401,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public string MatchData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=7)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters;
+        public Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters;
         
         public GetSubscriptionPropertiesResponse() {
         }
         
-        public GetSubscriptionPropertiesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string Owner, Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings, string Description, Bluewire.Reporting.Cli.ServiceProxy.ActiveState Active, string Status, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters) {
+        public GetSubscriptionPropertiesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string Owner, Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings, string Description, Bluewire.Reporting.Common.ServiceProxy.ActiveState Active, string Status, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Owner = Owner;
             this.ExtensionSettings = ExtensionSettings;
@@ -7426,16 +7426,16 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetDataDrivenSubscriptionPropertiesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string DataDrivenSubscriptionID;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings;
+        public Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Bluewire.Reporting.Cli.ServiceProxy.DataRetrievalPlan DataRetrievalPlan;
+        public Bluewire.Reporting.Common.ServiceProxy.DataRetrievalPlan DataRetrievalPlan;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
         public string Description;
@@ -7447,12 +7447,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public string MatchData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=6)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ParameterValueOrFieldReference[] Parameters;
+        public Bluewire.Reporting.Common.ServiceProxy.ParameterValueOrFieldReference[] Parameters;
         
         public SetDataDrivenSubscriptionPropertiesRequest() {
         }
         
-        public SetDataDrivenSubscriptionPropertiesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataDrivenSubscriptionID, Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings, Bluewire.Reporting.Cli.ServiceProxy.DataRetrievalPlan DataRetrievalPlan, string Description, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValueOrFieldReference[] Parameters) {
+        public SetDataDrivenSubscriptionPropertiesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataDrivenSubscriptionID, Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings, Bluewire.Reporting.Common.ServiceProxy.DataRetrievalPlan DataRetrievalPlan, string Description, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValueOrFieldReference[] Parameters) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataDrivenSubscriptionID = DataDrivenSubscriptionID;
             this.ExtensionSettings = ExtensionSettings;
@@ -7471,12 +7471,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetDataDrivenSubscriptionPropertiesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetDataDrivenSubscriptionPropertiesResponse() {
         }
         
-        public SetDataDrivenSubscriptionPropertiesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetDataDrivenSubscriptionPropertiesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -7487,7 +7487,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetDataDrivenSubscriptionPropertiesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string DataDrivenSubscriptionID;
@@ -7495,7 +7495,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetDataDrivenSubscriptionPropertiesRequest() {
         }
         
-        public GetDataDrivenSubscriptionPropertiesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataDrivenSubscriptionID) {
+        public GetDataDrivenSubscriptionPropertiesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataDrivenSubscriptionID) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataDrivenSubscriptionID = DataDrivenSubscriptionID;
         }
@@ -7507,22 +7507,22 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetDataDrivenSubscriptionPropertiesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Owner;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings;
+        public Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Bluewire.Reporting.Cli.ServiceProxy.DataRetrievalPlan DataRetrievalPlan;
+        public Bluewire.Reporting.Common.ServiceProxy.DataRetrievalPlan DataRetrievalPlan;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
         public string Description;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=4)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ActiveState Active;
+        public Bluewire.Reporting.Common.ServiceProxy.ActiveState Active;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=5)]
         public string Status;
@@ -7534,12 +7534,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public string MatchData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=8)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ParameterValueOrFieldReference[] Parameters;
+        public Bluewire.Reporting.Common.ServiceProxy.ParameterValueOrFieldReference[] Parameters;
         
         public GetDataDrivenSubscriptionPropertiesResponse() {
         }
         
-        public GetDataDrivenSubscriptionPropertiesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string Owner, Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings, Bluewire.Reporting.Cli.ServiceProxy.DataRetrievalPlan DataRetrievalPlan, string Description, Bluewire.Reporting.Cli.ServiceProxy.ActiveState Active, string Status, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValueOrFieldReference[] Parameters) {
+        public GetDataDrivenSubscriptionPropertiesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string Owner, Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings, Bluewire.Reporting.Common.ServiceProxy.DataRetrievalPlan DataRetrievalPlan, string Description, Bluewire.Reporting.Common.ServiceProxy.ActiveState Active, string Status, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValueOrFieldReference[] Parameters) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Owner = Owner;
             this.ExtensionSettings = ExtensionSettings;
@@ -7560,7 +7560,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class DeleteSubscriptionRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string SubscriptionID;
@@ -7568,7 +7568,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public DeleteSubscriptionRequest() {
         }
         
-        public DeleteSubscriptionRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID) {
+        public DeleteSubscriptionRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.SubscriptionID = SubscriptionID;
         }
@@ -7581,12 +7581,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class DeleteSubscriptionResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public DeleteSubscriptionResponse() {
         }
         
-        public DeleteSubscriptionResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public DeleteSubscriptionResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -7598,13 +7598,13 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateSubscriptionRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings;
+        public Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
         public string Description;
@@ -7616,12 +7616,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public string MatchData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=5)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters;
+        public Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters;
         
         public CreateSubscriptionRequest() {
         }
         
-        public CreateSubscriptionRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters) {
+        public CreateSubscriptionRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.ExtensionSettings = ExtensionSettings;
@@ -7639,7 +7639,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateSubscriptionResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string SubscriptionID;
@@ -7647,7 +7647,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public CreateSubscriptionResponse() {
         }
         
-        public CreateSubscriptionResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string SubscriptionID) {
+        public CreateSubscriptionResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string SubscriptionID) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.SubscriptionID = SubscriptionID;
         }
@@ -7660,16 +7660,16 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateDataDrivenSubscriptionRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings;
+        public Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Bluewire.Reporting.Cli.ServiceProxy.DataRetrievalPlan DataRetrievalPlan;
+        public Bluewire.Reporting.Common.ServiceProxy.DataRetrievalPlan DataRetrievalPlan;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
         public string Description;
@@ -7681,12 +7681,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public string MatchData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=6)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ParameterValueOrFieldReference[] Parameters;
+        public Bluewire.Reporting.Common.ServiceProxy.ParameterValueOrFieldReference[] Parameters;
         
         public CreateDataDrivenSubscriptionRequest() {
         }
         
-        public CreateDataDrivenSubscriptionRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings, Bluewire.Reporting.Cli.ServiceProxy.DataRetrievalPlan DataRetrievalPlan, string Description, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValueOrFieldReference[] Parameters) {
+        public CreateDataDrivenSubscriptionRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings, Bluewire.Reporting.Common.ServiceProxy.DataRetrievalPlan DataRetrievalPlan, string Description, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValueOrFieldReference[] Parameters) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.ExtensionSettings = ExtensionSettings;
@@ -7705,7 +7705,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateDataDrivenSubscriptionResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string SubscriptionID;
@@ -7713,7 +7713,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public CreateDataDrivenSubscriptionResponse() {
         }
         
-        public CreateDataDrivenSubscriptionResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string SubscriptionID) {
+        public CreateDataDrivenSubscriptionResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string SubscriptionID) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.SubscriptionID = SubscriptionID;
         }
@@ -7726,7 +7726,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetExtensionSettingsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Extension;
@@ -7734,7 +7734,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetExtensionSettingsRequest() {
         }
         
-        public GetExtensionSettingsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Extension) {
+        public GetExtensionSettingsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Extension) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Extension = Extension;
         }
@@ -7747,15 +7747,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetExtensionSettingsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ExtensionParameter[] ExtensionParameters;
+        public Bluewire.Reporting.Common.ServiceProxy.ExtensionParameter[] ExtensionParameters;
         
         public GetExtensionSettingsResponse() {
         }
         
-        public GetExtensionSettingsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.ExtensionParameter[] ExtensionParameters) {
+        public GetExtensionSettingsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.ExtensionParameter[] ExtensionParameters) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ExtensionParameters = ExtensionParameters;
         }
@@ -7768,13 +7768,13 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ValidateExtensionSettingsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Extension;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ParameterValueOrFieldReference[] ParameterValues;
+        public Bluewire.Reporting.Common.ServiceProxy.ParameterValueOrFieldReference[] ParameterValues;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
         public string SiteUrl;
@@ -7782,7 +7782,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ValidateExtensionSettingsRequest() {
         }
         
-        public ValidateExtensionSettingsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Extension, Bluewire.Reporting.Cli.ServiceProxy.ParameterValueOrFieldReference[] ParameterValues, string SiteUrl) {
+        public ValidateExtensionSettingsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Extension, Bluewire.Reporting.Common.ServiceProxy.ParameterValueOrFieldReference[] ParameterValues, string SiteUrl) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Extension = Extension;
             this.ParameterValues = ParameterValues;
@@ -7797,15 +7797,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ValidateExtensionSettingsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ExtensionParameter[] ParameterErrors;
+        public Bluewire.Reporting.Common.ServiceProxy.ExtensionParameter[] ParameterErrors;
         
         public ValidateExtensionSettingsResponse() {
         }
         
-        public ValidateExtensionSettingsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.ExtensionParameter[] ParameterErrors) {
+        public ValidateExtensionSettingsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.ExtensionParameter[] ParameterErrors) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ParameterErrors = ParameterErrors;
         }
@@ -7818,7 +7818,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListSubscriptionsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPathOrSiteURL;
@@ -7826,7 +7826,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListSubscriptionsRequest() {
         }
         
-        public ListSubscriptionsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPathOrSiteURL) {
+        public ListSubscriptionsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPathOrSiteURL) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPathOrSiteURL = ItemPathOrSiteURL;
         }
@@ -7839,15 +7839,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListSubscriptionsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Subscription[] SubscriptionItems;
+        public Bluewire.Reporting.Common.ServiceProxy.Subscription[] SubscriptionItems;
         
         public ListSubscriptionsResponse() {
         }
         
-        public ListSubscriptionsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.Subscription[] SubscriptionItems) {
+        public ListSubscriptionsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.Subscription[] SubscriptionItems) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.SubscriptionItems = SubscriptionItems;
         }
@@ -7860,7 +7860,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListMySubscriptionsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPathOrSiteURL;
@@ -7868,7 +7868,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListMySubscriptionsRequest() {
         }
         
-        public ListMySubscriptionsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPathOrSiteURL) {
+        public ListMySubscriptionsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPathOrSiteURL) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPathOrSiteURL = ItemPathOrSiteURL;
         }
@@ -7881,15 +7881,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListMySubscriptionsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Subscription[] SubscriptionItems;
+        public Bluewire.Reporting.Common.ServiceProxy.Subscription[] SubscriptionItems;
         
         public ListMySubscriptionsResponse() {
         }
         
-        public ListMySubscriptionsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.Subscription[] SubscriptionItems) {
+        public ListMySubscriptionsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.Subscription[] SubscriptionItems) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.SubscriptionItems = SubscriptionItems;
         }
@@ -7902,7 +7902,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListSubscriptionsUsingDataSourceRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string DataSource;
@@ -7910,7 +7910,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListSubscriptionsUsingDataSourceRequest() {
         }
         
-        public ListSubscriptionsUsingDataSourceRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
+        public ListSubscriptionsUsingDataSourceRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataSource = DataSource;
         }
@@ -7923,15 +7923,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListSubscriptionsUsingDataSourceResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Subscription[] SubscriptionItems;
+        public Bluewire.Reporting.Common.ServiceProxy.Subscription[] SubscriptionItems;
         
         public ListSubscriptionsUsingDataSourceResponse() {
         }
         
-        public ListSubscriptionsUsingDataSourceResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.Subscription[] SubscriptionItems) {
+        public ListSubscriptionsUsingDataSourceResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.Subscription[] SubscriptionItems) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.SubscriptionItems = SubscriptionItems;
         }
@@ -7944,7 +7944,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ChangeSubscriptionOwnerRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string SubscriptionID;
@@ -7955,7 +7955,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ChangeSubscriptionOwnerRequest() {
         }
         
-        public ChangeSubscriptionOwnerRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID, string NewOwner) {
+        public ChangeSubscriptionOwnerRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID, string NewOwner) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.SubscriptionID = SubscriptionID;
             this.NewOwner = NewOwner;
@@ -7969,12 +7969,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ChangeSubscriptionOwnerResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public ChangeSubscriptionOwnerResponse() {
         }
         
-        public ChangeSubscriptionOwnerResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public ChangeSubscriptionOwnerResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -7986,7 +7986,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateDataSourceRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string DataSource;
@@ -7998,15 +7998,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public bool Overwrite;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
-        public Bluewire.Reporting.Cli.ServiceProxy.DataSourceDefinition Definition;
+        public Bluewire.Reporting.Common.ServiceProxy.DataSourceDefinition Definition;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=4)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties;
+        public Bluewire.Reporting.Common.ServiceProxy.Property[] Properties;
         
         public CreateDataSourceRequest() {
         }
         
-        public CreateDataSourceRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, string Parent, bool Overwrite, Bluewire.Reporting.Cli.ServiceProxy.DataSourceDefinition Definition, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
+        public CreateDataSourceRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, string Parent, bool Overwrite, Bluewire.Reporting.Common.ServiceProxy.DataSourceDefinition Definition, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataSource = DataSource;
             this.Parent = Parent;
@@ -8023,15 +8023,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateDataSourceResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.CatalogItem ItemInfo;
+        public Bluewire.Reporting.Common.ServiceProxy.CatalogItem ItemInfo;
         
         public CreateDataSourceResponse() {
         }
         
-        public CreateDataSourceResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.CatalogItem ItemInfo) {
+        public CreateDataSourceResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.CatalogItem ItemInfo) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ItemInfo = ItemInfo;
         }
@@ -8043,18 +8043,18 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class PrepareQueryRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.DataSource DataSource;
+        public Bluewire.Reporting.Common.ServiceProxy.DataSource DataSource;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.DataSetDefinition DataSet;
+        public Bluewire.Reporting.Common.ServiceProxy.DataSetDefinition DataSet;
         
         public PrepareQueryRequest() {
         }
         
-        public PrepareQueryRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Cli.ServiceProxy.DataSource DataSource, Bluewire.Reporting.Cli.ServiceProxy.DataSetDefinition DataSet) {
+        public PrepareQueryRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Common.ServiceProxy.DataSource DataSource, Bluewire.Reporting.Common.ServiceProxy.DataSetDefinition DataSet) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataSource = DataSource;
             this.DataSet = DataSet;
@@ -8067,10 +8067,10 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class PrepareQueryResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.DataSetDefinition DataSettings;
+        public Bluewire.Reporting.Common.ServiceProxy.DataSetDefinition DataSettings;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
         public bool Changed;
@@ -8081,7 +8081,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public PrepareQueryResponse() {
         }
         
-        public PrepareQueryResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.DataSetDefinition DataSettings, bool Changed, string[] ParameterNames) {
+        public PrepareQueryResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.DataSetDefinition DataSettings, bool Changed, string[] ParameterNames) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.DataSettings = DataSettings;
             this.Changed = Changed;
@@ -8096,7 +8096,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class EnableDataSourceRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string DataSource;
@@ -8104,7 +8104,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public EnableDataSourceRequest() {
         }
         
-        public EnableDataSourceRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
+        public EnableDataSourceRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataSource = DataSource;
         }
@@ -8117,12 +8117,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class EnableDataSourceResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public EnableDataSourceResponse() {
         }
         
-        public EnableDataSourceResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public EnableDataSourceResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -8134,7 +8134,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class DisableDataSourceRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string DataSource;
@@ -8142,7 +8142,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public DisableDataSourceRequest() {
         }
         
-        public DisableDataSourceRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
+        public DisableDataSourceRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataSource = DataSource;
         }
@@ -8155,12 +8155,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class DisableDataSourceResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public DisableDataSourceResponse() {
         }
         
-        public DisableDataSourceResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public DisableDataSourceResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -8172,18 +8172,18 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetDataSourceContentsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string DataSource;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.DataSourceDefinition Definition;
+        public Bluewire.Reporting.Common.ServiceProxy.DataSourceDefinition Definition;
         
         public SetDataSourceContentsRequest() {
         }
         
-        public SetDataSourceContentsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, Bluewire.Reporting.Cli.ServiceProxy.DataSourceDefinition Definition) {
+        public SetDataSourceContentsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, Bluewire.Reporting.Common.ServiceProxy.DataSourceDefinition Definition) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataSource = DataSource;
             this.Definition = Definition;
@@ -8197,12 +8197,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetDataSourceContentsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetDataSourceContentsResponse() {
         }
         
-        public SetDataSourceContentsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetDataSourceContentsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -8214,7 +8214,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetDataSourceContentsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string DataSource;
@@ -8222,7 +8222,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetDataSourceContentsRequest() {
         }
         
-        public GetDataSourceContentsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
+        public GetDataSourceContentsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataSource = DataSource;
         }
@@ -8235,15 +8235,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetDataSourceContentsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.DataSourceDefinition Definition;
+        public Bluewire.Reporting.Common.ServiceProxy.DataSourceDefinition Definition;
         
         public GetDataSourceContentsResponse() {
         }
         
-        public GetDataSourceContentsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.DataSourceDefinition Definition) {
+        public GetDataSourceContentsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.DataSourceDefinition Definition) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Definition = Definition;
         }
@@ -8256,12 +8256,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListDatabaseCredentialRetrievalOptionsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         public ListDatabaseCredentialRetrievalOptionsRequest() {
         }
         
-        public ListDatabaseCredentialRetrievalOptionsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+        public ListDatabaseCredentialRetrievalOptionsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
             this.TrustedUserHeader = TrustedUserHeader;
         }
     }
@@ -8273,7 +8273,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListDatabaseCredentialRetrievalOptionsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListDatabaseCredentialRetrievalOptionsResult;
@@ -8281,7 +8281,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListDatabaseCredentialRetrievalOptionsResponse() {
         }
         
-        public ListDatabaseCredentialRetrievalOptionsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListDatabaseCredentialRetrievalOptionsResult) {
+        public ListDatabaseCredentialRetrievalOptionsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListDatabaseCredentialRetrievalOptionsResult) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListDatabaseCredentialRetrievalOptionsResult = ListDatabaseCredentialRetrievalOptionsResult;
         }
@@ -8294,18 +8294,18 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetItemDataSourcesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.DataSource[] DataSources;
+        public Bluewire.Reporting.Common.ServiceProxy.DataSource[] DataSources;
         
         public SetItemDataSourcesRequest() {
         }
         
-        public SetItemDataSourcesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.DataSource[] DataSources) {
+        public SetItemDataSourcesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.DataSource[] DataSources) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.DataSources = DataSources;
@@ -8319,12 +8319,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetItemDataSourcesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetItemDataSourcesResponse() {
         }
         
-        public SetItemDataSourcesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetItemDataSourcesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -8336,7 +8336,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetItemDataSourcesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -8344,7 +8344,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetItemDataSourcesRequest() {
         }
         
-        public GetItemDataSourcesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public GetItemDataSourcesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -8357,15 +8357,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetItemDataSourcesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.DataSource[] DataSources;
+        public Bluewire.Reporting.Common.ServiceProxy.DataSource[] DataSources;
         
         public GetItemDataSourcesResponse() {
         }
         
-        public GetItemDataSourcesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.DataSource[] DataSources) {
+        public GetItemDataSourcesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.DataSource[] DataSources) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.DataSources = DataSources;
         }
@@ -8377,10 +8377,10 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class TestConnectForDataSourceDefinitionRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.DataSourceDefinition DataSourceDefinition;
+        public Bluewire.Reporting.Common.ServiceProxy.DataSourceDefinition DataSourceDefinition;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
         public string UserName;
@@ -8391,7 +8391,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public TestConnectForDataSourceDefinitionRequest() {
         }
         
-        public TestConnectForDataSourceDefinitionRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Cli.ServiceProxy.DataSourceDefinition DataSourceDefinition, string UserName, string Password) {
+        public TestConnectForDataSourceDefinitionRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Common.ServiceProxy.DataSourceDefinition DataSourceDefinition, string UserName, string Password) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataSourceDefinition = DataSourceDefinition;
             this.UserName = UserName;
@@ -8405,7 +8405,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class TestConnectForDataSourceDefinitionResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public bool TestConnectForDataSourceDefinitionResult;
@@ -8416,7 +8416,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public TestConnectForDataSourceDefinitionResponse() {
         }
         
-        public TestConnectForDataSourceDefinitionResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, bool TestConnectForDataSourceDefinitionResult, string ConnectError) {
+        public TestConnectForDataSourceDefinitionResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, bool TestConnectForDataSourceDefinitionResult, string ConnectError) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.TestConnectForDataSourceDefinitionResult = TestConnectForDataSourceDefinitionResult;
             this.ConnectError = ConnectError;
@@ -8429,7 +8429,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class TestConnectForItemDataSourceRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -8446,7 +8446,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public TestConnectForItemDataSourceRequest() {
         }
         
-        public TestConnectForItemDataSourceRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string DataSourceName, string UserName, string Password) {
+        public TestConnectForItemDataSourceRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string DataSourceName, string UserName, string Password) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.DataSourceName = DataSourceName;
@@ -8461,7 +8461,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class TestConnectForItemDataSourceResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public bool TestConnectForItemDataSourceResult;
@@ -8472,7 +8472,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public TestConnectForItemDataSourceResponse() {
         }
         
-        public TestConnectForItemDataSourceResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, bool TestConnectForItemDataSourceResult, string ConnectError) {
+        public TestConnectForItemDataSourceResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, bool TestConnectForItemDataSourceResult, string ConnectError) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.TestConnectForItemDataSourceResult = TestConnectForItemDataSourceResult;
             this.ConnectError = ConnectError;
@@ -8486,7 +8486,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateRoleRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Name;
@@ -8500,7 +8500,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public CreateRoleRequest() {
         }
         
-        public CreateRoleRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string Description, string[] TaskIDs) {
+        public CreateRoleRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string Description, string[] TaskIDs) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Name = Name;
             this.Description = Description;
@@ -8515,12 +8515,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateRoleResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public CreateRoleResponse() {
         }
         
-        public CreateRoleResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public CreateRoleResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -8532,7 +8532,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetRolePropertiesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Name;
@@ -8546,7 +8546,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public SetRolePropertiesRequest() {
         }
         
-        public SetRolePropertiesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string Description, string[] TaskIDs) {
+        public SetRolePropertiesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string Description, string[] TaskIDs) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Name = Name;
             this.Description = Description;
@@ -8561,12 +8561,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetRolePropertiesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetRolePropertiesResponse() {
         }
         
-        public SetRolePropertiesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetRolePropertiesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -8577,7 +8577,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetRolePropertiesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Name;
@@ -8588,7 +8588,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetRolePropertiesRequest() {
         }
         
-        public GetRolePropertiesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string SiteUrl) {
+        public GetRolePropertiesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string SiteUrl) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Name = Name;
             this.SiteUrl = SiteUrl;
@@ -8601,7 +8601,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetRolePropertiesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] TaskIDs;
@@ -8612,7 +8612,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetRolePropertiesResponse() {
         }
         
-        public GetRolePropertiesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] TaskIDs, string Description) {
+        public GetRolePropertiesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] TaskIDs, string Description) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.TaskIDs = TaskIDs;
             this.Description = Description;
@@ -8626,7 +8626,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class DeleteRoleRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Name;
@@ -8634,7 +8634,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public DeleteRoleRequest() {
         }
         
-        public DeleteRoleRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name) {
+        public DeleteRoleRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Name = Name;
         }
@@ -8647,12 +8647,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class DeleteRoleResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public DeleteRoleResponse() {
         }
         
-        public DeleteRoleResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public DeleteRoleResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -8664,7 +8664,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListRolesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string SecurityScope;
@@ -8675,7 +8675,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListRolesRequest() {
         }
         
-        public ListRolesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SecurityScope, string SiteUrl) {
+        public ListRolesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SecurityScope, string SiteUrl) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.SecurityScope = SecurityScope;
             this.SiteUrl = SiteUrl;
@@ -8689,15 +8689,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListRolesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Role[] Roles;
+        public Bluewire.Reporting.Common.ServiceProxy.Role[] Roles;
         
         public ListRolesResponse() {
         }
         
-        public ListRolesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.Role[] Roles) {
+        public ListRolesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.Role[] Roles) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Roles = Roles;
         }
@@ -8710,7 +8710,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListTasksRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string SecurityScope;
@@ -8718,7 +8718,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListTasksRequest() {
         }
         
-        public ListTasksRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SecurityScope) {
+        public ListTasksRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SecurityScope) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.SecurityScope = SecurityScope;
         }
@@ -8731,15 +8731,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListTasksResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Task[] Tasks;
+        public Bluewire.Reporting.Common.ServiceProxy.Task[] Tasks;
         
         public ListTasksResponse() {
         }
         
-        public ListTasksResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.Task[] Tasks) {
+        public ListTasksResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.Task[] Tasks) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Tasks = Tasks;
         }
@@ -8752,18 +8752,18 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetPoliciesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies;
+        public Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies;
         
         public SetPoliciesRequest() {
         }
         
-        public SetPoliciesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies) {
+        public SetPoliciesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.Policies = Policies;
@@ -8777,12 +8777,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetPoliciesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetPoliciesResponse() {
         }
         
-        public SetPoliciesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetPoliciesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -8793,7 +8793,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetPoliciesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -8801,7 +8801,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetPoliciesRequest() {
         }
         
-        public GetPoliciesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public GetPoliciesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -8813,10 +8813,10 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetPoliciesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies;
+        public Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
         public bool InheritParent;
@@ -8824,7 +8824,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetPoliciesResponse() {
         }
         
-        public GetPoliciesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies, bool InheritParent) {
+        public GetPoliciesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies, bool InheritParent) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Policies = Policies;
             this.InheritParent = InheritParent;
@@ -8838,7 +8838,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetItemDataSourcePromptsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -8846,7 +8846,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetItemDataSourcePromptsRequest() {
         }
         
-        public GetItemDataSourcePromptsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public GetItemDataSourcePromptsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -8859,15 +8859,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetItemDataSourcePromptsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.DataSourcePrompt[] DataSourcePrompts;
+        public Bluewire.Reporting.Common.ServiceProxy.DataSourcePrompt[] DataSourcePrompts;
         
         public GetItemDataSourcePromptsResponse() {
         }
         
-        public GetItemDataSourcePromptsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.DataSourcePrompt[] DataSourcePrompts) {
+        public GetItemDataSourcePromptsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.DataSourcePrompt[] DataSourcePrompts) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.DataSourcePrompts = DataSourcePrompts;
         }
@@ -8879,7 +8879,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GenerateModelRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string DataSource;
@@ -8891,12 +8891,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public string Parent;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties;
+        public Bluewire.Reporting.Common.ServiceProxy.Property[] Properties;
         
         public GenerateModelRequest() {
         }
         
-        public GenerateModelRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, string Model, string Parent, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
+        public GenerateModelRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, string Model, string Parent, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataSource = DataSource;
             this.Model = Model;
@@ -8911,18 +8911,18 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GenerateModelResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.CatalogItem ItemInfo;
+        public Bluewire.Reporting.Common.ServiceProxy.CatalogItem ItemInfo;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Warning[] Warnings;
+        public Bluewire.Reporting.Common.ServiceProxy.Warning[] Warnings;
         
         public GenerateModelResponse() {
         }
         
-        public GenerateModelResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.CatalogItem ItemInfo, Bluewire.Reporting.Cli.ServiceProxy.Warning[] Warnings) {
+        public GenerateModelResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.CatalogItem ItemInfo, Bluewire.Reporting.Common.ServiceProxy.Warning[] Warnings) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ItemInfo = ItemInfo;
             this.Warnings = Warnings;
@@ -8936,7 +8936,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetModelItemPermissionsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -8947,7 +8947,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetModelItemPermissionsRequest() {
         }
         
-        public GetModelItemPermissionsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID) {
+        public GetModelItemPermissionsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
             this.ModelItemID = ModelItemID;
@@ -8961,7 +8961,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetModelItemPermissionsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] Permissions;
@@ -8969,7 +8969,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetModelItemPermissionsResponse() {
         }
         
-        public GetModelItemPermissionsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] Permissions) {
+        public GetModelItemPermissionsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] Permissions) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Permissions = Permissions;
         }
@@ -8982,7 +8982,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetModelItemPoliciesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -8991,12 +8991,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public string ModelItemID;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies;
+        public Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies;
         
         public SetModelItemPoliciesRequest() {
         }
         
-        public SetModelItemPoliciesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies) {
+        public SetModelItemPoliciesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
             this.ModelItemID = ModelItemID;
@@ -9011,12 +9011,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetModelItemPoliciesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetModelItemPoliciesResponse() {
         }
         
-        public SetModelItemPoliciesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetModelItemPoliciesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -9027,7 +9027,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetModelItemPoliciesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -9038,7 +9038,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetModelItemPoliciesRequest() {
         }
         
-        public GetModelItemPoliciesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID) {
+        public GetModelItemPoliciesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
             this.ModelItemID = ModelItemID;
@@ -9051,10 +9051,10 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetModelItemPoliciesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies;
+        public Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
         public bool InheritParent;
@@ -9062,7 +9062,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetModelItemPoliciesResponse() {
         }
         
-        public GetModelItemPoliciesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies, bool InheritParent) {
+        public GetModelItemPoliciesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies, bool InheritParent) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Policies = Policies;
             this.InheritParent = InheritParent;
@@ -9076,7 +9076,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetUserModelRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -9087,7 +9087,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetUserModelRequest() {
         }
         
-        public GetUserModelRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string Perspective) {
+        public GetUserModelRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string Perspective) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
             this.Perspective = Perspective;
@@ -9101,7 +9101,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetUserModelResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary")]
@@ -9110,7 +9110,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetUserModelResponse() {
         }
         
-        public GetUserModelResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, byte[] Definition) {
+        public GetUserModelResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, byte[] Definition) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Definition = Definition;
         }
@@ -9123,7 +9123,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class InheritModelItemParentSecurityRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -9134,7 +9134,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public InheritModelItemParentSecurityRequest() {
         }
         
-        public InheritModelItemParentSecurityRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID) {
+        public InheritModelItemParentSecurityRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
             this.ModelItemID = ModelItemID;
@@ -9148,12 +9148,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class InheritModelItemParentSecurityResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public InheritModelItemParentSecurityResponse() {
         }
         
-        public InheritModelItemParentSecurityResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public InheritModelItemParentSecurityResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -9165,7 +9165,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetModelDrillthroughReportsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -9174,12 +9174,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public string ModelItemID;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ModelDrillthroughReport[] Reports;
+        public Bluewire.Reporting.Common.ServiceProxy.ModelDrillthroughReport[] Reports;
         
         public SetModelDrillthroughReportsRequest() {
         }
         
-        public SetModelDrillthroughReportsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, Bluewire.Reporting.Cli.ServiceProxy.ModelDrillthroughReport[] Reports) {
+        public SetModelDrillthroughReportsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, Bluewire.Reporting.Common.ServiceProxy.ModelDrillthroughReport[] Reports) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
             this.ModelItemID = ModelItemID;
@@ -9194,12 +9194,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetModelDrillthroughReportsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetModelDrillthroughReportsResponse() {
         }
         
-        public SetModelDrillthroughReportsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetModelDrillthroughReportsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -9211,7 +9211,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListModelDrillthroughReportsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -9222,7 +9222,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListModelDrillthroughReportsRequest() {
         }
         
-        public ListModelDrillthroughReportsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID) {
+        public ListModelDrillthroughReportsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
             this.ModelItemID = ModelItemID;
@@ -9236,15 +9236,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListModelDrillthroughReportsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ModelDrillthroughReport[] Reports;
+        public Bluewire.Reporting.Common.ServiceProxy.ModelDrillthroughReport[] Reports;
         
         public ListModelDrillthroughReportsResponse() {
         }
         
-        public ListModelDrillthroughReportsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.ModelDrillthroughReport[] Reports) {
+        public ListModelDrillthroughReportsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.ModelDrillthroughReport[] Reports) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Reports = Reports;
         }
@@ -9257,7 +9257,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListModelItemChildrenRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -9271,7 +9271,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListModelItemChildrenRequest() {
         }
         
-        public ListModelItemChildrenRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, bool Recursive) {
+        public ListModelItemChildrenRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, bool Recursive) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
             this.ModelItemID = ModelItemID;
@@ -9286,15 +9286,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListModelItemChildrenResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ModelItem[] ModelItems;
+        public Bluewire.Reporting.Common.ServiceProxy.ModelItem[] ModelItems;
         
         public ListModelItemChildrenResponse() {
         }
         
-        public ListModelItemChildrenResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.ModelItem[] ModelItems) {
+        public ListModelItemChildrenResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.ModelItem[] ModelItems) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ModelItems = ModelItems;
         }
@@ -9307,12 +9307,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListModelItemTypesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         public ListModelItemTypesRequest() {
         }
         
-        public ListModelItemTypesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+        public ListModelItemTypesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
             this.TrustedUserHeader = TrustedUserHeader;
         }
     }
@@ -9324,7 +9324,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListModelItemTypesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListModelItemTypesResult;
@@ -9332,7 +9332,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListModelItemTypesResponse() {
         }
         
-        public ListModelItemTypesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListModelItemTypesResult) {
+        public ListModelItemTypesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListModelItemTypesResult) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListModelItemTypesResult = ListModelItemTypesResult;
         }
@@ -9345,7 +9345,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListModelPerspectivesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -9353,7 +9353,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListModelPerspectivesRequest() {
         }
         
-        public ListModelPerspectivesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model) {
+        public ListModelPerspectivesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
         }
@@ -9366,15 +9366,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListModelPerspectivesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ModelCatalogItem[] ModelCatalogItems;
+        public Bluewire.Reporting.Common.ServiceProxy.ModelCatalogItem[] ModelCatalogItems;
         
         public ListModelPerspectivesResponse() {
         }
         
-        public ListModelPerspectivesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.ModelCatalogItem[] ModelCatalogItems) {
+        public ListModelPerspectivesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.ModelCatalogItem[] ModelCatalogItems) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ModelCatalogItems = ModelCatalogItems;
         }
@@ -9387,7 +9387,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class RegenerateModelRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -9395,7 +9395,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public RegenerateModelRequest() {
         }
         
-        public RegenerateModelRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model) {
+        public RegenerateModelRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
         }
@@ -9408,15 +9408,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class RegenerateModelResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Warning[] Warnings;
+        public Bluewire.Reporting.Common.ServiceProxy.Warning[] Warnings;
         
         public RegenerateModelResponse() {
         }
         
-        public RegenerateModelResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.Warning[] Warnings) {
+        public RegenerateModelResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.Warning[] Warnings) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Warnings = Warnings;
         }
@@ -9429,7 +9429,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class RemoveAllModelItemPoliciesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -9437,7 +9437,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public RemoveAllModelItemPoliciesRequest() {
         }
         
-        public RemoveAllModelItemPoliciesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model) {
+        public RemoveAllModelItemPoliciesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
         }
@@ -9450,12 +9450,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class RemoveAllModelItemPoliciesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public RemoveAllModelItemPoliciesResponse() {
         }
         
-        public RemoveAllModelItemPoliciesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public RemoveAllModelItemPoliciesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -9467,13 +9467,13 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateScheduleRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Name;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinition ScheduleDefinition;
+        public Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinition ScheduleDefinition;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
         public string SiteUrl;
@@ -9481,7 +9481,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public CreateScheduleRequest() {
         }
         
-        public CreateScheduleRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinition ScheduleDefinition, string SiteUrl) {
+        public CreateScheduleRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinition ScheduleDefinition, string SiteUrl) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Name = Name;
             this.ScheduleDefinition = ScheduleDefinition;
@@ -9496,7 +9496,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateScheduleResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ScheduleID;
@@ -9504,7 +9504,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public CreateScheduleResponse() {
         }
         
-        public CreateScheduleResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string ScheduleID) {
+        public CreateScheduleResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string ScheduleID) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ScheduleID = ScheduleID;
         }
@@ -9517,7 +9517,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class DeleteScheduleRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ScheduleID;
@@ -9525,7 +9525,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public DeleteScheduleRequest() {
         }
         
-        public DeleteScheduleRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
+        public DeleteScheduleRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ScheduleID = ScheduleID;
         }
@@ -9538,12 +9538,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class DeleteScheduleResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public DeleteScheduleResponse() {
         }
         
-        public DeleteScheduleResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public DeleteScheduleResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -9555,7 +9555,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListSchedulesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string SiteUrl;
@@ -9563,7 +9563,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListSchedulesRequest() {
         }
         
-        public ListSchedulesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SiteUrl) {
+        public ListSchedulesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SiteUrl) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.SiteUrl = SiteUrl;
         }
@@ -9576,15 +9576,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListSchedulesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Schedule[] Schedules;
+        public Bluewire.Reporting.Common.ServiceProxy.Schedule[] Schedules;
         
         public ListSchedulesResponse() {
         }
         
-        public ListSchedulesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.Schedule[] Schedules) {
+        public ListSchedulesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.Schedule[] Schedules) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Schedules = Schedules;
         }
@@ -9597,7 +9597,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetSchedulePropertiesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ScheduleID;
@@ -9605,7 +9605,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetSchedulePropertiesRequest() {
         }
         
-        public GetSchedulePropertiesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
+        public GetSchedulePropertiesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ScheduleID = ScheduleID;
         }
@@ -9618,15 +9618,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetSchedulePropertiesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Schedule Schedule;
+        public Bluewire.Reporting.Common.ServiceProxy.Schedule Schedule;
         
         public GetSchedulePropertiesResponse() {
         }
         
-        public GetSchedulePropertiesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.Schedule Schedule) {
+        public GetSchedulePropertiesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.Schedule Schedule) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Schedule = Schedule;
         }
@@ -9639,12 +9639,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListScheduleStatesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         public ListScheduleStatesRequest() {
         }
         
-        public ListScheduleStatesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+        public ListScheduleStatesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
             this.TrustedUserHeader = TrustedUserHeader;
         }
     }
@@ -9656,7 +9656,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListScheduleStatesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListScheduleStatesResult;
@@ -9664,7 +9664,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListScheduleStatesResponse() {
         }
         
-        public ListScheduleStatesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListScheduleStatesResult) {
+        public ListScheduleStatesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListScheduleStatesResult) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListScheduleStatesResult = ListScheduleStatesResult;
         }
@@ -9677,7 +9677,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class PauseScheduleRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ScheduleID;
@@ -9685,7 +9685,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public PauseScheduleRequest() {
         }
         
-        public PauseScheduleRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
+        public PauseScheduleRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ScheduleID = ScheduleID;
         }
@@ -9698,12 +9698,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class PauseScheduleResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public PauseScheduleResponse() {
         }
         
-        public PauseScheduleResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public PauseScheduleResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -9715,7 +9715,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ResumeScheduleRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ScheduleID;
@@ -9723,7 +9723,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ResumeScheduleRequest() {
         }
         
-        public ResumeScheduleRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
+        public ResumeScheduleRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ScheduleID = ScheduleID;
         }
@@ -9736,12 +9736,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ResumeScheduleResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public ResumeScheduleResponse() {
         }
         
-        public ResumeScheduleResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public ResumeScheduleResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -9753,7 +9753,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetSchedulePropertiesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Name;
@@ -9762,12 +9762,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public string ScheduleID;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinition ScheduleDefinition;
+        public Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinition ScheduleDefinition;
         
         public SetSchedulePropertiesRequest() {
         }
         
-        public SetSchedulePropertiesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string ScheduleID, Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinition ScheduleDefinition) {
+        public SetSchedulePropertiesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string ScheduleID, Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinition ScheduleDefinition) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Name = Name;
             this.ScheduleID = ScheduleID;
@@ -9782,12 +9782,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetSchedulePropertiesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetSchedulePropertiesResponse() {
         }
         
-        public SetSchedulePropertiesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetSchedulePropertiesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -9799,7 +9799,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListScheduledItemsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ScheduleID;
@@ -9807,7 +9807,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListScheduledItemsRequest() {
         }
         
-        public ListScheduledItemsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
+        public ListScheduledItemsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ScheduleID = ScheduleID;
         }
@@ -9820,15 +9820,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListScheduledItemsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.CatalogItem[] Items;
+        public Bluewire.Reporting.Common.ServiceProxy.CatalogItem[] Items;
         
         public ListScheduledItemsResponse() {
         }
         
-        public ListScheduledItemsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.CatalogItem[] Items) {
+        public ListScheduledItemsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.CatalogItem[] Items) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Items = Items;
         }
@@ -9841,18 +9841,18 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetItemParametersRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ItemParameter[] Parameters;
+        public Bluewire.Reporting.Common.ServiceProxy.ItemParameter[] Parameters;
         
         public SetItemParametersRequest() {
         }
         
-        public SetItemParametersRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.ItemParameter[] Parameters) {
+        public SetItemParametersRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.ItemParameter[] Parameters) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.Parameters = Parameters;
@@ -9866,12 +9866,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetItemParametersResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetItemParametersResponse() {
         }
         
-        public SetItemParametersResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetItemParametersResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -9883,7 +9883,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetItemParametersRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -9895,15 +9895,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public bool ForRendering;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Values;
+        public Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Values;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=4)]
-        public Bluewire.Reporting.Cli.ServiceProxy.DataSourceCredentials[] Credentials;
+        public Bluewire.Reporting.Common.ServiceProxy.DataSourceCredentials[] Credentials;
         
         public GetItemParametersRequest() {
         }
         
-        public GetItemParametersRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string HistoryID, bool ForRendering, Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Values, Bluewire.Reporting.Cli.ServiceProxy.DataSourceCredentials[] Credentials) {
+        public GetItemParametersRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string HistoryID, bool ForRendering, Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Values, Bluewire.Reporting.Common.ServiceProxy.DataSourceCredentials[] Credentials) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.HistoryID = HistoryID;
@@ -9920,15 +9920,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetItemParametersResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ItemParameter[] Parameters;
+        public Bluewire.Reporting.Common.ServiceProxy.ItemParameter[] Parameters;
         
         public GetItemParametersResponse() {
         }
         
-        public GetItemParametersResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.ItemParameter[] Parameters) {
+        public GetItemParametersResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.ItemParameter[] Parameters) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Parameters = Parameters;
         }
@@ -9941,12 +9941,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListParameterTypesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         public ListParameterTypesRequest() {
         }
         
-        public ListParameterTypesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+        public ListParameterTypesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
             this.TrustedUserHeader = TrustedUserHeader;
         }
     }
@@ -9958,7 +9958,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListParameterTypesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListParameterTypesResult;
@@ -9966,7 +9966,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListParameterTypesResponse() {
         }
         
-        public ListParameterTypesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListParameterTypesResult) {
+        public ListParameterTypesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListParameterTypesResult) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListParameterTypesResult = ListParameterTypesResult;
         }
@@ -9979,12 +9979,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListParameterStatesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         public ListParameterStatesRequest() {
         }
         
-        public ListParameterStatesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+        public ListParameterStatesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
             this.TrustedUserHeader = TrustedUserHeader;
         }
     }
@@ -9996,7 +9996,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListParameterStatesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListParameterStatesResult;
@@ -10004,7 +10004,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListParameterStatesResponse() {
         }
         
-        public ListParameterStatesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListParameterStatesResult) {
+        public ListParameterStatesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListParameterStatesResult) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListParameterStatesResult = ListParameterStatesResult;
         }
@@ -10016,7 +10016,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateReportEditSessionRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Report;
@@ -10031,7 +10031,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public CreateReportEditSessionRequest() {
         }
         
-        public CreateReportEditSessionRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Report, string Parent, byte[] Definition) {
+        public CreateReportEditSessionRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Report, string Parent, byte[] Definition) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Report = Report;
             this.Parent = Parent;
@@ -10045,18 +10045,18 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateReportEditSessionResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string EditSessionID;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Warning[] Warnings;
+        public Bluewire.Reporting.Common.ServiceProxy.Warning[] Warnings;
         
         public CreateReportEditSessionResponse() {
         }
         
-        public CreateReportEditSessionResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string EditSessionID, Bluewire.Reporting.Cli.ServiceProxy.Warning[] Warnings) {
+        public CreateReportEditSessionResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string EditSessionID, Bluewire.Reporting.Common.ServiceProxy.Warning[] Warnings) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.EditSessionID = EditSessionID;
             this.Warnings = Warnings;
@@ -10070,7 +10070,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateLinkedItemRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10082,12 +10082,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public string Link;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties;
+        public Bluewire.Reporting.Common.ServiceProxy.Property[] Properties;
         
         public CreateLinkedItemRequest() {
         }
         
-        public CreateLinkedItemRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Parent, string Link, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
+        public CreateLinkedItemRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Parent, string Link, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.Parent = Parent;
@@ -10103,12 +10103,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateLinkedItemResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public CreateLinkedItemResponse() {
         }
         
-        public CreateLinkedItemResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public CreateLinkedItemResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -10120,7 +10120,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetItemLinkRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10131,7 +10131,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public SetItemLinkRequest() {
         }
         
-        public SetItemLinkRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Link) {
+        public SetItemLinkRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Link) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.Link = Link;
@@ -10145,12 +10145,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetItemLinkResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetItemLinkResponse() {
         }
         
-        public SetItemLinkResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetItemLinkResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -10162,7 +10162,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetItemLinkRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10170,7 +10170,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetItemLinkRequest() {
         }
         
-        public GetItemLinkRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public GetItemLinkRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -10183,7 +10183,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetItemLinkResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Link;
@@ -10191,7 +10191,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetItemLinkResponse() {
         }
         
-        public GetItemLinkResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string Link) {
+        public GetItemLinkResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string Link) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Link = Link;
         }
@@ -10204,12 +10204,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListExecutionSettingsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         public ListExecutionSettingsRequest() {
         }
         
-        public ListExecutionSettingsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+        public ListExecutionSettingsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
             this.TrustedUserHeader = TrustedUserHeader;
         }
     }
@@ -10221,7 +10221,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListExecutionSettingsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListExecutionSettingsResult;
@@ -10229,7 +10229,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListExecutionSettingsResponse() {
         }
         
-        public ListExecutionSettingsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListExecutionSettingsResult) {
+        public ListExecutionSettingsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListExecutionSettingsResult) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListExecutionSettingsResult = ListExecutionSettingsResult;
         }
@@ -10242,7 +10242,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetExecutionOptionsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10254,12 +10254,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.Xml.Serialization.XmlElementAttribute("NoSchedule", typeof(NoSchedule))]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleDefinition", typeof(ScheduleDefinition))]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleReference", typeof(ScheduleReference))]
-        public Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinitionOrReference Item;
+        public Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinitionOrReference Item;
         
         public SetExecutionOptionsRequest() {
         }
         
-        public SetExecutionOptionsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string ExecutionSetting, Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinitionOrReference Item) {
+        public SetExecutionOptionsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string ExecutionSetting, Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinitionOrReference Item) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.ExecutionSetting = ExecutionSetting;
@@ -10274,12 +10274,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetExecutionOptionsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetExecutionOptionsResponse() {
         }
         
-        public SetExecutionOptionsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetExecutionOptionsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -10290,7 +10290,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetExecutionOptionsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10298,7 +10298,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetExecutionOptionsRequest() {
         }
         
-        public GetExecutionOptionsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public GetExecutionOptionsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -10310,7 +10310,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetExecutionOptionsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ExecutionSetting;
@@ -10319,12 +10319,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.Xml.Serialization.XmlElementAttribute("NoSchedule", typeof(NoSchedule))]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleDefinition", typeof(ScheduleDefinition))]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleReference", typeof(ScheduleReference))]
-        public Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinitionOrReference Item;
+        public Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinitionOrReference Item;
         
         public GetExecutionOptionsResponse() {
         }
         
-        public GetExecutionOptionsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string ExecutionSetting, Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinitionOrReference Item) {
+        public GetExecutionOptionsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string ExecutionSetting, Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinitionOrReference Item) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ExecutionSetting = ExecutionSetting;
             this.Item = Item;
@@ -10338,7 +10338,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class UpdateItemExecutionSnapshotRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10346,7 +10346,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public UpdateItemExecutionSnapshotRequest() {
         }
         
-        public UpdateItemExecutionSnapshotRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public UpdateItemExecutionSnapshotRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -10359,12 +10359,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class UpdateItemExecutionSnapshotResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public UpdateItemExecutionSnapshotResponse() {
         }
         
-        public UpdateItemExecutionSnapshotResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public UpdateItemExecutionSnapshotResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -10376,7 +10376,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetCacheOptionsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10387,12 +10387,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleExpiration", typeof(ScheduleExpiration))]
         [System.Xml.Serialization.XmlElementAttribute("TimeExpiration", typeof(TimeExpiration))]
-        public Bluewire.Reporting.Cli.ServiceProxy.ExpirationDefinition Item;
+        public Bluewire.Reporting.Common.ServiceProxy.ExpirationDefinition Item;
         
         public SetCacheOptionsRequest() {
         }
         
-        public SetCacheOptionsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool CacheItem, Bluewire.Reporting.Cli.ServiceProxy.ExpirationDefinition Item) {
+        public SetCacheOptionsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool CacheItem, Bluewire.Reporting.Common.ServiceProxy.ExpirationDefinition Item) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.CacheItem = CacheItem;
@@ -10407,12 +10407,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetCacheOptionsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetCacheOptionsResponse() {
         }
         
-        public SetCacheOptionsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetCacheOptionsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -10423,7 +10423,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetCacheOptionsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10431,7 +10431,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetCacheOptionsRequest() {
         }
         
-        public GetCacheOptionsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public GetCacheOptionsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -10443,7 +10443,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetCacheOptionsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public bool CacheItem;
@@ -10451,12 +10451,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleExpiration", typeof(ScheduleExpiration))]
         [System.Xml.Serialization.XmlElementAttribute("TimeExpiration", typeof(TimeExpiration))]
-        public Bluewire.Reporting.Cli.ServiceProxy.ExpirationDefinition Item;
+        public Bluewire.Reporting.Common.ServiceProxy.ExpirationDefinition Item;
         
         public GetCacheOptionsResponse() {
         }
         
-        public GetCacheOptionsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, bool CacheItem, Bluewire.Reporting.Cli.ServiceProxy.ExpirationDefinition Item) {
+        public GetCacheOptionsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, bool CacheItem, Bluewire.Reporting.Common.ServiceProxy.ExpirationDefinition Item) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.CacheItem = CacheItem;
             this.Item = Item;
@@ -10470,7 +10470,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class FlushCacheRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10478,7 +10478,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public FlushCacheRequest() {
         }
         
-        public FlushCacheRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public FlushCacheRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -10491,12 +10491,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class FlushCacheResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public FlushCacheResponse() {
         }
         
-        public FlushCacheResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public FlushCacheResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -10507,7 +10507,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateItemHistorySnapshotRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10515,7 +10515,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public CreateItemHistorySnapshotRequest() {
         }
         
-        public CreateItemHistorySnapshotRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public CreateItemHistorySnapshotRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -10527,18 +10527,18 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateItemHistorySnapshotResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string HistoryID;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Warning[] Warnings;
+        public Bluewire.Reporting.Common.ServiceProxy.Warning[] Warnings;
         
         public CreateItemHistorySnapshotResponse() {
         }
         
-        public CreateItemHistorySnapshotResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string HistoryID, Bluewire.Reporting.Cli.ServiceProxy.Warning[] Warnings) {
+        public CreateItemHistorySnapshotResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string HistoryID, Bluewire.Reporting.Common.ServiceProxy.Warning[] Warnings) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.HistoryID = HistoryID;
             this.Warnings = Warnings;
@@ -10552,7 +10552,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class DeleteItemHistorySnapshotRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10563,7 +10563,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public DeleteItemHistorySnapshotRequest() {
         }
         
-        public DeleteItemHistorySnapshotRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string HistoryID) {
+        public DeleteItemHistorySnapshotRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string HistoryID) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.HistoryID = HistoryID;
@@ -10577,12 +10577,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class DeleteItemHistorySnapshotResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public DeleteItemHistorySnapshotResponse() {
         }
         
-        public DeleteItemHistorySnapshotResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public DeleteItemHistorySnapshotResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -10594,7 +10594,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetItemHistoryLimitRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10608,7 +10608,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public SetItemHistoryLimitRequest() {
         }
         
-        public SetItemHistoryLimitRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool UseSystem, int HistoryLimit) {
+        public SetItemHistoryLimitRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool UseSystem, int HistoryLimit) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.UseSystem = UseSystem;
@@ -10623,12 +10623,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetItemHistoryLimitResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetItemHistoryLimitResponse() {
         }
         
-        public SetItemHistoryLimitResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetItemHistoryLimitResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -10639,7 +10639,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetItemHistoryLimitRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10647,7 +10647,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetItemHistoryLimitRequest() {
         }
         
-        public GetItemHistoryLimitRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public GetItemHistoryLimitRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -10659,7 +10659,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetItemHistoryLimitResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public int HistoryLimit;
@@ -10673,7 +10673,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetItemHistoryLimitResponse() {
         }
         
-        public GetItemHistoryLimitResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, int HistoryLimit, bool IsSystem, int SystemLimit) {
+        public GetItemHistoryLimitResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, int HistoryLimit, bool IsSystem, int SystemLimit) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.HistoryLimit = HistoryLimit;
             this.IsSystem = IsSystem;
@@ -10688,7 +10688,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetItemHistoryOptionsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10703,12 +10703,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.Xml.Serialization.XmlElementAttribute("NoSchedule", typeof(NoSchedule))]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleDefinition", typeof(ScheduleDefinition))]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleReference", typeof(ScheduleReference))]
-        public Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinitionOrReference Item;
+        public Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinitionOrReference Item;
         
         public SetItemHistoryOptionsRequest() {
         }
         
-        public SetItemHistoryOptionsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool EnableManualSnapshotCreation, bool KeepExecutionSnapshots, Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinitionOrReference Item) {
+        public SetItemHistoryOptionsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool EnableManualSnapshotCreation, bool KeepExecutionSnapshots, Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinitionOrReference Item) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.EnableManualSnapshotCreation = EnableManualSnapshotCreation;
@@ -10724,12 +10724,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetItemHistoryOptionsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetItemHistoryOptionsResponse() {
         }
         
-        public SetItemHistoryOptionsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetItemHistoryOptionsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -10740,7 +10740,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetItemHistoryOptionsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10748,7 +10748,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetItemHistoryOptionsRequest() {
         }
         
-        public GetItemHistoryOptionsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public GetItemHistoryOptionsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -10760,7 +10760,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetItemHistoryOptionsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public bool EnableManualSnapshotCreation;
@@ -10772,12 +10772,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         [System.Xml.Serialization.XmlElementAttribute("NoSchedule", typeof(NoSchedule))]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleDefinition", typeof(ScheduleDefinition))]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleReference", typeof(ScheduleReference))]
-        public Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinitionOrReference Item;
+        public Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinitionOrReference Item;
         
         public GetItemHistoryOptionsResponse() {
         }
         
-        public GetItemHistoryOptionsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, bool EnableManualSnapshotCreation, bool KeepExecutionSnapshots, Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinitionOrReference Item) {
+        public GetItemHistoryOptionsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, bool EnableManualSnapshotCreation, bool KeepExecutionSnapshots, Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinitionOrReference Item) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.EnableManualSnapshotCreation = EnableManualSnapshotCreation;
             this.KeepExecutionSnapshots = KeepExecutionSnapshots;
@@ -10792,7 +10792,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetReportServerConfigInfoRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public bool ScaleOut;
@@ -10800,7 +10800,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetReportServerConfigInfoRequest() {
         }
         
-        public GetReportServerConfigInfoRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, bool ScaleOut) {
+        public GetReportServerConfigInfoRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, bool ScaleOut) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ScaleOut = ScaleOut;
         }
@@ -10813,7 +10813,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetReportServerConfigInfoResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ServerConfigInfo;
@@ -10821,7 +10821,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetReportServerConfigInfoResponse() {
         }
         
-        public GetReportServerConfigInfoResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string ServerConfigInfo) {
+        public GetReportServerConfigInfoResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string ServerConfigInfo) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ServerConfigInfo = ServerConfigInfo;
         }
@@ -10834,12 +10834,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class IsSSLRequiredRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         public IsSSLRequiredRequest() {
         }
         
-        public IsSSLRequiredRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+        public IsSSLRequiredRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
             this.TrustedUserHeader = TrustedUserHeader;
         }
     }
@@ -10851,7 +10851,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class IsSSLRequiredResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public bool IsSSLRequiredResult;
@@ -10859,7 +10859,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public IsSSLRequiredResponse() {
         }
         
-        public IsSSLRequiredResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, bool IsSSLRequiredResult) {
+        public IsSSLRequiredResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, bool IsSSLRequiredResult) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.IsSSLRequiredResult = IsSSLRequiredResult;
         }
@@ -10872,15 +10872,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetSystemPropertiesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties;
+        public Bluewire.Reporting.Common.ServiceProxy.Property[] Properties;
         
         public SetSystemPropertiesRequest() {
         }
         
-        public SetSystemPropertiesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
+        public SetSystemPropertiesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Properties = Properties;
         }
@@ -10893,12 +10893,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetSystemPropertiesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetSystemPropertiesResponse() {
         }
         
-        public SetSystemPropertiesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetSystemPropertiesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -10910,15 +10910,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetSystemPropertiesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties;
+        public Bluewire.Reporting.Common.ServiceProxy.Property[] Properties;
         
         public GetSystemPropertiesRequest() {
         }
         
-        public GetSystemPropertiesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
+        public GetSystemPropertiesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Properties = Properties;
         }
@@ -10931,15 +10931,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetSystemPropertiesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Property[] Values;
+        public Bluewire.Reporting.Common.ServiceProxy.Property[] Values;
         
         public GetSystemPropertiesResponse() {
         }
         
-        public GetSystemPropertiesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.Property[] Values) {
+        public GetSystemPropertiesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.Property[] Values) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Values = Values;
         }
@@ -10952,15 +10952,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetSystemPoliciesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies;
+        public Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies;
         
         public SetSystemPoliciesRequest() {
         }
         
-        public SetSystemPoliciesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies) {
+        public SetSystemPoliciesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Policies = Policies;
         }
@@ -10973,12 +10973,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetSystemPoliciesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetSystemPoliciesResponse() {
         }
         
-        public SetSystemPoliciesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetSystemPoliciesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -10990,12 +10990,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetSystemPoliciesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         public GetSystemPoliciesRequest() {
         }
         
-        public GetSystemPoliciesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+        public GetSystemPoliciesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
             this.TrustedUserHeader = TrustedUserHeader;
         }
     }
@@ -11007,15 +11007,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetSystemPoliciesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies;
+        public Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies;
         
         public GetSystemPoliciesResponse() {
         }
         
-        public GetSystemPoliciesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies) {
+        public GetSystemPoliciesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Policies = Policies;
         }
@@ -11028,7 +11028,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListExtensionsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ExtensionType;
@@ -11036,7 +11036,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListExtensionsRequest() {
         }
         
-        public ListExtensionsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ExtensionType) {
+        public ListExtensionsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ExtensionType) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ExtensionType = ExtensionType;
         }
@@ -11049,15 +11049,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListExtensionsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Extension[] Extensions;
+        public Bluewire.Reporting.Common.ServiceProxy.Extension[] Extensions;
         
         public ListExtensionsResponse() {
         }
         
-        public ListExtensionsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.Extension[] Extensions) {
+        public ListExtensionsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.Extension[] Extensions) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Extensions = Extensions;
         }
@@ -11070,12 +11070,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListExtensionTypesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         public ListExtensionTypesRequest() {
         }
         
-        public ListExtensionTypesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+        public ListExtensionTypesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
             this.TrustedUserHeader = TrustedUserHeader;
         }
     }
@@ -11087,7 +11087,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListExtensionTypesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListExtensionTypesResult;
@@ -11095,7 +11095,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListExtensionTypesResponse() {
         }
         
-        public ListExtensionTypesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListExtensionTypesResult) {
+        public ListExtensionTypesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListExtensionTypesResult) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListExtensionTypesResult = ListExtensionTypesResult;
         }
@@ -11108,12 +11108,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListEventsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         public ListEventsRequest() {
         }
         
-        public ListEventsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+        public ListEventsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
             this.TrustedUserHeader = TrustedUserHeader;
         }
     }
@@ -11125,15 +11125,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListEventsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Event[] Events;
+        public Bluewire.Reporting.Common.ServiceProxy.Event[] Events;
         
         public ListEventsResponse() {
         }
         
-        public ListEventsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.Event[] Events) {
+        public ListEventsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.Event[] Events) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Events = Events;
         }
@@ -11146,7 +11146,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class FireEventRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string EventType;
@@ -11160,7 +11160,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public FireEventRequest() {
         }
         
-        public FireEventRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string EventType, string EventData, string SiteUrl) {
+        public FireEventRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string EventType, string EventData, string SiteUrl) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.EventType = EventType;
             this.EventData = EventData;
@@ -11175,12 +11175,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class FireEventResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public FireEventResponse() {
         }
         
-        public FireEventResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public FireEventResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -11192,12 +11192,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListJobsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         public ListJobsRequest() {
         }
         
-        public ListJobsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+        public ListJobsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
             this.TrustedUserHeader = TrustedUserHeader;
         }
     }
@@ -11209,15 +11209,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListJobsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.Job[] Jobs;
+        public Bluewire.Reporting.Common.ServiceProxy.Job[] Jobs;
         
         public ListJobsResponse() {
         }
         
-        public ListJobsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.Job[] Jobs) {
+        public ListJobsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.Job[] Jobs) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Jobs = Jobs;
         }
@@ -11230,12 +11230,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListJobTypesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         public ListJobTypesRequest() {
         }
         
-        public ListJobTypesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+        public ListJobTypesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
             this.TrustedUserHeader = TrustedUserHeader;
         }
     }
@@ -11247,7 +11247,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListJobTypesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListJobTypesResult;
@@ -11255,7 +11255,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListJobTypesResponse() {
         }
         
-        public ListJobTypesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListJobTypesResult) {
+        public ListJobTypesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListJobTypesResult) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListJobTypesResult = ListJobTypesResult;
         }
@@ -11268,12 +11268,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListJobActionsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         public ListJobActionsRequest() {
         }
         
-        public ListJobActionsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+        public ListJobActionsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
             this.TrustedUserHeader = TrustedUserHeader;
         }
     }
@@ -11285,7 +11285,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListJobActionsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListJobActionsResult;
@@ -11293,7 +11293,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListJobActionsResponse() {
         }
         
-        public ListJobActionsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListJobActionsResult) {
+        public ListJobActionsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListJobActionsResult) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListJobActionsResult = ListJobActionsResult;
         }
@@ -11306,12 +11306,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListJobStatesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         public ListJobStatesRequest() {
         }
         
-        public ListJobStatesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+        public ListJobStatesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
             this.TrustedUserHeader = TrustedUserHeader;
         }
     }
@@ -11323,7 +11323,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListJobStatesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListJobStatesResult;
@@ -11331,7 +11331,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListJobStatesResponse() {
         }
         
-        public ListJobStatesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListJobStatesResult) {
+        public ListJobStatesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListJobStatesResult) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListJobStatesResult = ListJobStatesResult;
         }
@@ -11344,7 +11344,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CancelJobRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string JobID;
@@ -11352,7 +11352,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public CancelJobRequest() {
         }
         
-        public CancelJobRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string JobID) {
+        public CancelJobRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string JobID) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.JobID = JobID;
         }
@@ -11365,7 +11365,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CancelJobResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public bool CancelJobResult;
@@ -11373,7 +11373,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public CancelJobResponse() {
         }
         
-        public CancelJobResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, bool CancelJobResult) {
+        public CancelJobResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, bool CancelJobResult) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.CancelJobResult = CancelJobResult;
         }
@@ -11386,7 +11386,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateCacheRefreshPlanRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -11401,12 +11401,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public string MatchData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=4)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters;
+        public Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters;
         
         public CreateCacheRefreshPlanRequest() {
         }
         
-        public CreateCacheRefreshPlanRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Description, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters) {
+        public CreateCacheRefreshPlanRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Description, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
             this.Description = Description;
@@ -11423,7 +11423,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class CreateCacheRefreshPlanResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string CacheRefreshPlanID;
@@ -11431,7 +11431,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public CreateCacheRefreshPlanResponse() {
         }
         
-        public CreateCacheRefreshPlanResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string CacheRefreshPlanID) {
+        public CreateCacheRefreshPlanResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string CacheRefreshPlanID) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.CacheRefreshPlanID = CacheRefreshPlanID;
         }
@@ -11444,7 +11444,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetCacheRefreshPlanPropertiesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string CacheRefreshPlanID;
@@ -11459,12 +11459,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public string MatchData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=4)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters;
+        public Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters;
         
         public SetCacheRefreshPlanPropertiesRequest() {
         }
         
-        public SetCacheRefreshPlanPropertiesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID, string Description, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters) {
+        public SetCacheRefreshPlanPropertiesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID, string Description, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.CacheRefreshPlanID = CacheRefreshPlanID;
             this.Description = Description;
@@ -11481,12 +11481,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class SetCacheRefreshPlanPropertiesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public SetCacheRefreshPlanPropertiesResponse() {
         }
         
-        public SetCacheRefreshPlanPropertiesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public SetCacheRefreshPlanPropertiesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -11497,7 +11497,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetCacheRefreshPlanPropertiesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string CacheRefreshPlanID;
@@ -11505,7 +11505,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetCacheRefreshPlanPropertiesRequest() {
         }
         
-        public GetCacheRefreshPlanPropertiesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID) {
+        public GetCacheRefreshPlanPropertiesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.CacheRefreshPlanID = CacheRefreshPlanID;
         }
@@ -11517,7 +11517,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetCacheRefreshPlanPropertiesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Description;
@@ -11526,7 +11526,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public string LastRunStatus;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Bluewire.Reporting.Cli.ServiceProxy.CacheRefreshPlanState State;
+        public Bluewire.Reporting.Common.ServiceProxy.CacheRefreshPlanState State;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
         public string EventType;
@@ -11535,12 +11535,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public string MatchData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=5)]
-        public Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters;
+        public Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters;
         
         public GetCacheRefreshPlanPropertiesResponse() {
         }
         
-        public GetCacheRefreshPlanPropertiesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string Description, string LastRunStatus, Bluewire.Reporting.Cli.ServiceProxy.CacheRefreshPlanState State, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters) {
+        public GetCacheRefreshPlanPropertiesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string Description, string LastRunStatus, Bluewire.Reporting.Common.ServiceProxy.CacheRefreshPlanState State, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Description = Description;
             this.LastRunStatus = LastRunStatus;
@@ -11558,7 +11558,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class DeleteCacheRefreshPlanRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string CacheRefreshPlanID;
@@ -11566,7 +11566,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public DeleteCacheRefreshPlanRequest() {
         }
         
-        public DeleteCacheRefreshPlanRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID) {
+        public DeleteCacheRefreshPlanRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.CacheRefreshPlanID = CacheRefreshPlanID;
         }
@@ -11579,12 +11579,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class DeleteCacheRefreshPlanResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public DeleteCacheRefreshPlanResponse() {
         }
         
-        public DeleteCacheRefreshPlanResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public DeleteCacheRefreshPlanResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -11596,7 +11596,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListCacheRefreshPlansRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -11604,7 +11604,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListCacheRefreshPlansRequest() {
         }
         
-        public ListCacheRefreshPlansRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public ListCacheRefreshPlansRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -11617,15 +11617,15 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListCacheRefreshPlansResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Bluewire.Reporting.Cli.ServiceProxy.CacheRefreshPlan[] CacheRefreshPlans;
+        public Bluewire.Reporting.Common.ServiceProxy.CacheRefreshPlan[] CacheRefreshPlans;
         
         public ListCacheRefreshPlansResponse() {
         }
         
-        public ListCacheRefreshPlansResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Cli.ServiceProxy.CacheRefreshPlan[] CacheRefreshPlans) {
+        public ListCacheRefreshPlansResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, Bluewire.Reporting.Common.ServiceProxy.CacheRefreshPlan[] CacheRefreshPlans) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.CacheRefreshPlans = CacheRefreshPlans;
         }
@@ -11638,7 +11638,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class LogonUserRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string userName;
@@ -11652,7 +11652,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public LogonUserRequest() {
         }
         
-        public LogonUserRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string userName, string password, string authority) {
+        public LogonUserRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string userName, string password, string authority) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.userName = userName;
             this.password = password;
@@ -11667,12 +11667,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class LogonUserResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public LogonUserResponse() {
         }
         
-        public LogonUserResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public LogonUserResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -11684,12 +11684,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class LogoffRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         public LogoffRequest() {
         }
         
-        public LogoffRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+        public LogoffRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
             this.TrustedUserHeader = TrustedUserHeader;
         }
     }
@@ -11701,12 +11701,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class LogoffResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         public LogoffResponse() {
         }
         
-        public LogoffResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
+        public LogoffResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader) {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
@@ -11718,7 +11718,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetPermissionsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -11726,7 +11726,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetPermissionsRequest() {
         }
         
-        public GetPermissionsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+        public GetPermissionsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
         }
@@ -11739,7 +11739,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetPermissionsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         [System.Xml.Serialization.XmlArrayItemAttribute("Operation")]
@@ -11748,7 +11748,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetPermissionsResponse() {
         }
         
-        public GetPermissionsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] Permissions) {
+        public GetPermissionsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] Permissions) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Permissions = Permissions;
         }
@@ -11761,12 +11761,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetSystemPermissionsRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         public GetSystemPermissionsRequest() {
         }
         
-        public GetSystemPermissionsRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+        public GetSystemPermissionsRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
             this.TrustedUserHeader = TrustedUserHeader;
         }
     }
@@ -11778,7 +11778,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class GetSystemPermissionsResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         [System.Xml.Serialization.XmlArrayItemAttribute("Operation")]
@@ -11787,7 +11787,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public GetSystemPermissionsResponse() {
         }
         
-        public GetSystemPermissionsResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] Permissions) {
+        public GetSystemPermissionsResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] Permissions) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Permissions = Permissions;
         }
@@ -11800,12 +11800,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListSecurityScopesRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader;
         
         public ListSecurityScopesRequest() {
         }
         
-        public ListSecurityScopesRequest(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+        public ListSecurityScopesRequest(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
             this.TrustedUserHeader = TrustedUserHeader;
         }
     }
@@ -11817,7 +11817,7 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
     public partial class ListSecurityScopesResponse {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader;
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListSecurityScopesResult;
@@ -11825,19 +11825,19 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         public ListSecurityScopesResponse() {
         }
         
-        public ListSecurityScopesResponse(Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListSecurityScopesResult) {
+        public ListSecurityScopesResponse(Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ServerInfoHeader, string[] ListSecurityScopesResult) {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListSecurityScopesResult = ListSecurityScopesResult;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface ReportingService2010SoapChannel : Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap, System.ServiceModel.IClientChannel {
+    public interface ReportingService2010SoapChannel : Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class ReportingService2010SoapClient : System.ServiceModel.ClientBase<Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap>, Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap {
+    public partial class ReportingService2010SoapClient : System.ServiceModel.ClientBase<Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap>, Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap {
         
         public ReportingService2010SoapClient() {
         }
@@ -11859,12 +11859,12 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateCatalogItemResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CreateCatalogItem(Bluewire.Reporting.Cli.ServiceProxy.CreateCatalogItemRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.CreateCatalogItemResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CreateCatalogItem(Bluewire.Reporting.Common.ServiceProxy.CreateCatalogItemRequest request) {
             return base.Channel.CreateCatalogItem(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader CreateCatalogItem(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemType, string Name, string Parent, bool Overwrite, byte[] Definition, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties, out Bluewire.Reporting.Cli.ServiceProxy.CatalogItem ItemInfo, out Bluewire.Reporting.Cli.ServiceProxy.Warning[] Warnings) {
-            Bluewire.Reporting.Cli.ServiceProxy.CreateCatalogItemRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CreateCatalogItemRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader CreateCatalogItem(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemType, string Name, string Parent, bool Overwrite, byte[] Definition, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties, out Bluewire.Reporting.Common.ServiceProxy.CatalogItem ItemInfo, out Bluewire.Reporting.Common.ServiceProxy.Warning[] Warnings) {
+            Bluewire.Reporting.Common.ServiceProxy.CreateCatalogItemRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CreateCatalogItemRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemType = ItemType;
             inValue.Name = Name;
@@ -11872,486 +11872,486 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
             inValue.Overwrite = Overwrite;
             inValue.Definition = Definition;
             inValue.Properties = Properties;
-            Bluewire.Reporting.Cli.ServiceProxy.CreateCatalogItemResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CreateCatalogItem(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.CreateCatalogItemResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CreateCatalogItem(inValue);
             ItemInfo = retVal.ItemInfo;
             Warnings = retVal.Warnings;
             return retVal.ServerInfoHeader;
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateCatalogItemResponse> CreateCatalogItemAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateCatalogItemRequest request) {
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateCatalogItemResponse> CreateCatalogItemAsync(Bluewire.Reporting.Common.ServiceProxy.CreateCatalogItemRequest request) {
             return base.Channel.CreateCatalogItemAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetItemDefinitionResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetItemDefinition(Bluewire.Reporting.Cli.ServiceProxy.SetItemDefinitionRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetItemDefinitionResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetItemDefinition(Bluewire.Reporting.Common.ServiceProxy.SetItemDefinitionRequest request) {
             return base.Channel.SetItemDefinition(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetItemDefinition(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, byte[] Definition, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties, out Bluewire.Reporting.Cli.ServiceProxy.Warning[] Warnings) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemDefinitionRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetItemDefinitionRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetItemDefinition(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, byte[] Definition, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties, out Bluewire.Reporting.Common.ServiceProxy.Warning[] Warnings) {
+            Bluewire.Reporting.Common.ServiceProxy.SetItemDefinitionRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetItemDefinitionRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Definition = Definition;
             inValue.Properties = Properties;
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemDefinitionResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetItemDefinition(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetItemDefinitionResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetItemDefinition(inValue);
             Warnings = retVal.Warnings;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemDefinitionResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetItemDefinitionAsync(Bluewire.Reporting.Cli.ServiceProxy.SetItemDefinitionRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemDefinitionResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetItemDefinitionAsync(Bluewire.Reporting.Common.ServiceProxy.SetItemDefinitionRequest request) {
             return base.Channel.SetItemDefinitionAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemDefinitionResponse> SetItemDefinitionAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, byte[] Definition, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemDefinitionRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetItemDefinitionRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemDefinitionResponse> SetItemDefinitionAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, byte[] Definition, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
+            Bluewire.Reporting.Common.ServiceProxy.SetItemDefinitionRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetItemDefinitionRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Definition = Definition;
             inValue.Properties = Properties;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetItemDefinitionAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetItemDefinitionAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetItemDefinitionResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetItemDefinition(Bluewire.Reporting.Cli.ServiceProxy.GetItemDefinitionRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetItemDefinitionResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetItemDefinition(Bluewire.Reporting.Common.ServiceProxy.GetItemDefinitionRequest request) {
             return base.Channel.GetItemDefinition(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetItemDefinition(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out byte[] Definition) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemDefinitionRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetItemDefinitionRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetItemDefinition(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out byte[] Definition) {
+            Bluewire.Reporting.Common.ServiceProxy.GetItemDefinitionRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetItemDefinitionRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemDefinitionResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetItemDefinition(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetItemDefinitionResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetItemDefinition(inValue);
             Definition = retVal.Definition;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemDefinitionResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetItemDefinitionAsync(Bluewire.Reporting.Cli.ServiceProxy.GetItemDefinitionRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemDefinitionResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetItemDefinitionAsync(Bluewire.Reporting.Common.ServiceProxy.GetItemDefinitionRequest request) {
             return base.Channel.GetItemDefinitionAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemDefinitionResponse> GetItemDefinitionAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemDefinitionRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetItemDefinitionRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemDefinitionResponse> GetItemDefinitionAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+            Bluewire.Reporting.Common.ServiceProxy.GetItemDefinitionRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetItemDefinitionRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetItemDefinitionAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetItemDefinitionAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetItemTypeResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetItemType(Bluewire.Reporting.Cli.ServiceProxy.GetItemTypeRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetItemTypeResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetItemType(Bluewire.Reporting.Common.ServiceProxy.GetItemTypeRequest request) {
             return base.Channel.GetItemType(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetItemType(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out string Type) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemTypeRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetItemTypeRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetItemType(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out string Type) {
+            Bluewire.Reporting.Common.ServiceProxy.GetItemTypeRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetItemTypeRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemTypeResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetItemType(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetItemTypeResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetItemType(inValue);
             Type = retVal.Type;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemTypeResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetItemTypeAsync(Bluewire.Reporting.Cli.ServiceProxy.GetItemTypeRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemTypeResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetItemTypeAsync(Bluewire.Reporting.Common.ServiceProxy.GetItemTypeRequest request) {
             return base.Channel.GetItemTypeAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemTypeResponse> GetItemTypeAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemTypeRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetItemTypeRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemTypeResponse> GetItemTypeAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+            Bluewire.Reporting.Common.ServiceProxy.GetItemTypeRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetItemTypeRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetItemTypeAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetItemTypeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.DeleteItemResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.DeleteItem(Bluewire.Reporting.Cli.ServiceProxy.DeleteItemRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.DeleteItemResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.DeleteItem(Bluewire.Reporting.Common.ServiceProxy.DeleteItemRequest request) {
             return base.Channel.DeleteItem(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader DeleteItem(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
-            Bluewire.Reporting.Cli.ServiceProxy.DeleteItemRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.DeleteItemRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader DeleteItem(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+            Bluewire.Reporting.Common.ServiceProxy.DeleteItemRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.DeleteItemRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.DeleteItemResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).DeleteItem(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.DeleteItemResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).DeleteItem(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DeleteItemResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.DeleteItemAsync(Bluewire.Reporting.Cli.ServiceProxy.DeleteItemRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DeleteItemResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.DeleteItemAsync(Bluewire.Reporting.Common.ServiceProxy.DeleteItemRequest request) {
             return base.Channel.DeleteItemAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DeleteItemResponse> DeleteItemAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
-            Bluewire.Reporting.Cli.ServiceProxy.DeleteItemRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.DeleteItemRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DeleteItemResponse> DeleteItemAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+            Bluewire.Reporting.Common.ServiceProxy.DeleteItemRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.DeleteItemRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).DeleteItemAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).DeleteItemAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.MoveItemResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.MoveItem(Bluewire.Reporting.Cli.ServiceProxy.MoveItemRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.MoveItemResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.MoveItem(Bluewire.Reporting.Common.ServiceProxy.MoveItemRequest request) {
             return base.Channel.MoveItem(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader MoveItem(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Target) {
-            Bluewire.Reporting.Cli.ServiceProxy.MoveItemRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.MoveItemRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader MoveItem(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Target) {
+            Bluewire.Reporting.Common.ServiceProxy.MoveItemRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.MoveItemRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Target = Target;
-            Bluewire.Reporting.Cli.ServiceProxy.MoveItemResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).MoveItem(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.MoveItemResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).MoveItem(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.MoveItemResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.MoveItemAsync(Bluewire.Reporting.Cli.ServiceProxy.MoveItemRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.MoveItemResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.MoveItemAsync(Bluewire.Reporting.Common.ServiceProxy.MoveItemRequest request) {
             return base.Channel.MoveItemAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.MoveItemResponse> MoveItemAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Target) {
-            Bluewire.Reporting.Cli.ServiceProxy.MoveItemRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.MoveItemRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.MoveItemResponse> MoveItemAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Target) {
+            Bluewire.Reporting.Common.ServiceProxy.MoveItemRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.MoveItemRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Target = Target;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).MoveItemAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).MoveItemAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.InheritParentSecurityResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.InheritParentSecurity(Bluewire.Reporting.Cli.ServiceProxy.InheritParentSecurityRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.InheritParentSecurityResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.InheritParentSecurity(Bluewire.Reporting.Common.ServiceProxy.InheritParentSecurityRequest request) {
             return base.Channel.InheritParentSecurity(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader InheritParentSecurity(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
-            Bluewire.Reporting.Cli.ServiceProxy.InheritParentSecurityRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.InheritParentSecurityRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader InheritParentSecurity(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+            Bluewire.Reporting.Common.ServiceProxy.InheritParentSecurityRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.InheritParentSecurityRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.InheritParentSecurityResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).InheritParentSecurity(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.InheritParentSecurityResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).InheritParentSecurity(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.InheritParentSecurityResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.InheritParentSecurityAsync(Bluewire.Reporting.Cli.ServiceProxy.InheritParentSecurityRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.InheritParentSecurityResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.InheritParentSecurityAsync(Bluewire.Reporting.Common.ServiceProxy.InheritParentSecurityRequest request) {
             return base.Channel.InheritParentSecurityAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.InheritParentSecurityResponse> InheritParentSecurityAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
-            Bluewire.Reporting.Cli.ServiceProxy.InheritParentSecurityRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.InheritParentSecurityRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.InheritParentSecurityResponse> InheritParentSecurityAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+            Bluewire.Reporting.Common.ServiceProxy.InheritParentSecurityRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.InheritParentSecurityRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).InheritParentSecurityAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).InheritParentSecurityAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListItemHistoryResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListItemHistory(Bluewire.Reporting.Cli.ServiceProxy.ListItemHistoryRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListItemHistoryResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListItemHistory(Bluewire.Reporting.Common.ServiceProxy.ListItemHistoryRequest request) {
             return base.Channel.ListItemHistory(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListItemHistory(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out Bluewire.Reporting.Cli.ServiceProxy.ItemHistorySnapshot[] ItemHistory) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListItemHistoryRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListItemHistoryRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListItemHistory(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out Bluewire.Reporting.Common.ServiceProxy.ItemHistorySnapshot[] ItemHistory) {
+            Bluewire.Reporting.Common.ServiceProxy.ListItemHistoryRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListItemHistoryRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.ListItemHistoryResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListItemHistory(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListItemHistoryResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListItemHistory(inValue);
             ItemHistory = retVal.ItemHistory;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListItemHistoryResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListItemHistoryAsync(Bluewire.Reporting.Cli.ServiceProxy.ListItemHistoryRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListItemHistoryResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListItemHistoryAsync(Bluewire.Reporting.Common.ServiceProxy.ListItemHistoryRequest request) {
             return base.Channel.ListItemHistoryAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListItemHistoryResponse> ListItemHistoryAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListItemHistoryRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListItemHistoryRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListItemHistoryResponse> ListItemHistoryAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+            Bluewire.Reporting.Common.ServiceProxy.ListItemHistoryRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListItemHistoryRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListItemHistoryAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListItemHistoryAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListChildrenResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListChildren(Bluewire.Reporting.Cli.ServiceProxy.ListChildrenRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListChildrenResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListChildren(Bluewire.Reporting.Common.ServiceProxy.ListChildrenRequest request) {
             return base.Channel.ListChildren(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListChildren(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool Recursive, out Bluewire.Reporting.Cli.ServiceProxy.CatalogItem[] CatalogItems) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListChildrenRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListChildrenRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListChildren(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool Recursive, out Bluewire.Reporting.Common.ServiceProxy.CatalogItem[] CatalogItems) {
+            Bluewire.Reporting.Common.ServiceProxy.ListChildrenRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListChildrenRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Recursive = Recursive;
-            Bluewire.Reporting.Cli.ServiceProxy.ListChildrenResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListChildren(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListChildrenResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListChildren(inValue);
             CatalogItems = retVal.CatalogItems;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListChildrenResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListChildrenAsync(Bluewire.Reporting.Cli.ServiceProxy.ListChildrenRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListChildrenResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListChildrenAsync(Bluewire.Reporting.Common.ServiceProxy.ListChildrenRequest request) {
             return base.Channel.ListChildrenAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListChildrenResponse> ListChildrenAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool Recursive) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListChildrenRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListChildrenRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListChildrenResponse> ListChildrenAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool Recursive) {
+            Bluewire.Reporting.Common.ServiceProxy.ListChildrenRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListChildrenRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Recursive = Recursive;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListChildrenAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListChildrenAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListDependentItemsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListDependentItems(Bluewire.Reporting.Cli.ServiceProxy.ListDependentItemsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListDependentItemsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListDependentItems(Bluewire.Reporting.Common.ServiceProxy.ListDependentItemsRequest request) {
             return base.Channel.ListDependentItems(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListDependentItems(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out Bluewire.Reporting.Cli.ServiceProxy.CatalogItem[] CatalogItems) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListDependentItemsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListDependentItemsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListDependentItems(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out Bluewire.Reporting.Common.ServiceProxy.CatalogItem[] CatalogItems) {
+            Bluewire.Reporting.Common.ServiceProxy.ListDependentItemsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListDependentItemsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.ListDependentItemsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListDependentItems(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListDependentItemsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListDependentItems(inValue);
             CatalogItems = retVal.CatalogItems;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListDependentItemsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListDependentItemsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListDependentItemsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListDependentItemsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListDependentItemsAsync(Bluewire.Reporting.Common.ServiceProxy.ListDependentItemsRequest request) {
             return base.Channel.ListDependentItemsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListDependentItemsResponse> ListDependentItemsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListDependentItemsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListDependentItemsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListDependentItemsResponse> ListDependentItemsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+            Bluewire.Reporting.Common.ServiceProxy.ListDependentItemsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListDependentItemsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListDependentItemsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListDependentItemsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.FindItemsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.FindItems(Bluewire.Reporting.Cli.ServiceProxy.FindItemsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.FindItemsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.FindItems(Bluewire.Reporting.Common.ServiceProxy.FindItemsRequest request) {
             return base.Channel.FindItems(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader FindItems(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Folder, Bluewire.Reporting.Cli.ServiceProxy.BooleanOperatorEnum BooleanOperator, Bluewire.Reporting.Cli.ServiceProxy.Property[] SearchOptions, Bluewire.Reporting.Cli.ServiceProxy.SearchCondition[] SearchConditions, out Bluewire.Reporting.Cli.ServiceProxy.CatalogItem[] Items) {
-            Bluewire.Reporting.Cli.ServiceProxy.FindItemsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.FindItemsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader FindItems(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Folder, Bluewire.Reporting.Common.ServiceProxy.BooleanOperatorEnum BooleanOperator, Bluewire.Reporting.Common.ServiceProxy.Property[] SearchOptions, Bluewire.Reporting.Common.ServiceProxy.SearchCondition[] SearchConditions, out Bluewire.Reporting.Common.ServiceProxy.CatalogItem[] Items) {
+            Bluewire.Reporting.Common.ServiceProxy.FindItemsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.FindItemsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Folder = Folder;
             inValue.BooleanOperator = BooleanOperator;
             inValue.SearchOptions = SearchOptions;
             inValue.SearchConditions = SearchConditions;
-            Bluewire.Reporting.Cli.ServiceProxy.FindItemsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).FindItems(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.FindItemsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).FindItems(inValue);
             Items = retVal.Items;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.FindItemsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.FindItemsAsync(Bluewire.Reporting.Cli.ServiceProxy.FindItemsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.FindItemsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.FindItemsAsync(Bluewire.Reporting.Common.ServiceProxy.FindItemsRequest request) {
             return base.Channel.FindItemsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.FindItemsResponse> FindItemsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Folder, Bluewire.Reporting.Cli.ServiceProxy.BooleanOperatorEnum BooleanOperator, Bluewire.Reporting.Cli.ServiceProxy.Property[] SearchOptions, Bluewire.Reporting.Cli.ServiceProxy.SearchCondition[] SearchConditions) {
-            Bluewire.Reporting.Cli.ServiceProxy.FindItemsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.FindItemsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.FindItemsResponse> FindItemsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Folder, Bluewire.Reporting.Common.ServiceProxy.BooleanOperatorEnum BooleanOperator, Bluewire.Reporting.Common.ServiceProxy.Property[] SearchOptions, Bluewire.Reporting.Common.ServiceProxy.SearchCondition[] SearchConditions) {
+            Bluewire.Reporting.Common.ServiceProxy.FindItemsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.FindItemsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Folder = Folder;
             inValue.BooleanOperator = BooleanOperator;
             inValue.SearchOptions = SearchOptions;
             inValue.SearchConditions = SearchConditions;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).FindItemsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).FindItemsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListParentsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListParents(Bluewire.Reporting.Cli.ServiceProxy.ListParentsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListParentsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListParents(Bluewire.Reporting.Common.ServiceProxy.ListParentsRequest request) {
             return base.Channel.ListParents(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListParents(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out Bluewire.Reporting.Cli.ServiceProxy.CatalogItem[] ListParentsResult) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListParentsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListParentsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListParents(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out Bluewire.Reporting.Common.ServiceProxy.CatalogItem[] ListParentsResult) {
+            Bluewire.Reporting.Common.ServiceProxy.ListParentsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListParentsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.ListParentsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListParents(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListParentsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListParents(inValue);
             ListParentsResult = retVal.ListParentsResult;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListParentsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListParentsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListParentsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListParentsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListParentsAsync(Bluewire.Reporting.Common.ServiceProxy.ListParentsRequest request) {
             return base.Channel.ListParentsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListParentsResponse> ListParentsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListParentsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListParentsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListParentsResponse> ListParentsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+            Bluewire.Reporting.Common.ServiceProxy.ListParentsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListParentsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListParentsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListParentsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateFolderResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CreateFolder(Bluewire.Reporting.Cli.ServiceProxy.CreateFolderRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.CreateFolderResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CreateFolder(Bluewire.Reporting.Common.ServiceProxy.CreateFolderRequest request) {
             return base.Channel.CreateFolder(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader CreateFolder(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Folder, string Parent, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties, out Bluewire.Reporting.Cli.ServiceProxy.CatalogItem ItemInfo) {
-            Bluewire.Reporting.Cli.ServiceProxy.CreateFolderRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CreateFolderRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader CreateFolder(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Folder, string Parent, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties, out Bluewire.Reporting.Common.ServiceProxy.CatalogItem ItemInfo) {
+            Bluewire.Reporting.Common.ServiceProxy.CreateFolderRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CreateFolderRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Folder = Folder;
             inValue.Parent = Parent;
             inValue.Properties = Properties;
-            Bluewire.Reporting.Cli.ServiceProxy.CreateFolderResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CreateFolder(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.CreateFolderResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CreateFolder(inValue);
             ItemInfo = retVal.ItemInfo;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateFolderResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CreateFolderAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateFolderRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateFolderResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CreateFolderAsync(Bluewire.Reporting.Common.ServiceProxy.CreateFolderRequest request) {
             return base.Channel.CreateFolderAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateFolderResponse> CreateFolderAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Folder, string Parent, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
-            Bluewire.Reporting.Cli.ServiceProxy.CreateFolderRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CreateFolderRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateFolderResponse> CreateFolderAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Folder, string Parent, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
+            Bluewire.Reporting.Common.ServiceProxy.CreateFolderRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CreateFolderRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Folder = Folder;
             inValue.Parent = Parent;
             inValue.Properties = Properties;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CreateFolderAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CreateFolderAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetPropertiesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetProperties(Bluewire.Reporting.Cli.ServiceProxy.SetPropertiesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetPropertiesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetProperties(Bluewire.Reporting.Common.ServiceProxy.SetPropertiesRequest request) {
             return base.Channel.SetProperties(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetProperties(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetPropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetPropertiesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetProperties(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
+            Bluewire.Reporting.Common.ServiceProxy.SetPropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetPropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Properties = Properties;
-            Bluewire.Reporting.Cli.ServiceProxy.SetPropertiesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetProperties(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetPropertiesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetProperties(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetPropertiesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetPropertiesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetPropertiesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.SetPropertiesRequest request) {
             return base.Channel.SetPropertiesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetPropertiesResponse> SetPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetPropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetPropertiesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetPropertiesResponse> SetPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
+            Bluewire.Reporting.Common.ServiceProxy.SetPropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetPropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Properties = Properties;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetPropertiesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetPropertiesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetPropertiesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetProperties(Bluewire.Reporting.Cli.ServiceProxy.GetPropertiesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetPropertiesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetProperties(Bluewire.Reporting.Common.ServiceProxy.GetPropertiesRequest request) {
             return base.Channel.GetProperties(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetProperties(Bluewire.Reporting.Cli.ServiceProxy.ItemNamespaceHeader ItemNamespaceHeader, Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties, out Bluewire.Reporting.Cli.ServiceProxy.Property[] Values) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetPropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetPropertiesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetProperties(Bluewire.Reporting.Common.ServiceProxy.ItemNamespaceHeader ItemNamespaceHeader, Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties, out Bluewire.Reporting.Common.ServiceProxy.Property[] Values) {
+            Bluewire.Reporting.Common.ServiceProxy.GetPropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetPropertiesRequest();
             inValue.ItemNamespaceHeader = ItemNamespaceHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Properties = Properties;
-            Bluewire.Reporting.Cli.ServiceProxy.GetPropertiesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetProperties(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetPropertiesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetProperties(inValue);
             Values = retVal.Values;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetPropertiesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetPropertiesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetPropertiesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.GetPropertiesRequest request) {
             return base.Channel.GetPropertiesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetPropertiesResponse> GetPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.ItemNamespaceHeader ItemNamespaceHeader, Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetPropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetPropertiesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetPropertiesResponse> GetPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.ItemNamespaceHeader ItemNamespaceHeader, Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
+            Bluewire.Reporting.Common.ServiceProxy.GetPropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetPropertiesRequest();
             inValue.ItemNamespaceHeader = ItemNamespaceHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Properties = Properties;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetPropertiesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetPropertiesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetItemReferencesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetItemReferences(Bluewire.Reporting.Cli.ServiceProxy.SetItemReferencesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetItemReferencesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetItemReferences(Bluewire.Reporting.Common.ServiceProxy.SetItemReferencesRequest request) {
             return base.Channel.SetItemReferences(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetItemReferences(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.ItemReference[] ItemReferences) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemReferencesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetItemReferencesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetItemReferences(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.ItemReference[] ItemReferences) {
+            Bluewire.Reporting.Common.ServiceProxy.SetItemReferencesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetItemReferencesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.ItemReferences = ItemReferences;
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemReferencesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetItemReferences(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetItemReferencesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetItemReferences(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemReferencesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetItemReferencesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetItemReferencesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemReferencesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetItemReferencesAsync(Bluewire.Reporting.Common.ServiceProxy.SetItemReferencesRequest request) {
             return base.Channel.SetItemReferencesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemReferencesResponse> SetItemReferencesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.ItemReference[] ItemReferences) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemReferencesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetItemReferencesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemReferencesResponse> SetItemReferencesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.ItemReference[] ItemReferences) {
+            Bluewire.Reporting.Common.ServiceProxy.SetItemReferencesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetItemReferencesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.ItemReferences = ItemReferences;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetItemReferencesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetItemReferencesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetItemReferencesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetItemReferences(Bluewire.Reporting.Cli.ServiceProxy.GetItemReferencesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetItemReferencesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetItemReferences(Bluewire.Reporting.Common.ServiceProxy.GetItemReferencesRequest request) {
             return base.Channel.GetItemReferences(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetItemReferences(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string ReferenceItemType, out Bluewire.Reporting.Cli.ServiceProxy.ItemReferenceData[] ItemReferences) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemReferencesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetItemReferencesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetItemReferences(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string ReferenceItemType, out Bluewire.Reporting.Common.ServiceProxy.ItemReferenceData[] ItemReferences) {
+            Bluewire.Reporting.Common.ServiceProxy.GetItemReferencesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetItemReferencesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.ReferenceItemType = ReferenceItemType;
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemReferencesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetItemReferences(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetItemReferencesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetItemReferences(inValue);
             ItemReferences = retVal.ItemReferences;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemReferencesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetItemReferencesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetItemReferencesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemReferencesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetItemReferencesAsync(Bluewire.Reporting.Common.ServiceProxy.GetItemReferencesRequest request) {
             return base.Channel.GetItemReferencesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemReferencesResponse> GetItemReferencesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string ReferenceItemType) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemReferencesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetItemReferencesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemReferencesResponse> GetItemReferencesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string ReferenceItemType) {
+            Bluewire.Reporting.Common.ServiceProxy.GetItemReferencesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetItemReferencesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.ReferenceItemType = ReferenceItemType;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetItemReferencesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetItemReferencesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListItemTypesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListItemTypes(Bluewire.Reporting.Cli.ServiceProxy.ListItemTypesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListItemTypesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListItemTypes(Bluewire.Reporting.Common.ServiceProxy.ListItemTypesRequest request) {
             return base.Channel.ListItemTypes(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListItemTypes(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListItemTypesResult) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListItemTypesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListItemTypesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListItemTypes(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListItemTypesResult) {
+            Bluewire.Reporting.Common.ServiceProxy.ListItemTypesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListItemTypesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            Bluewire.Reporting.Cli.ServiceProxy.ListItemTypesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListItemTypes(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListItemTypesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListItemTypes(inValue);
             ListItemTypesResult = retVal.ListItemTypesResult;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListItemTypesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListItemTypesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListItemTypesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListItemTypesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListItemTypesAsync(Bluewire.Reporting.Common.ServiceProxy.ListItemTypesRequest request) {
             return base.Channel.ListItemTypesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListItemTypesResponse> ListItemTypesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListItemTypesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListItemTypesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListItemTypesResponse> ListItemTypesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+            Bluewire.Reporting.Common.ServiceProxy.ListItemTypesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListItemTypesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListItemTypesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListItemTypesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetSubscriptionPropertiesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetSubscriptionProperties(Bluewire.Reporting.Cli.ServiceProxy.SetSubscriptionPropertiesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetSubscriptionPropertiesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetSubscriptionProperties(Bluewire.Reporting.Common.ServiceProxy.SetSubscriptionPropertiesRequest request) {
             return base.Channel.SetSubscriptionProperties(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetSubscriptionProperties(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID, Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetSubscriptionPropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetSubscriptionPropertiesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetSubscriptionProperties(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID, Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters) {
+            Bluewire.Reporting.Common.ServiceProxy.SetSubscriptionPropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetSubscriptionPropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.SubscriptionID = SubscriptionID;
             inValue.ExtensionSettings = ExtensionSettings;
@@ -12359,17 +12359,17 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
             inValue.EventType = EventType;
             inValue.MatchData = MatchData;
             inValue.Parameters = Parameters;
-            Bluewire.Reporting.Cli.ServiceProxy.SetSubscriptionPropertiesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetSubscriptionProperties(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetSubscriptionPropertiesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetSubscriptionProperties(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetSubscriptionPropertiesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetSubscriptionPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetSubscriptionPropertiesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetSubscriptionPropertiesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetSubscriptionPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.SetSubscriptionPropertiesRequest request) {
             return base.Channel.SetSubscriptionPropertiesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetSubscriptionPropertiesResponse> SetSubscriptionPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID, Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetSubscriptionPropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetSubscriptionPropertiesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetSubscriptionPropertiesResponse> SetSubscriptionPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID, Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters) {
+            Bluewire.Reporting.Common.ServiceProxy.SetSubscriptionPropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetSubscriptionPropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.SubscriptionID = SubscriptionID;
             inValue.ExtensionSettings = ExtensionSettings;
@@ -12377,19 +12377,19 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
             inValue.EventType = EventType;
             inValue.MatchData = MatchData;
             inValue.Parameters = Parameters;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetSubscriptionPropertiesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetSubscriptionPropertiesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetSubscriptionPropertiesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetSubscriptionProperties(Bluewire.Reporting.Cli.ServiceProxy.GetSubscriptionPropertiesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetSubscriptionPropertiesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetSubscriptionProperties(Bluewire.Reporting.Common.ServiceProxy.GetSubscriptionPropertiesRequest request) {
             return base.Channel.GetSubscriptionProperties(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetSubscriptionProperties(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID, out string Owner, out Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings, out string Description, out Bluewire.Reporting.Cli.ServiceProxy.ActiveState Active, out string Status, out string EventType, out string MatchData, out Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetSubscriptionPropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetSubscriptionPropertiesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetSubscriptionProperties(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID, out string Owner, out Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings, out string Description, out Bluewire.Reporting.Common.ServiceProxy.ActiveState Active, out string Status, out string EventType, out string MatchData, out Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters) {
+            Bluewire.Reporting.Common.ServiceProxy.GetSubscriptionPropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetSubscriptionPropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.SubscriptionID = SubscriptionID;
-            Bluewire.Reporting.Cli.ServiceProxy.GetSubscriptionPropertiesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetSubscriptionProperties(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetSubscriptionPropertiesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetSubscriptionProperties(inValue);
             Owner = retVal.Owner;
             ExtensionSettings = retVal.ExtensionSettings;
             Description = retVal.Description;
@@ -12401,17 +12401,17 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
             return retVal.ServerInfoHeader;
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetSubscriptionPropertiesResponse> GetSubscriptionPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetSubscriptionPropertiesRequest request) {
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetSubscriptionPropertiesResponse> GetSubscriptionPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.GetSubscriptionPropertiesRequest request) {
             return base.Channel.GetSubscriptionPropertiesAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetDataDrivenSubscriptionPropertiesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetDataDrivenSubscriptionProperties(Bluewire.Reporting.Cli.ServiceProxy.SetDataDrivenSubscriptionPropertiesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetDataDrivenSubscriptionPropertiesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetDataDrivenSubscriptionProperties(Bluewire.Reporting.Common.ServiceProxy.SetDataDrivenSubscriptionPropertiesRequest request) {
             return base.Channel.SetDataDrivenSubscriptionProperties(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetDataDrivenSubscriptionProperties(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataDrivenSubscriptionID, Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings, Bluewire.Reporting.Cli.ServiceProxy.DataRetrievalPlan DataRetrievalPlan, string Description, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValueOrFieldReference[] Parameters) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetDataDrivenSubscriptionPropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetDataDrivenSubscriptionPropertiesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetDataDrivenSubscriptionProperties(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataDrivenSubscriptionID, Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings, Bluewire.Reporting.Common.ServiceProxy.DataRetrievalPlan DataRetrievalPlan, string Description, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValueOrFieldReference[] Parameters) {
+            Bluewire.Reporting.Common.ServiceProxy.SetDataDrivenSubscriptionPropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetDataDrivenSubscriptionPropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DataDrivenSubscriptionID = DataDrivenSubscriptionID;
             inValue.ExtensionSettings = ExtensionSettings;
@@ -12420,17 +12420,17 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
             inValue.EventType = EventType;
             inValue.MatchData = MatchData;
             inValue.Parameters = Parameters;
-            Bluewire.Reporting.Cli.ServiceProxy.SetDataDrivenSubscriptionPropertiesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetDataDrivenSubscriptionProperties(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetDataDrivenSubscriptionPropertiesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetDataDrivenSubscriptionProperties(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetDataDrivenSubscriptionPropertiesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetDataDrivenSubscriptionPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetDataDrivenSubscriptionPropertiesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetDataDrivenSubscriptionPropertiesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetDataDrivenSubscriptionPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.SetDataDrivenSubscriptionPropertiesRequest request) {
             return base.Channel.SetDataDrivenSubscriptionPropertiesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetDataDrivenSubscriptionPropertiesResponse> SetDataDrivenSubscriptionPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataDrivenSubscriptionID, Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings, Bluewire.Reporting.Cli.ServiceProxy.DataRetrievalPlan DataRetrievalPlan, string Description, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValueOrFieldReference[] Parameters) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetDataDrivenSubscriptionPropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetDataDrivenSubscriptionPropertiesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetDataDrivenSubscriptionPropertiesResponse> SetDataDrivenSubscriptionPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataDrivenSubscriptionID, Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings, Bluewire.Reporting.Common.ServiceProxy.DataRetrievalPlan DataRetrievalPlan, string Description, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValueOrFieldReference[] Parameters) {
+            Bluewire.Reporting.Common.ServiceProxy.SetDataDrivenSubscriptionPropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetDataDrivenSubscriptionPropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DataDrivenSubscriptionID = DataDrivenSubscriptionID;
             inValue.ExtensionSettings = ExtensionSettings;
@@ -12439,19 +12439,19 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
             inValue.EventType = EventType;
             inValue.MatchData = MatchData;
             inValue.Parameters = Parameters;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetDataDrivenSubscriptionPropertiesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetDataDrivenSubscriptionPropertiesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetDataDrivenSubscriptionPropertiesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetDataDrivenSubscriptionProperties(Bluewire.Reporting.Cli.ServiceProxy.GetDataDrivenSubscriptionPropertiesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetDataDrivenSubscriptionPropertiesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetDataDrivenSubscriptionProperties(Bluewire.Reporting.Common.ServiceProxy.GetDataDrivenSubscriptionPropertiesRequest request) {
             return base.Channel.GetDataDrivenSubscriptionProperties(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetDataDrivenSubscriptionProperties(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataDrivenSubscriptionID, out string Owner, out Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings, out Bluewire.Reporting.Cli.ServiceProxy.DataRetrievalPlan DataRetrievalPlan, out string Description, out Bluewire.Reporting.Cli.ServiceProxy.ActiveState Active, out string Status, out string EventType, out string MatchData, out Bluewire.Reporting.Cli.ServiceProxy.ParameterValueOrFieldReference[] Parameters) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetDataDrivenSubscriptionPropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetDataDrivenSubscriptionPropertiesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetDataDrivenSubscriptionProperties(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataDrivenSubscriptionID, out string Owner, out Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings, out Bluewire.Reporting.Common.ServiceProxy.DataRetrievalPlan DataRetrievalPlan, out string Description, out Bluewire.Reporting.Common.ServiceProxy.ActiveState Active, out string Status, out string EventType, out string MatchData, out Bluewire.Reporting.Common.ServiceProxy.ParameterValueOrFieldReference[] Parameters) {
+            Bluewire.Reporting.Common.ServiceProxy.GetDataDrivenSubscriptionPropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetDataDrivenSubscriptionPropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DataDrivenSubscriptionID = DataDrivenSubscriptionID;
-            Bluewire.Reporting.Cli.ServiceProxy.GetDataDrivenSubscriptionPropertiesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetDataDrivenSubscriptionProperties(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetDataDrivenSubscriptionPropertiesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetDataDrivenSubscriptionProperties(inValue);
             Owner = retVal.Owner;
             ExtensionSettings = retVal.ExtensionSettings;
             DataRetrievalPlan = retVal.DataRetrievalPlan;
@@ -12464,42 +12464,42 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
             return retVal.ServerInfoHeader;
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetDataDrivenSubscriptionPropertiesResponse> GetDataDrivenSubscriptionPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetDataDrivenSubscriptionPropertiesRequest request) {
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetDataDrivenSubscriptionPropertiesResponse> GetDataDrivenSubscriptionPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.GetDataDrivenSubscriptionPropertiesRequest request) {
             return base.Channel.GetDataDrivenSubscriptionPropertiesAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.DeleteSubscriptionResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.DeleteSubscription(Bluewire.Reporting.Cli.ServiceProxy.DeleteSubscriptionRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.DeleteSubscriptionResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.DeleteSubscription(Bluewire.Reporting.Common.ServiceProxy.DeleteSubscriptionRequest request) {
             return base.Channel.DeleteSubscription(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader DeleteSubscription(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID) {
-            Bluewire.Reporting.Cli.ServiceProxy.DeleteSubscriptionRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.DeleteSubscriptionRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader DeleteSubscription(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID) {
+            Bluewire.Reporting.Common.ServiceProxy.DeleteSubscriptionRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.DeleteSubscriptionRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.SubscriptionID = SubscriptionID;
-            Bluewire.Reporting.Cli.ServiceProxy.DeleteSubscriptionResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).DeleteSubscription(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.DeleteSubscriptionResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).DeleteSubscription(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DeleteSubscriptionResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.DeleteSubscriptionAsync(Bluewire.Reporting.Cli.ServiceProxy.DeleteSubscriptionRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DeleteSubscriptionResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.DeleteSubscriptionAsync(Bluewire.Reporting.Common.ServiceProxy.DeleteSubscriptionRequest request) {
             return base.Channel.DeleteSubscriptionAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DeleteSubscriptionResponse> DeleteSubscriptionAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID) {
-            Bluewire.Reporting.Cli.ServiceProxy.DeleteSubscriptionRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.DeleteSubscriptionRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DeleteSubscriptionResponse> DeleteSubscriptionAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID) {
+            Bluewire.Reporting.Common.ServiceProxy.DeleteSubscriptionRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.DeleteSubscriptionRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.SubscriptionID = SubscriptionID;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).DeleteSubscriptionAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).DeleteSubscriptionAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateSubscriptionResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CreateSubscription(Bluewire.Reporting.Cli.ServiceProxy.CreateSubscriptionRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.CreateSubscriptionResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CreateSubscription(Bluewire.Reporting.Common.ServiceProxy.CreateSubscriptionRequest request) {
             return base.Channel.CreateSubscription(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader CreateSubscription(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters, out string SubscriptionID) {
-            Bluewire.Reporting.Cli.ServiceProxy.CreateSubscriptionRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CreateSubscriptionRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader CreateSubscription(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters, out string SubscriptionID) {
+            Bluewire.Reporting.Common.ServiceProxy.CreateSubscriptionRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CreateSubscriptionRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.ExtensionSettings = ExtensionSettings;
@@ -12507,18 +12507,18 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
             inValue.EventType = EventType;
             inValue.MatchData = MatchData;
             inValue.Parameters = Parameters;
-            Bluewire.Reporting.Cli.ServiceProxy.CreateSubscriptionResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CreateSubscription(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.CreateSubscriptionResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CreateSubscription(inValue);
             SubscriptionID = retVal.SubscriptionID;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateSubscriptionResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CreateSubscriptionAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateSubscriptionRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateSubscriptionResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CreateSubscriptionAsync(Bluewire.Reporting.Common.ServiceProxy.CreateSubscriptionRequest request) {
             return base.Channel.CreateSubscriptionAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateSubscriptionResponse> CreateSubscriptionAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters) {
-            Bluewire.Reporting.Cli.ServiceProxy.CreateSubscriptionRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CreateSubscriptionRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateSubscriptionResponse> CreateSubscriptionAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters) {
+            Bluewire.Reporting.Common.ServiceProxy.CreateSubscriptionRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CreateSubscriptionRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.ExtensionSettings = ExtensionSettings;
@@ -12526,16 +12526,16 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
             inValue.EventType = EventType;
             inValue.MatchData = MatchData;
             inValue.Parameters = Parameters;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CreateSubscriptionAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CreateSubscriptionAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateDataDrivenSubscriptionResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CreateDataDrivenSubscription(Bluewire.Reporting.Cli.ServiceProxy.CreateDataDrivenSubscriptionRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.CreateDataDrivenSubscriptionResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CreateDataDrivenSubscription(Bluewire.Reporting.Common.ServiceProxy.CreateDataDrivenSubscriptionRequest request) {
             return base.Channel.CreateDataDrivenSubscription(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader CreateDataDrivenSubscription(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings, Bluewire.Reporting.Cli.ServiceProxy.DataRetrievalPlan DataRetrievalPlan, string Description, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValueOrFieldReference[] Parameters, out string SubscriptionID) {
-            Bluewire.Reporting.Cli.ServiceProxy.CreateDataDrivenSubscriptionRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CreateDataDrivenSubscriptionRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader CreateDataDrivenSubscription(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings, Bluewire.Reporting.Common.ServiceProxy.DataRetrievalPlan DataRetrievalPlan, string Description, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValueOrFieldReference[] Parameters, out string SubscriptionID) {
+            Bluewire.Reporting.Common.ServiceProxy.CreateDataDrivenSubscriptionRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CreateDataDrivenSubscriptionRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.ExtensionSettings = ExtensionSettings;
@@ -12544,18 +12544,18 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
             inValue.EventType = EventType;
             inValue.MatchData = MatchData;
             inValue.Parameters = Parameters;
-            Bluewire.Reporting.Cli.ServiceProxy.CreateDataDrivenSubscriptionResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CreateDataDrivenSubscription(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.CreateDataDrivenSubscriptionResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CreateDataDrivenSubscription(inValue);
             SubscriptionID = retVal.SubscriptionID;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateDataDrivenSubscriptionResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CreateDataDrivenSubscriptionAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateDataDrivenSubscriptionRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateDataDrivenSubscriptionResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CreateDataDrivenSubscriptionAsync(Bluewire.Reporting.Common.ServiceProxy.CreateDataDrivenSubscriptionRequest request) {
             return base.Channel.CreateDataDrivenSubscriptionAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateDataDrivenSubscriptionResponse> CreateDataDrivenSubscriptionAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.ExtensionSettings ExtensionSettings, Bluewire.Reporting.Cli.ServiceProxy.DataRetrievalPlan DataRetrievalPlan, string Description, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValueOrFieldReference[] Parameters) {
-            Bluewire.Reporting.Cli.ServiceProxy.CreateDataDrivenSubscriptionRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CreateDataDrivenSubscriptionRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateDataDrivenSubscriptionResponse> CreateDataDrivenSubscriptionAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.ExtensionSettings ExtensionSettings, Bluewire.Reporting.Common.ServiceProxy.DataRetrievalPlan DataRetrievalPlan, string Description, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValueOrFieldReference[] Parameters) {
+            Bluewire.Reporting.Common.ServiceProxy.CreateDataDrivenSubscriptionRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CreateDataDrivenSubscriptionRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.ExtensionSettings = ExtensionSettings;
@@ -12564,2237 +12564,2237 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
             inValue.EventType = EventType;
             inValue.MatchData = MatchData;
             inValue.Parameters = Parameters;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CreateDataDrivenSubscriptionAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CreateDataDrivenSubscriptionAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetExtensionSettingsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetExtensionSettings(Bluewire.Reporting.Cli.ServiceProxy.GetExtensionSettingsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetExtensionSettingsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetExtensionSettings(Bluewire.Reporting.Common.ServiceProxy.GetExtensionSettingsRequest request) {
             return base.Channel.GetExtensionSettings(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetExtensionSettings(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Extension, out Bluewire.Reporting.Cli.ServiceProxy.ExtensionParameter[] ExtensionParameters) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetExtensionSettingsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetExtensionSettingsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetExtensionSettings(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Extension, out Bluewire.Reporting.Common.ServiceProxy.ExtensionParameter[] ExtensionParameters) {
+            Bluewire.Reporting.Common.ServiceProxy.GetExtensionSettingsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetExtensionSettingsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Extension = Extension;
-            Bluewire.Reporting.Cli.ServiceProxy.GetExtensionSettingsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetExtensionSettings(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetExtensionSettingsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetExtensionSettings(inValue);
             ExtensionParameters = retVal.ExtensionParameters;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetExtensionSettingsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetExtensionSettingsAsync(Bluewire.Reporting.Cli.ServiceProxy.GetExtensionSettingsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetExtensionSettingsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetExtensionSettingsAsync(Bluewire.Reporting.Common.ServiceProxy.GetExtensionSettingsRequest request) {
             return base.Channel.GetExtensionSettingsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetExtensionSettingsResponse> GetExtensionSettingsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Extension) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetExtensionSettingsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetExtensionSettingsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetExtensionSettingsResponse> GetExtensionSettingsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Extension) {
+            Bluewire.Reporting.Common.ServiceProxy.GetExtensionSettingsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetExtensionSettingsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Extension = Extension;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetExtensionSettingsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetExtensionSettingsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ValidateExtensionSettingsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ValidateExtensionSettings(Bluewire.Reporting.Cli.ServiceProxy.ValidateExtensionSettingsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ValidateExtensionSettingsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ValidateExtensionSettings(Bluewire.Reporting.Common.ServiceProxy.ValidateExtensionSettingsRequest request) {
             return base.Channel.ValidateExtensionSettings(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ValidateExtensionSettings(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Extension, Bluewire.Reporting.Cli.ServiceProxy.ParameterValueOrFieldReference[] ParameterValues, string SiteUrl, out Bluewire.Reporting.Cli.ServiceProxy.ExtensionParameter[] ParameterErrors) {
-            Bluewire.Reporting.Cli.ServiceProxy.ValidateExtensionSettingsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ValidateExtensionSettingsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ValidateExtensionSettings(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Extension, Bluewire.Reporting.Common.ServiceProxy.ParameterValueOrFieldReference[] ParameterValues, string SiteUrl, out Bluewire.Reporting.Common.ServiceProxy.ExtensionParameter[] ParameterErrors) {
+            Bluewire.Reporting.Common.ServiceProxy.ValidateExtensionSettingsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ValidateExtensionSettingsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Extension = Extension;
             inValue.ParameterValues = ParameterValues;
             inValue.SiteUrl = SiteUrl;
-            Bluewire.Reporting.Cli.ServiceProxy.ValidateExtensionSettingsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ValidateExtensionSettings(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ValidateExtensionSettingsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ValidateExtensionSettings(inValue);
             ParameterErrors = retVal.ParameterErrors;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ValidateExtensionSettingsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ValidateExtensionSettingsAsync(Bluewire.Reporting.Cli.ServiceProxy.ValidateExtensionSettingsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ValidateExtensionSettingsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ValidateExtensionSettingsAsync(Bluewire.Reporting.Common.ServiceProxy.ValidateExtensionSettingsRequest request) {
             return base.Channel.ValidateExtensionSettingsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ValidateExtensionSettingsResponse> ValidateExtensionSettingsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Extension, Bluewire.Reporting.Cli.ServiceProxy.ParameterValueOrFieldReference[] ParameterValues, string SiteUrl) {
-            Bluewire.Reporting.Cli.ServiceProxy.ValidateExtensionSettingsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ValidateExtensionSettingsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ValidateExtensionSettingsResponse> ValidateExtensionSettingsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Extension, Bluewire.Reporting.Common.ServiceProxy.ParameterValueOrFieldReference[] ParameterValues, string SiteUrl) {
+            Bluewire.Reporting.Common.ServiceProxy.ValidateExtensionSettingsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ValidateExtensionSettingsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Extension = Extension;
             inValue.ParameterValues = ParameterValues;
             inValue.SiteUrl = SiteUrl;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ValidateExtensionSettingsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ValidateExtensionSettingsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListSubscriptions(Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListSubscriptions(Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsRequest request) {
             return base.Channel.ListSubscriptions(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListSubscriptions(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPathOrSiteURL, out Bluewire.Reporting.Cli.ServiceProxy.Subscription[] SubscriptionItems) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListSubscriptions(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPathOrSiteURL, out Bluewire.Reporting.Common.ServiceProxy.Subscription[] SubscriptionItems) {
+            Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPathOrSiteURL = ItemPathOrSiteURL;
-            Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListSubscriptions(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListSubscriptions(inValue);
             SubscriptionItems = retVal.SubscriptionItems;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListSubscriptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListSubscriptionsAsync(Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsRequest request) {
             return base.Channel.ListSubscriptionsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsResponse> ListSubscriptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPathOrSiteURL) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsResponse> ListSubscriptionsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPathOrSiteURL) {
+            Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPathOrSiteURL = ItemPathOrSiteURL;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListSubscriptionsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListSubscriptionsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListMySubscriptionsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListMySubscriptions(Bluewire.Reporting.Cli.ServiceProxy.ListMySubscriptionsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListMySubscriptionsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListMySubscriptions(Bluewire.Reporting.Common.ServiceProxy.ListMySubscriptionsRequest request) {
             return base.Channel.ListMySubscriptions(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListMySubscriptions(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPathOrSiteURL, out Bluewire.Reporting.Cli.ServiceProxy.Subscription[] SubscriptionItems) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListMySubscriptionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListMySubscriptionsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListMySubscriptions(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPathOrSiteURL, out Bluewire.Reporting.Common.ServiceProxy.Subscription[] SubscriptionItems) {
+            Bluewire.Reporting.Common.ServiceProxy.ListMySubscriptionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListMySubscriptionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPathOrSiteURL = ItemPathOrSiteURL;
-            Bluewire.Reporting.Cli.ServiceProxy.ListMySubscriptionsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListMySubscriptions(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListMySubscriptionsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListMySubscriptions(inValue);
             SubscriptionItems = retVal.SubscriptionItems;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListMySubscriptionsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListMySubscriptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListMySubscriptionsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListMySubscriptionsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListMySubscriptionsAsync(Bluewire.Reporting.Common.ServiceProxy.ListMySubscriptionsRequest request) {
             return base.Channel.ListMySubscriptionsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListMySubscriptionsResponse> ListMySubscriptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPathOrSiteURL) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListMySubscriptionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListMySubscriptionsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListMySubscriptionsResponse> ListMySubscriptionsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPathOrSiteURL) {
+            Bluewire.Reporting.Common.ServiceProxy.ListMySubscriptionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListMySubscriptionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPathOrSiteURL = ItemPathOrSiteURL;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListMySubscriptionsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListMySubscriptionsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsUsingDataSourceResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListSubscriptionsUsingDataSource(Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsUsingDataSourceRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsUsingDataSourceResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListSubscriptionsUsingDataSource(Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsUsingDataSourceRequest request) {
             return base.Channel.ListSubscriptionsUsingDataSource(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListSubscriptionsUsingDataSource(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, out Bluewire.Reporting.Cli.ServiceProxy.Subscription[] SubscriptionItems) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsUsingDataSourceRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsUsingDataSourceRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListSubscriptionsUsingDataSource(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, out Bluewire.Reporting.Common.ServiceProxy.Subscription[] SubscriptionItems) {
+            Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsUsingDataSourceRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsUsingDataSourceRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DataSource = DataSource;
-            Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsUsingDataSourceResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListSubscriptionsUsingDataSource(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsUsingDataSourceResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListSubscriptionsUsingDataSource(inValue);
             SubscriptionItems = retVal.SubscriptionItems;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsUsingDataSourceResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListSubscriptionsUsingDataSourceAsync(Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsUsingDataSourceRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsUsingDataSourceResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListSubscriptionsUsingDataSourceAsync(Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsUsingDataSourceRequest request) {
             return base.Channel.ListSubscriptionsUsingDataSourceAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsUsingDataSourceResponse> ListSubscriptionsUsingDataSourceAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsUsingDataSourceRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListSubscriptionsUsingDataSourceRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsUsingDataSourceResponse> ListSubscriptionsUsingDataSourceAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
+            Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsUsingDataSourceRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListSubscriptionsUsingDataSourceRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DataSource = DataSource;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListSubscriptionsUsingDataSourceAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListSubscriptionsUsingDataSourceAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ChangeSubscriptionOwnerResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ChangeSubscriptionOwner(Bluewire.Reporting.Cli.ServiceProxy.ChangeSubscriptionOwnerRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ChangeSubscriptionOwnerResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ChangeSubscriptionOwner(Bluewire.Reporting.Common.ServiceProxy.ChangeSubscriptionOwnerRequest request) {
             return base.Channel.ChangeSubscriptionOwner(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ChangeSubscriptionOwner(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID, string NewOwner) {
-            Bluewire.Reporting.Cli.ServiceProxy.ChangeSubscriptionOwnerRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ChangeSubscriptionOwnerRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ChangeSubscriptionOwner(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID, string NewOwner) {
+            Bluewire.Reporting.Common.ServiceProxy.ChangeSubscriptionOwnerRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ChangeSubscriptionOwnerRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.SubscriptionID = SubscriptionID;
             inValue.NewOwner = NewOwner;
-            Bluewire.Reporting.Cli.ServiceProxy.ChangeSubscriptionOwnerResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ChangeSubscriptionOwner(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ChangeSubscriptionOwnerResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ChangeSubscriptionOwner(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ChangeSubscriptionOwnerResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ChangeSubscriptionOwnerAsync(Bluewire.Reporting.Cli.ServiceProxy.ChangeSubscriptionOwnerRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ChangeSubscriptionOwnerResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ChangeSubscriptionOwnerAsync(Bluewire.Reporting.Common.ServiceProxy.ChangeSubscriptionOwnerRequest request) {
             return base.Channel.ChangeSubscriptionOwnerAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ChangeSubscriptionOwnerResponse> ChangeSubscriptionOwnerAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID, string NewOwner) {
-            Bluewire.Reporting.Cli.ServiceProxy.ChangeSubscriptionOwnerRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ChangeSubscriptionOwnerRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ChangeSubscriptionOwnerResponse> ChangeSubscriptionOwnerAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SubscriptionID, string NewOwner) {
+            Bluewire.Reporting.Common.ServiceProxy.ChangeSubscriptionOwnerRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ChangeSubscriptionOwnerRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.SubscriptionID = SubscriptionID;
             inValue.NewOwner = NewOwner;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ChangeSubscriptionOwnerAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ChangeSubscriptionOwnerAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateDataSourceResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CreateDataSource(Bluewire.Reporting.Cli.ServiceProxy.CreateDataSourceRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.CreateDataSourceResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CreateDataSource(Bluewire.Reporting.Common.ServiceProxy.CreateDataSourceRequest request) {
             return base.Channel.CreateDataSource(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader CreateDataSource(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, string Parent, bool Overwrite, Bluewire.Reporting.Cli.ServiceProxy.DataSourceDefinition Definition, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties, out Bluewire.Reporting.Cli.ServiceProxy.CatalogItem ItemInfo) {
-            Bluewire.Reporting.Cli.ServiceProxy.CreateDataSourceRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CreateDataSourceRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader CreateDataSource(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, string Parent, bool Overwrite, Bluewire.Reporting.Common.ServiceProxy.DataSourceDefinition Definition, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties, out Bluewire.Reporting.Common.ServiceProxy.CatalogItem ItemInfo) {
+            Bluewire.Reporting.Common.ServiceProxy.CreateDataSourceRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CreateDataSourceRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DataSource = DataSource;
             inValue.Parent = Parent;
             inValue.Overwrite = Overwrite;
             inValue.Definition = Definition;
             inValue.Properties = Properties;
-            Bluewire.Reporting.Cli.ServiceProxy.CreateDataSourceResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CreateDataSource(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.CreateDataSourceResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CreateDataSource(inValue);
             ItemInfo = retVal.ItemInfo;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateDataSourceResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CreateDataSourceAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateDataSourceRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateDataSourceResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CreateDataSourceAsync(Bluewire.Reporting.Common.ServiceProxy.CreateDataSourceRequest request) {
             return base.Channel.CreateDataSourceAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateDataSourceResponse> CreateDataSourceAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, string Parent, bool Overwrite, Bluewire.Reporting.Cli.ServiceProxy.DataSourceDefinition Definition, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
-            Bluewire.Reporting.Cli.ServiceProxy.CreateDataSourceRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CreateDataSourceRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateDataSourceResponse> CreateDataSourceAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, string Parent, bool Overwrite, Bluewire.Reporting.Common.ServiceProxy.DataSourceDefinition Definition, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
+            Bluewire.Reporting.Common.ServiceProxy.CreateDataSourceRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CreateDataSourceRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DataSource = DataSource;
             inValue.Parent = Parent;
             inValue.Overwrite = Overwrite;
             inValue.Definition = Definition;
             inValue.Properties = Properties;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CreateDataSourceAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CreateDataSourceAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.PrepareQueryResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.PrepareQuery(Bluewire.Reporting.Cli.ServiceProxy.PrepareQueryRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.PrepareQueryResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.PrepareQuery(Bluewire.Reporting.Common.ServiceProxy.PrepareQueryRequest request) {
             return base.Channel.PrepareQuery(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader PrepareQuery(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Cli.ServiceProxy.DataSource DataSource, Bluewire.Reporting.Cli.ServiceProxy.DataSetDefinition DataSet, out Bluewire.Reporting.Cli.ServiceProxy.DataSetDefinition DataSettings, out bool Changed, out string[] ParameterNames) {
-            Bluewire.Reporting.Cli.ServiceProxy.PrepareQueryRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.PrepareQueryRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader PrepareQuery(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Common.ServiceProxy.DataSource DataSource, Bluewire.Reporting.Common.ServiceProxy.DataSetDefinition DataSet, out Bluewire.Reporting.Common.ServiceProxy.DataSetDefinition DataSettings, out bool Changed, out string[] ParameterNames) {
+            Bluewire.Reporting.Common.ServiceProxy.PrepareQueryRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.PrepareQueryRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DataSource = DataSource;
             inValue.DataSet = DataSet;
-            Bluewire.Reporting.Cli.ServiceProxy.PrepareQueryResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).PrepareQuery(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.PrepareQueryResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).PrepareQuery(inValue);
             DataSettings = retVal.DataSettings;
             Changed = retVal.Changed;
             ParameterNames = retVal.ParameterNames;
             return retVal.ServerInfoHeader;
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.PrepareQueryResponse> PrepareQueryAsync(Bluewire.Reporting.Cli.ServiceProxy.PrepareQueryRequest request) {
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.PrepareQueryResponse> PrepareQueryAsync(Bluewire.Reporting.Common.ServiceProxy.PrepareQueryRequest request) {
             return base.Channel.PrepareQueryAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.EnableDataSourceResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.EnableDataSource(Bluewire.Reporting.Cli.ServiceProxy.EnableDataSourceRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.EnableDataSourceResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.EnableDataSource(Bluewire.Reporting.Common.ServiceProxy.EnableDataSourceRequest request) {
             return base.Channel.EnableDataSource(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader EnableDataSource(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
-            Bluewire.Reporting.Cli.ServiceProxy.EnableDataSourceRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.EnableDataSourceRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader EnableDataSource(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
+            Bluewire.Reporting.Common.ServiceProxy.EnableDataSourceRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.EnableDataSourceRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DataSource = DataSource;
-            Bluewire.Reporting.Cli.ServiceProxy.EnableDataSourceResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).EnableDataSource(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.EnableDataSourceResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).EnableDataSource(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.EnableDataSourceResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.EnableDataSourceAsync(Bluewire.Reporting.Cli.ServiceProxy.EnableDataSourceRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.EnableDataSourceResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.EnableDataSourceAsync(Bluewire.Reporting.Common.ServiceProxy.EnableDataSourceRequest request) {
             return base.Channel.EnableDataSourceAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.EnableDataSourceResponse> EnableDataSourceAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
-            Bluewire.Reporting.Cli.ServiceProxy.EnableDataSourceRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.EnableDataSourceRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.EnableDataSourceResponse> EnableDataSourceAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
+            Bluewire.Reporting.Common.ServiceProxy.EnableDataSourceRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.EnableDataSourceRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DataSource = DataSource;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).EnableDataSourceAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).EnableDataSourceAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.DisableDataSourceResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.DisableDataSource(Bluewire.Reporting.Cli.ServiceProxy.DisableDataSourceRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.DisableDataSourceResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.DisableDataSource(Bluewire.Reporting.Common.ServiceProxy.DisableDataSourceRequest request) {
             return base.Channel.DisableDataSource(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader DisableDataSource(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
-            Bluewire.Reporting.Cli.ServiceProxy.DisableDataSourceRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.DisableDataSourceRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader DisableDataSource(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
+            Bluewire.Reporting.Common.ServiceProxy.DisableDataSourceRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.DisableDataSourceRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DataSource = DataSource;
-            Bluewire.Reporting.Cli.ServiceProxy.DisableDataSourceResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).DisableDataSource(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.DisableDataSourceResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).DisableDataSource(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DisableDataSourceResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.DisableDataSourceAsync(Bluewire.Reporting.Cli.ServiceProxy.DisableDataSourceRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DisableDataSourceResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.DisableDataSourceAsync(Bluewire.Reporting.Common.ServiceProxy.DisableDataSourceRequest request) {
             return base.Channel.DisableDataSourceAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DisableDataSourceResponse> DisableDataSourceAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
-            Bluewire.Reporting.Cli.ServiceProxy.DisableDataSourceRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.DisableDataSourceRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DisableDataSourceResponse> DisableDataSourceAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
+            Bluewire.Reporting.Common.ServiceProxy.DisableDataSourceRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.DisableDataSourceRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DataSource = DataSource;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).DisableDataSourceAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).DisableDataSourceAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetDataSourceContentsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetDataSourceContents(Bluewire.Reporting.Cli.ServiceProxy.SetDataSourceContentsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetDataSourceContentsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetDataSourceContents(Bluewire.Reporting.Common.ServiceProxy.SetDataSourceContentsRequest request) {
             return base.Channel.SetDataSourceContents(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetDataSourceContents(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, Bluewire.Reporting.Cli.ServiceProxy.DataSourceDefinition Definition) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetDataSourceContentsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetDataSourceContentsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetDataSourceContents(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, Bluewire.Reporting.Common.ServiceProxy.DataSourceDefinition Definition) {
+            Bluewire.Reporting.Common.ServiceProxy.SetDataSourceContentsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetDataSourceContentsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DataSource = DataSource;
             inValue.Definition = Definition;
-            Bluewire.Reporting.Cli.ServiceProxy.SetDataSourceContentsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetDataSourceContents(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetDataSourceContentsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetDataSourceContents(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetDataSourceContentsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetDataSourceContentsAsync(Bluewire.Reporting.Cli.ServiceProxy.SetDataSourceContentsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetDataSourceContentsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetDataSourceContentsAsync(Bluewire.Reporting.Common.ServiceProxy.SetDataSourceContentsRequest request) {
             return base.Channel.SetDataSourceContentsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetDataSourceContentsResponse> SetDataSourceContentsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, Bluewire.Reporting.Cli.ServiceProxy.DataSourceDefinition Definition) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetDataSourceContentsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetDataSourceContentsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetDataSourceContentsResponse> SetDataSourceContentsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, Bluewire.Reporting.Common.ServiceProxy.DataSourceDefinition Definition) {
+            Bluewire.Reporting.Common.ServiceProxy.SetDataSourceContentsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetDataSourceContentsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DataSource = DataSource;
             inValue.Definition = Definition;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetDataSourceContentsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetDataSourceContentsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetDataSourceContentsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetDataSourceContents(Bluewire.Reporting.Cli.ServiceProxy.GetDataSourceContentsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetDataSourceContentsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetDataSourceContents(Bluewire.Reporting.Common.ServiceProxy.GetDataSourceContentsRequest request) {
             return base.Channel.GetDataSourceContents(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetDataSourceContents(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, out Bluewire.Reporting.Cli.ServiceProxy.DataSourceDefinition Definition) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetDataSourceContentsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetDataSourceContentsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetDataSourceContents(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, out Bluewire.Reporting.Common.ServiceProxy.DataSourceDefinition Definition) {
+            Bluewire.Reporting.Common.ServiceProxy.GetDataSourceContentsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetDataSourceContentsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DataSource = DataSource;
-            Bluewire.Reporting.Cli.ServiceProxy.GetDataSourceContentsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetDataSourceContents(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetDataSourceContentsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetDataSourceContents(inValue);
             Definition = retVal.Definition;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetDataSourceContentsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetDataSourceContentsAsync(Bluewire.Reporting.Cli.ServiceProxy.GetDataSourceContentsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetDataSourceContentsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetDataSourceContentsAsync(Bluewire.Reporting.Common.ServiceProxy.GetDataSourceContentsRequest request) {
             return base.Channel.GetDataSourceContentsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetDataSourceContentsResponse> GetDataSourceContentsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetDataSourceContentsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetDataSourceContentsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetDataSourceContentsResponse> GetDataSourceContentsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource) {
+            Bluewire.Reporting.Common.ServiceProxy.GetDataSourceContentsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetDataSourceContentsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DataSource = DataSource;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetDataSourceContentsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetDataSourceContentsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListDatabaseCredentialRetrievalOptionsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListDatabaseCredentialRetrievalOptions(Bluewire.Reporting.Cli.ServiceProxy.ListDatabaseCredentialRetrievalOptionsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListDatabaseCredentialRetrievalOptionsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListDatabaseCredentialRetrievalOptions(Bluewire.Reporting.Common.ServiceProxy.ListDatabaseCredentialRetrievalOptionsRequest request) {
             return base.Channel.ListDatabaseCredentialRetrievalOptions(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListDatabaseCredentialRetrievalOptions(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListDatabaseCredentialRetrievalOptionsResult) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListDatabaseCredentialRetrievalOptionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListDatabaseCredentialRetrievalOptionsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListDatabaseCredentialRetrievalOptions(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListDatabaseCredentialRetrievalOptionsResult) {
+            Bluewire.Reporting.Common.ServiceProxy.ListDatabaseCredentialRetrievalOptionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListDatabaseCredentialRetrievalOptionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            Bluewire.Reporting.Cli.ServiceProxy.ListDatabaseCredentialRetrievalOptionsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListDatabaseCredentialRetrievalOptions(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListDatabaseCredentialRetrievalOptionsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListDatabaseCredentialRetrievalOptions(inValue);
             ListDatabaseCredentialRetrievalOptionsResult = retVal.ListDatabaseCredentialRetrievalOptionsResult;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListDatabaseCredentialRetrievalOptionsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListDatabaseCredentialRetrievalOptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListDatabaseCredentialRetrievalOptionsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListDatabaseCredentialRetrievalOptionsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListDatabaseCredentialRetrievalOptionsAsync(Bluewire.Reporting.Common.ServiceProxy.ListDatabaseCredentialRetrievalOptionsRequest request) {
             return base.Channel.ListDatabaseCredentialRetrievalOptionsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListDatabaseCredentialRetrievalOptionsResponse> ListDatabaseCredentialRetrievalOptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListDatabaseCredentialRetrievalOptionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListDatabaseCredentialRetrievalOptionsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListDatabaseCredentialRetrievalOptionsResponse> ListDatabaseCredentialRetrievalOptionsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+            Bluewire.Reporting.Common.ServiceProxy.ListDatabaseCredentialRetrievalOptionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListDatabaseCredentialRetrievalOptionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListDatabaseCredentialRetrievalOptionsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListDatabaseCredentialRetrievalOptionsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetItemDataSourcesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetItemDataSources(Bluewire.Reporting.Cli.ServiceProxy.SetItemDataSourcesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetItemDataSourcesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetItemDataSources(Bluewire.Reporting.Common.ServiceProxy.SetItemDataSourcesRequest request) {
             return base.Channel.SetItemDataSources(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetItemDataSources(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.DataSource[] DataSources) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemDataSourcesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetItemDataSourcesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetItemDataSources(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.DataSource[] DataSources) {
+            Bluewire.Reporting.Common.ServiceProxy.SetItemDataSourcesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetItemDataSourcesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.DataSources = DataSources;
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemDataSourcesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetItemDataSources(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetItemDataSourcesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetItemDataSources(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemDataSourcesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetItemDataSourcesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetItemDataSourcesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemDataSourcesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetItemDataSourcesAsync(Bluewire.Reporting.Common.ServiceProxy.SetItemDataSourcesRequest request) {
             return base.Channel.SetItemDataSourcesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemDataSourcesResponse> SetItemDataSourcesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.DataSource[] DataSources) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemDataSourcesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetItemDataSourcesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemDataSourcesResponse> SetItemDataSourcesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.DataSource[] DataSources) {
+            Bluewire.Reporting.Common.ServiceProxy.SetItemDataSourcesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetItemDataSourcesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.DataSources = DataSources;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetItemDataSourcesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetItemDataSourcesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetItemDataSources(Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetItemDataSources(Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcesRequest request) {
             return base.Channel.GetItemDataSources(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetItemDataSources(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out Bluewire.Reporting.Cli.ServiceProxy.DataSource[] DataSources) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetItemDataSources(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out Bluewire.Reporting.Common.ServiceProxy.DataSource[] DataSources) {
+            Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetItemDataSources(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetItemDataSources(inValue);
             DataSources = retVal.DataSources;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetItemDataSourcesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetItemDataSourcesAsync(Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcesRequest request) {
             return base.Channel.GetItemDataSourcesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcesResponse> GetItemDataSourcesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcesResponse> GetItemDataSourcesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+            Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetItemDataSourcesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetItemDataSourcesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.TestConnectForDataSourceDefinitionResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.TestConnectForDataSourceDefinition(Bluewire.Reporting.Cli.ServiceProxy.TestConnectForDataSourceDefinitionRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.TestConnectForDataSourceDefinitionResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.TestConnectForDataSourceDefinition(Bluewire.Reporting.Common.ServiceProxy.TestConnectForDataSourceDefinitionRequest request) {
             return base.Channel.TestConnectForDataSourceDefinition(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader TestConnectForDataSourceDefinition(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Cli.ServiceProxy.DataSourceDefinition DataSourceDefinition, string UserName, string Password, out bool TestConnectForDataSourceDefinitionResult, out string ConnectError) {
-            Bluewire.Reporting.Cli.ServiceProxy.TestConnectForDataSourceDefinitionRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.TestConnectForDataSourceDefinitionRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader TestConnectForDataSourceDefinition(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Common.ServiceProxy.DataSourceDefinition DataSourceDefinition, string UserName, string Password, out bool TestConnectForDataSourceDefinitionResult, out string ConnectError) {
+            Bluewire.Reporting.Common.ServiceProxy.TestConnectForDataSourceDefinitionRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.TestConnectForDataSourceDefinitionRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DataSourceDefinition = DataSourceDefinition;
             inValue.UserName = UserName;
             inValue.Password = Password;
-            Bluewire.Reporting.Cli.ServiceProxy.TestConnectForDataSourceDefinitionResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).TestConnectForDataSourceDefinition(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.TestConnectForDataSourceDefinitionResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).TestConnectForDataSourceDefinition(inValue);
             TestConnectForDataSourceDefinitionResult = retVal.TestConnectForDataSourceDefinitionResult;
             ConnectError = retVal.ConnectError;
             return retVal.ServerInfoHeader;
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.TestConnectForDataSourceDefinitionResponse> TestConnectForDataSourceDefinitionAsync(Bluewire.Reporting.Cli.ServiceProxy.TestConnectForDataSourceDefinitionRequest request) {
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.TestConnectForDataSourceDefinitionResponse> TestConnectForDataSourceDefinitionAsync(Bluewire.Reporting.Common.ServiceProxy.TestConnectForDataSourceDefinitionRequest request) {
             return base.Channel.TestConnectForDataSourceDefinitionAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.TestConnectForItemDataSourceResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.TestConnectForItemDataSource(Bluewire.Reporting.Cli.ServiceProxy.TestConnectForItemDataSourceRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.TestConnectForItemDataSourceResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.TestConnectForItemDataSource(Bluewire.Reporting.Common.ServiceProxy.TestConnectForItemDataSourceRequest request) {
             return base.Channel.TestConnectForItemDataSource(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader TestConnectForItemDataSource(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string DataSourceName, string UserName, string Password, out bool TestConnectForItemDataSourceResult, out string ConnectError) {
-            Bluewire.Reporting.Cli.ServiceProxy.TestConnectForItemDataSourceRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.TestConnectForItemDataSourceRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader TestConnectForItemDataSource(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string DataSourceName, string UserName, string Password, out bool TestConnectForItemDataSourceResult, out string ConnectError) {
+            Bluewire.Reporting.Common.ServiceProxy.TestConnectForItemDataSourceRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.TestConnectForItemDataSourceRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.DataSourceName = DataSourceName;
             inValue.UserName = UserName;
             inValue.Password = Password;
-            Bluewire.Reporting.Cli.ServiceProxy.TestConnectForItemDataSourceResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).TestConnectForItemDataSource(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.TestConnectForItemDataSourceResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).TestConnectForItemDataSource(inValue);
             TestConnectForItemDataSourceResult = retVal.TestConnectForItemDataSourceResult;
             ConnectError = retVal.ConnectError;
             return retVal.ServerInfoHeader;
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.TestConnectForItemDataSourceResponse> TestConnectForItemDataSourceAsync(Bluewire.Reporting.Cli.ServiceProxy.TestConnectForItemDataSourceRequest request) {
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.TestConnectForItemDataSourceResponse> TestConnectForItemDataSourceAsync(Bluewire.Reporting.Common.ServiceProxy.TestConnectForItemDataSourceRequest request) {
             return base.Channel.TestConnectForItemDataSourceAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateRoleResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CreateRole(Bluewire.Reporting.Cli.ServiceProxy.CreateRoleRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.CreateRoleResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CreateRole(Bluewire.Reporting.Common.ServiceProxy.CreateRoleRequest request) {
             return base.Channel.CreateRole(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader CreateRole(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string Description, string[] TaskIDs) {
-            Bluewire.Reporting.Cli.ServiceProxy.CreateRoleRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CreateRoleRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader CreateRole(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string Description, string[] TaskIDs) {
+            Bluewire.Reporting.Common.ServiceProxy.CreateRoleRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CreateRoleRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Name = Name;
             inValue.Description = Description;
             inValue.TaskIDs = TaskIDs;
-            Bluewire.Reporting.Cli.ServiceProxy.CreateRoleResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CreateRole(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.CreateRoleResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CreateRole(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateRoleResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CreateRoleAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateRoleRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateRoleResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CreateRoleAsync(Bluewire.Reporting.Common.ServiceProxy.CreateRoleRequest request) {
             return base.Channel.CreateRoleAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateRoleResponse> CreateRoleAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string Description, string[] TaskIDs) {
-            Bluewire.Reporting.Cli.ServiceProxy.CreateRoleRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CreateRoleRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateRoleResponse> CreateRoleAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string Description, string[] TaskIDs) {
+            Bluewire.Reporting.Common.ServiceProxy.CreateRoleRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CreateRoleRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Name = Name;
             inValue.Description = Description;
             inValue.TaskIDs = TaskIDs;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CreateRoleAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CreateRoleAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetRolePropertiesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetRoleProperties(Bluewire.Reporting.Cli.ServiceProxy.SetRolePropertiesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetRolePropertiesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetRoleProperties(Bluewire.Reporting.Common.ServiceProxy.SetRolePropertiesRequest request) {
             return base.Channel.SetRoleProperties(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetRoleProperties(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string Description, string[] TaskIDs) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetRolePropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetRolePropertiesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetRoleProperties(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string Description, string[] TaskIDs) {
+            Bluewire.Reporting.Common.ServiceProxy.SetRolePropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetRolePropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Name = Name;
             inValue.Description = Description;
             inValue.TaskIDs = TaskIDs;
-            Bluewire.Reporting.Cli.ServiceProxy.SetRolePropertiesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetRoleProperties(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetRolePropertiesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetRoleProperties(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetRolePropertiesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetRolePropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetRolePropertiesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetRolePropertiesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetRolePropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.SetRolePropertiesRequest request) {
             return base.Channel.SetRolePropertiesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetRolePropertiesResponse> SetRolePropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string Description, string[] TaskIDs) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetRolePropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetRolePropertiesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetRolePropertiesResponse> SetRolePropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string Description, string[] TaskIDs) {
+            Bluewire.Reporting.Common.ServiceProxy.SetRolePropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetRolePropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Name = Name;
             inValue.Description = Description;
             inValue.TaskIDs = TaskIDs;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetRolePropertiesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetRolePropertiesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetRolePropertiesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetRoleProperties(Bluewire.Reporting.Cli.ServiceProxy.GetRolePropertiesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetRolePropertiesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetRoleProperties(Bluewire.Reporting.Common.ServiceProxy.GetRolePropertiesRequest request) {
             return base.Channel.GetRoleProperties(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetRoleProperties(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string SiteUrl, out string[] TaskIDs, out string Description) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetRolePropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetRolePropertiesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetRoleProperties(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string SiteUrl, out string[] TaskIDs, out string Description) {
+            Bluewire.Reporting.Common.ServiceProxy.GetRolePropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetRolePropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Name = Name;
             inValue.SiteUrl = SiteUrl;
-            Bluewire.Reporting.Cli.ServiceProxy.GetRolePropertiesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetRoleProperties(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetRolePropertiesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetRoleProperties(inValue);
             TaskIDs = retVal.TaskIDs;
             Description = retVal.Description;
             return retVal.ServerInfoHeader;
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetRolePropertiesResponse> GetRolePropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetRolePropertiesRequest request) {
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetRolePropertiesResponse> GetRolePropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.GetRolePropertiesRequest request) {
             return base.Channel.GetRolePropertiesAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.DeleteRoleResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.DeleteRole(Bluewire.Reporting.Cli.ServiceProxy.DeleteRoleRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.DeleteRoleResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.DeleteRole(Bluewire.Reporting.Common.ServiceProxy.DeleteRoleRequest request) {
             return base.Channel.DeleteRole(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader DeleteRole(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name) {
-            Bluewire.Reporting.Cli.ServiceProxy.DeleteRoleRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.DeleteRoleRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader DeleteRole(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name) {
+            Bluewire.Reporting.Common.ServiceProxy.DeleteRoleRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.DeleteRoleRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Name = Name;
-            Bluewire.Reporting.Cli.ServiceProxy.DeleteRoleResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).DeleteRole(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.DeleteRoleResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).DeleteRole(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DeleteRoleResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.DeleteRoleAsync(Bluewire.Reporting.Cli.ServiceProxy.DeleteRoleRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DeleteRoleResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.DeleteRoleAsync(Bluewire.Reporting.Common.ServiceProxy.DeleteRoleRequest request) {
             return base.Channel.DeleteRoleAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DeleteRoleResponse> DeleteRoleAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name) {
-            Bluewire.Reporting.Cli.ServiceProxy.DeleteRoleRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.DeleteRoleRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DeleteRoleResponse> DeleteRoleAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name) {
+            Bluewire.Reporting.Common.ServiceProxy.DeleteRoleRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.DeleteRoleRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Name = Name;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).DeleteRoleAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).DeleteRoleAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListRolesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListRoles(Bluewire.Reporting.Cli.ServiceProxy.ListRolesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListRolesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListRoles(Bluewire.Reporting.Common.ServiceProxy.ListRolesRequest request) {
             return base.Channel.ListRoles(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListRoles(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SecurityScope, string SiteUrl, out Bluewire.Reporting.Cli.ServiceProxy.Role[] Roles) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListRolesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListRolesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListRoles(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SecurityScope, string SiteUrl, out Bluewire.Reporting.Common.ServiceProxy.Role[] Roles) {
+            Bluewire.Reporting.Common.ServiceProxy.ListRolesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListRolesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.SecurityScope = SecurityScope;
             inValue.SiteUrl = SiteUrl;
-            Bluewire.Reporting.Cli.ServiceProxy.ListRolesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListRoles(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListRolesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListRoles(inValue);
             Roles = retVal.Roles;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListRolesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListRolesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListRolesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListRolesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListRolesAsync(Bluewire.Reporting.Common.ServiceProxy.ListRolesRequest request) {
             return base.Channel.ListRolesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListRolesResponse> ListRolesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SecurityScope, string SiteUrl) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListRolesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListRolesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListRolesResponse> ListRolesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SecurityScope, string SiteUrl) {
+            Bluewire.Reporting.Common.ServiceProxy.ListRolesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListRolesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.SecurityScope = SecurityScope;
             inValue.SiteUrl = SiteUrl;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListRolesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListRolesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListTasksResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListTasks(Bluewire.Reporting.Cli.ServiceProxy.ListTasksRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListTasksResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListTasks(Bluewire.Reporting.Common.ServiceProxy.ListTasksRequest request) {
             return base.Channel.ListTasks(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListTasks(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SecurityScope, out Bluewire.Reporting.Cli.ServiceProxy.Task[] Tasks) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListTasksRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListTasksRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListTasks(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SecurityScope, out Bluewire.Reporting.Common.ServiceProxy.Task[] Tasks) {
+            Bluewire.Reporting.Common.ServiceProxy.ListTasksRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListTasksRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.SecurityScope = SecurityScope;
-            Bluewire.Reporting.Cli.ServiceProxy.ListTasksResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListTasks(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListTasksResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListTasks(inValue);
             Tasks = retVal.Tasks;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListTasksResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListTasksAsync(Bluewire.Reporting.Cli.ServiceProxy.ListTasksRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListTasksResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListTasksAsync(Bluewire.Reporting.Common.ServiceProxy.ListTasksRequest request) {
             return base.Channel.ListTasksAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListTasksResponse> ListTasksAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SecurityScope) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListTasksRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListTasksRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListTasksResponse> ListTasksAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SecurityScope) {
+            Bluewire.Reporting.Common.ServiceProxy.ListTasksRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListTasksRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.SecurityScope = SecurityScope;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListTasksAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListTasksAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetPoliciesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetPolicies(Bluewire.Reporting.Cli.ServiceProxy.SetPoliciesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetPoliciesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetPolicies(Bluewire.Reporting.Common.ServiceProxy.SetPoliciesRequest request) {
             return base.Channel.SetPolicies(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetPolicies(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetPoliciesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetPoliciesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetPolicies(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies) {
+            Bluewire.Reporting.Common.ServiceProxy.SetPoliciesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetPoliciesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Policies = Policies;
-            Bluewire.Reporting.Cli.ServiceProxy.SetPoliciesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetPolicies(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetPoliciesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetPolicies(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetPoliciesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetPoliciesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetPoliciesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetPoliciesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetPoliciesAsync(Bluewire.Reporting.Common.ServiceProxy.SetPoliciesRequest request) {
             return base.Channel.SetPoliciesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetPoliciesResponse> SetPoliciesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetPoliciesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetPoliciesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetPoliciesResponse> SetPoliciesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies) {
+            Bluewire.Reporting.Common.ServiceProxy.SetPoliciesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetPoliciesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Policies = Policies;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetPoliciesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetPoliciesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetPoliciesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetPolicies(Bluewire.Reporting.Cli.ServiceProxy.GetPoliciesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetPoliciesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetPolicies(Bluewire.Reporting.Common.ServiceProxy.GetPoliciesRequest request) {
             return base.Channel.GetPolicies(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetPolicies(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies, out bool InheritParent) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetPoliciesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetPoliciesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetPolicies(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies, out bool InheritParent) {
+            Bluewire.Reporting.Common.ServiceProxy.GetPoliciesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetPoliciesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.GetPoliciesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetPolicies(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetPoliciesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetPolicies(inValue);
             Policies = retVal.Policies;
             InheritParent = retVal.InheritParent;
             return retVal.ServerInfoHeader;
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetPoliciesResponse> GetPoliciesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetPoliciesRequest request) {
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetPoliciesResponse> GetPoliciesAsync(Bluewire.Reporting.Common.ServiceProxy.GetPoliciesRequest request) {
             return base.Channel.GetPoliciesAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcePromptsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetItemDataSourcePrompts(Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcePromptsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcePromptsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetItemDataSourcePrompts(Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcePromptsRequest request) {
             return base.Channel.GetItemDataSourcePrompts(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetItemDataSourcePrompts(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out Bluewire.Reporting.Cli.ServiceProxy.DataSourcePrompt[] DataSourcePrompts) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcePromptsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcePromptsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetItemDataSourcePrompts(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out Bluewire.Reporting.Common.ServiceProxy.DataSourcePrompt[] DataSourcePrompts) {
+            Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcePromptsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcePromptsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcePromptsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetItemDataSourcePrompts(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcePromptsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetItemDataSourcePrompts(inValue);
             DataSourcePrompts = retVal.DataSourcePrompts;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcePromptsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetItemDataSourcePromptsAsync(Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcePromptsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcePromptsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetItemDataSourcePromptsAsync(Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcePromptsRequest request) {
             return base.Channel.GetItemDataSourcePromptsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcePromptsResponse> GetItemDataSourcePromptsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcePromptsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetItemDataSourcePromptsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcePromptsResponse> GetItemDataSourcePromptsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+            Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcePromptsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetItemDataSourcePromptsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetItemDataSourcePromptsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetItemDataSourcePromptsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GenerateModelResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GenerateModel(Bluewire.Reporting.Cli.ServiceProxy.GenerateModelRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GenerateModelResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GenerateModel(Bluewire.Reporting.Common.ServiceProxy.GenerateModelRequest request) {
             return base.Channel.GenerateModel(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GenerateModel(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, string Model, string Parent, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties, out Bluewire.Reporting.Cli.ServiceProxy.CatalogItem ItemInfo, out Bluewire.Reporting.Cli.ServiceProxy.Warning[] Warnings) {
-            Bluewire.Reporting.Cli.ServiceProxy.GenerateModelRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GenerateModelRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GenerateModel(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string DataSource, string Model, string Parent, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties, out Bluewire.Reporting.Common.ServiceProxy.CatalogItem ItemInfo, out Bluewire.Reporting.Common.ServiceProxy.Warning[] Warnings) {
+            Bluewire.Reporting.Common.ServiceProxy.GenerateModelRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GenerateModelRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DataSource = DataSource;
             inValue.Model = Model;
             inValue.Parent = Parent;
             inValue.Properties = Properties;
-            Bluewire.Reporting.Cli.ServiceProxy.GenerateModelResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GenerateModel(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GenerateModelResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GenerateModel(inValue);
             ItemInfo = retVal.ItemInfo;
             Warnings = retVal.Warnings;
             return retVal.ServerInfoHeader;
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GenerateModelResponse> GenerateModelAsync(Bluewire.Reporting.Cli.ServiceProxy.GenerateModelRequest request) {
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GenerateModelResponse> GenerateModelAsync(Bluewire.Reporting.Common.ServiceProxy.GenerateModelRequest request) {
             return base.Channel.GenerateModelAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPermissionsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetModelItemPermissions(Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPermissionsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetModelItemPermissionsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetModelItemPermissions(Bluewire.Reporting.Common.ServiceProxy.GetModelItemPermissionsRequest request) {
             return base.Channel.GetModelItemPermissions(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetModelItemPermissions(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, out string[] Permissions) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPermissionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPermissionsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetModelItemPermissions(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, out string[] Permissions) {
+            Bluewire.Reporting.Common.ServiceProxy.GetModelItemPermissionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetModelItemPermissionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
             inValue.ModelItemID = ModelItemID;
-            Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPermissionsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetModelItemPermissions(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetModelItemPermissionsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetModelItemPermissions(inValue);
             Permissions = retVal.Permissions;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPermissionsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetModelItemPermissionsAsync(Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPermissionsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetModelItemPermissionsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetModelItemPermissionsAsync(Bluewire.Reporting.Common.ServiceProxy.GetModelItemPermissionsRequest request) {
             return base.Channel.GetModelItemPermissionsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPermissionsResponse> GetModelItemPermissionsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPermissionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPermissionsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetModelItemPermissionsResponse> GetModelItemPermissionsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID) {
+            Bluewire.Reporting.Common.ServiceProxy.GetModelItemPermissionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetModelItemPermissionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
             inValue.ModelItemID = ModelItemID;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetModelItemPermissionsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetModelItemPermissionsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetModelItemPoliciesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetModelItemPolicies(Bluewire.Reporting.Cli.ServiceProxy.SetModelItemPoliciesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetModelItemPoliciesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetModelItemPolicies(Bluewire.Reporting.Common.ServiceProxy.SetModelItemPoliciesRequest request) {
             return base.Channel.SetModelItemPolicies(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetModelItemPolicies(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetModelItemPoliciesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetModelItemPoliciesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetModelItemPolicies(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies) {
+            Bluewire.Reporting.Common.ServiceProxy.SetModelItemPoliciesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetModelItemPoliciesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
             inValue.ModelItemID = ModelItemID;
             inValue.Policies = Policies;
-            Bluewire.Reporting.Cli.ServiceProxy.SetModelItemPoliciesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetModelItemPolicies(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetModelItemPoliciesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetModelItemPolicies(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetModelItemPoliciesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetModelItemPoliciesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetModelItemPoliciesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetModelItemPoliciesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetModelItemPoliciesAsync(Bluewire.Reporting.Common.ServiceProxy.SetModelItemPoliciesRequest request) {
             return base.Channel.SetModelItemPoliciesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetModelItemPoliciesResponse> SetModelItemPoliciesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetModelItemPoliciesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetModelItemPoliciesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetModelItemPoliciesResponse> SetModelItemPoliciesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies) {
+            Bluewire.Reporting.Common.ServiceProxy.SetModelItemPoliciesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetModelItemPoliciesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
             inValue.ModelItemID = ModelItemID;
             inValue.Policies = Policies;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetModelItemPoliciesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetModelItemPoliciesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPoliciesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetModelItemPolicies(Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPoliciesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetModelItemPoliciesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetModelItemPolicies(Bluewire.Reporting.Common.ServiceProxy.GetModelItemPoliciesRequest request) {
             return base.Channel.GetModelItemPolicies(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetModelItemPolicies(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, out Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies, out bool InheritParent) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPoliciesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPoliciesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetModelItemPolicies(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, out Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies, out bool InheritParent) {
+            Bluewire.Reporting.Common.ServiceProxy.GetModelItemPoliciesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetModelItemPoliciesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
             inValue.ModelItemID = ModelItemID;
-            Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPoliciesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetModelItemPolicies(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetModelItemPoliciesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetModelItemPolicies(inValue);
             Policies = retVal.Policies;
             InheritParent = retVal.InheritParent;
             return retVal.ServerInfoHeader;
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPoliciesResponse> GetModelItemPoliciesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetModelItemPoliciesRequest request) {
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetModelItemPoliciesResponse> GetModelItemPoliciesAsync(Bluewire.Reporting.Common.ServiceProxy.GetModelItemPoliciesRequest request) {
             return base.Channel.GetModelItemPoliciesAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetUserModelResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetUserModel(Bluewire.Reporting.Cli.ServiceProxy.GetUserModelRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetUserModelResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetUserModel(Bluewire.Reporting.Common.ServiceProxy.GetUserModelRequest request) {
             return base.Channel.GetUserModel(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetUserModel(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string Perspective, out byte[] Definition) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetUserModelRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetUserModelRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetUserModel(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string Perspective, out byte[] Definition) {
+            Bluewire.Reporting.Common.ServiceProxy.GetUserModelRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetUserModelRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
             inValue.Perspective = Perspective;
-            Bluewire.Reporting.Cli.ServiceProxy.GetUserModelResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetUserModel(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetUserModelResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetUserModel(inValue);
             Definition = retVal.Definition;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetUserModelResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetUserModelAsync(Bluewire.Reporting.Cli.ServiceProxy.GetUserModelRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetUserModelResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetUserModelAsync(Bluewire.Reporting.Common.ServiceProxy.GetUserModelRequest request) {
             return base.Channel.GetUserModelAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetUserModelResponse> GetUserModelAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string Perspective) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetUserModelRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetUserModelRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetUserModelResponse> GetUserModelAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string Perspective) {
+            Bluewire.Reporting.Common.ServiceProxy.GetUserModelRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetUserModelRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
             inValue.Perspective = Perspective;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetUserModelAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetUserModelAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.InheritModelItemParentSecurityResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.InheritModelItemParentSecurity(Bluewire.Reporting.Cli.ServiceProxy.InheritModelItemParentSecurityRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.InheritModelItemParentSecurityResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.InheritModelItemParentSecurity(Bluewire.Reporting.Common.ServiceProxy.InheritModelItemParentSecurityRequest request) {
             return base.Channel.InheritModelItemParentSecurity(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader InheritModelItemParentSecurity(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID) {
-            Bluewire.Reporting.Cli.ServiceProxy.InheritModelItemParentSecurityRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.InheritModelItemParentSecurityRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader InheritModelItemParentSecurity(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID) {
+            Bluewire.Reporting.Common.ServiceProxy.InheritModelItemParentSecurityRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.InheritModelItemParentSecurityRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
             inValue.ModelItemID = ModelItemID;
-            Bluewire.Reporting.Cli.ServiceProxy.InheritModelItemParentSecurityResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).InheritModelItemParentSecurity(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.InheritModelItemParentSecurityResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).InheritModelItemParentSecurity(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.InheritModelItemParentSecurityResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.InheritModelItemParentSecurityAsync(Bluewire.Reporting.Cli.ServiceProxy.InheritModelItemParentSecurityRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.InheritModelItemParentSecurityResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.InheritModelItemParentSecurityAsync(Bluewire.Reporting.Common.ServiceProxy.InheritModelItemParentSecurityRequest request) {
             return base.Channel.InheritModelItemParentSecurityAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.InheritModelItemParentSecurityResponse> InheritModelItemParentSecurityAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID) {
-            Bluewire.Reporting.Cli.ServiceProxy.InheritModelItemParentSecurityRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.InheritModelItemParentSecurityRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.InheritModelItemParentSecurityResponse> InheritModelItemParentSecurityAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID) {
+            Bluewire.Reporting.Common.ServiceProxy.InheritModelItemParentSecurityRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.InheritModelItemParentSecurityRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
             inValue.ModelItemID = ModelItemID;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).InheritModelItemParentSecurityAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).InheritModelItemParentSecurityAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetModelDrillthroughReportsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetModelDrillthroughReports(Bluewire.Reporting.Cli.ServiceProxy.SetModelDrillthroughReportsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetModelDrillthroughReportsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetModelDrillthroughReports(Bluewire.Reporting.Common.ServiceProxy.SetModelDrillthroughReportsRequest request) {
             return base.Channel.SetModelDrillthroughReports(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetModelDrillthroughReports(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, Bluewire.Reporting.Cli.ServiceProxy.ModelDrillthroughReport[] Reports) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetModelDrillthroughReportsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetModelDrillthroughReportsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetModelDrillthroughReports(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, Bluewire.Reporting.Common.ServiceProxy.ModelDrillthroughReport[] Reports) {
+            Bluewire.Reporting.Common.ServiceProxy.SetModelDrillthroughReportsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetModelDrillthroughReportsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
             inValue.ModelItemID = ModelItemID;
             inValue.Reports = Reports;
-            Bluewire.Reporting.Cli.ServiceProxy.SetModelDrillthroughReportsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetModelDrillthroughReports(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetModelDrillthroughReportsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetModelDrillthroughReports(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetModelDrillthroughReportsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetModelDrillthroughReportsAsync(Bluewire.Reporting.Cli.ServiceProxy.SetModelDrillthroughReportsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetModelDrillthroughReportsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetModelDrillthroughReportsAsync(Bluewire.Reporting.Common.ServiceProxy.SetModelDrillthroughReportsRequest request) {
             return base.Channel.SetModelDrillthroughReportsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetModelDrillthroughReportsResponse> SetModelDrillthroughReportsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, Bluewire.Reporting.Cli.ServiceProxy.ModelDrillthroughReport[] Reports) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetModelDrillthroughReportsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetModelDrillthroughReportsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetModelDrillthroughReportsResponse> SetModelDrillthroughReportsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, Bluewire.Reporting.Common.ServiceProxy.ModelDrillthroughReport[] Reports) {
+            Bluewire.Reporting.Common.ServiceProxy.SetModelDrillthroughReportsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetModelDrillthroughReportsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
             inValue.ModelItemID = ModelItemID;
             inValue.Reports = Reports;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetModelDrillthroughReportsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetModelDrillthroughReportsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListModelDrillthroughReportsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListModelDrillthroughReports(Bluewire.Reporting.Cli.ServiceProxy.ListModelDrillthroughReportsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListModelDrillthroughReportsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListModelDrillthroughReports(Bluewire.Reporting.Common.ServiceProxy.ListModelDrillthroughReportsRequest request) {
             return base.Channel.ListModelDrillthroughReports(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListModelDrillthroughReports(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, out Bluewire.Reporting.Cli.ServiceProxy.ModelDrillthroughReport[] Reports) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListModelDrillthroughReportsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListModelDrillthroughReportsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListModelDrillthroughReports(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, out Bluewire.Reporting.Common.ServiceProxy.ModelDrillthroughReport[] Reports) {
+            Bluewire.Reporting.Common.ServiceProxy.ListModelDrillthroughReportsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListModelDrillthroughReportsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
             inValue.ModelItemID = ModelItemID;
-            Bluewire.Reporting.Cli.ServiceProxy.ListModelDrillthroughReportsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListModelDrillthroughReports(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListModelDrillthroughReportsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListModelDrillthroughReports(inValue);
             Reports = retVal.Reports;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListModelDrillthroughReportsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListModelDrillthroughReportsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListModelDrillthroughReportsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListModelDrillthroughReportsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListModelDrillthroughReportsAsync(Bluewire.Reporting.Common.ServiceProxy.ListModelDrillthroughReportsRequest request) {
             return base.Channel.ListModelDrillthroughReportsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListModelDrillthroughReportsResponse> ListModelDrillthroughReportsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListModelDrillthroughReportsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListModelDrillthroughReportsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListModelDrillthroughReportsResponse> ListModelDrillthroughReportsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID) {
+            Bluewire.Reporting.Common.ServiceProxy.ListModelDrillthroughReportsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListModelDrillthroughReportsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
             inValue.ModelItemID = ModelItemID;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListModelDrillthroughReportsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListModelDrillthroughReportsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListModelItemChildrenResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListModelItemChildren(Bluewire.Reporting.Cli.ServiceProxy.ListModelItemChildrenRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListModelItemChildrenResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListModelItemChildren(Bluewire.Reporting.Common.ServiceProxy.ListModelItemChildrenRequest request) {
             return base.Channel.ListModelItemChildren(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListModelItemChildren(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, bool Recursive, out Bluewire.Reporting.Cli.ServiceProxy.ModelItem[] ModelItems) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListModelItemChildrenRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListModelItemChildrenRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListModelItemChildren(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, bool Recursive, out Bluewire.Reporting.Common.ServiceProxy.ModelItem[] ModelItems) {
+            Bluewire.Reporting.Common.ServiceProxy.ListModelItemChildrenRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListModelItemChildrenRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
             inValue.ModelItemID = ModelItemID;
             inValue.Recursive = Recursive;
-            Bluewire.Reporting.Cli.ServiceProxy.ListModelItemChildrenResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListModelItemChildren(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListModelItemChildrenResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListModelItemChildren(inValue);
             ModelItems = retVal.ModelItems;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListModelItemChildrenResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListModelItemChildrenAsync(Bluewire.Reporting.Cli.ServiceProxy.ListModelItemChildrenRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListModelItemChildrenResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListModelItemChildrenAsync(Bluewire.Reporting.Common.ServiceProxy.ListModelItemChildrenRequest request) {
             return base.Channel.ListModelItemChildrenAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListModelItemChildrenResponse> ListModelItemChildrenAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, bool Recursive) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListModelItemChildrenRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListModelItemChildrenRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListModelItemChildrenResponse> ListModelItemChildrenAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, bool Recursive) {
+            Bluewire.Reporting.Common.ServiceProxy.ListModelItemChildrenRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListModelItemChildrenRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
             inValue.ModelItemID = ModelItemID;
             inValue.Recursive = Recursive;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListModelItemChildrenAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListModelItemChildrenAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListModelItemTypesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListModelItemTypes(Bluewire.Reporting.Cli.ServiceProxy.ListModelItemTypesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListModelItemTypesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListModelItemTypes(Bluewire.Reporting.Common.ServiceProxy.ListModelItemTypesRequest request) {
             return base.Channel.ListModelItemTypes(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListModelItemTypes(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListModelItemTypesResult) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListModelItemTypesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListModelItemTypesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListModelItemTypes(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListModelItemTypesResult) {
+            Bluewire.Reporting.Common.ServiceProxy.ListModelItemTypesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListModelItemTypesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            Bluewire.Reporting.Cli.ServiceProxy.ListModelItemTypesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListModelItemTypes(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListModelItemTypesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListModelItemTypes(inValue);
             ListModelItemTypesResult = retVal.ListModelItemTypesResult;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListModelItemTypesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListModelItemTypesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListModelItemTypesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListModelItemTypesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListModelItemTypesAsync(Bluewire.Reporting.Common.ServiceProxy.ListModelItemTypesRequest request) {
             return base.Channel.ListModelItemTypesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListModelItemTypesResponse> ListModelItemTypesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListModelItemTypesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListModelItemTypesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListModelItemTypesResponse> ListModelItemTypesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+            Bluewire.Reporting.Common.ServiceProxy.ListModelItemTypesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListModelItemTypesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListModelItemTypesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListModelItemTypesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListModelPerspectivesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListModelPerspectives(Bluewire.Reporting.Cli.ServiceProxy.ListModelPerspectivesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListModelPerspectivesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListModelPerspectives(Bluewire.Reporting.Common.ServiceProxy.ListModelPerspectivesRequest request) {
             return base.Channel.ListModelPerspectives(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListModelPerspectives(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, out Bluewire.Reporting.Cli.ServiceProxy.ModelCatalogItem[] ModelCatalogItems) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListModelPerspectivesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListModelPerspectivesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListModelPerspectives(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, out Bluewire.Reporting.Common.ServiceProxy.ModelCatalogItem[] ModelCatalogItems) {
+            Bluewire.Reporting.Common.ServiceProxy.ListModelPerspectivesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListModelPerspectivesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
-            Bluewire.Reporting.Cli.ServiceProxy.ListModelPerspectivesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListModelPerspectives(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListModelPerspectivesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListModelPerspectives(inValue);
             ModelCatalogItems = retVal.ModelCatalogItems;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListModelPerspectivesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListModelPerspectivesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListModelPerspectivesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListModelPerspectivesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListModelPerspectivesAsync(Bluewire.Reporting.Common.ServiceProxy.ListModelPerspectivesRequest request) {
             return base.Channel.ListModelPerspectivesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListModelPerspectivesResponse> ListModelPerspectivesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListModelPerspectivesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListModelPerspectivesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListModelPerspectivesResponse> ListModelPerspectivesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model) {
+            Bluewire.Reporting.Common.ServiceProxy.ListModelPerspectivesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListModelPerspectivesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListModelPerspectivesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListModelPerspectivesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.RegenerateModelResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.RegenerateModel(Bluewire.Reporting.Cli.ServiceProxy.RegenerateModelRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.RegenerateModelResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.RegenerateModel(Bluewire.Reporting.Common.ServiceProxy.RegenerateModelRequest request) {
             return base.Channel.RegenerateModel(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader RegenerateModel(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, out Bluewire.Reporting.Cli.ServiceProxy.Warning[] Warnings) {
-            Bluewire.Reporting.Cli.ServiceProxy.RegenerateModelRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.RegenerateModelRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader RegenerateModel(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model, out Bluewire.Reporting.Common.ServiceProxy.Warning[] Warnings) {
+            Bluewire.Reporting.Common.ServiceProxy.RegenerateModelRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.RegenerateModelRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
-            Bluewire.Reporting.Cli.ServiceProxy.RegenerateModelResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).RegenerateModel(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.RegenerateModelResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).RegenerateModel(inValue);
             Warnings = retVal.Warnings;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.RegenerateModelResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.RegenerateModelAsync(Bluewire.Reporting.Cli.ServiceProxy.RegenerateModelRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.RegenerateModelResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.RegenerateModelAsync(Bluewire.Reporting.Common.ServiceProxy.RegenerateModelRequest request) {
             return base.Channel.RegenerateModelAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.RegenerateModelResponse> RegenerateModelAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model) {
-            Bluewire.Reporting.Cli.ServiceProxy.RegenerateModelRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.RegenerateModelRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.RegenerateModelResponse> RegenerateModelAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model) {
+            Bluewire.Reporting.Common.ServiceProxy.RegenerateModelRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.RegenerateModelRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).RegenerateModelAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).RegenerateModelAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.RemoveAllModelItemPoliciesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.RemoveAllModelItemPolicies(Bluewire.Reporting.Cli.ServiceProxy.RemoveAllModelItemPoliciesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.RemoveAllModelItemPoliciesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.RemoveAllModelItemPolicies(Bluewire.Reporting.Common.ServiceProxy.RemoveAllModelItemPoliciesRequest request) {
             return base.Channel.RemoveAllModelItemPolicies(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader RemoveAllModelItemPolicies(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model) {
-            Bluewire.Reporting.Cli.ServiceProxy.RemoveAllModelItemPoliciesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.RemoveAllModelItemPoliciesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader RemoveAllModelItemPolicies(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model) {
+            Bluewire.Reporting.Common.ServiceProxy.RemoveAllModelItemPoliciesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.RemoveAllModelItemPoliciesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
-            Bluewire.Reporting.Cli.ServiceProxy.RemoveAllModelItemPoliciesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).RemoveAllModelItemPolicies(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.RemoveAllModelItemPoliciesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).RemoveAllModelItemPolicies(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.RemoveAllModelItemPoliciesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.RemoveAllModelItemPoliciesAsync(Bluewire.Reporting.Cli.ServiceProxy.RemoveAllModelItemPoliciesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.RemoveAllModelItemPoliciesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.RemoveAllModelItemPoliciesAsync(Bluewire.Reporting.Common.ServiceProxy.RemoveAllModelItemPoliciesRequest request) {
             return base.Channel.RemoveAllModelItemPoliciesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.RemoveAllModelItemPoliciesResponse> RemoveAllModelItemPoliciesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model) {
-            Bluewire.Reporting.Cli.ServiceProxy.RemoveAllModelItemPoliciesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.RemoveAllModelItemPoliciesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.RemoveAllModelItemPoliciesResponse> RemoveAllModelItemPoliciesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Model) {
+            Bluewire.Reporting.Common.ServiceProxy.RemoveAllModelItemPoliciesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.RemoveAllModelItemPoliciesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Model = Model;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).RemoveAllModelItemPoliciesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).RemoveAllModelItemPoliciesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateScheduleResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CreateSchedule(Bluewire.Reporting.Cli.ServiceProxy.CreateScheduleRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.CreateScheduleResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CreateSchedule(Bluewire.Reporting.Common.ServiceProxy.CreateScheduleRequest request) {
             return base.Channel.CreateSchedule(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader CreateSchedule(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinition ScheduleDefinition, string SiteUrl, out string ScheduleID) {
-            Bluewire.Reporting.Cli.ServiceProxy.CreateScheduleRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CreateScheduleRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader CreateSchedule(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinition ScheduleDefinition, string SiteUrl, out string ScheduleID) {
+            Bluewire.Reporting.Common.ServiceProxy.CreateScheduleRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CreateScheduleRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Name = Name;
             inValue.ScheduleDefinition = ScheduleDefinition;
             inValue.SiteUrl = SiteUrl;
-            Bluewire.Reporting.Cli.ServiceProxy.CreateScheduleResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CreateSchedule(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.CreateScheduleResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CreateSchedule(inValue);
             ScheduleID = retVal.ScheduleID;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateScheduleResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CreateScheduleAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateScheduleRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateScheduleResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CreateScheduleAsync(Bluewire.Reporting.Common.ServiceProxy.CreateScheduleRequest request) {
             return base.Channel.CreateScheduleAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateScheduleResponse> CreateScheduleAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinition ScheduleDefinition, string SiteUrl) {
-            Bluewire.Reporting.Cli.ServiceProxy.CreateScheduleRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CreateScheduleRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateScheduleResponse> CreateScheduleAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinition ScheduleDefinition, string SiteUrl) {
+            Bluewire.Reporting.Common.ServiceProxy.CreateScheduleRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CreateScheduleRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Name = Name;
             inValue.ScheduleDefinition = ScheduleDefinition;
             inValue.SiteUrl = SiteUrl;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CreateScheduleAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CreateScheduleAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.DeleteScheduleResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.DeleteSchedule(Bluewire.Reporting.Cli.ServiceProxy.DeleteScheduleRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.DeleteScheduleResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.DeleteSchedule(Bluewire.Reporting.Common.ServiceProxy.DeleteScheduleRequest request) {
             return base.Channel.DeleteSchedule(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader DeleteSchedule(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
-            Bluewire.Reporting.Cli.ServiceProxy.DeleteScheduleRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.DeleteScheduleRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader DeleteSchedule(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
+            Bluewire.Reporting.Common.ServiceProxy.DeleteScheduleRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.DeleteScheduleRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ScheduleID = ScheduleID;
-            Bluewire.Reporting.Cli.ServiceProxy.DeleteScheduleResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).DeleteSchedule(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.DeleteScheduleResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).DeleteSchedule(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DeleteScheduleResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.DeleteScheduleAsync(Bluewire.Reporting.Cli.ServiceProxy.DeleteScheduleRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DeleteScheduleResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.DeleteScheduleAsync(Bluewire.Reporting.Common.ServiceProxy.DeleteScheduleRequest request) {
             return base.Channel.DeleteScheduleAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DeleteScheduleResponse> DeleteScheduleAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
-            Bluewire.Reporting.Cli.ServiceProxy.DeleteScheduleRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.DeleteScheduleRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DeleteScheduleResponse> DeleteScheduleAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
+            Bluewire.Reporting.Common.ServiceProxy.DeleteScheduleRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.DeleteScheduleRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ScheduleID = ScheduleID;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).DeleteScheduleAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).DeleteScheduleAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListSchedulesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListSchedules(Bluewire.Reporting.Cli.ServiceProxy.ListSchedulesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListSchedulesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListSchedules(Bluewire.Reporting.Common.ServiceProxy.ListSchedulesRequest request) {
             return base.Channel.ListSchedules(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListSchedules(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SiteUrl, out Bluewire.Reporting.Cli.ServiceProxy.Schedule[] Schedules) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListSchedulesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListSchedulesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListSchedules(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SiteUrl, out Bluewire.Reporting.Common.ServiceProxy.Schedule[] Schedules) {
+            Bluewire.Reporting.Common.ServiceProxy.ListSchedulesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListSchedulesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.SiteUrl = SiteUrl;
-            Bluewire.Reporting.Cli.ServiceProxy.ListSchedulesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListSchedules(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListSchedulesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListSchedules(inValue);
             Schedules = retVal.Schedules;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListSchedulesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListSchedulesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListSchedulesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListSchedulesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListSchedulesAsync(Bluewire.Reporting.Common.ServiceProxy.ListSchedulesRequest request) {
             return base.Channel.ListSchedulesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListSchedulesResponse> ListSchedulesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SiteUrl) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListSchedulesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListSchedulesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListSchedulesResponse> ListSchedulesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string SiteUrl) {
+            Bluewire.Reporting.Common.ServiceProxy.ListSchedulesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListSchedulesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.SiteUrl = SiteUrl;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListSchedulesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListSchedulesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetSchedulePropertiesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetScheduleProperties(Bluewire.Reporting.Cli.ServiceProxy.GetSchedulePropertiesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetSchedulePropertiesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetScheduleProperties(Bluewire.Reporting.Common.ServiceProxy.GetSchedulePropertiesRequest request) {
             return base.Channel.GetScheduleProperties(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetScheduleProperties(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID, out Bluewire.Reporting.Cli.ServiceProxy.Schedule Schedule) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetSchedulePropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetSchedulePropertiesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetScheduleProperties(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID, out Bluewire.Reporting.Common.ServiceProxy.Schedule Schedule) {
+            Bluewire.Reporting.Common.ServiceProxy.GetSchedulePropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetSchedulePropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ScheduleID = ScheduleID;
-            Bluewire.Reporting.Cli.ServiceProxy.GetSchedulePropertiesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetScheduleProperties(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetSchedulePropertiesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetScheduleProperties(inValue);
             Schedule = retVal.Schedule;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetSchedulePropertiesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetSchedulePropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetSchedulePropertiesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetSchedulePropertiesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetSchedulePropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.GetSchedulePropertiesRequest request) {
             return base.Channel.GetSchedulePropertiesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetSchedulePropertiesResponse> GetSchedulePropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetSchedulePropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetSchedulePropertiesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetSchedulePropertiesResponse> GetSchedulePropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
+            Bluewire.Reporting.Common.ServiceProxy.GetSchedulePropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetSchedulePropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ScheduleID = ScheduleID;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetSchedulePropertiesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetSchedulePropertiesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListScheduleStatesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListScheduleStates(Bluewire.Reporting.Cli.ServiceProxy.ListScheduleStatesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListScheduleStatesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListScheduleStates(Bluewire.Reporting.Common.ServiceProxy.ListScheduleStatesRequest request) {
             return base.Channel.ListScheduleStates(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListScheduleStates(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListScheduleStatesResult) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListScheduleStatesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListScheduleStatesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListScheduleStates(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListScheduleStatesResult) {
+            Bluewire.Reporting.Common.ServiceProxy.ListScheduleStatesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListScheduleStatesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            Bluewire.Reporting.Cli.ServiceProxy.ListScheduleStatesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListScheduleStates(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListScheduleStatesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListScheduleStates(inValue);
             ListScheduleStatesResult = retVal.ListScheduleStatesResult;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListScheduleStatesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListScheduleStatesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListScheduleStatesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListScheduleStatesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListScheduleStatesAsync(Bluewire.Reporting.Common.ServiceProxy.ListScheduleStatesRequest request) {
             return base.Channel.ListScheduleStatesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListScheduleStatesResponse> ListScheduleStatesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListScheduleStatesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListScheduleStatesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListScheduleStatesResponse> ListScheduleStatesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+            Bluewire.Reporting.Common.ServiceProxy.ListScheduleStatesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListScheduleStatesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListScheduleStatesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListScheduleStatesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.PauseScheduleResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.PauseSchedule(Bluewire.Reporting.Cli.ServiceProxy.PauseScheduleRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.PauseScheduleResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.PauseSchedule(Bluewire.Reporting.Common.ServiceProxy.PauseScheduleRequest request) {
             return base.Channel.PauseSchedule(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader PauseSchedule(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
-            Bluewire.Reporting.Cli.ServiceProxy.PauseScheduleRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.PauseScheduleRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader PauseSchedule(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
+            Bluewire.Reporting.Common.ServiceProxy.PauseScheduleRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.PauseScheduleRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ScheduleID = ScheduleID;
-            Bluewire.Reporting.Cli.ServiceProxy.PauseScheduleResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).PauseSchedule(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.PauseScheduleResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).PauseSchedule(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.PauseScheduleResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.PauseScheduleAsync(Bluewire.Reporting.Cli.ServiceProxy.PauseScheduleRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.PauseScheduleResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.PauseScheduleAsync(Bluewire.Reporting.Common.ServiceProxy.PauseScheduleRequest request) {
             return base.Channel.PauseScheduleAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.PauseScheduleResponse> PauseScheduleAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
-            Bluewire.Reporting.Cli.ServiceProxy.PauseScheduleRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.PauseScheduleRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.PauseScheduleResponse> PauseScheduleAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
+            Bluewire.Reporting.Common.ServiceProxy.PauseScheduleRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.PauseScheduleRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ScheduleID = ScheduleID;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).PauseScheduleAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).PauseScheduleAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ResumeScheduleResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ResumeSchedule(Bluewire.Reporting.Cli.ServiceProxy.ResumeScheduleRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ResumeScheduleResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ResumeSchedule(Bluewire.Reporting.Common.ServiceProxy.ResumeScheduleRequest request) {
             return base.Channel.ResumeSchedule(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ResumeSchedule(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
-            Bluewire.Reporting.Cli.ServiceProxy.ResumeScheduleRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ResumeScheduleRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ResumeSchedule(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
+            Bluewire.Reporting.Common.ServiceProxy.ResumeScheduleRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ResumeScheduleRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ScheduleID = ScheduleID;
-            Bluewire.Reporting.Cli.ServiceProxy.ResumeScheduleResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ResumeSchedule(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ResumeScheduleResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ResumeSchedule(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ResumeScheduleResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ResumeScheduleAsync(Bluewire.Reporting.Cli.ServiceProxy.ResumeScheduleRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ResumeScheduleResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ResumeScheduleAsync(Bluewire.Reporting.Common.ServiceProxy.ResumeScheduleRequest request) {
             return base.Channel.ResumeScheduleAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ResumeScheduleResponse> ResumeScheduleAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
-            Bluewire.Reporting.Cli.ServiceProxy.ResumeScheduleRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ResumeScheduleRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ResumeScheduleResponse> ResumeScheduleAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
+            Bluewire.Reporting.Common.ServiceProxy.ResumeScheduleRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ResumeScheduleRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ScheduleID = ScheduleID;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ResumeScheduleAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ResumeScheduleAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetSchedulePropertiesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetScheduleProperties(Bluewire.Reporting.Cli.ServiceProxy.SetSchedulePropertiesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetSchedulePropertiesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetScheduleProperties(Bluewire.Reporting.Common.ServiceProxy.SetSchedulePropertiesRequest request) {
             return base.Channel.SetScheduleProperties(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetScheduleProperties(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string ScheduleID, Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinition ScheduleDefinition) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetSchedulePropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetSchedulePropertiesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetScheduleProperties(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string ScheduleID, Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinition ScheduleDefinition) {
+            Bluewire.Reporting.Common.ServiceProxy.SetSchedulePropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetSchedulePropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Name = Name;
             inValue.ScheduleID = ScheduleID;
             inValue.ScheduleDefinition = ScheduleDefinition;
-            Bluewire.Reporting.Cli.ServiceProxy.SetSchedulePropertiesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetScheduleProperties(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetSchedulePropertiesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetScheduleProperties(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetSchedulePropertiesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetSchedulePropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetSchedulePropertiesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetSchedulePropertiesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetSchedulePropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.SetSchedulePropertiesRequest request) {
             return base.Channel.SetSchedulePropertiesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetSchedulePropertiesResponse> SetSchedulePropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string ScheduleID, Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinition ScheduleDefinition) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetSchedulePropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetSchedulePropertiesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetSchedulePropertiesResponse> SetSchedulePropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Name, string ScheduleID, Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinition ScheduleDefinition) {
+            Bluewire.Reporting.Common.ServiceProxy.SetSchedulePropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetSchedulePropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Name = Name;
             inValue.ScheduleID = ScheduleID;
             inValue.ScheduleDefinition = ScheduleDefinition;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetSchedulePropertiesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetSchedulePropertiesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListScheduledItemsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListScheduledItems(Bluewire.Reporting.Cli.ServiceProxy.ListScheduledItemsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListScheduledItemsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListScheduledItems(Bluewire.Reporting.Common.ServiceProxy.ListScheduledItemsRequest request) {
             return base.Channel.ListScheduledItems(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListScheduledItems(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID, out Bluewire.Reporting.Cli.ServiceProxy.CatalogItem[] Items) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListScheduledItemsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListScheduledItemsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListScheduledItems(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID, out Bluewire.Reporting.Common.ServiceProxy.CatalogItem[] Items) {
+            Bluewire.Reporting.Common.ServiceProxy.ListScheduledItemsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListScheduledItemsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ScheduleID = ScheduleID;
-            Bluewire.Reporting.Cli.ServiceProxy.ListScheduledItemsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListScheduledItems(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListScheduledItemsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListScheduledItems(inValue);
             Items = retVal.Items;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListScheduledItemsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListScheduledItemsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListScheduledItemsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListScheduledItemsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListScheduledItemsAsync(Bluewire.Reporting.Common.ServiceProxy.ListScheduledItemsRequest request) {
             return base.Channel.ListScheduledItemsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListScheduledItemsResponse> ListScheduledItemsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListScheduledItemsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListScheduledItemsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListScheduledItemsResponse> ListScheduledItemsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ScheduleID) {
+            Bluewire.Reporting.Common.ServiceProxy.ListScheduledItemsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListScheduledItemsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ScheduleID = ScheduleID;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListScheduledItemsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListScheduledItemsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetItemParametersResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetItemParameters(Bluewire.Reporting.Cli.ServiceProxy.SetItemParametersRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetItemParametersResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetItemParameters(Bluewire.Reporting.Common.ServiceProxy.SetItemParametersRequest request) {
             return base.Channel.SetItemParameters(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetItemParameters(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.ItemParameter[] Parameters) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemParametersRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetItemParametersRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetItemParameters(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.ItemParameter[] Parameters) {
+            Bluewire.Reporting.Common.ServiceProxy.SetItemParametersRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetItemParametersRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Parameters = Parameters;
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemParametersResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetItemParameters(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetItemParametersResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetItemParameters(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemParametersResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetItemParametersAsync(Bluewire.Reporting.Cli.ServiceProxy.SetItemParametersRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemParametersResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetItemParametersAsync(Bluewire.Reporting.Common.ServiceProxy.SetItemParametersRequest request) {
             return base.Channel.SetItemParametersAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemParametersResponse> SetItemParametersAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Cli.ServiceProxy.ItemParameter[] Parameters) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemParametersRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetItemParametersRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemParametersResponse> SetItemParametersAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, Bluewire.Reporting.Common.ServiceProxy.ItemParameter[] Parameters) {
+            Bluewire.Reporting.Common.ServiceProxy.SetItemParametersRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetItemParametersRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Parameters = Parameters;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetItemParametersAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetItemParametersAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetItemParametersResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetItemParameters(Bluewire.Reporting.Cli.ServiceProxy.GetItemParametersRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetItemParametersResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetItemParameters(Bluewire.Reporting.Common.ServiceProxy.GetItemParametersRequest request) {
             return base.Channel.GetItemParameters(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetItemParameters(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string HistoryID, bool ForRendering, Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Values, Bluewire.Reporting.Cli.ServiceProxy.DataSourceCredentials[] Credentials, out Bluewire.Reporting.Cli.ServiceProxy.ItemParameter[] Parameters) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemParametersRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetItemParametersRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetItemParameters(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string HistoryID, bool ForRendering, Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Values, Bluewire.Reporting.Common.ServiceProxy.DataSourceCredentials[] Credentials, out Bluewire.Reporting.Common.ServiceProxy.ItemParameter[] Parameters) {
+            Bluewire.Reporting.Common.ServiceProxy.GetItemParametersRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetItemParametersRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.HistoryID = HistoryID;
             inValue.ForRendering = ForRendering;
             inValue.Values = Values;
             inValue.Credentials = Credentials;
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemParametersResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetItemParameters(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetItemParametersResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetItemParameters(inValue);
             Parameters = retVal.Parameters;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemParametersResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetItemParametersAsync(Bluewire.Reporting.Cli.ServiceProxy.GetItemParametersRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemParametersResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetItemParametersAsync(Bluewire.Reporting.Common.ServiceProxy.GetItemParametersRequest request) {
             return base.Channel.GetItemParametersAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemParametersResponse> GetItemParametersAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string HistoryID, bool ForRendering, Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Values, Bluewire.Reporting.Cli.ServiceProxy.DataSourceCredentials[] Credentials) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemParametersRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetItemParametersRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemParametersResponse> GetItemParametersAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string HistoryID, bool ForRendering, Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Values, Bluewire.Reporting.Common.ServiceProxy.DataSourceCredentials[] Credentials) {
+            Bluewire.Reporting.Common.ServiceProxy.GetItemParametersRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetItemParametersRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.HistoryID = HistoryID;
             inValue.ForRendering = ForRendering;
             inValue.Values = Values;
             inValue.Credentials = Credentials;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetItemParametersAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetItemParametersAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListParameterTypesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListParameterTypes(Bluewire.Reporting.Cli.ServiceProxy.ListParameterTypesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListParameterTypesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListParameterTypes(Bluewire.Reporting.Common.ServiceProxy.ListParameterTypesRequest request) {
             return base.Channel.ListParameterTypes(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListParameterTypes(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListParameterTypesResult) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListParameterTypesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListParameterTypesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListParameterTypes(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListParameterTypesResult) {
+            Bluewire.Reporting.Common.ServiceProxy.ListParameterTypesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListParameterTypesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            Bluewire.Reporting.Cli.ServiceProxy.ListParameterTypesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListParameterTypes(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListParameterTypesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListParameterTypes(inValue);
             ListParameterTypesResult = retVal.ListParameterTypesResult;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListParameterTypesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListParameterTypesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListParameterTypesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListParameterTypesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListParameterTypesAsync(Bluewire.Reporting.Common.ServiceProxy.ListParameterTypesRequest request) {
             return base.Channel.ListParameterTypesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListParameterTypesResponse> ListParameterTypesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListParameterTypesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListParameterTypesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListParameterTypesResponse> ListParameterTypesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+            Bluewire.Reporting.Common.ServiceProxy.ListParameterTypesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListParameterTypesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListParameterTypesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListParameterTypesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListParameterStatesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListParameterStates(Bluewire.Reporting.Cli.ServiceProxy.ListParameterStatesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListParameterStatesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListParameterStates(Bluewire.Reporting.Common.ServiceProxy.ListParameterStatesRequest request) {
             return base.Channel.ListParameterStates(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListParameterStates(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListParameterStatesResult) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListParameterStatesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListParameterStatesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListParameterStates(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListParameterStatesResult) {
+            Bluewire.Reporting.Common.ServiceProxy.ListParameterStatesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListParameterStatesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            Bluewire.Reporting.Cli.ServiceProxy.ListParameterStatesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListParameterStates(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListParameterStatesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListParameterStates(inValue);
             ListParameterStatesResult = retVal.ListParameterStatesResult;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListParameterStatesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListParameterStatesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListParameterStatesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListParameterStatesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListParameterStatesAsync(Bluewire.Reporting.Common.ServiceProxy.ListParameterStatesRequest request) {
             return base.Channel.ListParameterStatesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListParameterStatesResponse> ListParameterStatesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListParameterStatesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListParameterStatesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListParameterStatesResponse> ListParameterStatesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+            Bluewire.Reporting.Common.ServiceProxy.ListParameterStatesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListParameterStatesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListParameterStatesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListParameterStatesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateReportEditSessionResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CreateReportEditSession(Bluewire.Reporting.Cli.ServiceProxy.CreateReportEditSessionRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.CreateReportEditSessionResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CreateReportEditSession(Bluewire.Reporting.Common.ServiceProxy.CreateReportEditSessionRequest request) {
             return base.Channel.CreateReportEditSession(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader CreateReportEditSession(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Report, string Parent, byte[] Definition, out string EditSessionID, out Bluewire.Reporting.Cli.ServiceProxy.Warning[] Warnings) {
-            Bluewire.Reporting.Cli.ServiceProxy.CreateReportEditSessionRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CreateReportEditSessionRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader CreateReportEditSession(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string Report, string Parent, byte[] Definition, out string EditSessionID, out Bluewire.Reporting.Common.ServiceProxy.Warning[] Warnings) {
+            Bluewire.Reporting.Common.ServiceProxy.CreateReportEditSessionRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CreateReportEditSessionRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Report = Report;
             inValue.Parent = Parent;
             inValue.Definition = Definition;
-            Bluewire.Reporting.Cli.ServiceProxy.CreateReportEditSessionResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CreateReportEditSession(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.CreateReportEditSessionResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CreateReportEditSession(inValue);
             EditSessionID = retVal.EditSessionID;
             Warnings = retVal.Warnings;
             return retVal.ServerInfoHeader;
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateReportEditSessionResponse> CreateReportEditSessionAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateReportEditSessionRequest request) {
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateReportEditSessionResponse> CreateReportEditSessionAsync(Bluewire.Reporting.Common.ServiceProxy.CreateReportEditSessionRequest request) {
             return base.Channel.CreateReportEditSessionAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateLinkedItemResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CreateLinkedItem(Bluewire.Reporting.Cli.ServiceProxy.CreateLinkedItemRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.CreateLinkedItemResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CreateLinkedItem(Bluewire.Reporting.Common.ServiceProxy.CreateLinkedItemRequest request) {
             return base.Channel.CreateLinkedItem(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader CreateLinkedItem(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Parent, string Link, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
-            Bluewire.Reporting.Cli.ServiceProxy.CreateLinkedItemRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CreateLinkedItemRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader CreateLinkedItem(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Parent, string Link, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
+            Bluewire.Reporting.Common.ServiceProxy.CreateLinkedItemRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CreateLinkedItemRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Parent = Parent;
             inValue.Link = Link;
             inValue.Properties = Properties;
-            Bluewire.Reporting.Cli.ServiceProxy.CreateLinkedItemResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CreateLinkedItem(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.CreateLinkedItemResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CreateLinkedItem(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateLinkedItemResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CreateLinkedItemAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateLinkedItemRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateLinkedItemResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CreateLinkedItemAsync(Bluewire.Reporting.Common.ServiceProxy.CreateLinkedItemRequest request) {
             return base.Channel.CreateLinkedItemAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateLinkedItemResponse> CreateLinkedItemAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Parent, string Link, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
-            Bluewire.Reporting.Cli.ServiceProxy.CreateLinkedItemRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CreateLinkedItemRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateLinkedItemResponse> CreateLinkedItemAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Parent, string Link, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
+            Bluewire.Reporting.Common.ServiceProxy.CreateLinkedItemRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CreateLinkedItemRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Parent = Parent;
             inValue.Link = Link;
             inValue.Properties = Properties;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CreateLinkedItemAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CreateLinkedItemAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetItemLinkResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetItemLink(Bluewire.Reporting.Cli.ServiceProxy.SetItemLinkRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetItemLinkResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetItemLink(Bluewire.Reporting.Common.ServiceProxy.SetItemLinkRequest request) {
             return base.Channel.SetItemLink(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetItemLink(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Link) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemLinkRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetItemLinkRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetItemLink(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Link) {
+            Bluewire.Reporting.Common.ServiceProxy.SetItemLinkRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetItemLinkRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Link = Link;
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemLinkResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetItemLink(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetItemLinkResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetItemLink(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemLinkResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetItemLinkAsync(Bluewire.Reporting.Cli.ServiceProxy.SetItemLinkRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemLinkResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetItemLinkAsync(Bluewire.Reporting.Common.ServiceProxy.SetItemLinkRequest request) {
             return base.Channel.SetItemLinkAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemLinkResponse> SetItemLinkAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Link) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemLinkRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetItemLinkRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemLinkResponse> SetItemLinkAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Link) {
+            Bluewire.Reporting.Common.ServiceProxy.SetItemLinkRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetItemLinkRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Link = Link;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetItemLinkAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetItemLinkAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetItemLinkResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetItemLink(Bluewire.Reporting.Cli.ServiceProxy.GetItemLinkRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetItemLinkResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetItemLink(Bluewire.Reporting.Common.ServiceProxy.GetItemLinkRequest request) {
             return base.Channel.GetItemLink(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetItemLink(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out string Link) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemLinkRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetItemLinkRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetItemLink(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out string Link) {
+            Bluewire.Reporting.Common.ServiceProxy.GetItemLinkRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetItemLinkRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemLinkResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetItemLink(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetItemLinkResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetItemLink(inValue);
             Link = retVal.Link;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemLinkResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetItemLinkAsync(Bluewire.Reporting.Cli.ServiceProxy.GetItemLinkRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemLinkResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetItemLinkAsync(Bluewire.Reporting.Common.ServiceProxy.GetItemLinkRequest request) {
             return base.Channel.GetItemLinkAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemLinkResponse> GetItemLinkAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemLinkRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetItemLinkRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemLinkResponse> GetItemLinkAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+            Bluewire.Reporting.Common.ServiceProxy.GetItemLinkRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetItemLinkRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetItemLinkAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetItemLinkAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListExecutionSettingsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListExecutionSettings(Bluewire.Reporting.Cli.ServiceProxy.ListExecutionSettingsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListExecutionSettingsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListExecutionSettings(Bluewire.Reporting.Common.ServiceProxy.ListExecutionSettingsRequest request) {
             return base.Channel.ListExecutionSettings(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListExecutionSettings(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListExecutionSettingsResult) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListExecutionSettingsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListExecutionSettingsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListExecutionSettings(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListExecutionSettingsResult) {
+            Bluewire.Reporting.Common.ServiceProxy.ListExecutionSettingsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListExecutionSettingsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            Bluewire.Reporting.Cli.ServiceProxy.ListExecutionSettingsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListExecutionSettings(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListExecutionSettingsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListExecutionSettings(inValue);
             ListExecutionSettingsResult = retVal.ListExecutionSettingsResult;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListExecutionSettingsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListExecutionSettingsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListExecutionSettingsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListExecutionSettingsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListExecutionSettingsAsync(Bluewire.Reporting.Common.ServiceProxy.ListExecutionSettingsRequest request) {
             return base.Channel.ListExecutionSettingsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListExecutionSettingsResponse> ListExecutionSettingsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListExecutionSettingsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListExecutionSettingsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListExecutionSettingsResponse> ListExecutionSettingsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+            Bluewire.Reporting.Common.ServiceProxy.ListExecutionSettingsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListExecutionSettingsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListExecutionSettingsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListExecutionSettingsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetExecutionOptionsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetExecutionOptions(Bluewire.Reporting.Cli.ServiceProxy.SetExecutionOptionsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetExecutionOptionsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetExecutionOptions(Bluewire.Reporting.Common.ServiceProxy.SetExecutionOptionsRequest request) {
             return base.Channel.SetExecutionOptions(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetExecutionOptions(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string ExecutionSetting, Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinitionOrReference Item) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetExecutionOptionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetExecutionOptionsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetExecutionOptions(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string ExecutionSetting, Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinitionOrReference Item) {
+            Bluewire.Reporting.Common.ServiceProxy.SetExecutionOptionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetExecutionOptionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.ExecutionSetting = ExecutionSetting;
             inValue.Item = Item;
-            Bluewire.Reporting.Cli.ServiceProxy.SetExecutionOptionsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetExecutionOptions(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetExecutionOptionsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetExecutionOptions(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetExecutionOptionsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetExecutionOptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.SetExecutionOptionsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetExecutionOptionsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetExecutionOptionsAsync(Bluewire.Reporting.Common.ServiceProxy.SetExecutionOptionsRequest request) {
             return base.Channel.SetExecutionOptionsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetExecutionOptionsResponse> SetExecutionOptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string ExecutionSetting, Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinitionOrReference Item) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetExecutionOptionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetExecutionOptionsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetExecutionOptionsResponse> SetExecutionOptionsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string ExecutionSetting, Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinitionOrReference Item) {
+            Bluewire.Reporting.Common.ServiceProxy.SetExecutionOptionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetExecutionOptionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.ExecutionSetting = ExecutionSetting;
             inValue.Item = Item;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetExecutionOptionsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetExecutionOptionsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetExecutionOptionsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetExecutionOptions(Bluewire.Reporting.Cli.ServiceProxy.GetExecutionOptionsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetExecutionOptionsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetExecutionOptions(Bluewire.Reporting.Common.ServiceProxy.GetExecutionOptionsRequest request) {
             return base.Channel.GetExecutionOptions(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetExecutionOptions(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out string ExecutionSetting, out Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinitionOrReference Item) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetExecutionOptionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetExecutionOptionsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetExecutionOptions(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out string ExecutionSetting, out Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinitionOrReference Item) {
+            Bluewire.Reporting.Common.ServiceProxy.GetExecutionOptionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetExecutionOptionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.GetExecutionOptionsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetExecutionOptions(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetExecutionOptionsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetExecutionOptions(inValue);
             ExecutionSetting = retVal.ExecutionSetting;
             Item = retVal.Item;
             return retVal.ServerInfoHeader;
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetExecutionOptionsResponse> GetExecutionOptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.GetExecutionOptionsRequest request) {
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetExecutionOptionsResponse> GetExecutionOptionsAsync(Bluewire.Reporting.Common.ServiceProxy.GetExecutionOptionsRequest request) {
             return base.Channel.GetExecutionOptionsAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.UpdateItemExecutionSnapshotResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.UpdateItemExecutionSnapshot(Bluewire.Reporting.Cli.ServiceProxy.UpdateItemExecutionSnapshotRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.UpdateItemExecutionSnapshotResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.UpdateItemExecutionSnapshot(Bluewire.Reporting.Common.ServiceProxy.UpdateItemExecutionSnapshotRequest request) {
             return base.Channel.UpdateItemExecutionSnapshot(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader UpdateItemExecutionSnapshot(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
-            Bluewire.Reporting.Cli.ServiceProxy.UpdateItemExecutionSnapshotRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.UpdateItemExecutionSnapshotRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader UpdateItemExecutionSnapshot(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+            Bluewire.Reporting.Common.ServiceProxy.UpdateItemExecutionSnapshotRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.UpdateItemExecutionSnapshotRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.UpdateItemExecutionSnapshotResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).UpdateItemExecutionSnapshot(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.UpdateItemExecutionSnapshotResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).UpdateItemExecutionSnapshot(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.UpdateItemExecutionSnapshotResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.UpdateItemExecutionSnapshotAsync(Bluewire.Reporting.Cli.ServiceProxy.UpdateItemExecutionSnapshotRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.UpdateItemExecutionSnapshotResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.UpdateItemExecutionSnapshotAsync(Bluewire.Reporting.Common.ServiceProxy.UpdateItemExecutionSnapshotRequest request) {
             return base.Channel.UpdateItemExecutionSnapshotAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.UpdateItemExecutionSnapshotResponse> UpdateItemExecutionSnapshotAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
-            Bluewire.Reporting.Cli.ServiceProxy.UpdateItemExecutionSnapshotRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.UpdateItemExecutionSnapshotRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.UpdateItemExecutionSnapshotResponse> UpdateItemExecutionSnapshotAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+            Bluewire.Reporting.Common.ServiceProxy.UpdateItemExecutionSnapshotRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.UpdateItemExecutionSnapshotRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).UpdateItemExecutionSnapshotAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).UpdateItemExecutionSnapshotAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetCacheOptionsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetCacheOptions(Bluewire.Reporting.Cli.ServiceProxy.SetCacheOptionsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetCacheOptionsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetCacheOptions(Bluewire.Reporting.Common.ServiceProxy.SetCacheOptionsRequest request) {
             return base.Channel.SetCacheOptions(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetCacheOptions(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool CacheItem, Bluewire.Reporting.Cli.ServiceProxy.ExpirationDefinition Item) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetCacheOptionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetCacheOptionsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetCacheOptions(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool CacheItem, Bluewire.Reporting.Common.ServiceProxy.ExpirationDefinition Item) {
+            Bluewire.Reporting.Common.ServiceProxy.SetCacheOptionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetCacheOptionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.CacheItem = CacheItem;
             inValue.Item = Item;
-            Bluewire.Reporting.Cli.ServiceProxy.SetCacheOptionsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetCacheOptions(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetCacheOptionsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetCacheOptions(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetCacheOptionsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetCacheOptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.SetCacheOptionsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetCacheOptionsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetCacheOptionsAsync(Bluewire.Reporting.Common.ServiceProxy.SetCacheOptionsRequest request) {
             return base.Channel.SetCacheOptionsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetCacheOptionsResponse> SetCacheOptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool CacheItem, Bluewire.Reporting.Cli.ServiceProxy.ExpirationDefinition Item) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetCacheOptionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetCacheOptionsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetCacheOptionsResponse> SetCacheOptionsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool CacheItem, Bluewire.Reporting.Common.ServiceProxy.ExpirationDefinition Item) {
+            Bluewire.Reporting.Common.ServiceProxy.SetCacheOptionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetCacheOptionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.CacheItem = CacheItem;
             inValue.Item = Item;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetCacheOptionsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetCacheOptionsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetCacheOptionsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetCacheOptions(Bluewire.Reporting.Cli.ServiceProxy.GetCacheOptionsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetCacheOptionsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetCacheOptions(Bluewire.Reporting.Common.ServiceProxy.GetCacheOptionsRequest request) {
             return base.Channel.GetCacheOptions(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetCacheOptions(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out bool CacheItem, out Bluewire.Reporting.Cli.ServiceProxy.ExpirationDefinition Item) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetCacheOptionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetCacheOptionsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetCacheOptions(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out bool CacheItem, out Bluewire.Reporting.Common.ServiceProxy.ExpirationDefinition Item) {
+            Bluewire.Reporting.Common.ServiceProxy.GetCacheOptionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetCacheOptionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.GetCacheOptionsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetCacheOptions(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetCacheOptionsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetCacheOptions(inValue);
             CacheItem = retVal.CacheItem;
             Item = retVal.Item;
             return retVal.ServerInfoHeader;
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetCacheOptionsResponse> GetCacheOptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.GetCacheOptionsRequest request) {
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetCacheOptionsResponse> GetCacheOptionsAsync(Bluewire.Reporting.Common.ServiceProxy.GetCacheOptionsRequest request) {
             return base.Channel.GetCacheOptionsAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.FlushCacheResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.FlushCache(Bluewire.Reporting.Cli.ServiceProxy.FlushCacheRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.FlushCacheResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.FlushCache(Bluewire.Reporting.Common.ServiceProxy.FlushCacheRequest request) {
             return base.Channel.FlushCache(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader FlushCache(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
-            Bluewire.Reporting.Cli.ServiceProxy.FlushCacheRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.FlushCacheRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader FlushCache(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+            Bluewire.Reporting.Common.ServiceProxy.FlushCacheRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.FlushCacheRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.FlushCacheResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).FlushCache(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.FlushCacheResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).FlushCache(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.FlushCacheResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.FlushCacheAsync(Bluewire.Reporting.Cli.ServiceProxy.FlushCacheRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.FlushCacheResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.FlushCacheAsync(Bluewire.Reporting.Common.ServiceProxy.FlushCacheRequest request) {
             return base.Channel.FlushCacheAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.FlushCacheResponse> FlushCacheAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
-            Bluewire.Reporting.Cli.ServiceProxy.FlushCacheRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.FlushCacheRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.FlushCacheResponse> FlushCacheAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+            Bluewire.Reporting.Common.ServiceProxy.FlushCacheRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.FlushCacheRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).FlushCacheAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).FlushCacheAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateItemHistorySnapshotResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CreateItemHistorySnapshot(Bluewire.Reporting.Cli.ServiceProxy.CreateItemHistorySnapshotRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.CreateItemHistorySnapshotResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CreateItemHistorySnapshot(Bluewire.Reporting.Common.ServiceProxy.CreateItemHistorySnapshotRequest request) {
             return base.Channel.CreateItemHistorySnapshot(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader CreateItemHistorySnapshot(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out string HistoryID, out Bluewire.Reporting.Cli.ServiceProxy.Warning[] Warnings) {
-            Bluewire.Reporting.Cli.ServiceProxy.CreateItemHistorySnapshotRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CreateItemHistorySnapshotRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader CreateItemHistorySnapshot(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out string HistoryID, out Bluewire.Reporting.Common.ServiceProxy.Warning[] Warnings) {
+            Bluewire.Reporting.Common.ServiceProxy.CreateItemHistorySnapshotRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CreateItemHistorySnapshotRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.CreateItemHistorySnapshotResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CreateItemHistorySnapshot(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.CreateItemHistorySnapshotResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CreateItemHistorySnapshot(inValue);
             HistoryID = retVal.HistoryID;
             Warnings = retVal.Warnings;
             return retVal.ServerInfoHeader;
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateItemHistorySnapshotResponse> CreateItemHistorySnapshotAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateItemHistorySnapshotRequest request) {
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateItemHistorySnapshotResponse> CreateItemHistorySnapshotAsync(Bluewire.Reporting.Common.ServiceProxy.CreateItemHistorySnapshotRequest request) {
             return base.Channel.CreateItemHistorySnapshotAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.DeleteItemHistorySnapshotResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.DeleteItemHistorySnapshot(Bluewire.Reporting.Cli.ServiceProxy.DeleteItemHistorySnapshotRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.DeleteItemHistorySnapshotResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.DeleteItemHistorySnapshot(Bluewire.Reporting.Common.ServiceProxy.DeleteItemHistorySnapshotRequest request) {
             return base.Channel.DeleteItemHistorySnapshot(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader DeleteItemHistorySnapshot(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string HistoryID) {
-            Bluewire.Reporting.Cli.ServiceProxy.DeleteItemHistorySnapshotRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.DeleteItemHistorySnapshotRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader DeleteItemHistorySnapshot(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string HistoryID) {
+            Bluewire.Reporting.Common.ServiceProxy.DeleteItemHistorySnapshotRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.DeleteItemHistorySnapshotRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.HistoryID = HistoryID;
-            Bluewire.Reporting.Cli.ServiceProxy.DeleteItemHistorySnapshotResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).DeleteItemHistorySnapshot(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.DeleteItemHistorySnapshotResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).DeleteItemHistorySnapshot(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DeleteItemHistorySnapshotResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.DeleteItemHistorySnapshotAsync(Bluewire.Reporting.Cli.ServiceProxy.DeleteItemHistorySnapshotRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DeleteItemHistorySnapshotResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.DeleteItemHistorySnapshotAsync(Bluewire.Reporting.Common.ServiceProxy.DeleteItemHistorySnapshotRequest request) {
             return base.Channel.DeleteItemHistorySnapshotAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DeleteItemHistorySnapshotResponse> DeleteItemHistorySnapshotAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string HistoryID) {
-            Bluewire.Reporting.Cli.ServiceProxy.DeleteItemHistorySnapshotRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.DeleteItemHistorySnapshotRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DeleteItemHistorySnapshotResponse> DeleteItemHistorySnapshotAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string HistoryID) {
+            Bluewire.Reporting.Common.ServiceProxy.DeleteItemHistorySnapshotRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.DeleteItemHistorySnapshotRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.HistoryID = HistoryID;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).DeleteItemHistorySnapshotAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).DeleteItemHistorySnapshotAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryLimitResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetItemHistoryLimit(Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryLimitRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryLimitResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetItemHistoryLimit(Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryLimitRequest request) {
             return base.Channel.SetItemHistoryLimit(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetItemHistoryLimit(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool UseSystem, int HistoryLimit) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryLimitRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryLimitRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetItemHistoryLimit(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool UseSystem, int HistoryLimit) {
+            Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryLimitRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryLimitRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.UseSystem = UseSystem;
             inValue.HistoryLimit = HistoryLimit;
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryLimitResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetItemHistoryLimit(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryLimitResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetItemHistoryLimit(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryLimitResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetItemHistoryLimitAsync(Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryLimitRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryLimitResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetItemHistoryLimitAsync(Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryLimitRequest request) {
             return base.Channel.SetItemHistoryLimitAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryLimitResponse> SetItemHistoryLimitAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool UseSystem, int HistoryLimit) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryLimitRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryLimitRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryLimitResponse> SetItemHistoryLimitAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool UseSystem, int HistoryLimit) {
+            Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryLimitRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryLimitRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.UseSystem = UseSystem;
             inValue.HistoryLimit = HistoryLimit;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetItemHistoryLimitAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetItemHistoryLimitAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryLimitResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetItemHistoryLimit(Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryLimitRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryLimitResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetItemHistoryLimit(Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryLimitRequest request) {
             return base.Channel.GetItemHistoryLimit(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetItemHistoryLimit(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out int HistoryLimit, out bool IsSystem, out int SystemLimit) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryLimitRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryLimitRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetItemHistoryLimit(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out int HistoryLimit, out bool IsSystem, out int SystemLimit) {
+            Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryLimitRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryLimitRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryLimitResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetItemHistoryLimit(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryLimitResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetItemHistoryLimit(inValue);
             HistoryLimit = retVal.HistoryLimit;
             IsSystem = retVal.IsSystem;
             SystemLimit = retVal.SystemLimit;
             return retVal.ServerInfoHeader;
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryLimitResponse> GetItemHistoryLimitAsync(Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryLimitRequest request) {
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryLimitResponse> GetItemHistoryLimitAsync(Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryLimitRequest request) {
             return base.Channel.GetItemHistoryLimitAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryOptionsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetItemHistoryOptions(Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryOptionsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryOptionsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetItemHistoryOptions(Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryOptionsRequest request) {
             return base.Channel.SetItemHistoryOptions(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetItemHistoryOptions(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool EnableManualSnapshotCreation, bool KeepExecutionSnapshots, Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinitionOrReference Item) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryOptionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryOptionsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetItemHistoryOptions(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool EnableManualSnapshotCreation, bool KeepExecutionSnapshots, Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinitionOrReference Item) {
+            Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryOptionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryOptionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.EnableManualSnapshotCreation = EnableManualSnapshotCreation;
             inValue.KeepExecutionSnapshots = KeepExecutionSnapshots;
             inValue.Item = Item;
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryOptionsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetItemHistoryOptions(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryOptionsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetItemHistoryOptions(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryOptionsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetItemHistoryOptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryOptionsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryOptionsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetItemHistoryOptionsAsync(Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryOptionsRequest request) {
             return base.Channel.SetItemHistoryOptionsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryOptionsResponse> SetItemHistoryOptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool EnableManualSnapshotCreation, bool KeepExecutionSnapshots, Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinitionOrReference Item) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryOptionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetItemHistoryOptionsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryOptionsResponse> SetItemHistoryOptionsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, bool EnableManualSnapshotCreation, bool KeepExecutionSnapshots, Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinitionOrReference Item) {
+            Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryOptionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetItemHistoryOptionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.EnableManualSnapshotCreation = EnableManualSnapshotCreation;
             inValue.KeepExecutionSnapshots = KeepExecutionSnapshots;
             inValue.Item = Item;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetItemHistoryOptionsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetItemHistoryOptionsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryOptionsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetItemHistoryOptions(Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryOptionsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryOptionsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetItemHistoryOptions(Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryOptionsRequest request) {
             return base.Channel.GetItemHistoryOptions(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetItemHistoryOptions(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out bool EnableManualSnapshotCreation, out bool KeepExecutionSnapshots, out Bluewire.Reporting.Cli.ServiceProxy.ScheduleDefinitionOrReference Item) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryOptionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryOptionsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetItemHistoryOptions(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out bool EnableManualSnapshotCreation, out bool KeepExecutionSnapshots, out Bluewire.Reporting.Common.ServiceProxy.ScheduleDefinitionOrReference Item) {
+            Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryOptionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryOptionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryOptionsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetItemHistoryOptions(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryOptionsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetItemHistoryOptions(inValue);
             EnableManualSnapshotCreation = retVal.EnableManualSnapshotCreation;
             KeepExecutionSnapshots = retVal.KeepExecutionSnapshots;
             Item = retVal.Item;
             return retVal.ServerInfoHeader;
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryOptionsResponse> GetItemHistoryOptionsAsync(Bluewire.Reporting.Cli.ServiceProxy.GetItemHistoryOptionsRequest request) {
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryOptionsResponse> GetItemHistoryOptionsAsync(Bluewire.Reporting.Common.ServiceProxy.GetItemHistoryOptionsRequest request) {
             return base.Channel.GetItemHistoryOptionsAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetReportServerConfigInfoResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetReportServerConfigInfo(Bluewire.Reporting.Cli.ServiceProxy.GetReportServerConfigInfoRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetReportServerConfigInfoResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetReportServerConfigInfo(Bluewire.Reporting.Common.ServiceProxy.GetReportServerConfigInfoRequest request) {
             return base.Channel.GetReportServerConfigInfo(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetReportServerConfigInfo(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, bool ScaleOut, out string ServerConfigInfo) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetReportServerConfigInfoRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetReportServerConfigInfoRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetReportServerConfigInfo(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, bool ScaleOut, out string ServerConfigInfo) {
+            Bluewire.Reporting.Common.ServiceProxy.GetReportServerConfigInfoRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetReportServerConfigInfoRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ScaleOut = ScaleOut;
-            Bluewire.Reporting.Cli.ServiceProxy.GetReportServerConfigInfoResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetReportServerConfigInfo(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetReportServerConfigInfoResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetReportServerConfigInfo(inValue);
             ServerConfigInfo = retVal.ServerConfigInfo;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetReportServerConfigInfoResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetReportServerConfigInfoAsync(Bluewire.Reporting.Cli.ServiceProxy.GetReportServerConfigInfoRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetReportServerConfigInfoResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetReportServerConfigInfoAsync(Bluewire.Reporting.Common.ServiceProxy.GetReportServerConfigInfoRequest request) {
             return base.Channel.GetReportServerConfigInfoAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetReportServerConfigInfoResponse> GetReportServerConfigInfoAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, bool ScaleOut) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetReportServerConfigInfoRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetReportServerConfigInfoRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetReportServerConfigInfoResponse> GetReportServerConfigInfoAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, bool ScaleOut) {
+            Bluewire.Reporting.Common.ServiceProxy.GetReportServerConfigInfoRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetReportServerConfigInfoRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ScaleOut = ScaleOut;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetReportServerConfigInfoAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetReportServerConfigInfoAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.IsSSLRequiredResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.IsSSLRequired(Bluewire.Reporting.Cli.ServiceProxy.IsSSLRequiredRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.IsSSLRequiredResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.IsSSLRequired(Bluewire.Reporting.Common.ServiceProxy.IsSSLRequiredRequest request) {
             return base.Channel.IsSSLRequired(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader IsSSLRequired(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, out bool IsSSLRequiredResult) {
-            Bluewire.Reporting.Cli.ServiceProxy.IsSSLRequiredRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.IsSSLRequiredRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader IsSSLRequired(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, out bool IsSSLRequiredResult) {
+            Bluewire.Reporting.Common.ServiceProxy.IsSSLRequiredRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.IsSSLRequiredRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            Bluewire.Reporting.Cli.ServiceProxy.IsSSLRequiredResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).IsSSLRequired(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.IsSSLRequiredResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).IsSSLRequired(inValue);
             IsSSLRequiredResult = retVal.IsSSLRequiredResult;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.IsSSLRequiredResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.IsSSLRequiredAsync(Bluewire.Reporting.Cli.ServiceProxy.IsSSLRequiredRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.IsSSLRequiredResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.IsSSLRequiredAsync(Bluewire.Reporting.Common.ServiceProxy.IsSSLRequiredRequest request) {
             return base.Channel.IsSSLRequiredAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.IsSSLRequiredResponse> IsSSLRequiredAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
-            Bluewire.Reporting.Cli.ServiceProxy.IsSSLRequiredRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.IsSSLRequiredRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.IsSSLRequiredResponse> IsSSLRequiredAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+            Bluewire.Reporting.Common.ServiceProxy.IsSSLRequiredRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.IsSSLRequiredRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).IsSSLRequiredAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).IsSSLRequiredAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetSystemPropertiesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetSystemProperties(Bluewire.Reporting.Cli.ServiceProxy.SetSystemPropertiesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetSystemPropertiesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetSystemProperties(Bluewire.Reporting.Common.ServiceProxy.SetSystemPropertiesRequest request) {
             return base.Channel.SetSystemProperties(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetSystemProperties(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetSystemPropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetSystemPropertiesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetSystemProperties(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
+            Bluewire.Reporting.Common.ServiceProxy.SetSystemPropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetSystemPropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Properties = Properties;
-            Bluewire.Reporting.Cli.ServiceProxy.SetSystemPropertiesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetSystemProperties(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetSystemPropertiesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetSystemProperties(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetSystemPropertiesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetSystemPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetSystemPropertiesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetSystemPropertiesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetSystemPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.SetSystemPropertiesRequest request) {
             return base.Channel.SetSystemPropertiesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetSystemPropertiesResponse> SetSystemPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetSystemPropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetSystemPropertiesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetSystemPropertiesResponse> SetSystemPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
+            Bluewire.Reporting.Common.ServiceProxy.SetSystemPropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetSystemPropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Properties = Properties;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetSystemPropertiesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetSystemPropertiesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetSystemPropertiesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetSystemProperties(Bluewire.Reporting.Cli.ServiceProxy.GetSystemPropertiesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetSystemPropertiesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetSystemProperties(Bluewire.Reporting.Common.ServiceProxy.GetSystemPropertiesRequest request) {
             return base.Channel.GetSystemProperties(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetSystemProperties(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties, out Bluewire.Reporting.Cli.ServiceProxy.Property[] Values) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetSystemPropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetSystemPropertiesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetSystemProperties(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties, out Bluewire.Reporting.Common.ServiceProxy.Property[] Values) {
+            Bluewire.Reporting.Common.ServiceProxy.GetSystemPropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetSystemPropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Properties = Properties;
-            Bluewire.Reporting.Cli.ServiceProxy.GetSystemPropertiesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetSystemProperties(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetSystemPropertiesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetSystemProperties(inValue);
             Values = retVal.Values;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetSystemPropertiesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetSystemPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetSystemPropertiesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetSystemPropertiesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetSystemPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.GetSystemPropertiesRequest request) {
             return base.Channel.GetSystemPropertiesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetSystemPropertiesResponse> GetSystemPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Cli.ServiceProxy.Property[] Properties) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetSystemPropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetSystemPropertiesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetSystemPropertiesResponse> GetSystemPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Common.ServiceProxy.Property[] Properties) {
+            Bluewire.Reporting.Common.ServiceProxy.GetSystemPropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetSystemPropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Properties = Properties;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetSystemPropertiesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetSystemPropertiesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetSystemPoliciesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetSystemPolicies(Bluewire.Reporting.Cli.ServiceProxy.SetSystemPoliciesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetSystemPoliciesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetSystemPolicies(Bluewire.Reporting.Common.ServiceProxy.SetSystemPoliciesRequest request) {
             return base.Channel.SetSystemPolicies(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetSystemPolicies(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetSystemPoliciesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetSystemPoliciesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetSystemPolicies(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies) {
+            Bluewire.Reporting.Common.ServiceProxy.SetSystemPoliciesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetSystemPoliciesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Policies = Policies;
-            Bluewire.Reporting.Cli.ServiceProxy.SetSystemPoliciesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetSystemPolicies(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetSystemPoliciesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetSystemPolicies(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetSystemPoliciesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetSystemPoliciesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetSystemPoliciesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetSystemPoliciesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetSystemPoliciesAsync(Bluewire.Reporting.Common.ServiceProxy.SetSystemPoliciesRequest request) {
             return base.Channel.SetSystemPoliciesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetSystemPoliciesResponse> SetSystemPoliciesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetSystemPoliciesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetSystemPoliciesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetSystemPoliciesResponse> SetSystemPoliciesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies) {
+            Bluewire.Reporting.Common.ServiceProxy.SetSystemPoliciesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetSystemPoliciesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Policies = Policies;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetSystemPoliciesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetSystemPoliciesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetSystemPoliciesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetSystemPolicies(Bluewire.Reporting.Cli.ServiceProxy.GetSystemPoliciesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetSystemPoliciesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetSystemPolicies(Bluewire.Reporting.Common.ServiceProxy.GetSystemPoliciesRequest request) {
             return base.Channel.GetSystemPolicies(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetSystemPolicies(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, out Bluewire.Reporting.Cli.ServiceProxy.Policy[] Policies) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetSystemPoliciesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetSystemPoliciesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetSystemPolicies(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, out Bluewire.Reporting.Common.ServiceProxy.Policy[] Policies) {
+            Bluewire.Reporting.Common.ServiceProxy.GetSystemPoliciesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetSystemPoliciesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            Bluewire.Reporting.Cli.ServiceProxy.GetSystemPoliciesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetSystemPolicies(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetSystemPoliciesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetSystemPolicies(inValue);
             Policies = retVal.Policies;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetSystemPoliciesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetSystemPoliciesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetSystemPoliciesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetSystemPoliciesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetSystemPoliciesAsync(Bluewire.Reporting.Common.ServiceProxy.GetSystemPoliciesRequest request) {
             return base.Channel.GetSystemPoliciesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetSystemPoliciesResponse> GetSystemPoliciesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetSystemPoliciesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetSystemPoliciesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetSystemPoliciesResponse> GetSystemPoliciesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+            Bluewire.Reporting.Common.ServiceProxy.GetSystemPoliciesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetSystemPoliciesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetSystemPoliciesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetSystemPoliciesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListExtensionsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListExtensions(Bluewire.Reporting.Cli.ServiceProxy.ListExtensionsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListExtensionsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListExtensions(Bluewire.Reporting.Common.ServiceProxy.ListExtensionsRequest request) {
             return base.Channel.ListExtensions(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListExtensions(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ExtensionType, out Bluewire.Reporting.Cli.ServiceProxy.Extension[] Extensions) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListExtensionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListExtensionsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListExtensions(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ExtensionType, out Bluewire.Reporting.Common.ServiceProxy.Extension[] Extensions) {
+            Bluewire.Reporting.Common.ServiceProxy.ListExtensionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListExtensionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ExtensionType = ExtensionType;
-            Bluewire.Reporting.Cli.ServiceProxy.ListExtensionsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListExtensions(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListExtensionsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListExtensions(inValue);
             Extensions = retVal.Extensions;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListExtensionsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListExtensionsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListExtensionsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListExtensionsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListExtensionsAsync(Bluewire.Reporting.Common.ServiceProxy.ListExtensionsRequest request) {
             return base.Channel.ListExtensionsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListExtensionsResponse> ListExtensionsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ExtensionType) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListExtensionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListExtensionsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListExtensionsResponse> ListExtensionsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ExtensionType) {
+            Bluewire.Reporting.Common.ServiceProxy.ListExtensionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListExtensionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ExtensionType = ExtensionType;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListExtensionsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListExtensionsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListExtensionTypesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListExtensionTypes(Bluewire.Reporting.Cli.ServiceProxy.ListExtensionTypesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListExtensionTypesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListExtensionTypes(Bluewire.Reporting.Common.ServiceProxy.ListExtensionTypesRequest request) {
             return base.Channel.ListExtensionTypes(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListExtensionTypes(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListExtensionTypesResult) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListExtensionTypesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListExtensionTypesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListExtensionTypes(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListExtensionTypesResult) {
+            Bluewire.Reporting.Common.ServiceProxy.ListExtensionTypesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListExtensionTypesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            Bluewire.Reporting.Cli.ServiceProxy.ListExtensionTypesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListExtensionTypes(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListExtensionTypesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListExtensionTypes(inValue);
             ListExtensionTypesResult = retVal.ListExtensionTypesResult;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListExtensionTypesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListExtensionTypesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListExtensionTypesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListExtensionTypesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListExtensionTypesAsync(Bluewire.Reporting.Common.ServiceProxy.ListExtensionTypesRequest request) {
             return base.Channel.ListExtensionTypesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListExtensionTypesResponse> ListExtensionTypesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListExtensionTypesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListExtensionTypesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListExtensionTypesResponse> ListExtensionTypesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+            Bluewire.Reporting.Common.ServiceProxy.ListExtensionTypesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListExtensionTypesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListExtensionTypesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListExtensionTypesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListEventsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListEvents(Bluewire.Reporting.Cli.ServiceProxy.ListEventsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListEventsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListEvents(Bluewire.Reporting.Common.ServiceProxy.ListEventsRequest request) {
             return base.Channel.ListEvents(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListEvents(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, out Bluewire.Reporting.Cli.ServiceProxy.Event[] Events) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListEventsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListEventsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListEvents(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, out Bluewire.Reporting.Common.ServiceProxy.Event[] Events) {
+            Bluewire.Reporting.Common.ServiceProxy.ListEventsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListEventsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            Bluewire.Reporting.Cli.ServiceProxy.ListEventsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListEvents(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListEventsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListEvents(inValue);
             Events = retVal.Events;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListEventsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListEventsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListEventsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListEventsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListEventsAsync(Bluewire.Reporting.Common.ServiceProxy.ListEventsRequest request) {
             return base.Channel.ListEventsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListEventsResponse> ListEventsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListEventsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListEventsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListEventsResponse> ListEventsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+            Bluewire.Reporting.Common.ServiceProxy.ListEventsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListEventsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListEventsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListEventsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.FireEventResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.FireEvent(Bluewire.Reporting.Cli.ServiceProxy.FireEventRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.FireEventResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.FireEvent(Bluewire.Reporting.Common.ServiceProxy.FireEventRequest request) {
             return base.Channel.FireEvent(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader FireEvent(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string EventType, string EventData, string SiteUrl) {
-            Bluewire.Reporting.Cli.ServiceProxy.FireEventRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.FireEventRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader FireEvent(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string EventType, string EventData, string SiteUrl) {
+            Bluewire.Reporting.Common.ServiceProxy.FireEventRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.FireEventRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.EventType = EventType;
             inValue.EventData = EventData;
             inValue.SiteUrl = SiteUrl;
-            Bluewire.Reporting.Cli.ServiceProxy.FireEventResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).FireEvent(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.FireEventResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).FireEvent(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.FireEventResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.FireEventAsync(Bluewire.Reporting.Cli.ServiceProxy.FireEventRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.FireEventResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.FireEventAsync(Bluewire.Reporting.Common.ServiceProxy.FireEventRequest request) {
             return base.Channel.FireEventAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.FireEventResponse> FireEventAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string EventType, string EventData, string SiteUrl) {
-            Bluewire.Reporting.Cli.ServiceProxy.FireEventRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.FireEventRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.FireEventResponse> FireEventAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string EventType, string EventData, string SiteUrl) {
+            Bluewire.Reporting.Common.ServiceProxy.FireEventRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.FireEventRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.EventType = EventType;
             inValue.EventData = EventData;
             inValue.SiteUrl = SiteUrl;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).FireEventAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).FireEventAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListJobsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListJobs(Bluewire.Reporting.Cli.ServiceProxy.ListJobsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListJobsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListJobs(Bluewire.Reporting.Common.ServiceProxy.ListJobsRequest request) {
             return base.Channel.ListJobs(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListJobs(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, out Bluewire.Reporting.Cli.ServiceProxy.Job[] Jobs) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListJobsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListJobsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListJobs(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, out Bluewire.Reporting.Common.ServiceProxy.Job[] Jobs) {
+            Bluewire.Reporting.Common.ServiceProxy.ListJobsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListJobsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            Bluewire.Reporting.Cli.ServiceProxy.ListJobsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListJobs(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListJobsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListJobs(inValue);
             Jobs = retVal.Jobs;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListJobsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListJobsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListJobsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListJobsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListJobsAsync(Bluewire.Reporting.Common.ServiceProxy.ListJobsRequest request) {
             return base.Channel.ListJobsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListJobsResponse> ListJobsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListJobsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListJobsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListJobsResponse> ListJobsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+            Bluewire.Reporting.Common.ServiceProxy.ListJobsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListJobsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListJobsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListJobsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListJobTypesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListJobTypes(Bluewire.Reporting.Cli.ServiceProxy.ListJobTypesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListJobTypesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListJobTypes(Bluewire.Reporting.Common.ServiceProxy.ListJobTypesRequest request) {
             return base.Channel.ListJobTypes(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListJobTypes(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListJobTypesResult) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListJobTypesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListJobTypesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListJobTypes(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListJobTypesResult) {
+            Bluewire.Reporting.Common.ServiceProxy.ListJobTypesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListJobTypesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            Bluewire.Reporting.Cli.ServiceProxy.ListJobTypesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListJobTypes(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListJobTypesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListJobTypes(inValue);
             ListJobTypesResult = retVal.ListJobTypesResult;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListJobTypesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListJobTypesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListJobTypesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListJobTypesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListJobTypesAsync(Bluewire.Reporting.Common.ServiceProxy.ListJobTypesRequest request) {
             return base.Channel.ListJobTypesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListJobTypesResponse> ListJobTypesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListJobTypesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListJobTypesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListJobTypesResponse> ListJobTypesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+            Bluewire.Reporting.Common.ServiceProxy.ListJobTypesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListJobTypesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListJobTypesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListJobTypesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListJobActionsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListJobActions(Bluewire.Reporting.Cli.ServiceProxy.ListJobActionsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListJobActionsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListJobActions(Bluewire.Reporting.Common.ServiceProxy.ListJobActionsRequest request) {
             return base.Channel.ListJobActions(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListJobActions(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListJobActionsResult) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListJobActionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListJobActionsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListJobActions(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListJobActionsResult) {
+            Bluewire.Reporting.Common.ServiceProxy.ListJobActionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListJobActionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            Bluewire.Reporting.Cli.ServiceProxy.ListJobActionsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListJobActions(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListJobActionsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListJobActions(inValue);
             ListJobActionsResult = retVal.ListJobActionsResult;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListJobActionsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListJobActionsAsync(Bluewire.Reporting.Cli.ServiceProxy.ListJobActionsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListJobActionsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListJobActionsAsync(Bluewire.Reporting.Common.ServiceProxy.ListJobActionsRequest request) {
             return base.Channel.ListJobActionsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListJobActionsResponse> ListJobActionsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListJobActionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListJobActionsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListJobActionsResponse> ListJobActionsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+            Bluewire.Reporting.Common.ServiceProxy.ListJobActionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListJobActionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListJobActionsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListJobActionsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListJobStatesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListJobStates(Bluewire.Reporting.Cli.ServiceProxy.ListJobStatesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListJobStatesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListJobStates(Bluewire.Reporting.Common.ServiceProxy.ListJobStatesRequest request) {
             return base.Channel.ListJobStates(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListJobStates(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListJobStatesResult) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListJobStatesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListJobStatesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListJobStates(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListJobStatesResult) {
+            Bluewire.Reporting.Common.ServiceProxy.ListJobStatesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListJobStatesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            Bluewire.Reporting.Cli.ServiceProxy.ListJobStatesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListJobStates(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListJobStatesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListJobStates(inValue);
             ListJobStatesResult = retVal.ListJobStatesResult;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListJobStatesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListJobStatesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListJobStatesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListJobStatesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListJobStatesAsync(Bluewire.Reporting.Common.ServiceProxy.ListJobStatesRequest request) {
             return base.Channel.ListJobStatesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListJobStatesResponse> ListJobStatesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListJobStatesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListJobStatesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListJobStatesResponse> ListJobStatesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+            Bluewire.Reporting.Common.ServiceProxy.ListJobStatesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListJobStatesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListJobStatesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListJobStatesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.CancelJobResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CancelJob(Bluewire.Reporting.Cli.ServiceProxy.CancelJobRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.CancelJobResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CancelJob(Bluewire.Reporting.Common.ServiceProxy.CancelJobRequest request) {
             return base.Channel.CancelJob(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader CancelJob(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string JobID, out bool CancelJobResult) {
-            Bluewire.Reporting.Cli.ServiceProxy.CancelJobRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CancelJobRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader CancelJob(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string JobID, out bool CancelJobResult) {
+            Bluewire.Reporting.Common.ServiceProxy.CancelJobRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CancelJobRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.JobID = JobID;
-            Bluewire.Reporting.Cli.ServiceProxy.CancelJobResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CancelJob(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.CancelJobResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CancelJob(inValue);
             CancelJobResult = retVal.CancelJobResult;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CancelJobResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CancelJobAsync(Bluewire.Reporting.Cli.ServiceProxy.CancelJobRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CancelJobResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CancelJobAsync(Bluewire.Reporting.Common.ServiceProxy.CancelJobRequest request) {
             return base.Channel.CancelJobAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CancelJobResponse> CancelJobAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string JobID) {
-            Bluewire.Reporting.Cli.ServiceProxy.CancelJobRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CancelJobRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CancelJobResponse> CancelJobAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string JobID) {
+            Bluewire.Reporting.Common.ServiceProxy.CancelJobRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CancelJobRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.JobID = JobID;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CancelJobAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CancelJobAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.CreateCacheRefreshPlanResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CreateCacheRefreshPlan(Bluewire.Reporting.Cli.ServiceProxy.CreateCacheRefreshPlanRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.CreateCacheRefreshPlanResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CreateCacheRefreshPlan(Bluewire.Reporting.Common.ServiceProxy.CreateCacheRefreshPlanRequest request) {
             return base.Channel.CreateCacheRefreshPlan(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader CreateCacheRefreshPlan(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Description, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters, out string CacheRefreshPlanID) {
-            Bluewire.Reporting.Cli.ServiceProxy.CreateCacheRefreshPlanRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CreateCacheRefreshPlanRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader CreateCacheRefreshPlan(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Description, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters, out string CacheRefreshPlanID) {
+            Bluewire.Reporting.Common.ServiceProxy.CreateCacheRefreshPlanRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CreateCacheRefreshPlanRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Description = Description;
             inValue.EventType = EventType;
             inValue.MatchData = MatchData;
             inValue.Parameters = Parameters;
-            Bluewire.Reporting.Cli.ServiceProxy.CreateCacheRefreshPlanResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CreateCacheRefreshPlan(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.CreateCacheRefreshPlanResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CreateCacheRefreshPlan(inValue);
             CacheRefreshPlanID = retVal.CacheRefreshPlanID;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateCacheRefreshPlanResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.CreateCacheRefreshPlanAsync(Bluewire.Reporting.Cli.ServiceProxy.CreateCacheRefreshPlanRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateCacheRefreshPlanResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.CreateCacheRefreshPlanAsync(Bluewire.Reporting.Common.ServiceProxy.CreateCacheRefreshPlanRequest request) {
             return base.Channel.CreateCacheRefreshPlanAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.CreateCacheRefreshPlanResponse> CreateCacheRefreshPlanAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Description, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters) {
-            Bluewire.Reporting.Cli.ServiceProxy.CreateCacheRefreshPlanRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.CreateCacheRefreshPlanRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.CreateCacheRefreshPlanResponse> CreateCacheRefreshPlanAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, string Description, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters) {
+            Bluewire.Reporting.Common.ServiceProxy.CreateCacheRefreshPlanRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.CreateCacheRefreshPlanRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
             inValue.Description = Description;
             inValue.EventType = EventType;
             inValue.MatchData = MatchData;
             inValue.Parameters = Parameters;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).CreateCacheRefreshPlanAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).CreateCacheRefreshPlanAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.SetCacheRefreshPlanPropertiesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetCacheRefreshPlanProperties(Bluewire.Reporting.Cli.ServiceProxy.SetCacheRefreshPlanPropertiesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.SetCacheRefreshPlanPropertiesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetCacheRefreshPlanProperties(Bluewire.Reporting.Common.ServiceProxy.SetCacheRefreshPlanPropertiesRequest request) {
             return base.Channel.SetCacheRefreshPlanProperties(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader SetCacheRefreshPlanProperties(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID, string Description, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetCacheRefreshPlanPropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetCacheRefreshPlanPropertiesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader SetCacheRefreshPlanProperties(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID, string Description, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters) {
+            Bluewire.Reporting.Common.ServiceProxy.SetCacheRefreshPlanPropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetCacheRefreshPlanPropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.CacheRefreshPlanID = CacheRefreshPlanID;
             inValue.Description = Description;
             inValue.EventType = EventType;
             inValue.MatchData = MatchData;
             inValue.Parameters = Parameters;
-            Bluewire.Reporting.Cli.ServiceProxy.SetCacheRefreshPlanPropertiesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetCacheRefreshPlanProperties(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.SetCacheRefreshPlanPropertiesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetCacheRefreshPlanProperties(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetCacheRefreshPlanPropertiesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.SetCacheRefreshPlanPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.SetCacheRefreshPlanPropertiesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetCacheRefreshPlanPropertiesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.SetCacheRefreshPlanPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.SetCacheRefreshPlanPropertiesRequest request) {
             return base.Channel.SetCacheRefreshPlanPropertiesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.SetCacheRefreshPlanPropertiesResponse> SetCacheRefreshPlanPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID, string Description, string EventType, string MatchData, Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters) {
-            Bluewire.Reporting.Cli.ServiceProxy.SetCacheRefreshPlanPropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.SetCacheRefreshPlanPropertiesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.SetCacheRefreshPlanPropertiesResponse> SetCacheRefreshPlanPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID, string Description, string EventType, string MatchData, Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters) {
+            Bluewire.Reporting.Common.ServiceProxy.SetCacheRefreshPlanPropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.SetCacheRefreshPlanPropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.CacheRefreshPlanID = CacheRefreshPlanID;
             inValue.Description = Description;
             inValue.EventType = EventType;
             inValue.MatchData = MatchData;
             inValue.Parameters = Parameters;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).SetCacheRefreshPlanPropertiesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).SetCacheRefreshPlanPropertiesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetCacheRefreshPlanPropertiesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetCacheRefreshPlanProperties(Bluewire.Reporting.Cli.ServiceProxy.GetCacheRefreshPlanPropertiesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetCacheRefreshPlanPropertiesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetCacheRefreshPlanProperties(Bluewire.Reporting.Common.ServiceProxy.GetCacheRefreshPlanPropertiesRequest request) {
             return base.Channel.GetCacheRefreshPlanProperties(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetCacheRefreshPlanProperties(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID, out string Description, out string LastRunStatus, out Bluewire.Reporting.Cli.ServiceProxy.CacheRefreshPlanState State, out string EventType, out string MatchData, out Bluewire.Reporting.Cli.ServiceProxy.ParameterValue[] Parameters) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetCacheRefreshPlanPropertiesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetCacheRefreshPlanPropertiesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetCacheRefreshPlanProperties(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID, out string Description, out string LastRunStatus, out Bluewire.Reporting.Common.ServiceProxy.CacheRefreshPlanState State, out string EventType, out string MatchData, out Bluewire.Reporting.Common.ServiceProxy.ParameterValue[] Parameters) {
+            Bluewire.Reporting.Common.ServiceProxy.GetCacheRefreshPlanPropertiesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetCacheRefreshPlanPropertiesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.CacheRefreshPlanID = CacheRefreshPlanID;
-            Bluewire.Reporting.Cli.ServiceProxy.GetCacheRefreshPlanPropertiesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetCacheRefreshPlanProperties(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetCacheRefreshPlanPropertiesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetCacheRefreshPlanProperties(inValue);
             Description = retVal.Description;
             LastRunStatus = retVal.LastRunStatus;
             State = retVal.State;
@@ -14804,185 +14804,185 @@ namespace Bluewire.Reporting.Cli.ServiceProxy {
             return retVal.ServerInfoHeader;
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetCacheRefreshPlanPropertiesResponse> GetCacheRefreshPlanPropertiesAsync(Bluewire.Reporting.Cli.ServiceProxy.GetCacheRefreshPlanPropertiesRequest request) {
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetCacheRefreshPlanPropertiesResponse> GetCacheRefreshPlanPropertiesAsync(Bluewire.Reporting.Common.ServiceProxy.GetCacheRefreshPlanPropertiesRequest request) {
             return base.Channel.GetCacheRefreshPlanPropertiesAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.DeleteCacheRefreshPlanResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.DeleteCacheRefreshPlan(Bluewire.Reporting.Cli.ServiceProxy.DeleteCacheRefreshPlanRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.DeleteCacheRefreshPlanResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.DeleteCacheRefreshPlan(Bluewire.Reporting.Common.ServiceProxy.DeleteCacheRefreshPlanRequest request) {
             return base.Channel.DeleteCacheRefreshPlan(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader DeleteCacheRefreshPlan(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID) {
-            Bluewire.Reporting.Cli.ServiceProxy.DeleteCacheRefreshPlanRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.DeleteCacheRefreshPlanRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader DeleteCacheRefreshPlan(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID) {
+            Bluewire.Reporting.Common.ServiceProxy.DeleteCacheRefreshPlanRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.DeleteCacheRefreshPlanRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.CacheRefreshPlanID = CacheRefreshPlanID;
-            Bluewire.Reporting.Cli.ServiceProxy.DeleteCacheRefreshPlanResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).DeleteCacheRefreshPlan(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.DeleteCacheRefreshPlanResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).DeleteCacheRefreshPlan(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DeleteCacheRefreshPlanResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.DeleteCacheRefreshPlanAsync(Bluewire.Reporting.Cli.ServiceProxy.DeleteCacheRefreshPlanRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DeleteCacheRefreshPlanResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.DeleteCacheRefreshPlanAsync(Bluewire.Reporting.Common.ServiceProxy.DeleteCacheRefreshPlanRequest request) {
             return base.Channel.DeleteCacheRefreshPlanAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.DeleteCacheRefreshPlanResponse> DeleteCacheRefreshPlanAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID) {
-            Bluewire.Reporting.Cli.ServiceProxy.DeleteCacheRefreshPlanRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.DeleteCacheRefreshPlanRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.DeleteCacheRefreshPlanResponse> DeleteCacheRefreshPlanAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID) {
+            Bluewire.Reporting.Common.ServiceProxy.DeleteCacheRefreshPlanRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.DeleteCacheRefreshPlanRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.CacheRefreshPlanID = CacheRefreshPlanID;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).DeleteCacheRefreshPlanAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).DeleteCacheRefreshPlanAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListCacheRefreshPlansResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListCacheRefreshPlans(Bluewire.Reporting.Cli.ServiceProxy.ListCacheRefreshPlansRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListCacheRefreshPlansResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListCacheRefreshPlans(Bluewire.Reporting.Common.ServiceProxy.ListCacheRefreshPlansRequest request) {
             return base.Channel.ListCacheRefreshPlans(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListCacheRefreshPlans(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out Bluewire.Reporting.Cli.ServiceProxy.CacheRefreshPlan[] CacheRefreshPlans) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListCacheRefreshPlansRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListCacheRefreshPlansRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListCacheRefreshPlans(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out Bluewire.Reporting.Common.ServiceProxy.CacheRefreshPlan[] CacheRefreshPlans) {
+            Bluewire.Reporting.Common.ServiceProxy.ListCacheRefreshPlansRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListCacheRefreshPlansRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.ListCacheRefreshPlansResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListCacheRefreshPlans(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListCacheRefreshPlansResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListCacheRefreshPlans(inValue);
             CacheRefreshPlans = retVal.CacheRefreshPlans;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListCacheRefreshPlansResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListCacheRefreshPlansAsync(Bluewire.Reporting.Cli.ServiceProxy.ListCacheRefreshPlansRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListCacheRefreshPlansResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListCacheRefreshPlansAsync(Bluewire.Reporting.Common.ServiceProxy.ListCacheRefreshPlansRequest request) {
             return base.Channel.ListCacheRefreshPlansAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListCacheRefreshPlansResponse> ListCacheRefreshPlansAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListCacheRefreshPlansRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListCacheRefreshPlansRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListCacheRefreshPlansResponse> ListCacheRefreshPlansAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+            Bluewire.Reporting.Common.ServiceProxy.ListCacheRefreshPlansRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListCacheRefreshPlansRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListCacheRefreshPlansAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListCacheRefreshPlansAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.LogonUserResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.LogonUser(Bluewire.Reporting.Cli.ServiceProxy.LogonUserRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.LogonUserResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.LogonUser(Bluewire.Reporting.Common.ServiceProxy.LogonUserRequest request) {
             return base.Channel.LogonUser(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader LogonUser(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string userName, string password, string authority) {
-            Bluewire.Reporting.Cli.ServiceProxy.LogonUserRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.LogonUserRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader LogonUser(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string userName, string password, string authority) {
+            Bluewire.Reporting.Common.ServiceProxy.LogonUserRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.LogonUserRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.userName = userName;
             inValue.password = password;
             inValue.authority = authority;
-            Bluewire.Reporting.Cli.ServiceProxy.LogonUserResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).LogonUser(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.LogonUserResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).LogonUser(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.LogonUserResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.LogonUserAsync(Bluewire.Reporting.Cli.ServiceProxy.LogonUserRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.LogonUserResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.LogonUserAsync(Bluewire.Reporting.Common.ServiceProxy.LogonUserRequest request) {
             return base.Channel.LogonUserAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.LogonUserResponse> LogonUserAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string userName, string password, string authority) {
-            Bluewire.Reporting.Cli.ServiceProxy.LogonUserRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.LogonUserRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.LogonUserResponse> LogonUserAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string userName, string password, string authority) {
+            Bluewire.Reporting.Common.ServiceProxy.LogonUserRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.LogonUserRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.userName = userName;
             inValue.password = password;
             inValue.authority = authority;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).LogonUserAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).LogonUserAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.LogoffResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.Logoff(Bluewire.Reporting.Cli.ServiceProxy.LogoffRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.LogoffResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.Logoff(Bluewire.Reporting.Common.ServiceProxy.LogoffRequest request) {
             return base.Channel.Logoff(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader Logoff(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
-            Bluewire.Reporting.Cli.ServiceProxy.LogoffRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.LogoffRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader Logoff(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+            Bluewire.Reporting.Common.ServiceProxy.LogoffRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.LogoffRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            Bluewire.Reporting.Cli.ServiceProxy.LogoffResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).Logoff(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.LogoffResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).Logoff(inValue);
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.LogoffResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.LogoffAsync(Bluewire.Reporting.Cli.ServiceProxy.LogoffRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.LogoffResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.LogoffAsync(Bluewire.Reporting.Common.ServiceProxy.LogoffRequest request) {
             return base.Channel.LogoffAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.LogoffResponse> LogoffAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
-            Bluewire.Reporting.Cli.ServiceProxy.LogoffRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.LogoffRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.LogoffResponse> LogoffAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+            Bluewire.Reporting.Common.ServiceProxy.LogoffRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.LogoffRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).LogoffAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).LogoffAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetPermissionsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetPermissions(Bluewire.Reporting.Cli.ServiceProxy.GetPermissionsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetPermissionsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetPermissions(Bluewire.Reporting.Common.ServiceProxy.GetPermissionsRequest request) {
             return base.Channel.GetPermissions(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetPermissions(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out string[] Permissions) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetPermissionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetPermissionsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetPermissions(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath, out string[] Permissions) {
+            Bluewire.Reporting.Common.ServiceProxy.GetPermissionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetPermissionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            Bluewire.Reporting.Cli.ServiceProxy.GetPermissionsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetPermissions(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetPermissionsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetPermissions(inValue);
             Permissions = retVal.Permissions;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetPermissionsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetPermissionsAsync(Bluewire.Reporting.Cli.ServiceProxy.GetPermissionsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetPermissionsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetPermissionsAsync(Bluewire.Reporting.Common.ServiceProxy.GetPermissionsRequest request) {
             return base.Channel.GetPermissionsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetPermissionsResponse> GetPermissionsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetPermissionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetPermissionsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetPermissionsResponse> GetPermissionsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, string ItemPath) {
+            Bluewire.Reporting.Common.ServiceProxy.GetPermissionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetPermissionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ItemPath = ItemPath;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetPermissionsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetPermissionsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.GetSystemPermissionsResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetSystemPermissions(Bluewire.Reporting.Cli.ServiceProxy.GetSystemPermissionsRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.GetSystemPermissionsResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetSystemPermissions(Bluewire.Reporting.Common.ServiceProxy.GetSystemPermissionsRequest request) {
             return base.Channel.GetSystemPermissions(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader GetSystemPermissions(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] Permissions) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetSystemPermissionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetSystemPermissionsRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader GetSystemPermissions(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] Permissions) {
+            Bluewire.Reporting.Common.ServiceProxy.GetSystemPermissionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetSystemPermissionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            Bluewire.Reporting.Cli.ServiceProxy.GetSystemPermissionsResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetSystemPermissions(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.GetSystemPermissionsResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetSystemPermissions(inValue);
             Permissions = retVal.Permissions;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetSystemPermissionsResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.GetSystemPermissionsAsync(Bluewire.Reporting.Cli.ServiceProxy.GetSystemPermissionsRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetSystemPermissionsResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.GetSystemPermissionsAsync(Bluewire.Reporting.Common.ServiceProxy.GetSystemPermissionsRequest request) {
             return base.Channel.GetSystemPermissionsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.GetSystemPermissionsResponse> GetSystemPermissionsAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
-            Bluewire.Reporting.Cli.ServiceProxy.GetSystemPermissionsRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.GetSystemPermissionsRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.GetSystemPermissionsResponse> GetSystemPermissionsAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+            Bluewire.Reporting.Common.ServiceProxy.GetSystemPermissionsRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.GetSystemPermissionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).GetSystemPermissionsAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).GetSystemPermissionsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Bluewire.Reporting.Cli.ServiceProxy.ListSecurityScopesResponse Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListSecurityScopes(Bluewire.Reporting.Cli.ServiceProxy.ListSecurityScopesRequest request) {
+        Bluewire.Reporting.Common.ServiceProxy.ListSecurityScopesResponse Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListSecurityScopes(Bluewire.Reporting.Common.ServiceProxy.ListSecurityScopesRequest request) {
             return base.Channel.ListSecurityScopes(request);
         }
         
-        public Bluewire.Reporting.Cli.ServiceProxy.ServerInfoHeader ListSecurityScopes(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListSecurityScopesResult) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListSecurityScopesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListSecurityScopesRequest();
+        public Bluewire.Reporting.Common.ServiceProxy.ServerInfoHeader ListSecurityScopes(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader, out string[] ListSecurityScopesResult) {
+            Bluewire.Reporting.Common.ServiceProxy.ListSecurityScopesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListSecurityScopesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            Bluewire.Reporting.Cli.ServiceProxy.ListSecurityScopesResponse retVal = ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListSecurityScopes(inValue);
+            Bluewire.Reporting.Common.ServiceProxy.ListSecurityScopesResponse retVal = ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListSecurityScopes(inValue);
             ListSecurityScopesResult = retVal.ListSecurityScopesResult;
             return retVal.ServerInfoHeader;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListSecurityScopesResponse> Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap.ListSecurityScopesAsync(Bluewire.Reporting.Cli.ServiceProxy.ListSecurityScopesRequest request) {
+        System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListSecurityScopesResponse> Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap.ListSecurityScopesAsync(Bluewire.Reporting.Common.ServiceProxy.ListSecurityScopesRequest request) {
             return base.Channel.ListSecurityScopesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Bluewire.Reporting.Cli.ServiceProxy.ListSecurityScopesResponse> ListSecurityScopesAsync(Bluewire.Reporting.Cli.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
-            Bluewire.Reporting.Cli.ServiceProxy.ListSecurityScopesRequest inValue = new Bluewire.Reporting.Cli.ServiceProxy.ListSecurityScopesRequest();
+        public System.Threading.Tasks.Task<Bluewire.Reporting.Common.ServiceProxy.ListSecurityScopesResponse> ListSecurityScopesAsync(Bluewire.Reporting.Common.ServiceProxy.TrustedUserHeader TrustedUserHeader) {
+            Bluewire.Reporting.Common.ServiceProxy.ListSecurityScopesRequest inValue = new Bluewire.Reporting.Common.ServiceProxy.ListSecurityScopesRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((Bluewire.Reporting.Cli.ServiceProxy.ReportingService2010Soap)(this)).ListSecurityScopesAsync(inValue);
+            return ((Bluewire.Reporting.Common.ServiceProxy.ReportingService2010Soap)(this)).ListSecurityScopesAsync(inValue);
         }
     }
 }

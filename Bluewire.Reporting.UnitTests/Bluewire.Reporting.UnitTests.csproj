@@ -72,6 +72,10 @@
       <Project>{2BDD89A8-C872-4905-9891-63FA4602C80F}</Project>
       <Name>Bluewire.Reporting.Cli</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Bluewire.Reporting.Common\Bluewire.Reporting.Common.csproj">
+      <Project>{2F87E319-CC85-45E0-ADD0-D98A0EA0A9E8}</Project>
+      <Name>Bluewire.Reporting.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="..\StyleCopAnalyzers.props" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Bluewire.Reporting.Cli.Model;
-using Bluewire.Reporting.Cli.ServiceProxy;
 using Bluewire.Reporting.Cli.Sources.Ssrs;
+using Bluewire.Reporting.Common.ServiceProxy;
 
 namespace Bluewire.Reporting.Cli.Sources
 {

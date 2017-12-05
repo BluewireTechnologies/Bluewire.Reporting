@@ -10,6 +10,7 @@ using Bluewire.Reporting.Cli.Rewrite;
 using Bluewire.Reporting.Cli.ServiceProxy;
 using Bluewire.Reporting.Cli.Sources;
 using Bluewire.Reporting.Cli.Sources.Ssrs;
+using Bluewire.Reporting.Common.ServiceProxy;
 using log4net;
 using Task = System.Threading.Tasks.Task;
 

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Bluewire.Reporting.Cli.ServiceProxy
+namespace Bluewire.Reporting.Common.ServiceProxy
 {
     public interface IReportingServiceClient : IDisposable
     {

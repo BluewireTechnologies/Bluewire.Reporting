@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ServiceModel;
 using Bluewire.Reporting.Cli.ServiceProxy;
+using Bluewire.Reporting.Common.ServiceProxy;
 using NUnit.Framework;
 
 namespace Bluewire.Reporting.UnitTests.ServiceProxy

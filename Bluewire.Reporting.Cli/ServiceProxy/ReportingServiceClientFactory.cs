@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using Bluewire.Reporting.Common.ServiceProxy;
 
 namespace Bluewire.Reporting.Cli.ServiceProxy
 {

@@ -84,10 +84,8 @@
     <Compile Include="Model\SsrsDataSet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ServiceProxy\IReportingServiceClient.cs" />
     <Compile Include="ServiceProxy\ReportingServiceClientExtensions.cs" />
     <Compile Include="ServiceProxy\ReportingServiceClientFactory.cs" />
-    <Compile Include="ServiceProxy\ReportService2010.cs" />
     <Compile Include="Sources\AggregatedObjectSource.cs" />
     <Compile Include="Sources\SiteManifest.cs" />
     <Compile Include="Sources\SiteManifestReader.cs" />
@@ -125,12 +123,17 @@
     </None>
     <None Include="packages.config" />
     <None Include="README.md" />
-    <None Include="ServiceProxy\ReportService2010.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <None Include="FodyWeavers.xml">
       <SubType>Designer</SubType>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bluewire.Reporting.Common\Bluewire.Reporting.Common.csproj">
+      <Project>{2F87E319-CC85-45E0-ADD0-D98A0EA0A9E8}</Project>
+      <Name>Bluewire.Reporting.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="..\StyleCopAnalyzers.props" />
   <Import Project="Bluewire.Reporting.Cli.props" />
