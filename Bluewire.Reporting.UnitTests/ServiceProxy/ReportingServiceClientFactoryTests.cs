@@ -35,6 +35,11 @@ namespace Bluewire.Reporting.UnitTests.ServiceProxy
                     // We don't expect to find a running endpoint during the test. We just need to
                     // verify that the URI is accepted.
                 }
+                catch (ServerTooBusyException)
+                {
+                    // If the current machine does actually have an SSRS instance running, we might
+                    // occasionally ping it too often with this test.
+                }
             }
         }
 
@@ -51,6 +56,11 @@ namespace Bluewire.Reporting.UnitTests.ServiceProxy
                 {
                     // We don't expect to find a running endpoint during the test. We just need to
                     // verify that the URI is accepted.
+                }
+                catch (ServerTooBusyException)
+                {
+                    // If the current machine does actually have an SSRS instance running, we might
+                    // occasionally ping it too often with this test.
                 }
             }
         }
