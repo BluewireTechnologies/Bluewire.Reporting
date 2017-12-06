@@ -41,6 +41,7 @@ where <mode> is one of: inspect, import, create-datasource");
                 case JobType.Inspect: return new InspectJobFactory();
                 case JobType.Import: return new ImportJobFactory();
                 case JobType.CreateDataSource: return new CreateDataSourceJobFactory();
+                case JobType.Schedule: return new ScheduleJobFactory();
                 default: return null;
             }
         }

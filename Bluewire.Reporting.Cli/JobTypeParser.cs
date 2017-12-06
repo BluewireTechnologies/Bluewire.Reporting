@@ -29,6 +29,9 @@ namespace Bluewire.Reporting.Cli
                 case "create-datasource":
                     jobType = JobType.CreateDataSource;
                     return true;
+                case "schedule":
+                    jobType = JobType.Schedule;
+                    return true;
                 default:
                     jobType = JobType.Invalid;
                     return false;

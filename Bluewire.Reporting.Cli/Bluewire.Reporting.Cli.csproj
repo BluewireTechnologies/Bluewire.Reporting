@@ -56,12 +56,15 @@
   <ItemGroup>
     <Compile Include="Configuration\CreateDataSourceJobFactory.cs" />
     <Compile Include="Configuration\CredentialStringParser.cs" />
+    <Compile Include="Configuration\PathOnlyFilterDefinition.cs" />
+    <Compile Include="Configuration\ScheduleJobFactory.cs" />
     <Compile Include="Configuration\Logging.cs" />
     <Compile Include="Configuration\ObjectFilterDefinition.cs" />
     <Compile Include="Configuration\SsrsDataSourceType.cs" />
     <Compile Include="Exports\ExportToDirectoryHierarchy.cs" />
     <Compile Include="Exports\IObjectExportTarget.cs" />
     <Compile Include="Jobs\CreateDataSourceJob.cs" />
+    <Compile Include="Jobs\ScheduleJob.cs" />
     <Compile Include="Mapping\SsrsDataSourceDefinitionMapper.cs" />
     <Compile Include="Model\ISsrsObjectDefinition.cs" />
     <Compile Include="Rewrite\RewriteRuleParser.cs" />
@@ -84,6 +87,10 @@
     <Compile Include="Model\SsrsDataSet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scheduling\SsrsReportScheduler.cs" />
+    <Compile Include="Scheduling\ISsrsReportSchedulingRule.cs" />
+    <Compile Include="Scheduling\SchedulingRuleParser.cs" />
+    <Compile Include="Scheduling\SsrsInferredSchedulingRule.cs" />
     <Compile Include="ServiceProxy\ReportingServiceClientExtensions.cs" />
     <Compile Include="ServiceProxy\ReportingServiceClientFactory.cs" />
     <Compile Include="Sources\AggregatedObjectSource.cs" />

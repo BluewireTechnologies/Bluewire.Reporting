@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 using System.Xml.Linq;
+using Bluewire.Reporting.Common.ServiceProxy;
 
 namespace Bluewire.Reporting.Common.Scheduling
 {
@@ -12,6 +13,25 @@ namespace Bluewire.Reporting.Common.Scheduling
                 Period = GetReportPeriod(report),
                 Frequency = GetReportSnapshotFrequency(report)
             };
+        }
+
+        public ScheduleDefinition CreateScheduleDefinition(ReportSchedule schedule)
+        {
+            if (schedule.Frequency == ReportSnapshotFrequency.Hourly)
+            {
+                return new ScheduleDefinition {
+                    Item = new MinuteRecurrence { MinutesInterval = 60 },
+                    StartDateTime = DateTime.Now
+                };
+            }
+            if (schedule.Frequency == ReportSnapshotFrequency.Daily)
+            {
+                return new ScheduleDefinition {
+                    Item = new DailyRecurrence { DaysInterval = 1 },
+                    StartDateTime = DateTime.Now.Date.AddHours(22).AddMinutes(06)
+                };
+            }
+            return new ScheduleDefinition { Item = null };
         }
 
         private ReportPeriod GetReportPeriod(ReportForSchedulingDto report)
