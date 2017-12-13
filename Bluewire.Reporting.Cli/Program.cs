@@ -1,10 +1,9 @@
 ﻿using System;
 using System.IO;
-using System.Reflection;
 using Bluewire.Common.Console;
-using Bluewire.Common.Console.ThirdParty;
+using Bluewire.Common.Console.Arguments;
+using Bluewire.Common.Console.Logging;
 using Bluewire.Reporting.Cli.Configuration;
-using Bluewire.Reporting.Cli.Support;
 
 namespace Bluewire.Reporting.Cli
 {
@@ -12,24 +11,26 @@ namespace Bluewire.Reporting.Cli
     {
         static int Main(string[] args)
         {
-            var options = new OptionSet();
+            var session = new ConsoleSession();
             var jobFactory = SelectFactory(ref args);
             if (jobFactory == null)
             {
-                Console.Error.WriteLine($@"Usage: {Path.GetFileName(Assembly.GetEntryAssembly().Location)} <mode> <args...>
+                Console.Error.WriteLine($@"Usage: {Path.GetFileName(session.Application)} <mode> <args...>
 where <mode> is one of: inspect, import, create-datasource");
                 return 1;
             }
-            options.AddCollector(jobFactory);
-            var logging = options.AddCollector(new Logging());
-            var session = new ConsoleSession<IJobFactory>(jobFactory, options);
-            jobFactory.ConfigureSession(session);
+            session.Options.AddCollector(jobFactory);
+            session.ArgumentList.AddCollector(jobFactory as IReceiveArgumentList);
+            var logging = session.Options.AddCollector(new SimpleConsoleLoggingPolicy());
+            session.ExcessPositionalArgumentsPolicy = ExcessPositionalArgumentsPolicy.Warn;
 
-            return session.Run(args, async f => {
-                logging.Configure();
-                var job = f.CreateJob();
-                await job.Run(Console.Out);
-                return 0;
+            return session.Run(args, async () => {
+                using (LoggingPolicy.Register(session, logging))
+                {
+                    var job = jobFactory.CreateJob();
+                    await job.Run(Console.Out);
+                    return 0;
+                }
             });
         }
 

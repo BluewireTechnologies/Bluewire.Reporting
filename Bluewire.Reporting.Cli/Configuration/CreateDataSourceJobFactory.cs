@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 using Bluewire.Common.Console;
+using Bluewire.Common.Console.Arguments;
 using Bluewire.Common.Console.ThirdParty;
 using Bluewire.Reporting.Cli.Jobs;
 using Bluewire.Reporting.Cli.Model;
@@ -11,11 +12,10 @@ using Bluewire.Reporting.Cli.Support;
 
 namespace Bluewire.Reporting.Cli.Configuration
 {
-    public class CreateDataSourceJobFactory : IJobFactory, IArgumentList
+    public class CreateDataSourceJobFactory : IJobFactory, IReceiveArgumentList
     {
-        public IList<string> ArgumentList { get; } = new List<string>();
-        public string SsrsUriString => ArgumentList.FirstOrDefault();
-        public string ObjectPath => ArgumentList.ElementAtOrDefault(1);
+        public string SsrsUriString { get; set; }
+        public string ObjectPath { get; set; }
 
         public SsrsDataSourceType Type { get; set; } = SsrsDataSourceType.SQLServer;
         public string ConnectionString { get; set; }
@@ -37,7 +37,11 @@ namespace Bluewire.Reporting.Cli.Configuration
             options.Add("timeout=", "Number of seconds to wait for SSRS webservice calls (default: 60)", (int o) => ReportingServiceClientFactory.Timeout = TimeSpan.FromSeconds(o));
         }
 
-        void IJobFactory.ConfigureSession(ConsoleSession<IJobFactory> session) => session.ListParameterUsage = "<ssrs-uri> <object-path>";
+        void IReceiveArgumentList.ReceiveFrom(ArgumentList argumentList)
+        {
+            argumentList.Add("ssrs-uri", o => SsrsUriString = o);
+            argumentList.Add("object-path", o => ObjectPath = o);
+        }
 
         public IJob CreateJob()
         {

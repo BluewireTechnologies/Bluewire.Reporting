@@ -1,8 +1,8 @@
 ﻿using Bluewire.Common.Console.ThirdParty;
-using Bluewire.Reporting.Cli.Support;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Bluewire.Common.Console;
 
 namespace Bluewire.Reporting.Cli.Configuration
 {
