@@ -164,41 +164,6 @@ namespace Bluewire.Reporting.Cli.Jobs
                 if (!await service.ItemExists(item.Path)) throw;
                 return;
             }
-            await service.Proxy.SetExecutionOptionsAsync(new SetExecutionOptionsRequest {
-                TrustedUserHeader = trustedUserHeader,
-                ExecutionSetting = "Snapshot",
-                ItemPath = item.Path.ToString(),
-                Item = new NoSchedule()
-            });
-            await service.Proxy.SetItemHistoryOptionsAsync(new SetItemHistoryOptionsRequest {
-                TrustedUserHeader = trustedUserHeader,
-                EnableManualSnapshotCreation = true,
-                KeepExecutionSnapshots = false,
-                ItemPath = item.Path.ToString(),
-                Item = new NoSchedule()
-            });
-
-            await FixupEproParameters(item);
-        }
-
-        private async Task FixupEproParameters(SsrsReport item)
-        {
-            var parametersResponse = await service.Proxy.GetItemParametersAsync(new GetItemParametersRequest {
-                TrustedUserHeader = trustedUserHeader,
-                ItemPath = item.Path.ToString(),
-                ForRendering = false
-            });
-
-            var parameters = parametersResponse.Parameters.ToDictionary(p => p.Name, StringComparer.OrdinalIgnoreCase);
-            if (parameters.TryGetValue("year", out var yearParam)) yearParam.PromptUser = false;
-            if (parameters.TryGetValue("month", out var monthParam)) monthParam.PromptUser = false;
-            if (parameters.TryGetValue("day", out var dayParam)) dayParam.PromptUser = false;
-
-            await service.Proxy.SetItemParametersAsync(new SetItemParametersRequest {
-                TrustedUserHeader = trustedUserHeader,
-                ItemPath = item.Path.ToString(),
-                Parameters = parametersResponse.Parameters
-            });
         }
     }
 }
