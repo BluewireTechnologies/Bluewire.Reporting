@@ -47,11 +47,11 @@ namespace Bluewire.Reporting.Cli.Sources
                 {
                     return ReadDataSource(xml, itemName, containerPath);
                 }
-                if (xml.Root.Name == ReportXmlSchema.Xmlns + "Report")
+                if (xml.Root.Name.LocalName == "Report" && ReportXmlSchema.IsReportNamespace(xml.Root.Name.Namespace, out _, out _))
                 {
                     return ReadReport(xml, itemName, containerPath);
                 }
-                if (xml.Root.Name == DataSetXmlSchema.Xmlns + "SharedDataSet")
+                if (xml.Root.Name.LocalName == "SharedDataSet" && DataSetXmlSchema.IsDataSetNamespace(xml.Root.Name.Namespace, out _, out _))
                 {
                     return ReadDataSet(xml, itemName, containerPath);
                 }

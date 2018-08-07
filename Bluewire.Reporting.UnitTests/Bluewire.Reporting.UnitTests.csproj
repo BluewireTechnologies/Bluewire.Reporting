@@ -63,6 +63,7 @@
     <Compile Include="ServiceProxy\ReportingServiceClientFactoryTests.cs" />
     <Compile Include="Sources\PathFilterPrefixTests.cs" />
     <Compile Include="Sources\PathFilterGlobTests.cs" />
+    <Compile Include="Sources\SsrsObjectFileReaderTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -72,6 +73,9 @@
       <Project>{2BDD89A8-C872-4905-9891-63FA4602C80F}</Project>
       <Name>Bluewire.Reporting.Cli</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="..\StyleCopAnalyzers.props" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
