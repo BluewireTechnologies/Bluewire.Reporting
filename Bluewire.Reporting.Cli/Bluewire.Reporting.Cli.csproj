@@ -64,11 +64,6 @@
     <Compile Include="Exports\ExportToDirectoryHierarchy.cs" />
     <Compile Include="Exports\IObjectExportTarget.cs" />
     <Compile Include="Jobs\CreateDataSourceJob.cs" />
-    <Compile Include="Mapping\SsrsDataSourceDefinitionMapper.cs" />
-    <Compile Include="Model\ISsrsObjectDefinition.cs" />
-    <Compile Include="Rewrite\RewriteRuleParser.cs" />
-    <Compile Include="Rewrite\SsrsObjectRewriters.cs" />
-    <Compile Include="Model\SsrsDataSource.cs" />
     <Compile Include="Configuration\SsrsObjectTypesParser.cs" />
     <Compile Include="Jobs\IJob.cs" />
     <Compile Include="Configuration\IJobFactory.cs" />
@@ -78,47 +73,21 @@
     <Compile Include="Jobs\InspectJob.cs" />
     <Compile Include="JobType.cs" />
     <Compile Include="JobTypeParser.cs" />
-    <Compile Include="Rewrite\SsrsDataSetDataSourceRewriter.cs" />
-    <Compile Include="Model\SsrsObject.cs" />
-    <Compile Include="Rewrite\ISsrsObjectRewriter.cs" />
-    <Compile Include="Model\SsrsObjectType.cs" />
-    <Compile Include="Model\SsrsReport.cs" />
-    <Compile Include="Model\SsrsDataSet.cs" />
+    <Compile Include="Mapping\SsrsDataSourceDefinitionMapper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceProxy\IReportingServiceClient.cs" />
+    <Compile Include="ServiceProxy\ReportingServiceClient.cs" />
     <Compile Include="ServiceProxy\ReportingServiceClientExtensions.cs" />
     <Compile Include="ServiceProxy\ReportingServiceClientFactory.cs" />
     <Compile Include="ServiceProxy\ReportService2010.cs" />
-    <Compile Include="Sources\AggregatedObjectSource.cs" />
-    <Compile Include="Sources\SiteManifest.cs" />
-    <Compile Include="Sources\SiteManifestReader.cs" />
-    <Compile Include="Sources\SsrsObjectCatalogItemReader.cs" />
-    <Compile Include="Xml\DataSetXmlSchema.cs" />
-    <Compile Include="Xml\DataSourceXmlSchema.cs" />
-    <Compile Include="Sources\DirectoryObjectSource.cs" />
-    <Compile Include="Sources\IPathFilter.cs" />
-    <Compile Include="Sources\ISsrsObjectSource.cs" />
     <Compile Include="Sources\ObjectSourceFactory.cs" />
-    <Compile Include="Sources\PathFilter.cs" />
-    <Compile Include="ServiceProxy\ReportingServiceClient.cs" />
-    <Compile Include="Sources\RelativeDirectoryExplorer.cs" />
-    <Compile Include="Xml\ReportXmlSchema.cs" />
-    <Compile Include="Sources\SingleFileObjectSource.cs" />
-    <Compile Include="Sources\SsrsObjectFileReader.cs" />
-    <Compile Include="Sources\SsrsObjectFilter.cs" />
-    <Compile Include="Model\SsrsFilterObjectTypes.cs" />
-    <Compile Include="Model\SsrsObjectPath.cs" />
-    <Compile Include="Sources\PathFilterExpression.cs" />
-    <Compile Include="Sources\SsrsObjectParseException.cs" />
+    <Compile Include="Sources\SsrsObjectCatalogItemReader.cs" />
     <Compile Include="Sources\SsrsWebServiceObjectSource.cs" />
-    <Compile Include="Sources\Ssrs\CatalogItemType.cs" />
-    <Compile Include="Sources\XmlObjectDefinition.cs" />
     <Compile Include="Sources\ZipFileObjectSource.cs" />
     <Compile Include="Support\ConnectionStringUtils.cs" />
     <Compile Include="Support\OptionsExtensions.cs" />
     <Compile Include="Support\WcfHelpers.cs" />
-    <Compile Include="Xml\XmlExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Bluewire.Reporting.Cli.nuspec">
@@ -132,6 +101,12 @@
     <None Include="FodyWeavers.xml">
       <SubType>Designer</SubType>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bluewire.Reporting.Common\Bluewire.Reporting.Common.csproj">
+      <Project>{f7607e3e-0e28-42a1-87ba-31cd0ccf2291}</Project>
+      <Name>Bluewire.Reporting.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="..\StyleCopAnalyzers.props" />
   <Import Project="Bluewire.Reporting.Cli.props" />
