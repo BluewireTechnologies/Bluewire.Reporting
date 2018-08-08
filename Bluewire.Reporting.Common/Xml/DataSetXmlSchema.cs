@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
 
-namespace Bluewire.Reporting.Cli.Xml
+namespace Bluewire.Reporting.Common.Xml
 {
     public class DataSetXmlSchema
     {

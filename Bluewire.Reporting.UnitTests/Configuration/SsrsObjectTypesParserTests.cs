@@ -1,5 +1,5 @@
 ﻿using Bluewire.Reporting.Cli.Configuration;
-using Bluewire.Reporting.Cli.Model;
+using Bluewire.Reporting.Common.Model;
 using NUnit.Framework;
 
 namespace Bluewire.Reporting.UnitTests.Configuration

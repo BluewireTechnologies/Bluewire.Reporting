@@ -5,11 +5,12 @@ using System.Linq;
 using System.ServiceModel;
 using Bluewire.Reporting.Cli.Exports;
 using Bluewire.Reporting.Cli.Mapping;
-using Bluewire.Reporting.Cli.Model;
-using Bluewire.Reporting.Cli.Rewrite;
 using Bluewire.Reporting.Cli.ServiceProxy;
 using Bluewire.Reporting.Cli.Sources;
-using Bluewire.Reporting.Cli.Sources.Ssrs;
+using Bluewire.Reporting.Common.Model;
+using Bluewire.Reporting.Common.Rewrite;
+using Bluewire.Reporting.Common.Sources;
+using Bluewire.Reporting.Common.Sources.Ssrs;
 using log4net;
 using Task = System.Threading.Tasks.Task;
 

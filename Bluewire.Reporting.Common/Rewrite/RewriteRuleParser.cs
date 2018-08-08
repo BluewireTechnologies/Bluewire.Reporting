@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Text.RegularExpressions;
-using Bluewire.Reporting.Cli.Sources;
+using Bluewire.Reporting.Common.Sources;
 
-namespace Bluewire.Reporting.Cli.Rewrite
+namespace Bluewire.Reporting.Common.Rewrite
 {
     public class RewriteRuleParser
     {

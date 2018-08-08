@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using Bluewire.Reporting.Cli.Model;
 using Bluewire.Reporting.Cli.ServiceProxy;
+using Bluewire.Reporting.Common.Model;
+using Bluewire.Reporting.Common.Sources;
 
 namespace Bluewire.Reporting.Cli.Sources
 {

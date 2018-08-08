@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Bluewire.Reporting.Cli.Model
+namespace Bluewire.Reporting.Common.Model
 {
     public interface ISsrsObjectDefinition
     {

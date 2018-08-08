@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Bluewire.Reporting.Cli.Model;
+using Bluewire.Reporting.Common.Model;
 
-namespace Bluewire.Reporting.Cli.Sources
+namespace Bluewire.Reporting.Common.Sources
 {
     public interface ISsrsObjectSource : IDisposable
     {

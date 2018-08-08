@@ -1,7 +1,7 @@
 ﻿using System;
-using Bluewire.Reporting.Cli.Model;
+using Bluewire.Reporting.Common.Model;
 
-namespace Bluewire.Reporting.Cli.Sources
+namespace Bluewire.Reporting.Common.Sources
 {
     public class SsrsObjectParseException : Exception
     {

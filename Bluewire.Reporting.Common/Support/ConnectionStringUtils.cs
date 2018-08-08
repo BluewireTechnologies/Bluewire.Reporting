@@ -2,7 +2,7 @@ using System;
 using System.Data.SqlClient;
 using System.Net;
 
-namespace Bluewire.Reporting.Cli.Support
+namespace Bluewire.Reporting.Common.Support
 {
     public static class ConnectionStringUtils
     {

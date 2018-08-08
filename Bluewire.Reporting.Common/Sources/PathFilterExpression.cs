@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Bluewire.Reporting.Cli.Sources
+namespace Bluewire.Reporting.Common.Sources
 {
     public class PathFilterExpression : IPathFilter
     {

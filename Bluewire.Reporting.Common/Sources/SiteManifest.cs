@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Bluewire.Reporting.Cli.Sources
+namespace Bluewire.Reporting.Common.Sources
 {
     public class SiteManifest
     {

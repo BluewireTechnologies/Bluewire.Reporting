@@ -2,11 +2,11 @@
 using System.IO;
 using System.Xml;
 using System.Xml.Linq;
-using Bluewire.Reporting.Cli.Model;
-using Bluewire.Reporting.Cli.Support;
-using Bluewire.Reporting.Cli.Xml;
+using Bluewire.Reporting.Common.Model;
+using Bluewire.Reporting.Common.Support;
+using Bluewire.Reporting.Common.Xml;
 
-namespace Bluewire.Reporting.Cli.Sources
+namespace Bluewire.Reporting.Common.Sources
 {
     public class SsrsObjectFileReader
     {

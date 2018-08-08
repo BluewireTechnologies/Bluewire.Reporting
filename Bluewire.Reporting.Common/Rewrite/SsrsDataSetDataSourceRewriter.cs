@@ -2,12 +2,12 @@
 using System.IO;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-using Bluewire.Reporting.Cli.Model;
-using Bluewire.Reporting.Cli.Sources;
-using Bluewire.Reporting.Cli.Xml;
+using Bluewire.Reporting.Common.Model;
+using Bluewire.Reporting.Common.Sources;
+using Bluewire.Reporting.Common.Xml;
 using log4net;
 
-namespace Bluewire.Reporting.Cli.Rewrite
+namespace Bluewire.Reporting.Common.Rewrite
 {
     public class SsrsDataSetDataSourceReferenceRewriter : ISsrsObjectRewriter
     {

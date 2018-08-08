@@ -1,5 +1,6 @@
 ﻿using System;
 using Bluewire.Reporting.Cli.Sources;
+using Bluewire.Reporting.Common.Sources;
 using NUnit.Framework;
 
 namespace Bluewire.Reporting.UnitTests.Sources

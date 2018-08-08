@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Xml.Linq;
 
-namespace Bluewire.Reporting.Cli.Xml
+namespace Bluewire.Reporting.Common.Xml
 {
     public static class XmlExtensions
     {

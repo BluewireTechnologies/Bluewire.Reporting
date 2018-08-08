@@ -4,7 +4,8 @@ using System.IO;
 using System.IO.Compression;
 using System.Linq;
 using System.Threading.Tasks;
-using Bluewire.Reporting.Cli.Model;
+using Bluewire.Reporting.Common.Model;
+using Bluewire.Reporting.Common.Sources;
 using log4net;
 
 namespace Bluewire.Reporting.Cli.Sources

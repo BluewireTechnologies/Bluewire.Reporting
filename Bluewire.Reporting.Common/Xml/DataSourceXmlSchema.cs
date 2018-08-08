@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace Bluewire.Reporting.Cli.Xml
+namespace Bluewire.Reporting.Common.Xml
 {
     public class DataSourceXmlSchema
     {

@@ -1,9 +1,9 @@
 ﻿using System.IO;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-using Bluewire.Reporting.Cli.Model;
+using Bluewire.Reporting.Common.Model;
 
-namespace Bluewire.Reporting.Cli.Sources
+namespace Bluewire.Reporting.Common.Sources
 {
     public class XmlObjectDefinition : ISsrsObjectDefinition
     {

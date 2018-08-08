@@ -1,6 +1,6 @@
 using System;
-using Bluewire.Reporting.Cli.Model;
 using Bluewire.Reporting.Cli.ServiceProxy;
+using Bluewire.Reporting.Common.Model;
 
 namespace Bluewire.Reporting.Cli.Mapping
 {

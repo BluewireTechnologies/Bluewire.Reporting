@@ -1,4 +1,4 @@
-﻿namespace Bluewire.Reporting.Cli.Model
+﻿namespace Bluewire.Reporting.Common.Model
 {
     public class SsrsDataSet : SsrsObject
     {

@@ -5,9 +5,10 @@ using System.Collections.Generic;
 using System.Linq;
 using Bluewire.Common.Console;
 using Bluewire.Common.Console.Arguments;
-using Bluewire.Reporting.Cli.Model;
 using Bluewire.Reporting.Cli.ServiceProxy;
 using Bluewire.Reporting.Cli.Sources;
+using Bluewire.Reporting.Common.Model;
+using Bluewire.Reporting.Common.Sources;
 
 namespace Bluewire.Reporting.Cli.Configuration
 {

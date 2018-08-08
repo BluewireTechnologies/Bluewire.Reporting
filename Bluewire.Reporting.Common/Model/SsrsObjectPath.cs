@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace Bluewire.Reporting.Cli.Model
+namespace Bluewire.Reporting.Common.Model
 {
     public class SsrsObjectPath : IComparable<SsrsObjectPath>
     {

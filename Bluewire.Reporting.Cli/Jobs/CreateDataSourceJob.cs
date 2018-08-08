@@ -1,8 +1,8 @@
 using System;
 using System.IO;
 using Bluewire.Reporting.Cli.Mapping;
-using Bluewire.Reporting.Cli.Model;
 using Bluewire.Reporting.Cli.ServiceProxy;
+using Bluewire.Reporting.Common.Model;
 using log4net;
 using Task = System.Threading.Tasks.Task;
 

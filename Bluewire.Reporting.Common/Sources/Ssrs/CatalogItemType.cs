@@ -1,4 +1,4 @@
-﻿namespace Bluewire.Reporting.Cli.Sources.Ssrs
+﻿namespace Bluewire.Reporting.Common.Sources.Ssrs
 {
     public enum CatalogItemType
     {

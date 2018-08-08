@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using Bluewire.Reporting.Cli.Model;
+using Bluewire.Reporting.Common.Model;
 
-namespace Bluewire.Reporting.Cli.Rewrite
+namespace Bluewire.Reporting.Common.Rewrite
 {
     public interface ISsrsObjectRewriter
     {

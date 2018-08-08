@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Xml.Linq;
-using Bluewire.Reporting.Cli.Model;
+using Bluewire.Reporting.Common.Model;
 using Task = System.Threading.Tasks.Task;
 
 namespace Bluewire.Reporting.Cli.Exports
