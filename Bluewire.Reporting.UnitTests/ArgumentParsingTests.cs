@@ -1,8 +1,7 @@
 ﻿using Bluewire.Common.Console;
-using Bluewire.Common.Console.ThirdParty;
+using Bluewire.Common.Console.Arguments;
 using Bluewire.Reporting.Cli;
 using Bluewire.Reporting.Cli.Configuration;
-using Bluewire.Reporting.Cli.Support;
 using NUnit.Framework;
 
 namespace Bluewire.Reporting.UnitTests
@@ -46,12 +45,12 @@ namespace Bluewire.Reporting.UnitTests
 
         private static T ParseAs<T>(params string[] args) where T : IJobFactory
         {
-            var options = new OptionSet();
+            var session = new SessionArguments();
             var jobFactory = Program.SelectFactory(ref args);
             Assert.That(jobFactory, Is.Not.Null);
             Assert.That(jobFactory, Is.InstanceOf<T>());
-            options.AddCollector(jobFactory);
-            var session = new SessionArguments<IJobFactory>(jobFactory, options);
+            session.Options.AddCollector(jobFactory);
+            session.ArgumentList.AddCollector(jobFactory as IReceiveArgumentList);
             session.Parse(args);
             return (T)jobFactory;
         }

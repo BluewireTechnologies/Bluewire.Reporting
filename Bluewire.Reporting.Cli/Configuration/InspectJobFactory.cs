@@ -1,17 +1,17 @@
 ﻿using System;
 using Bluewire.Common.Console.ThirdParty;
 using Bluewire.Reporting.Cli.Jobs;
-using Bluewire.Reporting.Cli.Support;
 using System.Collections.Generic;
 using System.Linq;
 using Bluewire.Common.Console;
+using Bluewire.Common.Console.Arguments;
 using Bluewire.Reporting.Cli.Model;
 using Bluewire.Reporting.Cli.ServiceProxy;
 using Bluewire.Reporting.Cli.Sources;
 
 namespace Bluewire.Reporting.Cli.Configuration
 {
-    public class InspectJobFactory : IJobFactory, IArgumentList
+    public class InspectJobFactory : IJobFactory, IReceiveArgumentList
     {
         public IList<string> ArgumentList { get; } = new List<string>();
 
@@ -29,7 +29,10 @@ namespace Bluewire.Reporting.Cli.Configuration
             options.Add("timeout=", "Number of seconds to wait for SSRS webservice responses", (int o) => ReportingServiceClientFactory.Timeout = TimeSpan.FromSeconds(o));
         }
 
-        void IJobFactory.ConfigureSession(ConsoleSession<IJobFactory> session) => session.ListParameterUsage = "<ssrs-uri|file|directory>...";
+        void IReceiveArgumentList.ReceiveFrom(ArgumentList argumentList)
+        {
+            argumentList.AddRemainder("ssrs-uri|file|directory...", o => ArgumentList.Add(o));
+        }
 
         public IJob CreateJob()
         {
