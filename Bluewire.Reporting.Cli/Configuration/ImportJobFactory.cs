@@ -7,11 +7,12 @@ using Bluewire.Common.Console.Arguments;
 using Bluewire.Common.Console.ThirdParty;
 using Bluewire.Reporting.Cli.Exports;
 using Bluewire.Reporting.Cli.Jobs;
-using Bluewire.Reporting.Cli.Model;
-using Bluewire.Reporting.Cli.Rewrite;
 using Bluewire.Reporting.Cli.ServiceProxy;
 using Bluewire.Reporting.Cli.Sources;
 using Bluewire.Reporting.Cli.Support;
+using Bluewire.Reporting.Common.Model;
+using Bluewire.Reporting.Common.Rewrite;
+using Bluewire.Reporting.Common.Sources;
 
 namespace Bluewire.Reporting.Cli.Configuration
 {

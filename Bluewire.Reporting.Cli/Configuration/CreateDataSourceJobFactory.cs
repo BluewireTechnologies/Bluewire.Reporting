@@ -6,9 +6,9 @@ using Bluewire.Common.Console;
 using Bluewire.Common.Console.Arguments;
 using Bluewire.Common.Console.ThirdParty;
 using Bluewire.Reporting.Cli.Jobs;
-using Bluewire.Reporting.Cli.Model;
 using Bluewire.Reporting.Cli.ServiceProxy;
 using Bluewire.Reporting.Cli.Support;
+using Bluewire.Reporting.Common.Model;
 
 namespace Bluewire.Reporting.Cli.Configuration
 {

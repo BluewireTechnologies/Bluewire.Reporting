@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Bluewire.Reporting.Cli.Model;
+using Bluewire.Reporting.Common.Model;
 
 namespace Bluewire.Reporting.Cli.Configuration
 {

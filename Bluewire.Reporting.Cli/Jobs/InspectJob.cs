@@ -2,10 +2,11 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Bluewire.Reporting.Cli.Model;
 using Bluewire.Reporting.Cli.Sources;
 using log4net;
 using System.Data.SqlClient;
+using Bluewire.Reporting.Common.Model;
+using Bluewire.Reporting.Common.Sources;
 
 namespace Bluewire.Reporting.Cli.Jobs
 {

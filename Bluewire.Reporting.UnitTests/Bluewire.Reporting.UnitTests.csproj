@@ -73,6 +73,10 @@
       <Project>{2BDD89A8-C872-4905-9891-63FA4602C80F}</Project>
       <Name>Bluewire.Reporting.Cli</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Bluewire.Reporting.Common\Bluewire.Reporting.Common.csproj">
+      <Project>{F7607E3E-0E28-42A1-87BA-31CD0CCF2291}</Project>
+      <Name>Bluewire.Reporting.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
