@@ -27,4 +27,5 @@
   <ItemGroup>
     <Reference Include="System.ServiceModel" />
   </ItemGroup>
+  <Import Project="..\StyleCopAnalyzers.props" />
 </Project>

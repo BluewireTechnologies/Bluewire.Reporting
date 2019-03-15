@@ -11,4 +11,5 @@
       <Version>2.0.2</Version>
     </PackageReference>
   </ItemGroup>
+  <Import Project="..\StyleCopAnalyzers.props" />
 </Project>
