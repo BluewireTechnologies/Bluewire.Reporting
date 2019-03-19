@@ -159,11 +159,12 @@ publish/
 PublishScripts/
 
 # NuGet Packages
-# We do not use NuGet package restore, therefore this entire hierarchy needs to be committed:
-!/packages/**
-!**/packages/build/
-# Except for TestResult.xml which gets generated in the ConsoleRunner's directory:
-packages/**/TestResult.xml
+# We use NuGet package restore for this repo.
+/packages/**
+# Need the lib directory and all its contents:
+!/lib/**
+# Must keep committed packages.
+!/nuget-local/**
 # NuGet v3's project.json files produces more ignorable files
 *.nuget.props
 *.nuget.targets

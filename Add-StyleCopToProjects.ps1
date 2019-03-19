@@ -1,5 +1,6 @@
 param(
-    [string]$rootPath = ""
+    [Parameter(Mandatory=$True)]
+    [string]$rootPath
 )
 
 
@@ -81,28 +82,6 @@ function Make-RelativeTo {
     }
 }
 
-function Test()
-{
-    function Expect($expected, $block)
-    {
-        $actual = &$block;
-        if($actual -eq $expected) { return ""; }
-        
-        "Expected '$expected', got '$actual': $($block)";
-    }
-    Expect "" { Make-RelativeTo c:\dev\epro c:\dev\epro }
-    Expect "Epro.sln" { Make-RelativeTo c:\dev\epro\Epro.sln c:\dev\epro\Epro.sln }
-    Expect "" { Make-RelativeTo c:\dev\epro\Epro.sln c:\dev\epro\ }
-    Expect "Epro.sln" { Make-RelativeTo c:\dev\epro\ c:\dev\epro\Epro.sln }
-    Expect ".." { Make-RelativeTo c:\dev\epro\ClientControls c:\dev\epro }
-    Expect ".." { Make-RelativeTo c:\dev\epro\ClientControls\ClientControls.Common.props c:\dev\epro }
-    Expect "..\..\.." { Make-RelativeTo c:\dev\epro\ClientControls\EproInk\Properties\AssemblyInfo.cs c:\dev\epro }
-    Expect "ClientControls" { Make-RelativeTo c:\dev\epro c:\dev\epro\ClientControls }
-    Expect "ClientControls" { Make-RelativeTo c:\dev\epro\Epro.sln c:\dev\epro\ClientControls }
-    Expect "ClientControls\EproInk" { Make-RelativeTo c:\dev\epro\Epro.sln c:\dev\epro\ClientControls\EproInk }
-    Expect "C:\dev\epro" { Make-RelativeTo e:\build c:\dev\epro\ }
-}
-
 function Find-ProjectFiles() # $containers...
 {
     $containers = $args;
@@ -121,9 +100,6 @@ function Interpret-PathRelativeToFile {
         [Parameter(Mandatory=$True)]
         [string]$referenceFilePath,
         
-        [Parameter(Mandatory=$True, ValueFromPipeline=$True)]
-        [string[]]$pipePaths,
-        
         [Parameter(ValueFromRemainingArguments=$true)]
         [string[]]$paths
     )
@@ -132,12 +108,9 @@ function Interpret-PathRelativeToFile {
         $referenceDir = $file.Directory;
     }
     PROCESS {
-        if($pipePaths.Length -gt 0)
-        {
-            $paths = $pipePaths;
-        }
         foreach($_ in $paths)
         {
+            
             $p = "${referenceDir}\$_";
             if(Test-Path $p) {
                 (Get-Item $p).FullName;
@@ -156,13 +129,15 @@ filter Fixup-ProjectFileImports([string]$globalPropsFile, [string]$globalTargets
     $projectFileXml = [xml](Get-Content $projectFile);
     
     $imports = @($projectFileXml.Project.Import);
+    $projectFileXmlDocument = $projectFileXml.Project.OwnerDocument;
     
     $unconditionalImports = $imports | where { -not $_.Condition; };
     $msImports = @($unconditionalImports | where { $_.Project -match "\bMicrosoft\b"; });
-    $defaultImport = $msImports[0];
-    if(!$defaultImport)
+    $xamarinImports = @($unconditionalImports | where { $_.Project -match "\bXamarin\b"; });
+    $defaultImport = ($msImports + $xamarinImports)[0];
+    if(!$defaultImport -and !$projectFileXml.Project.Sdk)
     {
-        Write-Host -ForegroundColor Yellow "WARNING: Unable to find default import in $(${projectFile}.FullName)";
+        Write-Host -ForegroundColor Yellow "WARNING: Unable to find default import or Sdk attribute in $(${projectFile}.FullName)";
         return;
     }
     
@@ -172,13 +147,14 @@ filter Fixup-ProjectFileImports([string]$globalPropsFile, [string]$globalTargets
     {
         @($unconditionalImports | where { $fullPath -eq $(Interpret-PathRelativeToFile $projectFile $_.Project) })[0];
     }
-    
-    function Insert-AroundDefaultImport([string]$before, [string]$after)
+
+    $projectFileChanged = $false;
+
+    function Insert-AroundDefaultImport([string]$before, [string]$after, [ref]$changed)
     {
         function _CreateImport($path)
         {
-            $doc = $defaultImport.OwnerDocument;
-            $importNode = $doc.CreateElement("Import",  $doc.DocumentElement.NamespaceURI);
+            $importNode = $projectFileXmlDocument.CreateElement("Import", $projectFileXmlDocument.DocumentElement.NamespaceURI);
             $importNode.SetAttribute("Project", $path);
             return $importNode;
         }
@@ -190,8 +166,16 @@ filter Fixup-ProjectFileImports([string]$globalPropsFile, [string]$globalTargets
             {
                 $relativeBefore = Make-RelativeTo $projectFile $before;
                 $importNode = _CreateImport $relativeBefore;
-                $defaultImport.ParentNode.InsertBefore($importNode, $defaultImport) | Out-Null;
+                if ($defaultImport)
+                {
+                    $defaultImport.ParentNode.InsertBefore($importNode, $defaultImport) | Out-Null;
+                }
+                else
+                {
+                    $projectFileXml.Project.AppendChild($importNode) | Out-Null;
+                }
                 Write-Host "   Added $relativeBefore";
+                $changed.Value = $true;
             }
         }
         
@@ -202,30 +186,33 @@ filter Fixup-ProjectFileImports([string]$globalPropsFile, [string]$globalTargets
             {
                 $relativeAfter = Make-RelativeTo $projectFile $after;
                 $importNode = _CreateImport $relativeAfter;
-                $defaultImport.ParentNode.InsertAfter($importNode, $defaultImport) | Out-Null;
+                if ($defaultImport)
+                {
+                    $defaultImport.ParentNode.InsertAfter($importNode, $defaultImport) | Out-Null;
+                }
+                else
+                {
+                    $projectFileXml.Project.AppendChild($importNode) | Out-Null;
+                }
                 Write-Host "   Added $relativeAfter";
+                $changed.Value = $true;
             }
         }
     }
 
-    Insert-AroundDefaultImport $globalPropsFile $globalTargetsFile;
+    Insert-AroundDefaultImport $globalPropsFile $globalTargetsFile ([ref]$projectFileChanged);
     
     foreach($import in $imports)
     {
         if($import.Project -match "\$\(") { continue; }
         if(Test-Path (Interpret-PathRelativeToFile $projectFile $import.Project)) { continue; }
-        if($removeMissing)
-        {
-            $import.ParentNode.RemoveChild($import) | Out-Null;
-            Write-Host "   Removed $(${import}.Project)";
-        }
-        else
-        {
-            Write-Host -ForegroundColor Yellow "   Missing file: $(${import}.Project)";
-        }
+        Write-Host -ForegroundColor Yellow "   Missing file: $(${import}.Project)";
     }
-    
-    $projectFileXml.Save($projectFile.FullName);
+
+    if ($projectFileChanged)
+    {
+        $projectFileXml.Save($projectFile.FullName);
+    }
 }
 
 if(!$rootPath) 

@@ -267,7 +267,7 @@ namespace Bluewire.Reporting.Debugger.Jobs
         private void Describe(XElement xml, IndentingLineWriter output)
         {
             var name = xml.Attribute("Name")?.Value;
-            if (string.IsNullOrEmpty(name)) 
+            if (string.IsNullOrEmpty(name))
             {
                 output.WriteLine(xml.Name.LocalName);
             }
