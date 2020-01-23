@@ -94,6 +94,7 @@ namespace Bluewire.Reporting.Debugger.Jobs
                 {
                     output.WriteLine($"DataSet: {dataSetName}");
                 }
+                WriteFilters(xml, output);
                 foreach (var group in xml.Elements(xmlns + "TablixRowHierarchy").Descendants(xmlns + "Group"))
                 {
                     Describe(group, output);
@@ -142,6 +143,31 @@ namespace Bluewire.Reporting.Debugger.Jobs
             }
         }
 
+        private void WriteFilters(XElement xml, IndentingLineWriter output)
+        {
+            var filters = xml.Elements(xmlns + "Filters").Descendants(xmlns + "Filter").ToList();
+            if (!filters.Any()) return;
+            using (output.Indent())
+            foreach (var filter in filters)
+            {
+                var expression = GetPropertyElementValue(filter, "FilterExpression");
+                var oper = GetPropertyElementValue(filter, "Operator");
+                var values = filter.Elements(xmlns + "FilterValues").Elements(xmlns + "FilterValue").Select(v => v.Value).ToList();
+                if (values.Count == 0)
+                {
+                    output.WriteLine($"Filter: {expression} <{oper}>");
+                }
+                else if (values.Count == 1)
+                {
+                    output.WriteLine($"Filter: {expression} <{oper}> {values.Single()}");
+                }
+                else
+                {
+                    output.WriteLine($"Filter: {expression} <{oper}> ( {String.Join(" , ", values)} )");
+                }
+            }
+        }
+
         private void VisitChart(XElement xml, IndentingLineWriter output)
         {
             Describe(xml, output);
@@ -153,29 +179,7 @@ namespace Bluewire.Reporting.Debugger.Jobs
                 {
                     output.WriteLine($"DataSet: {dataSetName}");
                 }
-                var filters = xml.Elements(xmlns + "Filters").Descendants(xmlns + "Filter").ToList();
-                if (filters.Any())
-                {
-                    using (output.Indent())
-                    foreach (var filter in filters)
-                    {
-                        var expression = GetPropertyElementValue(filter, "FilterExpression");
-                        var oper = GetPropertyElementValue(filter, "Operator");
-                        var values = filter.Elements(xmlns + "FilterValues").Elements(xmlns + "FilterValue").Select(v => v.Value).ToList();
-                        if (values.Count == 0)
-                        {
-                            output.WriteLine($"Filter: {expression} <{oper}>");
-                        }
-                        else if (values.Count == 1)
-                        {
-                            output.WriteLine($"Filter: {expression} <{oper}> {values.Single()}");
-                        }
-                        else
-                        {
-                            output.WriteLine($"Filter: {expression} <{oper}> ( {String.Join(" , ", values)} )");
-                        }
-                    }
-                }
+                WriteFilters(xml, output);
                 foreach (var category in xml.Elements(xmlns + "ChartCategoryHierarchy").Descendants(xmlns + "ChartMember"))
                 {
                     var label = GetPropertyElementValue(category, "Label") ?? "";
