@@ -18,8 +18,9 @@ namespace Bluewire.Reporting.Debugger.Configuration
         public IJob CreateJob()
         {
             if (String.IsNullOrWhiteSpace(FilePath)) throw new InvalidArgumentsException("No file specified.");
-            if (!File.Exists(FilePath)) throw new InvalidArgumentsException($"File does not exist: {FilePath}");
-            return new DumpReportJob(FilePath);
+            var fullFilePath = Path.GetFullPath(FilePath);
+            if (!File.Exists(fullFilePath)) throw new InvalidArgumentsException($"File does not exist: {fullFilePath}");
+            return new DumpReportJob(fullFilePath);
         }
     }
 }
