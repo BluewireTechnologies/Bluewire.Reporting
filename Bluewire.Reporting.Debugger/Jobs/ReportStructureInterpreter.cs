@@ -207,6 +207,33 @@ namespace Bluewire.Reporting.Debugger.Jobs
                         }
                     }
                 }
+                foreach (var series in xml.Elements(xmlns + "ChartSeriesHierarchy").Descendants(xmlns + "ChartMember"))
+                {
+                    var label = GetPropertyElementValue(series, "Label") ?? "";
+                    output.WriteLine($"ChartSeriesHierarchy: {label}");
+                    using (output.Indent())
+                    {
+                        foreach (var group in series.Elements(xmlns + "Group"))
+                        {
+                            Describe(group, output);
+                            using (output.Indent())
+                            foreach (var expression in group.Descendants(xmlns + "GroupExpression"))
+                            {
+                                output.WriteLine(expression.Value);
+                            }
+                        }
+                        var sorts = series.Descendants(xmlns + "SortExpression").Descendants(xmlns + "Value").ToList();
+                        if (sorts.Any())
+                        {
+                            output.WriteLine("Sort");
+                            using (output.Indent())
+                            foreach (var expression in sorts)
+                            {
+                                output.WriteLine(expression.Value);
+                            }
+                        }
+                    }
+                }
                 var axesByArea = xml.Elements(xmlns + "ChartAreas").Elements(xmlns + "ChartArea")
                     .ToDictionary(a => a.Attribute("Name")?.Value ?? "", a => new {
                         Area = a,
