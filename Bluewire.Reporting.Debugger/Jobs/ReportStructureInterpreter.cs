@@ -258,9 +258,16 @@ namespace Bluewire.Reporting.Debugger.Jobs
                             {
                                 output.WriteLine($"ToolTip: {tooltip}");
                             }
-                            foreach (var values in dataPoint.Elements(xmlns + "ChartDataPointValues").Elements())
+                            foreach (var values in dataPoint.Elements())
                             {
-                                output.WriteLine($"{values.Name.LocalName}: {values.Value}");
+                                if (values.Name == xmlns + "ChartDataPointValues")
+                                {
+                                    output.WriteLine($"{values.Name.LocalName}: {values.Value}");
+                                }
+                                if (values.Name == xmlns + "ChartDataLabel")
+                                {
+                                    output.WriteLine($"{values.Name.LocalName}: {GetPropertyElementValue(values, "Label")}");
+                                }
                             }
                         }
                     }
