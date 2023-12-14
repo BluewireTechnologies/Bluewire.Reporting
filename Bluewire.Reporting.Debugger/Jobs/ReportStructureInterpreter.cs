@@ -99,9 +99,11 @@ namespace Bluewire.Reporting.Debugger.Jobs
                 {
                     Describe(group, output);
                     using (output.Indent())
-                    foreach (var expression in group.Descendants(xmlns + "GroupExpression"))
                     {
-                        output.WriteLine(expression.Value);
+                        foreach (var expression in group.Descendants(xmlns + "GroupExpression"))
+                        {
+                            output.WriteLine(expression.Value);
+                        }
                     }
                 }
                 var sorts = xml.Elements(xmlns + "TablixRowHierarchy").Descendants(xmlns + "SortExpression").Descendants(xmlns + "Value").ToList();
@@ -109,9 +111,11 @@ namespace Bluewire.Reporting.Debugger.Jobs
                 {
                     output.WriteLine("Sort");
                     using (output.Indent())
-                    foreach (var expression in sorts)
                     {
-                        output.WriteLine(expression.Value);
+                        foreach (var expression in sorts)
+                        {
+                            output.WriteLine(expression.Value);
+                        }
                     }
                 }
                 var i = 1;
@@ -148,22 +152,24 @@ namespace Bluewire.Reporting.Debugger.Jobs
             var filters = xml.Elements(xmlns + "Filters").Descendants(xmlns + "Filter").ToList();
             if (!filters.Any()) return;
             using (output.Indent())
-            foreach (var filter in filters)
             {
-                var expression = GetPropertyElementValue(filter, "FilterExpression");
-                var oper = GetPropertyElementValue(filter, "Operator");
-                var values = filter.Elements(xmlns + "FilterValues").Elements(xmlns + "FilterValue").Select(v => v.Value).ToList();
-                if (values.Count == 0)
+                foreach (var filter in filters)
                 {
-                    output.WriteLine($"Filter: {expression} <{oper}>");
-                }
-                else if (values.Count == 1)
-                {
-                    output.WriteLine($"Filter: {expression} <{oper}> {values.Single()}");
-                }
-                else
-                {
-                    output.WriteLine($"Filter: {expression} <{oper}> ( {String.Join(" , ", values)} )");
+                    var expression = GetPropertyElementValue(filter, "FilterExpression");
+                    var oper = GetPropertyElementValue(filter, "Operator");
+                    var values = filter.Elements(xmlns + "FilterValues").Elements(xmlns + "FilterValue").Select(v => v.Value).ToList();
+                    if (values.Count == 0)
+                    {
+                        output.WriteLine($"Filter: {expression} <{oper}>");
+                    }
+                    else if (values.Count == 1)
+                    {
+                        output.WriteLine($"Filter: {expression} <{oper}> {values.Single()}");
+                    }
+                    else
+                    {
+                        output.WriteLine($"Filter: {expression} <{oper}> ( {String.Join(" , ", values)} )");
+                    }
                 }
             }
         }
@@ -190,9 +196,11 @@ namespace Bluewire.Reporting.Debugger.Jobs
                         {
                             Describe(group, output);
                             using (output.Indent())
-                            foreach (var expression in group.Descendants(xmlns + "GroupExpression"))
                             {
-                                output.WriteLine(expression.Value);
+                                foreach (var expression in group.Descendants(xmlns + "GroupExpression"))
+                                {
+                                    output.WriteLine(expression.Value);
+                                }
                             }
                         }
                         var sorts = category.Descendants(xmlns + "SortExpression").Descendants(xmlns + "Value").ToList();
@@ -200,9 +208,11 @@ namespace Bluewire.Reporting.Debugger.Jobs
                         {
                             output.WriteLine("Sort");
                             using (output.Indent())
-                            foreach (var expression in sorts)
                             {
-                                output.WriteLine(expression.Value);
+                                foreach (var expression in sorts)
+                                {
+                                    output.WriteLine(expression.Value);
+                                }
                             }
                         }
                     }
@@ -217,9 +227,11 @@ namespace Bluewire.Reporting.Debugger.Jobs
                         {
                             Describe(group, output);
                             using (output.Indent())
-                            foreach (var expression in group.Descendants(xmlns + "GroupExpression"))
                             {
-                                output.WriteLine(expression.Value);
+                                foreach (var expression in group.Descendants(xmlns + "GroupExpression"))
+                                {
+                                    output.WriteLine(expression.Value);
+                                }
                             }
                         }
                         var sorts = series.Descendants(xmlns + "SortExpression").Descendants(xmlns + "Value").ToList();
@@ -227,9 +239,11 @@ namespace Bluewire.Reporting.Debugger.Jobs
                         {
                             output.WriteLine("Sort");
                             using (output.Indent())
-                            foreach (var expression in sorts)
                             {
-                                output.WriteLine(expression.Value);
+                                foreach (var expression in sorts)
+                                {
+                                    output.WriteLine(expression.Value);
+                                }
                             }
                         }
                     }
